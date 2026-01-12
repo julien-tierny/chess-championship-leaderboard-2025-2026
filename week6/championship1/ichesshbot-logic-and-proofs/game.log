@@ -1,0 +1,2761 @@
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[30;1mk[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 0 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mWhite player is playing e2 to e4.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[30;1mk[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+[DEBUG] Input history filename: championship/ichesshbot-logic-and-proofs/history.csv
+[DEBUG] Output move file: championship/ichesshbot-logic-and-proofs/move.csv
+[Parser][ply=] 1
+how i see the board before writing next move: Turn: Black
+Enpassant: e3	Castling: WK WQ BK BQ 
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 | r  | n  | b  | q  | k  | b  | n  | r  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  | p  | p  | p  | p  | p  | p  | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    |    |    | P  |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 |    |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 | P  | P  | P  | P  |    | P  | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 | R  | N  | B  | Q  | K  | B  | N  | R  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: -83 time: 0 nodes: 40 hashfull: 0
+depth: 2 score: -119 time: 0 nodes: 687 hashfull: 0
+depth: 3 score: -85 time: 0 nodes: 1571 hashfull: 0
+depth: 4 score: -92 time: 2 nodes: 4605 hashfull: 0
+depth: 5 score: -112 time: 34 nodes: 53972 hashfull: 2
+depth: 6 score: -114 time: 21 nodes: 86895 hashfull: 3
+depth: 7 score: -114 time: 45 nodes: 155430 hashfull: 5
+depth: 8 score: -92 time: 309 nodes: 612136 hashfull: 19
+depth: 9 score: -78 time: 2544 nodes: 4318767 hashfull: 109
+depth: 10 score: -58 time: 1765 nodes: 6976124 hashfull: 169
+[DEBUG] [Parser] Wrote to ouput file championship/ichesshbot-logic-and-proofs/move.csv move : e7e5
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 1 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mBlack player is playing e7 to e5.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[30;1mk[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 2 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mWhite player is playing g1 to f3.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[30;1mk[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+[DEBUG] Input history filename: championship/ichesshbot-logic-and-proofs/history.csv
+[DEBUG] Output move file: championship/ichesshbot-logic-and-proofs/move.csv
+[Parser][ply=] 3
+how i see the board before writing next move: Turn: Black
+Enpassant: xx	Castling: WK WQ BK BQ 
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 | r  | n  | b  | q  | k  | b  | n  | r  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  | p  | p  | p  |    | p  | p  | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    |    |    | p  |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    |    |    | P  |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 |    |    |    |    |    | N  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 | P  | P  | P  | P  |    | P  | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 | R  | N  | B  | Q  | K  | B  |    | R  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: -84 time: 0 nodes: 143 hashfull: 0
+depth: 2 score: -117 time: 0 nodes: 815 hashfull: 0
+depth: 3 score: -95 time: 1 nodes: 3736 hashfull: 0
+depth: 4 score: -114 time: 2 nodes: 7865 hashfull: 0
+depth: 5 score: -68 time: 15 nodes: 32820 hashfull: 0
+depth: 6 score: -68 time: 21 nodes: 80535 hashfull: 1
+depth: 7 score: -68 time: 42 nodes: 178685 hashfull: 4
+depth: 8 score: -63 time: 169 nodes: 574716 hashfull: 10
+depth: 9 score: -65 time: 543 nodes: 1901615 hashfull: 50
+depth: 10 score: -65 time: 1086 nodes: 4427598 hashfull: 106
+depth: 11 score: -68 time: 5570 nodes: 18057421 hashfull: 325
+[DEBUG] [Parser] Wrote to ouput file championship/ichesshbot-logic-and-proofs/move.csv move : f8d6
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 3 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mBlack player is playing f8 to d6.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m| |[30;1mk[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m|[30;1mb[0m|[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 4 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mWhite player is playing b1 to c3.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m| |[30;1mk[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m|[30;1mb[0m|[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+[DEBUG] Input history filename: championship/ichesshbot-logic-and-proofs/history.csv
+[DEBUG] Output move file: championship/ichesshbot-logic-and-proofs/move.csv
+[Parser][ply=] 5
+how i see the board before writing next move: Turn: Black
+Enpassant: xx	Castling: WK WQ BK BQ 
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 | r  | n  | b  | q  | k  |    | n  | r  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  | p  | p  | p  |    | p  | p  | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    |    |    | b  |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    |    |    | p  |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    |    |    | P  |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 |    |    | N  |    |    | N  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 | P  | P  | P  | P  |    | P  | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 | R  |    | B  | Q  | K  | B  |    | R  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: -59 time: 0 nodes: 68 hashfull: 0
+depth: 2 score: -58 time: 0 nodes: 820 hashfull: 0
+depth: 3 score: -58 time: 0 nodes: 2449 hashfull: 0
+depth: 4 score: -58 time: 1 nodes: 6074 hashfull: 0
+depth: 5 score: -34 time: 10 nodes: 27876 hashfull: 0
+depth: 6 score: -34 time: 24 nodes: 81776 hashfull: 1
+depth: 7 score: -48 time: 70 nodes: 240773 hashfull: 6
+depth: 8 score: -45 time: 137 nodes: 550515 hashfull: 12
+depth: 9 score: -59 time: 749 nodes: 2311364 hashfull: 59
+depth: 10 score: -73 time: 1550 nodes: 5955490 hashfull: 141
+depth: 11 score: -49 time: 6709 nodes: 17779049 hashfull: 318
+[DEBUG] [Parser] Wrote to ouput file championship/ichesshbot-logic-and-proofs/move.csv move : g8f6
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 5 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mBlack player is playing g8 to f6.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m|[30;1mb[0m|[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 6 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mWhite player is playing f1 to c4.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m|[30;1mb[0m|[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m| |[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+[DEBUG] Input history filename: championship/ichesshbot-logic-and-proofs/history.csv
+[DEBUG] Output move file: championship/ichesshbot-logic-and-proofs/move.csv
+[Parser][ply=] 7
+how i see the board before writing next move: Turn: Black
+Enpassant: xx	Castling: WK WQ BK BQ 
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 | r  | n  | b  | q  | k  |    |    | r  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  | p  | p  | p  |    | p  | p  | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    |    |    | b  |    | n  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    |    |    | p  |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    | B  |    | P  |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 |    |    | N  |    |    | N  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 | P  | P  | P  | P  |    | P  | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 | R  |    | B  | Q  | K  |    |    | R  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: -56 time: 0 nodes: 176 hashfull: 0
+depth: 2 score: -56 time: 0 nodes: 364 hashfull: 0
+depth: 3 score: -34 time: 5 nodes: 5713 hashfull: 0
+depth: 4 score: -34 time: 8 nodes: 14071 hashfull: 0
+depth: 5 score: -34 time: 12 nodes: 25971 hashfull: 0
+depth: 6 score: -34 time: 61 nodes: 89989 hashfull: 2
+depth: 7 score: -26 time: 159 nodes: 251054 hashfull: 5
+depth: 8 score: -46 time: 444 nodes: 701830 hashfull: 15
+depth: 9 score: -38 time: 1255 nodes: 2054802 hashfull: 49
+depth: 10 score: -45 time: 2655 nodes: 6123067 hashfull: 132
+[DEBUG] [Parser] Wrote to ouput file championship/ichesshbot-logic-and-proofs/move.csv move : e8g8
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 7 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mBlack player is playing e8 to g8.
+[32;1m[Board] [0mBlack player is castling kingside...
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m|[30;1mb[0m|[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m| |[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 8 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mWhite player is playing e1 to g1.
+[32;1m[Board] [0mWhite player is castling kingside...
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m|[30;1mb[0m|[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m| |[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m| |[0;1mr[0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+[DEBUG] Input history filename: championship/ichesshbot-logic-and-proofs/history.csv
+[DEBUG] Output move file: championship/ichesshbot-logic-and-proofs/move.csv
+[Parser][ply=] 9
+how i see the board before writing next move: Turn: Black
+Enpassant: xx	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 | r  | n  | b  | q  |    | r  | k  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  | p  | p  | p  |    | p  | p  | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    |    |    | b  |    | n  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    |    |    | p  |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    | B  |    | P  |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 |    |    | N  |    |    | N  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 | P  | P  | P  | P  |    | P  | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 | R  |    | B  | Q  |    | R  | K  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: -20 time: 0 nodes: 174 hashfull: 0
+depth: 2 score: -34 time: 0 nodes: 1083 hashfull: 0
+depth: 3 score: -34 time: 1 nodes: 2849 hashfull: 0
+depth: 4 score: -34 time: 3 nodes: 7301 hashfull: 0
+depth: 5 score: -26 time: 9 nodes: 20792 hashfull: 0
+depth: 6 score: -46 time: 81 nodes: 134407 hashfull: 2
+depth: 7 score: -38 time: 146 nodes: 343587 hashfull: 7
+depth: 8 score: -45 time: 240 nodes: 862993 hashfull: 19
+depth: 9 score: -36 time: 552 nodes: 2209797 hashfull: 52
+depth: 10 score: -44 time: 2512 nodes: 7017524 hashfull: 147
+depth: 11 score: -32 time: 4521 nodes: 17737585 hashfull: 292
+[DEBUG] [Parser] Wrote to ouput file championship/ichesshbot-logic-and-proofs/move.csv move : b8c6
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 9 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mBlack player is playing b8 to c6.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m|[30;1mb[0m|[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m| |[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m| |[0;1mr[0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 10 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mWhite player is playing f1 to e1.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m|[30;1mb[0m|[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m| |[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mr[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+[DEBUG] Input history filename: championship/ichesshbot-logic-and-proofs/history.csv
+[DEBUG] Output move file: championship/ichesshbot-logic-and-proofs/move.csv
+[Parser][ply=] 11
+how i see the board before writing next move: Turn: Black
+Enpassant: xx	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 | r  |    | b  | q  |    | r  | k  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  | p  | p  | p  |    | p  | p  | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    |    | n  | b  |    | n  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    |    |    | p  |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    | B  |    | P  |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 |    |    | N  |    |    | N  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 | P  | P  | P  | P  |    | P  | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 | R  |    | B  | Q  | R  |    | K  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: -4 time: 0 nodes: 153 hashfull: 0
+depth: 2 score: -36 time: 2 nodes: 3164 hashfull: 0
+depth: 3 score: -32 time: 1 nodes: 4521 hashfull: 0
+depth: 4 score: -32 time: 3 nodes: 9649 hashfull: 0
+depth: 5 score: -32 time: 15 nodes: 32338 hashfull: 0
+depth: 6 score: -33 time: 68 nodes: 130354 hashfull: 2
+depth: 7 score: -20 time: 75 nodes: 240855 hashfull: 5
+depth: 8 score: -31 time: 239 nodes: 599778 hashfull: 14
+depth: 9 score: -40 time: 4291 nodes: 6837927 hashfull: 143
+[DEBUG] [Parser] Wrote to ouput file championship/ichesshbot-logic-and-proofs/move.csv move : h7h6
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 11 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mBlack player is playing h7 to h6.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m|[30;1mb[0m|[7;1m [0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m| |[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mr[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 12 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mWhite player is playing d2 to d4.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m|[30;1mb[0m|[7;1m [0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mr[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+[DEBUG] Input history filename: championship/ichesshbot-logic-and-proofs/history.csv
+[DEBUG] Output move file: championship/ichesshbot-logic-and-proofs/move.csv
+[Parser][ply=] 13
+how i see the board before writing next move: Turn: Black
+Enpassant: d3	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 | r  |    | b  | q  |    | r  | k  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  | p  | p  | p  |    | p  | p  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    |    | n  | b  |    | n  |    | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    |    |    | p  |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    | B  | P  | P  |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 |    |    | N  |    |    | N  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 | P  | P  | P  |    |    | P  | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 | R  |    | B  | Q  | R  |    | K  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: -34 time: 1 nodes: 1147 hashfull: 0
+depth: 2 score: -36 time: 2 nodes: 3627 hashfull: 0
+depth: 3 score: -26 time: 2 nodes: 7653 hashfull: 0
+depth: 4 score: -36 time: 14 nodes: 25974 hashfull: 0
+depth: 5 score: -21 time: 11 nodes: 41142 hashfull: 0
+depth: 6 score: -46 time: 54 nodes: 120786 hashfull: 2
+depth: 7 score: -46 time: 126 nodes: 312550 hashfull: 7
+depth: 8 score: -45 time: 287 nodes: 734295 hashfull: 13
+depth: 9 score: -45 time: 817 nodes: 2045851 hashfull: 44
+depth: 10 score: -45 time: 3311 nodes: 6290357 hashfull: 132
+depth: 11 score: -41 time: 4805 nodes: 15291716 hashfull: 238
+[DEBUG] [Parser] Wrote to ouput file championship/ichesshbot-logic-and-proofs/move.csv move : e5d4
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 13 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mBlack player is playing e5 to d4.
+[32;1m[Board] [0m[5;1mBlack Pawn is taking White Pawn.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m|[30;1mb[0m|[7;1m [0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m|[30;1mp[0m|[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mr[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 14 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mWhite player is playing f3 to d4.
+[32;1m[Board] [0m[5;1mWhite Knight is taking Black Pawn.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m|[30;1mb[0m|[7;1m [0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m|[0;1mk[0m|[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mr[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+[DEBUG] Input history filename: championship/ichesshbot-logic-and-proofs/history.csv
+[DEBUG] Output move file: championship/ichesshbot-logic-and-proofs/move.csv
+[Parser][ply=] 15
+how i see the board before writing next move: Turn: Black
+Enpassant: xx	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 | r  |    | b  | q  |    | r  | k  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  | p  | p  | p  |    | p  | p  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    |    | n  | b  |    | n  |    | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    | B  | N  | P  |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 |    |    | N  |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 | P  | P  | P  |    |    | P  | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 | R  |    | B  | Q  | R  |    | K  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: -26 time: 0 nodes: 798 hashfull: 0
+depth: 2 score: -36 time: 5 nodes: 11486 hashfull: 0
+depth: 3 score: -21 time: 1 nodes: 15318 hashfull: 0
+depth: 4 score: -46 time: 8 nodes: 32969 hashfull: 0
+depth: 5 score: -46 time: 11 nodes: 59349 hashfull: 0
+depth: 6 score: -45 time: 56 nodes: 192082 hashfull: 3
+depth: 7 score: -45 time: 103 nodes: 442061 hashfull: 8
+depth: 8 score: -45 time: 350 nodes: 1273494 hashfull: 22
+depth: 9 score: -51 time: 3473 nodes: 7128939 hashfull: 127
+depth: 10 score: -43 time: 4515 nodes: 17700780 hashfull: 277
+[DEBUG] [Parser] Wrote to ouput file championship/ichesshbot-logic-and-proofs/move.csv move : f8e8
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 15 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mBlack player is playing f8 to e8.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m|[30;1mb[0m|[7;1m [0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m|[0;1mk[0m|[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mr[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 16 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mWhite player is playing f2 to f4.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m|[30;1mb[0m|[7;1m [0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m|[0;1mk[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mr[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+[DEBUG] Input history filename: championship/ichesshbot-logic-and-proofs/history.csv
+[DEBUG] Output move file: championship/ichesshbot-logic-and-proofs/move.csv
+[Parser][ply=] 17
+how i see the board before writing next move: Turn: Black
+Enpassant: f3	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 | r  |    | b  | q  | r  |    | k  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  | p  | p  | p  |    | p  | p  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    |    | n  | b  |    | n  |    | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    | B  | N  | P  | P  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 |    |    | N  |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 | P  | P  | P  |    |    |    | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 | R  |    | B  | Q  | R  |    | K  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: 0 time: 0 nodes: 371 hashfull: 0
+depth: 2 score: -4 time: 1 nodes: 4003 hashfull: 0
+depth: 3 score: 17 time: 3 nodes: 12064 hashfull: 0
+depth: 4 score: 17 time: 3 nodes: 19760 hashfull: 0
+depth: 5 score: 17 time: 8 nodes: 38565 hashfull: 0
+depth: 6 score: 17 time: 31 nodes: 120274 hashfull: 2
+depth: 7 score: 17 time: 75 nodes: 303325 hashfull: 6
+depth: 8 score: 17 time: 188 nodes: 777907 hashfull: 14
+depth: 9 score: 17 time: 657 nodes: 2546929 hashfull: 54
+depth: 10 score: -4 time: 6228 nodes: 16115516 hashfull: 254
+[DEBUG] [Parser] Wrote to ouput file championship/ichesshbot-logic-and-proofs/move.csv move : b7b6
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 17 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mBlack player is playing b7 to b6.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[30;1mk[0m|[30;1mb[0m|[7;1m [0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m|[0;1mk[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mr[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 18 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mWhite player is playing a2 to a3.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[30;1mk[0m|[30;1mb[0m|[7;1m [0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m|[0;1mk[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mr[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+[DEBUG] Input history filename: championship/ichesshbot-logic-and-proofs/history.csv
+[DEBUG] Output move file: championship/ichesshbot-logic-and-proofs/move.csv
+[Parser][ply=] 19
+how i see the board before writing next move: Turn: Black
+Enpassant: xx	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 | r  |    | b  | q  | r  |    | k  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  |    | p  | p  |    | p  | p  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    | p  | n  | b  |    | n  |    | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    | B  | N  | P  | P  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 | P  |    | N  |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 |    | P  | P  |    |    |    | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 | R  |    | B  | Q  | R  |    | K  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: 14 time: 0 nodes: 526 hashfull: 0
+depth: 2 score: -16 time: 4 nodes: 9151 hashfull: 0
+depth: 3 score: 24 time: 1 nodes: 12963 hashfull: 0
+depth: 4 score: 9 time: 4 nodes: 23013 hashfull: 0
+depth: 5 score: 178 time: 19 nodes: 65629 hashfull: 0
+depth: 6 score: 178 time: 31 nodes: 151278 hashfull: 2
+depth: 7 score: 184 time: 109 nodes: 408894 hashfull: 7
+depth: 8 score: 87 time: 332 nodes: 1254685 hashfull: 17
+depth: 9 score: 113 time: 715 nodes: 3228936 hashfull: 61
+depth: 10 score: 102 time: 3203 nodes: 9387598 hashfull: 157
+[DEBUG] [Parser] Wrote to ouput file championship/ichesshbot-logic-and-proofs/move.csv move : c6d4
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 19 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mBlack player is playing c6 to d4.
+[32;1m[Board] [0m[5;1mBlack Knight is taking White Knight.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mb[0m|[7;1m [0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m|[30;1mk[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mr[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 20 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mWhite player is playing e4 to e5.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mb[0m|[7;1m [0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m|[30;1mk[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mr[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+[DEBUG] Input history filename: championship/ichesshbot-logic-and-proofs/history.csv
+[DEBUG] Output move file: championship/ichesshbot-logic-and-proofs/move.csv
+[Parser][ply=] 21
+how i see the board before writing next move: Turn: Black
+Enpassant: xx	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 | r  |    | b  | q  | r  |    | k  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  |    | p  | p  |    | p  | p  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    | p  |    | b  |    | n  |    | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    |    |    | P  |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    | B  | n  |    | P  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 | P  |    | N  |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 |    | P  | P  |    |    |    | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 | R  |    | B  | Q  | R  |    | K  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: 214 time: 1 nodes: 2995 hashfull: 0
+depth: 2 score: 214 time: 1 nodes: 5675 hashfull: 0
+depth: 3 score: 178 time: 2 nodes: 10404 hashfull: 0
+depth: 4 score: 178 time: 5 nodes: 22367 hashfull: 0
+depth: 5 score: 184 time: 8 nodes: 42915 hashfull: 0
+depth: 6 score: 87 time: 99 nodes: 289230 hashfull: 3
+depth: 7 score: 113 time: 167 nodes: 708108 hashfull: 12
+depth: 8 score: 102 time: 448 nodes: 1835156 hashfull: 32
+depth: 9 score: 105 time: 988 nodes: 4467732 hashfull: 86
+depth: 10 score: 116 time: 2527 nodes: 10822220 hashfull: 183
+[DEBUG] [Parser] Wrote to ouput file championship/ichesshbot-logic-and-proofs/move.csv move : c8b7
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 21 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mBlack player is playing c8 to b7.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m|[30;1mQ[0m|[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mb[0m|[7;1m [0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m|[30;1mk[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mr[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 22 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mWhite player is playing e5 to d6.
+[32;1m[Board] [0m[5;1mWhite Pawn is taking Black Bishop.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m|[30;1mQ[0m|[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m|[30;1mk[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mr[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+[DEBUG] Input history filename: championship/ichesshbot-logic-and-proofs/history.csv
+[DEBUG] Output move file: championship/ichesshbot-logic-and-proofs/move.csv
+[Parser][ply=] 23
+how i see the board before writing next move: Turn: Black
+Enpassant: xx	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 | r  |    |    | q  | r  |    | k  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  | b  | p  | p  |    | p  | p  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    | p  |    | P  |    | n  |    | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    | B  | n  |    | P  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 | P  |    | N  |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 |    | P  | P  |    |    |    | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 | R  |    | B  | Q  | R  |    | K  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: 103 time: 0 nodes: 107 hashfull: 0
+depth: 2 score: 103 time: 0 nodes: 253 hashfull: 0
+depth: 3 score: 103 time: 0 nodes: 2896 hashfull: 0
+depth: 4 score: 85 time: 2 nodes: 7973 hashfull: 0
+depth: 5 score: 113 time: 4 nodes: 18737 hashfull: 0
+depth: 6 score: 196 time: 18 nodes: 69733 hashfull: 1
+depth: 7 score: 309 time: 37 nodes: 160649 hashfull: 3
+depth: 8 score: 309 time: 82 nodes: 396354 hashfull: 8
+depth: 9 score: 309 time: 565 nodes: 1425749 hashfull: 35
+depth: 10 score: 309 time: 1132 nodes: 3261185 hashfull: 62
+depth: 11 score: 311 time: 2814 nodes: 8285099 hashfull: 151
+[DEBUG] [Parser] Wrote to ouput file championship/ichesshbot-logic-and-proofs/move.csv move : e8e1
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 23 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mBlack player is playing e8 to e1.
+[32;1m[Board] [0m[5;1mBlack Rook is taking White Rook.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m|[30;1mk[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[30;1mr[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 24 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mWhite player is playing d1 to e1.
+[32;1m[Board] [0m[5;1mWhite Queen is taking Black Rook.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m|[30;1mk[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mQ[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+[DEBUG] Input history filename: championship/ichesshbot-logic-and-proofs/history.csv
+[DEBUG] Output move file: championship/ichesshbot-logic-and-proofs/move.csv
+[Parser][ply=] 25
+how i see the board before writing next move: Turn: Black
+Enpassant: xx	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 | r  |    |    | q  |    |    | k  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  | b  | p  | p  |    | p  | p  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    | p  |    | P  |    | n  |    | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    | B  | n  |    | P  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 | P  |    | N  |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 |    | P  | P  |    |    |    | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 | R  |    | B  |    | Q  |    | K  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: 103 time: 0 nodes: 86 hashfull: 0
+depth: 2 score: 85 time: 0 nodes: 517 hashfull: 0
+depth: 3 score: 113 time: 2 nodes: 5080 hashfull: 0
+depth: 4 score: 196 time: 5 nodes: 17461 hashfull: 0
+depth: 5 score: 309 time: 9 nodes: 38475 hashfull: 0
+depth: 6 score: 309 time: 30 nodes: 124063 hashfull: 2
+depth: 7 score: 309 time: 80 nodes: 326510 hashfull: 7
+depth: 8 score: 309 time: 154 nodes: 723278 hashfull: 13
+depth: 9 score: 311 time: 567 nodes: 2365982 hashfull: 53
+depth: 10 score: 295 time: 1303 nodes: 5826457 hashfull: 116
+depth: 11 score: 303 time: 2902 nodes: 13555778 hashfull: 215
+[DEBUG] [Parser] Wrote to ouput file championship/ichesshbot-logic-and-proofs/move.csv move : d4c2
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 25 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mBlack player is playing d4 to c2.
+[32;1m[Board] [0m[5;1mBlack Knight is taking White Pawn.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[30;1mk[0m| |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mQ[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 26 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mWhite player is playing e1 to e7.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m|[0;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[30;1mk[0m| |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+[DEBUG] Input history filename: championship/ichesshbot-logic-and-proofs/history.csv
+[DEBUG] Output move file: championship/ichesshbot-logic-and-proofs/move.csv
+[Parser][ply=] 27
+how i see the board before writing next move: Turn: Black
+Enpassant: xx	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 | r  |    |    | q  |    |    | k  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  | b  | p  | p  | Q  | p  | p  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    | p  |    | P  |    | n  |    | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    | B  |    |    | P  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 | P  |    | N  |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 |    | P  | n  |    |    |    | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 | R  |    | B  |    |    |    | K  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: 331 time: 0 nodes: 115 hashfull: 0
+depth: 2 score: 331 time: 0 nodes: 294 hashfull: 0
+depth: 3 score: 331 time: 0 nodes: 2463 hashfull: 0
+depth: 4 score: 298 time: 1 nodes: 7735 hashfull: 0
+depth: 5 score: 354 time: 6 nodes: 24795 hashfull: 0
+depth: 6 score: 412 time: 9 nodes: 49497 hashfull: 0
+depth: 7 score: 435 time: 42 nodes: 156744 hashfull: 3
+depth: 8 score: 435 time: 63 nodes: 325223 hashfull: 7
+depth: 9 score: 442 time: 212 nodes: 867299 hashfull: 19
+depth: 10 score: 455 time: 434 nodes: 2016290 hashfull: 48
+depth: 11 score: 416 time: 1005 nodes: 4706692 hashfull: 105
+depth: 12 score: 493 time: 3470 nodes: 14110102 hashfull: 230
+[DEBUG] [Parser] Wrote to ouput file championship/ichesshbot-logic-and-proofs/move.csv move : d8e7
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 27 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mBlack player is playing d8 to e7.
+[32;1m[Board] [0m[5;1mBlack Queen is taking White Queen.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[30;1mk[0m| |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 28 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mWhite player is playing d6 to e7.
+[32;1m[Board] [0m[5;1mWhite Pawn is taking Black Queen.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m|[0;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[30;1mk[0m| |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+[DEBUG] Input history filename: championship/ichesshbot-logic-and-proofs/history.csv
+[DEBUG] Output move file: championship/ichesshbot-logic-and-proofs/move.csv
+[Parser][ply=] 29
+how i see the board before writing next move: Turn: Black
+Enpassant: xx	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 | r  |    |    |    |    |    | k  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  | b  | p  | p  | P  | p  | p  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    | p  |    |    |    | n  |    | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    | B  |    |    | P  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 | P  |    | N  |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 |    | P  | n  |    |    |    | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 | R  |    | B  |    |    |    | K  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: 331 time: 0 nodes: 78 hashfull: 0
+depth: 2 score: 298 time: 0 nodes: 300 hashfull: 0
+depth: 3 score: 354 time: 2 nodes: 5465 hashfull: 0
+depth: 4 score: 412 time: 2 nodes: 10901 hashfull: 0
+depth: 5 score: 435 time: 19 nodes: 51685 hashfull: 0
+depth: 6 score: 435 time: 8 nodes: 72495 hashfull: 1
+depth: 7 score: 442 time: 87 nodes: 278419 hashfull: 6
+depth: 8 score: 455 time: 88 nodes: 492327 hashfull: 11
+depth: 9 score: 416 time: 239 nodes: 1094694 hashfull: 27
+depth: 10 score: 481 time: 922 nodes: 3450810 hashfull: 77
+depth: 11 score: 562 time: 7831 nodes: 22484487 hashfull: 368
+[DEBUG] [Parser] Wrote to ouput file championship/ichesshbot-logic-and-proofs/move.csv move : c2a1
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 29 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mBlack player is playing c2 to a1.
+[32;1m[Board] [0m[5;1mBlack Knight is taking White Rook.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m|[0;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[30;1mk[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 30 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mWhite player is playing c3 to b5.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m|[0;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[0;1mk[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[30;1mk[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+[DEBUG] Input history filename: championship/ichesshbot-logic-and-proofs/history.csv
+[DEBUG] Output move file: championship/ichesshbot-logic-and-proofs/move.csv
+[Parser][ply=] 31
+how i see the board before writing next move: Turn: Black
+Enpassant: xx	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 | r  |    |    |    |    |    | k  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  | b  | p  | p  | P  | p  | p  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    | p  |    |    |    | n  |    | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    | N  |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    | B  |    |    | P  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 | P  |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 |    | P  |    |    |    |    | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 | n  |    | B  |    |    |    | K  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: 354 time: 0 nodes: 214 hashfull: 0
+depth: 2 score: 441 time: 0 nodes: 1270 hashfull: 0
+depth: 3 score: 441 time: 3 nodes: 5209 hashfull: 0
+depth: 4 score: 441 time: 2 nodes: 9220 hashfull: 0
+depth: 5 score: 527 time: 16 nodes: 31080 hashfull: 0
+depth: 6 score: 528 time: 40 nodes: 93242 hashfull: 2
+depth: 7 score: 546 time: 84 nodes: 222693 hashfull: 5
+depth: 8 score: 542 time: 110 nodes: 403337 hashfull: 10
+depth: 9 score: 574 time: 565 nodes: 1482962 hashfull: 42
+depth: 10 score: 603 time: 753 nodes: 3362764 hashfull: 90
+depth: 11 score: 612 time: 1398 nodes: 7001576 hashfull: 175
+depth: 12 score: 601 time: 3302 nodes: 15557878 hashfull: 324
+[DEBUG] [Parser] Wrote to ouput file championship/ichesshbot-logic-and-proofs/move.csv move : a8e8
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 31 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mBlack player is playing a8 to e8.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m|[0;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[0;1mk[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[30;1mk[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 32 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mWhite player is playing c1 to d2.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m|[0;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[0;1mk[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[30;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+[DEBUG] Input history filename: championship/ichesshbot-logic-and-proofs/history.csv
+[DEBUG] Output move file: championship/ichesshbot-logic-and-proofs/move.csv
+[Parser][ply=] 33
+how i see the board before writing next move: Turn: Black
+Enpassant: xx	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 |    |    |    |    | r  |    | k  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  | b  | p  | p  | P  | p  | p  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    | p  |    |    |    | n  |    | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    | N  |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    | B  |    |    | P  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 | P  |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 |    | P  |    | B  |    |    | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 | n  |    |    |    |    |    | K  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: 441 time: 0 nodes: 112 hashfull: 0
+depth: 2 score: 441 time: 0 nodes: 256 hashfull: 0
+depth: 3 score: 538 time: 1 nodes: 3984 hashfull: 0
+depth: 4 score: 540 time: 2 nodes: 9781 hashfull: 0
+depth: 5 score: 546 time: 6 nodes: 23157 hashfull: 0
+depth: 6 score: 542 time: 22 nodes: 79951 hashfull: 2
+depth: 7 score: 574 time: 167 nodes: 463661 hashfull: 11
+depth: 8 score: 602 time: 175 nodes: 899098 hashfull: 23
+depth: 9 score: 612 time: 366 nodes: 1852105 hashfull: 52
+depth: 10 score: 603 time: 760 nodes: 3767289 hashfull: 98
+depth: 11 score: 637 time: 3036 nodes: 11583271 hashfull: 256
+[DEBUG] [Parser] Wrote to ouput file championship/ichesshbot-logic-and-proofs/move.csv move : e8e7
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 33 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mBlack player is playing e8 to e7.
+[32;1m[Board] [0m[5;1mBlack Rook is taking White Pawn.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m|[30;1mr[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[0;1mk[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[30;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 34 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mWhite player is playing d2 to c3.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m|[30;1mr[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[0;1mk[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[30;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+[DEBUG] Input history filename: championship/ichesshbot-logic-and-proofs/history.csv
+[DEBUG] Output move file: championship/ichesshbot-logic-and-proofs/move.csv
+[Parser][ply=] 35
+how i see the board before writing next move: Turn: Black
+Enpassant: xx	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 |    |    |    |    |    |    | k  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  | b  | p  | p  | r  | p  | p  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    | p  |    |    |    | n  |    | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    | N  |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    | B  |    |    | P  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 | P  |    | B  |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 |    | P  |    |    |    |    | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 | n  |    |    |    |    |    | K  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: 538 time: 0 nodes: 543 hashfull: 0
+depth: 2 score: 540 time: 0 nodes: 1366 hashfull: 0
+depth: 3 score: 546 time: 2 nodes: 4294 hashfull: 0
+depth: 4 score: 559 time: 10 nodes: 14481 hashfull: 0
+depth: 5 score: 574 time: 11 nodes: 26419 hashfull: 0
+depth: 6 score: 614 time: 48 nodes: 79620 hashfull: 2
+depth: 7 score: 612 time: 137 nodes: 220694 hashfull: 5
+depth: 8 score: 603 time: 257 nodes: 497091 hashfull: 12
+depth: 9 score: 631 time: 898 nodes: 1521018 hashfull: 47
+depth: 10 score: 638 time: 1991 nodes: 3668947 hashfull: 102
+depth: 11 score: 632 time: 2162 nodes: 7934311 hashfull: 185
+[DEBUG] [Parser] Wrote to ouput file championship/ichesshbot-logic-and-proofs/move.csv move : a1c2
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 35 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mBlack player is playing a1 to c2.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m|[30;1mr[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[0;1mk[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[30;1mk[0m| |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 36 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mWhite player is playing b5 to c7.
+[32;1m[Board] [0m[5;1mWhite Knight is taking Black Pawn.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[0;1mk[0m|[30;1mp[0m|[30;1mr[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[30;1mk[0m| |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+[DEBUG] Input history filename: championship/ichesshbot-logic-and-proofs/history.csv
+[DEBUG] Output move file: championship/ichesshbot-logic-and-proofs/move.csv
+[Parser][ply=] 37
+how i see the board before writing next move: Turn: Black
+Enpassant: xx	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 |    |    |    |    |    |    | k  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  | b  | N  | p  | r  | p  | p  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    | p  |    |    |    | n  |    | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    | B  |    |    | P  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 | P  |    | B  |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 |    | P  | n  |    |    |    | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 |    |    |    |    |    |    | K  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: 564 time: 0 nodes: 413 hashfull: 0
+depth: 2 score: 563 time: 0 nodes: 1267 hashfull: 0
+depth: 3 score: 574 time: 1 nodes: 3646 hashfull: 0
+depth: 4 score: 614 time: 2 nodes: 9968 hashfull: 0
+depth: 5 score: 612 time: 6 nodes: 25481 hashfull: 0
+depth: 6 score: 603 time: 24 nodes: 89295 hashfull: 2
+depth: 7 score: 784 time: 99 nodes: 334162 hashfull: 8
+depth: 8 score: 770 time: 87 nodes: 557888 hashfull: 14
+depth: 9 score: 784 time: 373 nodes: 1631399 hashfull: 52
+depth: 10 score: 793 time: 1086 nodes: 4219574 hashfull: 109
+depth: 11 score: 784 time: 1441 nodes: 8049712 hashfull: 178
+depth: 12 score: 793 time: 4706 nodes: 21131077 hashfull: 376
+[DEBUG] [Parser] Wrote to ouput file championship/ichesshbot-logic-and-proofs/move.csv move : d7d5
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 37 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mBlack player is playing d7 to d5.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[0;1mk[0m|[7;1m [0m|[30;1mr[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[30;1mk[0m| |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 38 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mWhite player is playing c3 to f6.
+[32;1m[Board] [0m[5;1mWhite Bishop is taking Black Knight.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[0;1mk[0m|[7;1m [0m|[30;1mr[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[0;1mb[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[30;1mk[0m| |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+[DEBUG] Input history filename: championship/ichesshbot-logic-and-proofs/history.csv
+[DEBUG] Output move file: championship/ichesshbot-logic-and-proofs/move.csv
+[Parser][ply=] 39
+how i see the board before writing next move: Turn: Black
+Enpassant: xx	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 |    |    |    |    |    |    | k  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  | b  | N  |    | r  | p  | p  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    | p  |    |    |    | B  |    | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    |    | p  |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    | B  |    |    | P  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 | P  |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 |    | P  | n  |    |    |    | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 |    |    |    |    |    |    | K  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: 524 time: 0 nodes: 132 hashfull: 0
+depth: 2 score: 763 time: 0 nodes: 799 hashfull: 0
+depth: 3 score: 763 time: 0 nodes: 2371 hashfull: 0
+depth: 4 score: 765 time: 1 nodes: 5929 hashfull: 0
+depth: 5 score: 784 time: 3 nodes: 13817 hashfull: 0
+depth: 6 score: 770 time: 10 nodes: 43491 hashfull: 1
+depth: 7 score: 784 time: 25 nodes: 104626 hashfull: 3
+depth: 8 score: 789 time: 53 nodes: 244264 hashfull: 7
+depth: 9 score: 784 time: 181 nodes: 751933 hashfull: 25
+depth: 10 score: 786 time: 304 nodes: 1528856 hashfull: 45
+depth: 11 score: 797 time: 592 nodes: 3111811 hashfull: 88
+depth: 12 score: 804 time: 1771 nodes: 8080178 hashfull: 213
+depth: 13 score: 805 time: 3882 nodes: 18067037 hashfull: 343
+[DEBUG] [Parser] Wrote to ouput file championship/ichesshbot-logic-and-proofs/move.csv move : e7c7
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 39 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mBlack player is playing e7 to c7.
+[32;1m[Board] [0m[5;1mBlack Rook is taking White Knight.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mr[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[0;1mb[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[30;1mk[0m| |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 40 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mWhite player is playing c4 to b3.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mr[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[0;1mb[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[0;1mb[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[30;1mk[0m| |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+[DEBUG] Input history filename: championship/ichesshbot-logic-and-proofs/history.csv
+[DEBUG] Output move file: championship/ichesshbot-logic-and-proofs/move.csv
+[Parser][ply=] 41
+how i see the board before writing next move: Turn: Black
+Enpassant: xx	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 |    |    |    |    |    |    | k  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  | b  | r  |    |    | p  | p  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    | p  |    |    |    | B  |    | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    |    | p  |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    |    |    |    | P  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 | P  | B  |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 |    | P  | n  |    |    |    | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 |    |    |    |    |    |    | K  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: 849 time: 0 nodes: 65 hashfull: 0
+depth: 2 score: 836 time: 0 nodes: 184 hashfull: 0
+depth: 3 score: 868 time: 0 nodes: 2031 hashfull: 0
+depth: 4 score: 874 time: 1 nodes: 4673 hashfull: 0
+depth: 5 score: 875 time: 2 nodes: 10887 hashfull: 0
+depth: 6 score: 887 time: 9 nodes: 36287 hashfull: 1
+depth: 7 score: 890 time: 20 nodes: 85361 hashfull: 3
+depth: 8 score: 893 time: 31 nodes: 164704 hashfull: 6
+depth: 9 score: 897 time: 105 nodes: 447380 hashfull: 19
+depth: 10 score: 890 time: 239 nodes: 1025623 hashfull: 36
+depth: 11 score: 942 time: 2357 nodes: 6802693 hashfull: 220
+depth: 12 score: 944 time: 1328 nodes: 10241409 hashfull: 295
+depth: 13 score: 945 time: 3940 nodes: 19899080 hashfull: 400
+[DEBUG] [Parser] Wrote to ouput file championship/ichesshbot-logic-and-proofs/move.csv move : g7f6
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 41 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mBlack player is playing g7 to f6.
+[32;1m[Board] [0m[5;1mBlack Pawn is taking White Bishop.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mr[0m|[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[0;1mb[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[30;1mk[0m| |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 42 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mWhite player is playing b3 to c2.
+[32;1m[Board] [0m[5;1mWhite Bishop is taking Black Knight.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mr[0m|[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mb[0m| |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+[DEBUG] Input history filename: championship/ichesshbot-logic-and-proofs/history.csv
+[DEBUG] Output move file: championship/ichesshbot-logic-and-proofs/move.csv
+[Parser][ply=] 43
+how i see the board before writing next move: Turn: Black
+Enpassant: xx	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 |    |    |    |    |    |    | k  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  | b  | r  |    |    | p  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    | p  |    |    |    | p  |    | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    |    | p  |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    |    |    |    | P  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 | P  |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 |    | P  | B  |    |    |    | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 |    |    |    |    |    |    | K  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: 887 time: 0 nodes: 43 hashfull: 0
+depth: 2 score: 886 time: 0 nodes: 139 hashfull: 0
+depth: 3 score: 903 time: 0 nodes: 803 hashfull: 0
+depth: 4 score: 894 time: 0 nodes: 2594 hashfull: 0
+depth: 5 score: 952 time: 2 nodes: 7493 hashfull: 0
+depth: 6 score: 935 time: 4 nodes: 19247 hashfull: 0
+depth: 7 score: 964 time: 14 nodes: 50714 hashfull: 2
+depth: 8 score: 1006 time: 38 nodes: 136829 hashfull: 6
+depth: 9 score: 1036 time: 90 nodes: 352556 hashfull: 17
+depth: 10 score: 1022 time: 107 nodes: 600812 hashfull: 24
+depth: 11 score: 1033 time: 214 nodes: 1113773 hashfull: 48
+depth: 12 score: 1042 time: 677 nodes: 2732301 hashfull: 125
+depth: 13 score: 1046 time: 1491 nodes: 6115311 hashfull: 220
+depth: 14 score: 1054 time: 3151 nodes: 13260844 hashfull: 366
+[DEBUG] [Parser] Wrote to ouput file championship/ichesshbot-logic-and-proofs/move.csv move : c7c2
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 43 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mBlack player is playing c7 to c2.
+[32;1m[Board] [0m[5;1mBlack Rook is taking White Bishop.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[30;1mr[0m| |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 44 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mWhite player is playing h2 to h3.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[30;1mr[0m| |[7;1m [0m| |[0;1mp[0m| || 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+[DEBUG] Input history filename: championship/ichesshbot-logic-and-proofs/history.csv
+[DEBUG] Output move file: championship/ichesshbot-logic-and-proofs/move.csv
+[Parser][ply=] 45
+how i see the board before writing next move: Turn: Black
+Enpassant: xx	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 |    |    |    |    |    |    | k  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  | b  |    |    |    | p  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    | p  |    |    |    | p  |    | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    |    | p  |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    |    |    |    | P  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 | P  |    |    |    |    |    |    | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 |    | P  | r  |    |    |    | P  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 |    |    |    |    |    |    | K  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: 985 time: 0 nodes: 54 hashfull: 0
+depth: 2 score: 974 time: 0 nodes: 161 hashfull: 0
+depth: 3 score: 991 time: 0 nodes: 969 hashfull: 0
+depth: 4 score: 985 time: 1 nodes: 3368 hashfull: 0
+depth: 5 score: 1047 time: 3 nodes: 11265 hashfull: 0
+depth: 6 score: 1027 time: 4 nodes: 22850 hashfull: 1
+depth: 7 score: 1054 time: 19 nodes: 62737 hashfull: 2
+depth: 8 score: 1040 time: 23 nodes: 113372 hashfull: 4
+depth: 9 score: 1067 time: 135 nodes: 423796 hashfull: 26
+depth: 10 score: 1131 time: 425 nodes: 1348528 hashfull: 63
+depth: 11 score: 1142 time: 389 nodes: 2220490 hashfull: 100
+depth: 12 score: 1149 time: 1046 nodes: 4628594 hashfull: 204
+depth: 13 score: 1173 time: 3200 nodes: 11648482 hashfull: 338
+depth: 14 score: 1162 time: 2779 nodes: 17794679 hashfull: 396
+[DEBUG] [Parser] Wrote to ouput file championship/ichesshbot-logic-and-proofs/move.csv move : c2b2
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 45 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mBlack player is playing c2 to b2.
+[32;1m[Board] [0m[5;1mBlack Rook is taking White Pawn.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| || 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 46 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mWhite player is playing g2 to g3.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+[DEBUG] Input history filename: championship/ichesshbot-logic-and-proofs/history.csv
+[DEBUG] Output move file: championship/ichesshbot-logic-and-proofs/move.csv
+[Parser][ply=] 47
+how i see the board before writing next move: Turn: Black
+Enpassant: xx	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 |    |    |    |    |    |    | k  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  | b  |    |    |    | p  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    | p  |    |    |    | p  |    | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    |    | p  |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    |    |    |    | P  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 | P  |    |    |    |    |    | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 |    | r  |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 |    |    |    |    |    |    | K  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: 1005 time: 0 nodes: 50 hashfull: 0
+depth: 2 score: 994 time: 0 nodes: 168 hashfull: 0
+depth: 3 score: 1059 time: 0 nodes: 991 hashfull: 0
+depth: 4 score: 1044 time: 0 nodes: 2806 hashfull: 0
+depth: 5 score: 1056 time: 1 nodes: 6887 hashfull: 0
+depth: 6 score: 1059 time: 5 nodes: 17771 hashfull: 1
+depth: 7 score: 1070 time: 26 nodes: 73036 hashfull: 4
+depth: 8 score: 1079 time: 42 nodes: 164633 hashfull: 9
+depth: 9 score: 1121 time: 162 nodes: 523324 hashfull: 29
+depth: 10 score: 1142 time: 278 nodes: 1107039 hashfull: 53
+depth: 11 score: 1161 time: 424 nodes: 2037385 hashfull: 89
+depth: 12 score: 1162 time: 758 nodes: 3712050 hashfull: 166
+depth: 13 score: 1953 time: 3413 nodes: 11027758 hashfull: 327
+[DEBUG] [Parser] Wrote to ouput file championship/ichesshbot-logic-and-proofs/move.csv move : d5d4
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 47 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mBlack player is playing d5 to d4.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 48 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mWhite player is playing g1 to f1.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[0;1mK[0m| |[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+[DEBUG] Input history filename: championship/ichesshbot-logic-and-proofs/history.csv
+[DEBUG] Output move file: championship/ichesshbot-logic-and-proofs/move.csv
+[Parser][ply=] 49
+how i see the board before writing next move: Turn: Black
+Enpassant: xx	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 |    |    |    |    |    |    | k  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  | b  |    |    |    | p  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    | p  |    |    |    | p  |    | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    |    | p  |    | P  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 | P  |    |    |    |    |    | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 |    | r  |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 |    |    |    |    |    | K  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: 1047 time: 0 nodes: 60 hashfull: 0
+depth: 2 score: 1036 time: 0 nodes: 135 hashfull: 0
+depth: 3 score: 1116 time: 0 nodes: 1105 hashfull: 0
+depth: 4 score: 1094 time: 1 nodes: 3186 hashfull: 0
+depth: 5 score: 1123 time: 2 nodes: 8551 hashfull: 0
+depth: 6 score: 1129 time: 5 nodes: 21250 hashfull: 1
+depth: 7 score: 1152 time: 22 nodes: 67697 hashfull: 2
+depth: 8 score: 1144 time: 34 nodes: 142709 hashfull: 6
+depth: 9 score: 1161 time: 82 nodes: 333087 hashfull: 22
+depth: 10 score: 1573 time: 382 nodes: 1143045 hashfull: 54
+depth: 11 score: 1953 time: 747 nodes: 2797284 hashfull: 118
+depth: 12 score: 1953 time: 1430 nodes: 6019268 hashfull: 238
+depth: 13 score: 1969 time: 2997 nodes: 12508558 hashfull: 329
+[DEBUG] [Parser] Wrote to ouput file championship/ichesshbot-logic-and-proofs/move.csv move : d4d3
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 49 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mBlack player is playing d4 to d3.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[0;1mK[0m| |[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 50 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mWhite player is playing g3 to g4.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[0;1mK[0m| |[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+[DEBUG] Input history filename: championship/ichesshbot-logic-and-proofs/history.csv
+[DEBUG] Output move file: championship/ichesshbot-logic-and-proofs/move.csv
+[Parser][ply=] 51
+how i see the board before writing next move: Turn: Black
+Enpassant: xx	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 |    |    |    |    |    |    | k  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  | b  |    |    |    | p  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    | p  |    |    |    | p  |    | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    |    |    |    | P  | P  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 | P  |    |    | p  |    |    |    | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 |    | r  |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 |    |    |    |    |    | K  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: 1127 time: 0 nodes: 60 hashfull: 0
+depth: 2 score: 1104 time: 0 nodes: 136 hashfull: 0
+depth: 3 score: 1142 time: 0 nodes: 808 hashfull: 0
+depth: 4 score: 1236 time: 1 nodes: 3152 hashfull: 0
+depth: 5 score: 1236 time: 1 nodes: 5803 hashfull: 0
+depth: 6 score: 1237 time: 4 nodes: 17382 hashfull: 1
+depth: 7 score: 1300 time: 21 nodes: 62544 hashfull: 2
+depth: 8 score: 1787 time: 45 nodes: 164249 hashfull: 8
+depth: 9 score: 1958 time: 97 nodes: 389408 hashfull: 25
+depth: 10 score: 1957 time: 241 nodes: 903861 hashfull: 39
+depth: 11 score: 1988 time: 387 nodes: 1776055 hashfull: 79
+depth: 12 score: 99999 time: 613 nodes: 3153162 hashfull: 136
+[DEBUG] [Parser] Wrote to ouput file championship/ichesshbot-logic-and-proofs/move.csv move : b2g2
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 51 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mBlack player is playing b2 to g2.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mr[0m| || 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[0;1mK[0m| |[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 52 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mWhite player is playing f1 to e1.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mr[0m| || 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+[DEBUG] Input history filename: championship/ichesshbot-logic-and-proofs/history.csv
+[DEBUG] Output move file: championship/ichesshbot-logic-and-proofs/move.csv
+[Parser][ply=] 53
+how i see the board before writing next move: Turn: Black
+Enpassant: xx	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 |    |    |    |    |    |    | k  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  | b  |    |    |    | p  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    | p  |    |    |    | p  |    | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    |    |    |    | P  | P  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 | P  |    |    | p  |    |    |    | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 |    |    |    |    |    |    | r  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 |    |    |    |    | K  |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: 1140 time: 0 nodes: 58 hashfull: 0
+depth: 2 score: 1132 time: 0 nodes: 129 hashfull: 0
+depth: 3 score: 1156 time: 0 nodes: 595 hashfull: 0
+depth: 4 score: 1144 time: 0 nodes: 2345 hashfull: 0
+depth: 5 score: 1161 time: 1 nodes: 4889 hashfull: 0
+depth: 6 score: 1914 time: 4 nodes: 15408 hashfull: 1
+depth: 7 score: 1923 time: 15 nodes: 47840 hashfull: 2
+depth: 8 score: 99999 time: 15 nodes: 82332 hashfull: 3
+[DEBUG] [Parser] Wrote to ouput file championship/ichesshbot-logic-and-proofs/move.csv move : b7f3
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 53 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mBlack player is playing b7 to f3.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m| |[30;1mp[0m| |[30;1mb[0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mr[0m| || 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 54 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mWhite player is playing e1 to f1.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m| |[30;1mp[0m| |[30;1mb[0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mr[0m| || 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[0;1mK[0m| |[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+[DEBUG] Input history filename: championship/ichesshbot-logic-and-proofs/history.csv
+[DEBUG] Output move file: championship/ichesshbot-logic-and-proofs/move.csv
+[Parser][ply=] 55
+how i see the board before writing next move: Turn: Black
+Enpassant: xx	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 |    |    |    |    |    |    | k  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  |    |    |    |    | p  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    | p  |    |    |    | p  |    | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    |    |    |    | P  | P  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 | P  |    |    | p  |    | b  |    | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 |    |    |    |    |    |    | r  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 |    |    |    |    |    | K  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: 1146 time: 0 nodes: 78 hashfull: 0
+depth: 2 score: 1135 time: 0 nodes: 229 hashfull: 0
+depth: 3 score: 1922 time: 0 nodes: 950 hashfull: 0
+depth: 4 score: 99999 time: 0 nodes: 1252 hashfull: 0
+[DEBUG] [Parser] Wrote to ouput file championship/ichesshbot-logic-and-proofs/move.csv move : d3d2
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 55 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mBlack player is playing d3 to d2.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m| |[7;1m [0m| |[30;1mb[0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mr[0m| || 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[0;1mK[0m| |[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 56 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mWhite player is playing f4 to f5.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m| |[7;1m [0m| |[30;1mb[0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mr[0m| || 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[0;1mK[0m| |[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+[DEBUG] Input history filename: championship/ichesshbot-logic-and-proofs/history.csv
+[DEBUG] Output move file: championship/ichesshbot-logic-and-proofs/move.csv
+[Parser][ply=] 57
+how i see the board before writing next move: Turn: Black
+Enpassant: xx	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 |    |    |    |    |    |    | k  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  |    |    |    |    | p  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    | p  |    |    |    | p  |    | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    |    |    |    | P  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    |    |    |    |    | P  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 | P  |    |    |    |    | b  |    | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 |    |    |    | p  |    |    | r  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 |    |    |    |    |    | K  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: 1924 time: 0 nodes: 53 hashfull: 0
+depth: 2 score: 99999 time: 0 nodes: 123 hashfull: 0
+[DEBUG] [Parser] Wrote to ouput file championship/ichesshbot-logic-and-proofs/move.csv move : d2d1q
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/ichesshbot-logic-and-proofs/history.csv`...
+[32;1m[Board] [0mLoaded 57 move(s).
+[32;1m[Board] [0mLoading move file `championship/ichesshbot-logic-and-proofs/move.csv`...
+[32;1m[Board] [0mBlack player is playing d2 to d1.
+[32;1m[Board] [0mPromoting a Black Pawn into a Queen
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m| |[7;1m [0m| |[30;1mb[0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mr[0m| || 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[30;1mQ[0m| |[0;1mK[0m| |[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
