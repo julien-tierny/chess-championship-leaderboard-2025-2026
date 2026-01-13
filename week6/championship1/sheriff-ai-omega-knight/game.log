@@ -50,11 +50,16 @@
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
-5: e7e6
-6: e7e6
-7: e7e6
-Ran over time limit at depth 8
-7: e7e6
+1: g8f6
+2: g8f6
+3: g8f6
+4: g8f6
+5: g8f6
+6: d7d6
+7: d7d6
+8: g8f6
+Ran over time limit when searching at depth 9
+8: g8f6
    A  B  C  D  E  F  G  H
   ------------------------
 8 | r  n  b  q  k  b  n  r 
@@ -69,9 +74,9 @@ Ran over time limit at depth 8
   ------------------------
    A  B  C  D  E  F  G  H
   ------------------------
-8 | r  n  b  q  k  b  n  r 
-7 | p  p  p  p  .  p  p  p 
-6 | .  .  .  .  p  .  .  . 
+8 | r  n  b  q  k  b  .  r 
+7 | p  p  p  p  p  p  p  p 
+6 | .  .  .  .  .  n  .  . 
 5 | .  .  .  .  .  .  .  . 
 4 | .  .  .  .  .  .  .  . 
 3 | .  P  .  .  .  .  .  . 
@@ -80,23 +85,23 @@ Ran over time limit at depth 8
 
   ------------------------
 Turn: black
-Move: e7e6
-Time taken: 9025 ms
+Move: g8f6
+Time taken: 9054 ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
 [32;1m[Board] [0mLoaded 1 move(s).
 [32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mBlack player is playing e7 to e6.
+[32;1m[Board] [0mBlack player is playing g8 to f6.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[30;1mk[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
@@ -121,11 +126,11 @@ Time taken: 9025 ms
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[30;1mk[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
@@ -140,16 +145,20 @@ Time taken: 9025 ms
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
-5: g8f6
-6: g8f6
-7: g8f6
-Ran over time limit at depth 8
-7: g8f6
+1: b8c6
+2: b8c6
+3: e7e6
+4: e7e6
+5: e7e6
+6: e7e6
+7: e7e6
+Ran over time limit when searching at depth 8
+7: e7e6
    A  B  C  D  E  F  G  H
   ------------------------
-8 | r  n  b  q  k  b  n  r 
-7 | p  p  p  p  .  p  p  p 
-6 | .  .  .  .  p  .  .  . 
+8 | r  n  b  q  k  b  .  r 
+7 | p  p  p  p  p  p  p  p 
+6 | .  .  .  .  .  n  .  . 
 5 | .  .  .  .  .  .  .  . 
 4 | .  .  .  .  .  .  .  . 
 3 | P  P  .  .  .  .  .  . 
@@ -170,15 +179,15 @@ Ran over time limit at depth 8
 
   ------------------------
 Turn: black
-Move: g8f6
-Time taken: 9013 ms
+Move: e7e6
+Time taken: 9065 ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
 [32;1m[Board] [0mLoaded 3 move(s).
 [32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mBlack player is playing g8 to f6.
+[32;1m[Board] [0mBlack player is playing e7 to e6.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
@@ -230,10 +239,15 @@ Time taken: 9013 ms
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
-5: b8c6
+1: f8d6
+2: f8d6
+3: f6g4
+4: f6g4
+5: f6g4
 6: b8c6
-Ran over time limit at depth 7
-6: b8c6
+7: b8c6
+Ran over time limit when searching at depth 8
+7: b8c6
    A  B  C  D  E  F  G  H
   ------------------------
 8 | r  n  b  q  k  b  .  r 
@@ -260,7 +274,7 @@ Ran over time limit at depth 7
   ------------------------
 Turn: black
 Move: b8c6
-Time taken: 9160 ms
+Time taken: 9066 ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
@@ -319,9 +333,13 @@ Time taken: 9160 ms
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
-5: f8c5
+1: c6d4
+2: c6d4
+3: f8c5
+4: f8c5
+5: f6g4
 6: f8c5
-Ran over time limit at depth 7
+Ran over time limit when searching at depth 7
 6: f8c5
    A  B  C  D  E  F  G  H
   ------------------------
@@ -349,7 +367,7 @@ Ran over time limit at depth 7
   ------------------------
 Turn: black
 Move: f8c5
-Time taken: 9297 ms
+Time taken: 9033 ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
@@ -408,9 +426,13 @@ Time taken: 9297 ms
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
+1: c5e3
+2: c5e3
+3: e8g8
+4: e8g8
 5: e8g8
 6: e8g8
-Ran over time limit at depth 7
+Ran over time limit when searching at depth 7
 6: e8g8
    A  B  C  D  E  F  G  H
   ------------------------
@@ -438,7 +460,7 @@ Ran over time limit at depth 7
   ------------------------
 Turn: black
 Move: e8g8
-Time taken: 9143 ms
+Time taken: 9036 ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
@@ -498,10 +520,14 @@ Time taken: 9143 ms
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
-5: c5b6
-6: c5b6
-Ran over time limit at depth 7
-6: c5b6
+1: c6d4
+2: c6d4
+3: c6e5
+4: c6e5
+5: d8e7
+6: f6h5
+Ran over time limit when searching at depth 7
+6: f6h5
    A  B  C  D  E  F  G  H
   ------------------------
 8 | r  .  b  q  .  r  k  . 
@@ -518,8 +544,8 @@ Ran over time limit at depth 7
   ------------------------
 8 | r  .  b  q  .  r  k  . 
 7 | p  p  p  p  .  p  p  p 
-6 | .  b  n  .  p  n  .  . 
-5 | .  .  .  .  .  .  .  . 
+6 | .  .  n  .  p  .  .  . 
+5 | .  .  b  .  .  .  .  n 
 4 | .  .  .  .  .  .  .  . 
 3 | P  P  N  P  P  P  .  . 
 2 | .  .  P  .  .  .  P  P 
@@ -527,15 +553,15 @@ Ran over time limit at depth 7
 
   ------------------------
 Turn: black
-Move: c5b6
-Time taken: 9090 ms
+Move: f6h5
+Time taken: 9098 ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
 [32;1m[Board] [0mLoaded 11 move(s).
 [32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mBlack player is playing c5 to b6.
+[32;1m[Board] [0mBlack player is playing f6 to h5.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
@@ -543,9 +569,9 @@ Time taken: 9090 ms
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mb[0m|[30;1mk[0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mb[0m|[7;1m [0m| |[7;1m [0m| |[30;1mk[0m|| 5
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
@@ -564,7 +590,7 @@ Time taken: 9090 ms
 [32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
 [32;1m[Board] [0mLoaded 12 move(s).
 [32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mWhite player is playing g2 to g3.
+[32;1m[Board] [0mWhite player is playing g1 to h3.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
@@ -572,77 +598,81 @@ Time taken: 9090 ms
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mb[0m|[30;1mk[0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mb[0m|[7;1m [0m| |[7;1m [0m| |[30;1mk[0m|| 5
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mk[0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
-5: b6a5
-6: b6a5
-Ran over time limit at depth 7
-6: b6a5
+1: h5g3
+2: h5g3
+3: c6e5
+4: c6e5
+5: d8h4
+6: d8h4
+Ran over time limit when searching at depth 7
+6: d8h4
    A  B  C  D  E  F  G  H
   ------------------------
 8 | r  .  b  q  .  r  k  . 
 7 | p  p  p  p  .  p  p  p 
-6 | .  b  n  .  p  n  .  . 
-5 | .  .  .  .  .  .  .  . 
+6 | .  .  n  .  p  .  .  . 
+5 | .  .  b  .  .  .  .  n 
 4 | .  .  .  .  .  .  .  . 
-3 | P  P  N  P  P  P  P  . 
-2 | .  .  P  .  .  .  .  P 
-1 | R  .  B  Q  K  B  N  R 
+3 | P  P  N  P  P  P  .  N 
+2 | .  .  P  .  .  .  P  P 
+1 | R  .  B  Q  K  B  .  R 
 
   ------------------------
    A  B  C  D  E  F  G  H
   ------------------------
-8 | r  .  b  q  .  r  k  . 
+8 | r  .  b  .  .  r  k  . 
 7 | p  p  p  p  .  p  p  p 
-6 | .  .  n  .  p  n  .  . 
-5 | b  .  .  .  .  .  .  . 
-4 | .  .  .  .  .  .  .  . 
-3 | P  P  N  P  P  P  P  . 
-2 | .  .  P  .  .  .  .  P 
-1 | R  .  B  Q  K  B  N  R 
+6 | .  .  n  .  p  .  .  . 
+5 | .  .  b  .  .  .  .  n 
+4 | .  .  .  .  .  .  .  q 
+3 | P  P  N  P  P  P  .  N 
+2 | .  .  P  .  .  .  P  P 
+1 | R  .  B  Q  K  B  .  R 
 
   ------------------------
 Turn: black
-Move: b6a5
-Time taken: 9188 ms
+Move: d8h4
+Time taken: 9065 ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
 [32;1m[Board] [0mLoaded 13 move(s).
 [32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mBlack player is playing b6 to a5.
+[32;1m[Board] [0mBlack player is playing d8 to h4.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m| |[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 ||[30;1mb[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mb[0m|[7;1m [0m| |[7;1m [0m| |[30;1mk[0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mQ[0m|| 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mk[0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
@@ -653,87 +683,91 @@ Time taken: 9188 ms
 [32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
 [32;1m[Board] [0mLoaded 14 move(s).
 [32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mWhite player is playing b3 to b4.
+[32;1m[Board] [0mWhite player is playing g2 to g3.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m| |[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 ||[30;1mb[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mb[0m|[7;1m [0m| |[7;1m [0m| |[30;1mk[0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mQ[0m|| 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mk[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|| 3
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
-5: c6b4
-6: c6b4
-7: c6b4
-Ran over time limit at depth 8
-7: c6b4
+1: h4e7
+2: h4e7
+3: h4f6
+4: h4f6
+5: h4e7
+6: h4e7
+7: h4e7
+8: h4e7
+Ran over time limit when searching at depth 9
+8: h4e7
    A  B  C  D  E  F  G  H
   ------------------------
-8 | r  .  b  q  .  r  k  . 
+8 | r  .  b  .  .  r  k  . 
 7 | p  p  p  p  .  p  p  p 
-6 | .  .  n  .  p  n  .  . 
-5 | b  .  .  .  .  .  .  . 
-4 | .  P  .  .  .  .  .  . 
-3 | P  .  N  P  P  P  P  . 
+6 | .  .  n  .  p  .  .  . 
+5 | .  .  b  .  .  .  .  n 
+4 | .  .  .  .  .  .  .  q 
+3 | P  P  N  P  P  P  P  N 
 2 | .  .  P  .  .  .  .  P 
-1 | R  .  B  Q  K  B  N  R 
+1 | R  .  B  Q  K  B  .  R 
 
   ------------------------
    A  B  C  D  E  F  G  H
   ------------------------
-8 | r  .  b  q  .  r  k  . 
-7 | p  p  p  p  .  p  p  p 
-6 | .  .  .  .  p  n  .  . 
-5 | b  .  .  .  .  .  .  . 
-4 | .  n  .  .  .  .  .  . 
-3 | P  .  N  P  P  P  P  . 
+8 | r  .  b  .  .  r  k  . 
+7 | p  p  p  p  q  p  p  p 
+6 | .  .  n  .  p  .  .  . 
+5 | .  .  b  .  .  .  .  n 
+4 | .  .  .  .  .  .  .  . 
+3 | P  P  N  P  P  P  P  N 
 2 | .  .  P  .  .  .  .  P 
-1 | R  .  B  Q  K  B  N  R 
+1 | R  .  B  Q  K  B  .  R 
 
   ------------------------
 Turn: black
-Move: c6b4
-Time taken: 9035 ms
+Move: h4e7
+Time taken: 9082 ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
 [32;1m[Board] [0mLoaded 15 move(s).
 [32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mBlack player is playing c6 to b4.
-[32;1m[Board] [0m[5;1mBlack Knight is taking White Pawn.[0m
+[32;1m[Board] [0mBlack player is playing h4 to e7.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m| |[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 ||[30;1mb[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mb[0m|[7;1m [0m| |[7;1m [0m| |[30;1mk[0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mk[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 ||[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|| 3
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
@@ -744,88 +778,89 @@ Time taken: 9035 ms
 [32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
 [32;1m[Board] [0mLoaded 16 move(s).
 [32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mWhite player is playing a3 to b4.
-[32;1m[Board] [0m[5;1mWhite Pawn is taking Black Knight.[0m
+[32;1m[Board] [0mWhite player is playing a3 to a4.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m| |[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 ||[30;1mb[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mb[0m|[7;1m [0m| |[7;1m [0m| |[30;1mk[0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[0;1mp[0m|[0;1mk[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|| 3
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
-5: a5b4
-6: a5b4
-7: a5b4
-Ran over time limit at depth 8
-7: a5b4
+1: c5e3
+2: c5e3
+3: c5b4
+4: c5b4
+5: c5b4
+6: c5b4
+Ran over time limit when searching at depth 7
+6: c5b4
    A  B  C  D  E  F  G  H
   ------------------------
-8 | r  .  b  q  .  r  k  . 
-7 | p  p  p  p  .  p  p  p 
-6 | .  .  .  .  p  n  .  . 
-5 | b  .  .  .  .  .  .  . 
-4 | .  P  .  .  .  .  .  . 
-3 | .  .  N  P  P  P  P  . 
+8 | r  .  b  .  .  r  k  . 
+7 | p  p  p  p  q  p  p  p 
+6 | .  .  n  .  p  .  .  . 
+5 | .  .  b  .  .  .  .  n 
+4 | P  .  .  .  .  .  .  . 
+3 | .  P  N  P  P  P  P  N 
 2 | .  .  P  .  .  .  .  P 
-1 | R  .  B  Q  K  B  N  R 
+1 | R  .  B  Q  K  B  .  R 
 
   ------------------------
    A  B  C  D  E  F  G  H
   ------------------------
-8 | r  .  b  q  .  r  k  . 
-7 | p  p  p  p  .  p  p  p 
-6 | .  .  .  .  p  n  .  . 
-5 | .  .  .  .  .  .  .  . 
-4 | .  b  .  .  .  .  .  . 
-3 | .  .  N  P  P  P  P  . 
+8 | r  .  b  .  .  r  k  . 
+7 | p  p  p  p  q  p  p  p 
+6 | .  .  n  .  p  .  .  . 
+5 | .  .  .  .  .  .  .  n 
+4 | P  b  .  .  .  .  .  . 
+3 | .  P  N  P  P  P  P  N 
 2 | .  .  P  .  .  .  .  P 
-1 | R  .  B  Q  K  B  N  R 
+1 | R  .  B  Q  K  B  .  R 
 
   ------------------------
 Turn: black
-Move: a5b4
-Time taken: 9022 ms
+Move: c5b4
+Time taken: 9069 ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
 [32;1m[Board] [0mLoaded 17 move(s).
 [32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mBlack player is playing a5 to b4.
-[32;1m[Board] [0m[5;1mBlack Bishop is taking White Pawn.[0m
+[32;1m[Board] [0mBlack player is playing c5 to b4.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m| |[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mk[0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mb[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[0;1mp[0m|[30;1mb[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[0;1mp[0m|[0;1mk[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|| 3
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
@@ -836,61 +871,65 @@ Time taken: 9022 ms
 [32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
 [32;1m[Board] [0mLoaded 18 move(s).
 [32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mWhite player is playing g1 to h3.
+[32;1m[Board] [0mWhite player is playing c1 to a3.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m| |[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mk[0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mb[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[0;1mp[0m|[30;1mb[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|| 3
+[32;1m[Board] [0m 3 ||[0;1mb[0m|[0;1mp[0m|[0;1mk[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|| 3
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
+1: b4c3
+2: b4c3
+3: b4c3
+4: b4c3
 5: b4c3
 6: b4c3
 7: b4c3
-Ran over time limit at depth 8
+Ran over time limit when searching at depth 8
 7: b4c3
    A  B  C  D  E  F  G  H
   ------------------------
-8 | r  .  b  q  .  r  k  . 
-7 | p  p  p  p  .  p  p  p 
-6 | .  .  .  .  p  n  .  . 
-5 | .  .  .  .  .  .  .  . 
-4 | .  b  .  .  .  .  .  . 
-3 | .  .  N  P  P  P  P  N 
+8 | r  .  b  .  .  r  k  . 
+7 | p  p  p  p  q  p  p  p 
+6 | .  .  n  .  p  .  .  . 
+5 | .  .  .  .  .  .  .  n 
+4 | P  b  .  .  .  .  .  . 
+3 | B  P  N  P  P  P  P  N 
 2 | .  .  P  .  .  .  .  P 
-1 | R  .  B  Q  K  B  .  R 
+1 | R  .  .  Q  K  B  .  R 
 
   ------------------------
    A  B  C  D  E  F  G  H
   ------------------------
-8 | r  .  b  q  .  r  k  . 
-7 | p  p  p  p  .  p  p  p 
-6 | .  .  .  .  p  n  .  . 
-5 | .  .  .  .  .  .  .  . 
-4 | .  .  .  .  .  .  .  . 
-3 | .  .  b  P  P  P  P  N 
+8 | r  .  b  .  .  r  k  . 
+7 | p  p  p  p  q  p  p  p 
+6 | .  .  n  .  p  .  .  . 
+5 | .  .  .  .  .  .  .  n 
+4 | P  .  .  .  .  .  .  . 
+3 | B  P  b  P  P  P  P  N 
 2 | .  .  P  .  .  .  .  P 
-1 | R  .  B  Q  K  B  .  R 
+1 | R  .  .  Q  K  B  .  R 
 
   ------------------------
 Turn: black
 Move: b4c3
-Time taken: 9016 ms
+Time taken: 9046 ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
@@ -902,21 +941,21 @@ Time taken: 9016 ms
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m| |[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mk[0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[30;1mb[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|| 3
+[32;1m[Board] [0m 3 ||[0;1mb[0m|[0;1mp[0m|[30;1mb[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|| 3
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
@@ -927,86 +966,89 @@ Time taken: 9016 ms
 [32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
 [32;1m[Board] [0mLoaded 20 move(s).
 [32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mWhite player is playing c1 to d2.
+[32;1m[Board] [0mWhite player is playing e1 to e2.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m| |[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mk[0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[30;1mb[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|| 3
+[32;1m[Board] [0m 3 ||[0;1mb[0m|[0;1mp[0m|[30;1mb[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[0;1mQ[0m| |[0;1mb[0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
-5: c3a1
-6: c3a1
-Ran over time limit at depth 7
-6: c3a1
+1: c3a1
+2: c3a1
+3: d7d6
+4: d7d6
+5: d7d6
+6: d7d6
+Ran over time limit when searching at depth 7
+6: d7d6
    A  B  C  D  E  F  G  H
   ------------------------
-8 | r  .  b  q  .  r  k  . 
-7 | p  p  p  p  .  p  p  p 
-6 | .  .  .  .  p  n  .  . 
-5 | .  .  .  .  .  .  .  . 
-4 | .  .  .  .  .  .  .  . 
-3 | .  .  b  P  P  P  P  N 
-2 | .  .  P  B  .  .  .  P 
-1 | R  .  .  Q  K  B  .  R 
+8 | r  .  b  .  .  r  k  . 
+7 | p  p  p  p  q  p  p  p 
+6 | .  .  n  .  p  .  .  . 
+5 | .  .  .  .  .  .  .  n 
+4 | P  .  .  .  .  .  .  . 
+3 | B  P  b  P  P  P  P  N 
+2 | .  .  P  .  K  .  .  P 
+1 | R  .  .  Q  .  B  .  R 
 
   ------------------------
    A  B  C  D  E  F  G  H
   ------------------------
-8 | r  .  b  q  .  r  k  . 
-7 | p  p  p  p  .  p  p  p 
-6 | .  .  .  .  p  n  .  . 
-5 | .  .  .  .  .  .  .  . 
-4 | .  .  .  .  .  .  .  . 
-3 | .  .  .  P  P  P  P  N 
-2 | .  .  P  B  .  .  .  P 
-1 | b  .  .  Q  K  B  .  R 
+8 | r  .  b  .  .  r  k  . 
+7 | p  p  p  .  q  p  p  p 
+6 | .  .  n  p  p  .  .  . 
+5 | .  .  .  .  .  .  .  n 
+4 | P  .  .  .  .  .  .  . 
+3 | B  P  b  P  P  P  P  N 
+2 | .  .  P  .  K  .  .  P 
+1 | R  .  .  Q  .  B  .  R 
 
   ------------------------
 Turn: black
-Move: c3a1
-Time taken: 9136 ms
+Move: d7d6
+Time taken: 9031 ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
 [32;1m[Board] [0mLoaded 21 move(s).
 [32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mBlack player is playing c3 to a1.
-[32;1m[Board] [0m[5;1mBlack Bishop is taking White Rook.[0m
+[32;1m[Board] [0mBlack player is playing d7 to d6.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m| |[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m|[30;1mp[0m|[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mk[0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|| 3
+[32;1m[Board] [0m 3 ||[0;1mb[0m|[0;1mp[0m|[30;1mb[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[30;1mb[0m|[7;1m [0m| |[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[0;1mQ[0m| |[0;1mb[0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
@@ -1017,86 +1059,91 @@ Time taken: 9136 ms
 [32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
 [32;1m[Board] [0mLoaded 22 move(s).
 [32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mWhite player is playing d1 to a1.
-[32;1m[Board] [0m[5;1mWhite Queen is taking Black Bishop.[0m
+[32;1m[Board] [0mWhite player is playing d3 to d4.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m| |[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m|[30;1mp[0m|[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mk[0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|| 3
+[32;1m[Board] [0m 3 ||[0;1mb[0m|[0;1mp[0m|[30;1mb[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[0;1mQ[0m| |[0;1mb[0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
-5: d8e7
-6: d8e7
-Ran over time limit at depth 7
-6: d8e7
+1: c3a1
+2: c3a1
+3: e6e5
+4: e6e5
+5: e6e5
+6: e6e5
+7: c3a1
+Ran over time limit when searching at depth 8
+7: c3a1
    A  B  C  D  E  F  G  H
   ------------------------
-8 | r  .  b  q  .  r  k  . 
-7 | p  p  p  p  .  p  p  p 
-6 | .  .  .  .  p  n  .  . 
-5 | .  .  .  .  .  .  .  . 
-4 | .  .  .  .  .  .  .  . 
-3 | .  .  .  P  P  P  P  N 
-2 | .  .  P  B  .  .  .  P 
-1 | Q  .  .  .  K  B  .  R 
+8 | r  .  b  .  .  r  k  . 
+7 | p  p  p  .  q  p  p  p 
+6 | .  .  n  p  p  .  .  . 
+5 | .  .  .  .  .  .  .  n 
+4 | P  .  .  P  .  .  .  . 
+3 | B  P  b  .  P  P  P  N 
+2 | .  .  P  .  K  .  .  P 
+1 | R  .  .  Q  .  B  .  R 
 
   ------------------------
    A  B  C  D  E  F  G  H
   ------------------------
 8 | r  .  b  .  .  r  k  . 
-7 | p  p  p  p  q  p  p  p 
-6 | .  .  .  .  p  n  .  . 
-5 | .  .  .  .  .  .  .  . 
-4 | .  .  .  .  .  .  .  . 
-3 | .  .  .  P  P  P  P  N 
-2 | .  .  P  B  .  .  .  P 
-1 | Q  .  .  .  K  B  .  R 
+7 | p  p  p  .  q  p  p  p 
+6 | .  .  n  p  p  .  .  . 
+5 | .  .  .  .  .  .  .  n 
+4 | P  .  .  P  .  .  .  . 
+3 | B  P  .  .  P  P  P  N 
+2 | .  .  P  .  K  .  .  P 
+1 | b  .  .  Q  .  B  .  R 
 
   ------------------------
 Turn: black
-Move: d8e7
-Time taken: 9164 ms
+Move: c3a1
+Time taken: 9033 ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
 [32;1m[Board] [0mLoaded 23 move(s).
 [32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mBlack player is playing d8 to e7.
+[32;1m[Board] [0mBlack player is playing c3 to a1.
+[32;1m[Board] [0m[5;1mBlack Bishop is taking White Rook.[0m
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m| |[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m|[30;1mp[0m|[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mk[0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|| 3
+[32;1m[Board] [0m 3 ||[0;1mb[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[30;1mb[0m|[7;1m [0m| |[0;1mQ[0m| |[0;1mb[0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
@@ -1107,86 +1154,91 @@ Time taken: 9164 ms
 [32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
 [32;1m[Board] [0mLoaded 24 move(s).
 [32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mWhite player is playing c2 to c3.
+[32;1m[Board] [0mWhite player is playing d1 to a1.
+[32;1m[Board] [0m[5;1mWhite Queen is taking Black Bishop.[0m
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m| |[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m|[30;1mp[0m|[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mk[0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|| 3
+[32;1m[Board] [0m 3 ||[0;1mb[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m| |[0;1mb[0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
-5: b7b6
-6: b7b6
-7: b7b6
-Ran over time limit at depth 8
-7: b7b6
+1: h5g3
+2: h5g3
+3: c8d7
+4: c8d7
+5: e6e5
+6: e6e5
+7: c8d7
+Ran over time limit when searching at depth 8
+7: c8d7
    A  B  C  D  E  F  G  H
   ------------------------
 8 | r  .  b  .  .  r  k  . 
-7 | p  p  p  p  q  p  p  p 
-6 | .  .  .  .  p  n  .  . 
-5 | .  .  .  .  .  .  .  . 
-4 | .  .  .  .  .  .  .  . 
-3 | .  .  P  P  P  P  P  N 
-2 | .  .  .  B  .  .  .  P 
-1 | Q  .  .  .  K  B  .  R 
+7 | p  p  p  .  q  p  p  p 
+6 | .  .  n  p  p  .  .  . 
+5 | .  .  .  .  .  .  .  n 
+4 | P  .  .  P  .  .  .  . 
+3 | B  P  .  .  P  P  P  N 
+2 | .  .  P  .  K  .  .  P 
+1 | Q  .  .  .  .  B  .  R 
 
   ------------------------
    A  B  C  D  E  F  G  H
   ------------------------
-8 | r  .  b  .  .  r  k  . 
-7 | p  .  p  p  q  p  p  p 
-6 | .  p  .  .  p  n  .  . 
-5 | .  .  .  .  .  .  .  . 
-4 | .  .  .  .  .  .  .  . 
-3 | .  .  P  P  P  P  P  N 
-2 | .  .  .  B  .  .  .  P 
-1 | Q  .  .  .  K  B  .  R 
+8 | r  .  .  .  .  r  k  . 
+7 | p  p  p  b  q  p  p  p 
+6 | .  .  n  p  p  .  .  . 
+5 | .  .  .  .  .  .  .  n 
+4 | P  .  .  P  .  .  .  . 
+3 | B  P  .  .  P  P  P  N 
+2 | .  .  P  .  K  .  .  P 
+1 | Q  .  .  .  .  B  .  R 
 
   ------------------------
 Turn: black
-Move: b7b6
-Time taken: 9018 ms
+Move: c8d7
+Time taken: 9070 ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
 [32;1m[Board] [0mLoaded 25 move(s).
 [32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mBlack player is playing b7 to b6.
+[32;1m[Board] [0mBlack player is playing c8 to d7.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m| |[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m|[30;1mp[0m|[30;1mp[0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m|[30;1mp[0m|[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mk[0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|| 3
+[32;1m[Board] [0m 3 ||[0;1mb[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m| |[0;1mb[0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
@@ -1197,86 +1249,92 @@ Time taken: 9018 ms
 [32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
 [32;1m[Board] [0mLoaded 26 move(s).
 [32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mWhite player is playing c3 to c4.
+[32;1m[Board] [0mWhite player is playing h3 to g5.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m| |[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m|[30;1mp[0m|[30;1mp[0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m|[30;1mp[0m|[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[30;1mk[0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|| 3
+[32;1m[Board] [0m 3 ||[0;1mb[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m| |[0;1mb[0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
-5: c8b7
-6: c8b7
-7: c8b7
-Ran over time limit at depth 8
-7: c8b7
+1: e7g5
+2: e7g5
+3: e7g5
+4: e7g5
+5: e7g5
+6: e7g5
+7: e7g5
+8: e7g5
+Ran over time limit when searching at depth 9
+8: e7g5
    A  B  C  D  E  F  G  H
   ------------------------
-8 | r  .  b  .  .  r  k  . 
-7 | p  .  p  p  q  p  p  p 
-6 | .  p  .  .  p  n  .  . 
-5 | .  .  .  .  .  .  .  . 
-4 | .  .  P  .  .  .  .  . 
-3 | .  .  .  P  P  P  P  N 
-2 | .  .  .  B  .  .  .  P 
-1 | Q  .  .  .  K  B  .  R 
+8 | r  .  .  .  .  r  k  . 
+7 | p  p  p  b  q  p  p  p 
+6 | .  .  n  p  p  .  .  . 
+5 | .  .  .  .  .  .  N  n 
+4 | P  .  .  P  .  .  .  . 
+3 | B  P  .  .  P  P  P  . 
+2 | .  .  P  .  K  .  .  P 
+1 | Q  .  .  .  .  B  .  R 
 
   ------------------------
    A  B  C  D  E  F  G  H
   ------------------------
 8 | r  .  .  .  .  r  k  . 
-7 | p  b  p  p  q  p  p  p 
-6 | .  p  .  .  p  n  .  . 
-5 | .  .  .  .  .  .  .  . 
-4 | .  .  P  .  .  .  .  . 
-3 | .  .  .  P  P  P  P  N 
-2 | .  .  .  B  .  .  .  P 
-1 | Q  .  .  .  K  B  .  R 
+7 | p  p  p  b  .  p  p  p 
+6 | .  .  n  p  p  .  .  . 
+5 | .  .  .  .  .  .  q  n 
+4 | P  .  .  P  .  .  .  . 
+3 | B  P  .  .  P  P  P  . 
+2 | .  .  P  .  K  .  .  P 
+1 | Q  .  .  .  .  B  .  R 
 
   ------------------------
 Turn: black
-Move: c8b7
-Time taken: 9016 ms
+Move: e7g5
+Time taken: 9053 ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
 [32;1m[Board] [0mLoaded 27 move(s).
 [32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mBlack player is playing c8 to b7.
+[32;1m[Board] [0mBlack player is playing e7 to g5.
+[32;1m[Board] [0m[5;1mBlack Queen is taking White Knight.[0m
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mb[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m|[30;1mp[0m|[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mQ[0m|[30;1mk[0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|| 3
+[32;1m[Board] [0m 3 ||[0;1mb[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m| |[0;1mb[0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
@@ -1287,87 +1345,89 @@ Time taken: 9016 ms
 [32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
 [32;1m[Board] [0mLoaded 28 move(s).
 [32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mWhite player is playing d2 to b4.
+[32;1m[Board] [0mWhite player is playing f1 to h3.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mb[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m|[30;1mp[0m|[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mQ[0m|[30;1mk[0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m|[0;1mb[0m|[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|| 3
+[32;1m[Board] [0m 3 ||[0;1mb[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mb[0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
-5: e7b4
-6: e7b4
-7: e7b4
-Ran over time limit at depth 8
-7: e7b4
+1: g5g3
+2: g5g3
+3: h5f6
+4: h5f6
+5: h5f6
+6: h5f6
+Ran over time limit when searching at depth 7
+6: h5f6
    A  B  C  D  E  F  G  H
   ------------------------
 8 | r  .  .  .  .  r  k  . 
-7 | p  b  p  p  q  p  p  p 
-6 | .  p  .  .  p  n  .  . 
-5 | .  .  .  .  .  .  .  . 
-4 | .  B  P  .  .  .  .  . 
-3 | .  .  .  P  P  P  P  N 
-2 | .  .  .  .  .  .  .  P 
-1 | Q  .  .  .  K  B  .  R 
+7 | p  p  p  b  .  p  p  p 
+6 | .  .  n  p  p  .  .  . 
+5 | .  .  .  .  .  .  q  n 
+4 | P  .  .  P  .  .  .  . 
+3 | B  P  .  .  P  P  P  B 
+2 | .  .  P  .  K  .  .  P 
+1 | Q  .  .  .  .  .  .  R 
 
   ------------------------
    A  B  C  D  E  F  G  H
   ------------------------
 8 | r  .  .  .  .  r  k  . 
-7 | p  b  p  p  .  p  p  p 
-6 | .  p  .  .  p  n  .  . 
-5 | .  .  .  .  .  .  .  . 
-4 | .  q  P  .  .  .  .  . 
-3 | .  .  .  P  P  P  P  N 
-2 | .  .  .  .  .  .  .  P 
-1 | Q  .  .  .  K  B  .  R 
+7 | p  p  p  b  .  p  p  p 
+6 | .  .  n  p  p  n  .  . 
+5 | .  .  .  .  .  .  q  . 
+4 | P  .  .  P  .  .  .  . 
+3 | B  P  .  .  P  P  P  B 
+2 | .  .  P  .  K  .  .  P 
+1 | Q  .  .  .  .  .  .  R 
 
   ------------------------
 Turn: black
-Move: e7b4
-Time taken: 9024 ms
+Move: h5f6
+Time taken: 9062 ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
 [32;1m[Board] [0mLoaded 29 move(s).
 [32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mBlack player is playing e7 to b4.
-[32;1m[Board] [0m[5;1mBlack Queen is taking White Bishop.[0m
+[32;1m[Board] [0mBlack player is playing h5 to f6.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mb[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m|[30;1mp[0m|[30;1mp[0m|[30;1mk[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mQ[0m|[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|| 3
+[32;1m[Board] [0m 3 ||[0;1mb[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mb[0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
@@ -1378,85 +1438,92 @@ Time taken: 9024 ms
 [32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
 [32;1m[Board] [0mLoaded 30 move(s).
 [32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mWhite player is playing e1 to e2.
+[32;1m[Board] [0mWhite player is playing h3 to e6.
+[32;1m[Board] [0m[5;1mWhite Bishop is taking Black Pawn.[0m
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mb[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m|[30;1mp[0m|[0;1mb[0m|[30;1mk[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mQ[0m|[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|| 3
+[32;1m[Board] [0m 3 ||[0;1mb[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m| |[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
-5: b4b3
-6: b4b3
-Ran over time limit at depth 7
-6: b4b3
+1: d7e6
+2: d7e6
+3: d7e6
+4: d7e6
+5: d7e6
+6: d7e6
+7: d7e6
+Ran over time limit when searching at depth 8
+7: d7e6
    A  B  C  D  E  F  G  H
   ------------------------
 8 | r  .  .  .  .  r  k  . 
-7 | p  b  p  p  .  p  p  p 
-6 | .  p  .  .  p  n  .  . 
-5 | .  .  .  .  .  .  .  . 
-4 | .  q  P  .  .  .  .  . 
-3 | .  .  .  P  P  P  P  N 
-2 | .  .  .  .  K  .  .  P 
-1 | Q  .  .  .  .  B  .  R 
+7 | p  p  p  b  .  p  p  p 
+6 | .  .  n  p  B  n  .  . 
+5 | .  .  .  .  .  .  q  . 
+4 | P  .  .  P  .  .  .  . 
+3 | B  P  .  .  P  P  P  . 
+2 | .  .  P  .  K  .  .  P 
+1 | Q  .  .  .  .  .  .  R 
 
   ------------------------
    A  B  C  D  E  F  G  H
   ------------------------
 8 | r  .  .  .  .  r  k  . 
-7 | p  b  p  p  .  p  p  p 
-6 | .  p  .  .  p  n  .  . 
-5 | .  .  .  .  .  .  .  . 
-4 | .  .  P  .  .  .  .  . 
-3 | .  q  .  P  P  P  P  N 
-2 | .  .  .  .  K  .  .  P 
-1 | Q  .  .  .  .  B  .  R 
+7 | p  p  p  .  .  p  p  p 
+6 | .  .  n  p  b  n  .  . 
+5 | .  .  .  .  .  .  q  . 
+4 | P  .  .  P  .  .  .  . 
+3 | B  P  .  .  P  P  P  . 
+2 | .  .  P  .  K  .  .  P 
+1 | Q  .  .  .  .  .  .  R 
 
   ------------------------
 Turn: black
-Move: b4b3
-Time taken: 9478 ms
+Move: d7e6
+Time taken: 9065 ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
 [32;1m[Board] [0mLoaded 31 move(s).
 [32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mBlack player is playing b4 to b3.
+[32;1m[Board] [0mBlack player is playing d7 to e6.
+[32;1m[Board] [0m[5;1mBlack Bishop is taking White Bishop.[0m
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m|[30;1mp[0m|[30;1mb[0m|[30;1mk[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[30;1mQ[0m| |[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|| 3
+[32;1m[Board] [0m 3 ||[0;1mb[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m| |[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
@@ -1467,85 +1534,91 @@ Time taken: 9478 ms
 [32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
 [32;1m[Board] [0mLoaded 32 move(s).
 [32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mWhite player is playing e3 to e4.
+[32;1m[Board] [0mWhite player is playing d4 to d5.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m|[30;1mp[0m|[30;1mb[0m|[30;1mk[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[30;1mQ[0m| |[0;1mp[0m| |[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|| 3
+[32;1m[Board] [0m 3 ||[0;1mb[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m| |[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
-5: f8e8
-6: f8e8
-Ran over time limit at depth 7
-6: f8e8
+1: f6d5
+2: f6d5
+3: f6d5
+4: f6d5
+5: f6d5
+6: f6d5
+7: f6d5
+Ran over time limit when searching at depth 8
+7: f6d5
    A  B  C  D  E  F  G  H
   ------------------------
 8 | r  .  .  .  .  r  k  . 
-7 | p  b  p  p  .  p  p  p 
-6 | .  p  .  .  p  n  .  . 
-5 | .  .  .  .  .  .  .  . 
-4 | .  .  P  .  P  .  .  . 
-3 | .  q  .  P  .  P  P  N 
-2 | .  .  .  .  K  .  .  P 
-1 | Q  .  .  .  .  B  .  R 
+7 | p  p  p  .  .  p  p  p 
+6 | .  .  n  p  b  n  .  . 
+5 | .  .  .  P  .  .  q  . 
+4 | P  .  .  .  .  .  .  . 
+3 | B  P  .  .  P  P  P  . 
+2 | .  .  P  .  K  .  .  P 
+1 | Q  .  .  .  .  .  .  R 
 
   ------------------------
    A  B  C  D  E  F  G  H
   ------------------------
-8 | r  .  .  .  r  .  k  . 
-7 | p  b  p  p  .  p  p  p 
-6 | .  p  .  .  p  n  .  . 
-5 | .  .  .  .  .  .  .  . 
-4 | .  .  P  .  P  .  .  . 
-3 | .  q  .  P  .  P  P  N 
-2 | .  .  .  .  K  .  .  P 
-1 | Q  .  .  .  .  B  .  R 
+8 | r  .  .  .  .  r  k  . 
+7 | p  p  p  .  .  p  p  p 
+6 | .  .  n  p  b  .  .  . 
+5 | .  .  .  n  .  .  q  . 
+4 | P  .  .  .  .  .  .  . 
+3 | B  P  .  .  P  P  P  . 
+2 | .  .  P  .  K  .  .  P 
+1 | Q  .  .  .  .  .  .  R 
 
   ------------------------
 Turn: black
-Move: f8e8
-Time taken: 9033 ms
+Move: f6d5
+Time taken: 9063 ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
 [32;1m[Board] [0mLoaded 33 move(s).
 [32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mBlack player is playing f8 to e8.
+[32;1m[Board] [0mBlack player is playing f6 to d5.
+[32;1m[Board] [0m[5;1mBlack Knight is taking White Pawn.[0m
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m|[30;1mp[0m|[30;1mb[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mk[0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[30;1mQ[0m| |[0;1mp[0m| |[0;1mp[0m|[0;1mp[0m|[0;1mk[0m|| 3
+[32;1m[Board] [0m 3 ||[0;1mb[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m| |[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
@@ -1556,86 +1629,93 @@ Time taken: 9033 ms
 [32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
 [32;1m[Board] [0mLoaded 34 move(s).
 [32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mWhite player is playing h3 to g5.
+[32;1m[Board] [0mWhite player is playing a1 to g7.
+[32;1m[Board] [0m[5;1mWhite Queen is taking Black Pawn.[0m
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[0;1mQ[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m|[30;1mp[0m|[30;1mb[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mk[0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[30;1mQ[0m| |[0;1mp[0m| |[0;1mp[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 ||[0;1mb[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m| |[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
-5: b3c2
-6: b3c2
-7: b3c2
-Ran over time limit at depth 8
-7: b3c2
+1: g8g7
+2: g8g7
+3: g8g7
+4: g8g7
+5: g5g7
+6: g8g7
+7: g8g7
+8: g8g7
+Ran over time limit when searching at depth 9
+8: g8g7
    A  B  C  D  E  F  G  H
   ------------------------
-8 | r  .  .  .  r  .  k  . 
-7 | p  b  p  p  .  p  p  p 
-6 | .  p  .  .  p  n  .  . 
-5 | .  .  .  .  .  .  N  . 
-4 | .  .  P  .  P  .  .  . 
-3 | .  q  .  P  .  P  P  . 
-2 | .  .  .  .  K  .  .  P 
-1 | Q  .  .  .  .  B  .  R 
+8 | r  .  .  .  .  r  k  . 
+7 | p  p  p  .  .  p  Q  p 
+6 | .  .  n  p  b  .  .  . 
+5 | .  .  .  n  .  .  q  . 
+4 | P  .  .  .  .  .  .  . 
+3 | B  P  .  .  P  P  P  . 
+2 | .  .  P  .  K  .  .  P 
+1 | .  .  .  .  .  .  .  R 
 
   ------------------------
    A  B  C  D  E  F  G  H
   ------------------------
-8 | r  .  .  .  r  .  k  . 
-7 | p  b  p  p  .  p  p  p 
-6 | .  p  .  .  p  n  .  . 
-5 | .  .  .  .  .  .  N  . 
-4 | .  .  P  .  P  .  .  . 
-3 | .  .  .  P  .  P  P  . 
-2 | .  .  q  .  K  .  .  P 
-1 | Q  .  .  .  .  B  .  R 
+8 | r  .  .  .  .  r  .  . 
+7 | p  p  p  .  .  p  k  p 
+6 | .  .  n  p  b  .  .  . 
+5 | .  .  .  n  .  .  q  . 
+4 | P  .  .  .  .  .  .  . 
+3 | B  P  .  .  P  P  P  . 
+2 | .  .  P  .  K  .  .  P 
+1 | .  .  .  .  .  .  .  R 
 
   ------------------------
 Turn: black
-Move: b3c2
-Time taken: 9096 ms
+Move: g8g7
+Time taken: 9072 ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
 [32;1m[Board] [0mLoaded 35 move(s).
 [32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mBlack player is playing b3 to c2.
+[32;1m[Board] [0mBlack player is playing g8 to g7.
+[32;1m[Board] [0m[5;1mBlack King is taking White Queen.[0m
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|[7;1m [0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mK[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m|[30;1mp[0m|[30;1mb[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mk[0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[0;1mp[0m| |[0;1mp[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 ||[0;1mb[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[30;1mQ[0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m| |[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
@@ -1646,85 +1726,90 @@ Time taken: 9096 ms
 [32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
 [32;1m[Board] [0mLoaded 36 move(s).
 [32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mWhite player is playing e2 to e1.
+[32;1m[Board] [0mWhite player is playing a3 to b2.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|[7;1m [0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mK[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m|[30;1mp[0m|[30;1mb[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mk[0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[0;1mp[0m| |[0;1mp[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[30;1mQ[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mb[0m|[0;1mp[0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
-5: h7h6
-6: h7h6
-Ran over time limit at depth 7
-6: h7h6
+1: c6d4
+2: c6d4
+3: c6e5
+4: c6e5
+5: g7g6
+6: g7g6
+7: g7g6
+Ran over time limit when searching at depth 8
+7: g7g6
    A  B  C  D  E  F  G  H
   ------------------------
-8 | r  .  .  .  r  .  k  . 
-7 | p  b  p  p  .  p  p  p 
-6 | .  p  .  .  p  n  .  . 
-5 | .  .  .  .  .  .  N  . 
-4 | .  .  P  .  P  .  .  . 
-3 | .  .  .  P  .  P  P  . 
-2 | .  .  q  .  .  .  .  P 
-1 | Q  .  .  .  K  B  .  R 
+8 | r  .  .  .  .  r  .  . 
+7 | p  p  p  .  .  p  k  p 
+6 | .  .  n  p  b  .  .  . 
+5 | .  .  .  n  .  .  q  . 
+4 | P  .  .  .  .  .  .  . 
+3 | .  P  .  .  P  P  P  . 
+2 | .  B  P  .  K  .  .  P 
+1 | .  .  .  .  .  .  .  R 
 
   ------------------------
    A  B  C  D  E  F  G  H
   ------------------------
-8 | r  .  .  .  r  .  k  . 
-7 | p  b  p  p  .  p  p  . 
-6 | .  p  .  .  p  n  .  p 
-5 | .  .  .  .  .  .  N  . 
-4 | .  .  P  .  P  .  .  . 
-3 | .  .  .  P  .  P  P  . 
-2 | .  .  q  .  .  .  .  P 
-1 | Q  .  .  .  K  B  .  R 
+8 | r  .  .  .  .  r  .  . 
+7 | p  p  p  .  .  p  .  p 
+6 | .  .  n  p  b  .  k  . 
+5 | .  .  .  n  .  .  q  . 
+4 | P  .  .  .  .  .  .  . 
+3 | .  P  .  .  P  P  P  . 
+2 | .  B  P  .  K  .  .  P 
+1 | .  .  .  .  .  .  .  R 
 
   ------------------------
 Turn: black
-Move: h7h6
-Time taken: 9155 ms
+Move: g7g6
+Time taken: 9062 ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
 [32;1m[Board] [0mLoaded 37 move(s).
 [32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mBlack player is playing h7 to h6.
+[32;1m[Board] [0mBlack player is playing g7 to g6.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|[7;1m [0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m| |[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m|[30;1mp[0m|[30;1mb[0m| |[30;1mK[0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mk[0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[0;1mp[0m| |[0;1mp[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[30;1mQ[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mb[0m|[0;1mp[0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
@@ -1735,88 +1820,91 @@ Time taken: 9155 ms
 [32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
 [32;1m[Board] [0mLoaded 38 move(s).
 [32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mWhite player is playing g5 to f7.
-[32;1m[Board] [0m[5;1mWhite Knight is taking Black Pawn.[0m
+[32;1m[Board] [0mWhite player is playing b2 to f6.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|[7;1m [0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[0;1mk[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m| |[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m|[30;1mp[0m|[30;1mb[0m|[0;1mb[0m|[30;1mK[0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mk[0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[0;1mp[0m| |[0;1mp[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[30;1mQ[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
-5: g8f7
-6: g8f7
-7: g8f7
-Ran over time limit at depth 8
-7: g8f7
+1: g6f6
+2: g6f6
+3: g5e3
+4: g5e3
+5: g5e3
+6: g5e3
+7: g5e3
+Ran over time limit when searching at depth 8
+7: g5e3
    A  B  C  D  E  F  G  H
   ------------------------
-8 | r  .  .  .  r  .  k  . 
-7 | p  b  p  p  .  N  p  . 
-6 | .  p  .  .  p  n  .  p 
-5 | .  .  .  .  .  .  .  . 
-4 | .  .  P  .  P  .  .  . 
-3 | .  .  .  P  .  P  P  . 
-2 | .  .  q  .  .  .  .  P 
-1 | Q  .  .  .  K  B  .  R 
+8 | r  .  .  .  .  r  .  . 
+7 | p  p  p  .  .  p  .  p 
+6 | .  .  n  p  b  B  k  . 
+5 | .  .  .  n  .  .  q  . 
+4 | P  .  .  .  .  .  .  . 
+3 | .  P  .  .  P  P  P  . 
+2 | .  .  P  .  K  .  .  P 
+1 | .  .  .  .  .  .  .  R 
 
   ------------------------
    A  B  C  D  E  F  G  H
   ------------------------
-8 | r  .  .  .  r  .  .  . 
-7 | p  b  p  p  .  k  p  . 
-6 | .  p  .  .  p  n  .  p 
-5 | .  .  .  .  .  .  .  . 
-4 | .  .  P  .  P  .  .  . 
-3 | .  .  .  P  .  P  P  . 
-2 | .  .  q  .  .  .  .  P 
-1 | Q  .  .  .  K  B  .  R 
+8 | r  .  .  .  .  r  .  . 
+7 | p  p  p  .  .  p  .  p 
+6 | .  .  n  p  b  B  k  . 
+5 | .  .  .  n  .  .  .  . 
+4 | P  .  .  .  .  .  .  . 
+3 | .  P  .  .  q  P  P  . 
+2 | .  .  P  .  K  .  .  P 
+1 | .  .  .  .  .  .  .  R 
 
   ------------------------
 Turn: black
-Move: g8f7
-Time taken: 9047 ms
+Move: g5e3
+Time taken: 9034 ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
 [32;1m[Board] [0mLoaded 39 move(s).
 [32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mBlack player is playing g8 to f7.
-[32;1m[Board] [0m[5;1mBlack King is taking White Knight.[0m
+[32;1m[Board] [0mBlack player is playing g5 to e3.
+[32;1m[Board] [0m[5;1mBlack Queen is taking White Pawn.[0m
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[30;1mr[0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|[7;1m [0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mK[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m| |[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m|[30;1mp[0m|[30;1mb[0m|[0;1mb[0m|[30;1mK[0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mk[0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[0;1mp[0m| |[0;1mp[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[0;1mp[0m| |[7;1m [0m|[30;1mQ[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[30;1mQ[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
@@ -1827,809 +1915,86 @@ Time taken: 9047 ms
 [32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
 [32;1m[Board] [0mLoaded 40 move(s).
 [32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mWhite player is playing f1 to h3.
+[32;1m[Board] [0mWhite player is playing e2 to f1.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[30;1mr[0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|[7;1m [0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mK[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m| |[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m|[30;1mp[0m|[30;1mb[0m|[0;1mb[0m|[30;1mK[0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mk[0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[0;1mp[0m| |[0;1mp[0m|[0;1mp[0m|[0;1mb[0m|| 3
+[32;1m[Board] [0m 3 || |[0;1mp[0m| |[7;1m [0m|[30;1mQ[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[30;1mQ[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[0;1mK[0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
-5: c2d3
-6: c2d3
-Ran over time limit at depth 7
-6: c2d3
+1: g6f6
+2: g6f6
+3: e6h3
+1000000001: e6h3
+3: e6h3
    A  B  C  D  E  F  G  H
   ------------------------
-8 | r  .  .  .  r  .  .  . 
-7 | p  b  p  p  .  k  p  . 
-6 | .  p  .  .  p  n  .  p 
-5 | .  .  .  .  .  .  .  . 
-4 | .  .  P  .  P  .  .  . 
-3 | .  .  .  P  .  P  P  B 
-2 | .  .  q  .  .  .  .  P 
-1 | Q  .  .  .  K  .  .  R 
+8 | r  .  .  .  .  r  .  . 
+7 | p  p  p  .  .  p  .  p 
+6 | .  .  n  p  b  B  k  . 
+5 | .  .  .  n  .  .  .  . 
+4 | P  .  .  .  .  .  .  . 
+3 | .  P  .  .  q  P  P  . 
+2 | .  .  P  .  .  .  .  P 
+1 | .  .  .  .  .  K  .  R 
 
   ------------------------
    A  B  C  D  E  F  G  H
   ------------------------
-8 | r  .  .  .  r  .  .  . 
-7 | p  b  p  p  .  k  p  . 
-6 | .  p  .  .  p  n  .  p 
-5 | .  .  .  .  .  .  .  . 
-4 | .  .  P  .  P  .  .  . 
-3 | .  .  .  q  .  P  P  B 
-2 | .  .  .  .  .  .  .  P 
-1 | Q  .  .  .  K  .  .  R 
+8 | r  .  .  .  .  r  .  . 
+7 | p  p  p  .  .  p  .  p 
+6 | .  .  n  p  .  B  k  . 
+5 | .  .  .  n  .  .  .  . 
+4 | P  .  .  .  .  .  .  . 
+3 | .  P  .  .  q  P  P  b 
+2 | .  .  P  .  .  .  .  P 
+1 | .  .  .  .  .  K  .  R 
 
   ------------------------
 Turn: black
-Move: c2d3
-Time taken: 9137 ms
+Move: e6h3
+Time taken: 32 ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
 [32;1m[Board] [0mLoaded 41 move(s).
 [32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mBlack player is playing c2 to d3.
-[32;1m[Board] [0m[5;1mBlack Queen is taking White Pawn.[0m
+[32;1m[Board] [0mBlack player is playing e6 to h3.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[30;1mr[0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|[7;1m [0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mK[0m|[30;1mp[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m| |[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m|[30;1mp[0m|[7;1m [0m|[0;1mb[0m|[30;1mK[0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mk[0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[30;1mQ[0m| |[0;1mp[0m|[0;1mp[0m|[0;1mb[0m|| 3
+[32;1m[Board] [0m 3 || |[0;1mp[0m| |[7;1m [0m|[30;1mQ[0m|[0;1mp[0m|[0;1mp[0m|[30;1mb[0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mr[0m|| 1
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m
-[32;1m[Referee] [0mThis is the turn of the White player...
-[32;1m[Game] [0mPlayer's error code: 0
-[32;1m[Game] [0mChecking move validity...
-[32;1m[Board] [0mInitializing board (size: 8)...
-[32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
-[32;1m[Board] [0mLoaded 42 move(s).
-[32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mWhite player is playing f3 to f4.
-[32;1m[Board] [0m
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[30;1mr[0m| |[7;1m [0m| || 8
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mK[0m|[30;1mp[0m|[7;1m [0m|| 7
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[0;1mp[0m|[0;1mp[0m|[7;1m [0m| || 4
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[30;1mQ[0m| |[7;1m [0m|[0;1mp[0m|[0;1mb[0m|| 3
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mr[0m|| 1
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m
-[32;1m[Referee] [0mThis is the turn of the Black player...
-5: d3e4
-6: d3e4
-7: d3e4
-8: d3e4
-Ran over time limit at depth 9
-8: d3e4
-   A  B  C  D  E  F  G  H
-  ------------------------
-8 | r  .  .  .  r  .  .  . 
-7 | p  b  p  p  .  k  p  . 
-6 | .  p  .  .  p  n  .  p 
-5 | .  .  .  .  .  .  .  . 
-4 | .  .  P  .  P  P  .  . 
-3 | .  .  .  q  .  .  P  B 
-2 | .  .  .  .  .  .  .  P 
-1 | Q  .  .  .  K  .  .  R 
-
-  ------------------------
-   A  B  C  D  E  F  G  H
-  ------------------------
-8 | r  .  .  .  r  .  .  . 
-7 | p  b  p  p  .  k  p  . 
-6 | .  p  .  .  p  n  .  p 
-5 | .  .  .  .  .  .  .  . 
-4 | .  .  P  .  q  P  .  . 
-3 | .  .  .  .  .  .  P  B 
-2 | .  .  .  .  .  .  .  P 
-1 | Q  .  .  .  K  .  .  R 
-
-  ------------------------
-Turn: black
-Move: d3e4
-Time taken: 9014 ms
-[32;1m[Game] [0mPlayer's error code: 0
-[32;1m[Game] [0mChecking move validity...
-[32;1m[Board] [0mInitializing board (size: 8)...
-[32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
-[32;1m[Board] [0mLoaded 43 move(s).
-[32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mBlack player is playing d3 to e4.
-[32;1m[Board] [0m[5;1mBlack Queen is taking White Pawn.[0m
-[32;1m[Board] [0m
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[30;1mr[0m| |[7;1m [0m| || 8
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mK[0m|[30;1mp[0m|[7;1m [0m|| 7
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[30;1mQ[0m|[0;1mp[0m|[7;1m [0m| || 4
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mb[0m|| 3
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mr[0m|| 1
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m
-[32;1m[Referee] [0mThis is the turn of the White player...
-[32;1m[Game] [0mPlayer's error code: 0
-[32;1m[Game] [0mChecking move validity...
-[32;1m[Board] [0mInitializing board (size: 8)...
-[32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
-[32;1m[Board] [0mLoaded 44 move(s).
-[32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mWhite player is playing e1 to f2.
-[32;1m[Board] [0m
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[30;1mr[0m| |[7;1m [0m| || 8
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mK[0m|[30;1mp[0m|[7;1m [0m|| 7
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[30;1mQ[0m|[0;1mp[0m|[7;1m [0m| || 4
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mb[0m|| 3
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|[0;1mp[0m|| 2
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m
-[32;1m[Referee] [0mThis is the turn of the Black player...
-5: e4f3
-6: e4f3
-7: e4f3
-Ran over time limit at depth 8
-7: e4f3
-   A  B  C  D  E  F  G  H
-  ------------------------
-8 | r  .  .  .  r  .  .  . 
-7 | p  b  p  p  .  k  p  . 
-6 | .  p  .  .  p  n  .  p 
-5 | .  .  .  .  .  .  .  . 
-4 | .  .  P  .  q  P  .  . 
-3 | .  .  .  .  .  .  P  B 
-2 | .  .  .  .  .  K  .  P 
-1 | Q  .  .  .  .  .  .  R 
-
-  ------------------------
-   A  B  C  D  E  F  G  H
-  ------------------------
-8 | r  .  .  .  r  .  .  . 
-7 | p  b  p  p  .  k  p  . 
-6 | .  p  .  .  p  n  .  p 
-5 | .  .  .  .  .  .  .  . 
-4 | .  .  P  .  .  P  .  . 
-3 | .  .  .  .  .  q  P  B 
-2 | .  .  .  .  .  K  .  P 
-1 | Q  .  .  .  .  .  .  R 
-
-  ------------------------
-Turn: black
-Move: e4f3
-Time taken: 9013 ms
-[32;1m[Game] [0mPlayer's error code: 0
-[32;1m[Game] [0mChecking move validity...
-[32;1m[Board] [0mInitializing board (size: 8)...
-[32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
-[32;1m[Board] [0mLoaded 45 move(s).
-[32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mBlack player is playing e4 to f3.
-[32;1m[Board] [0m
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[30;1mr[0m| |[7;1m [0m| || 8
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mK[0m|[30;1mp[0m|[7;1m [0m|| 7
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[30;1mQ[0m|[0;1mp[0m|[0;1mb[0m|| 3
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|[0;1mp[0m|| 2
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m
-[32;1m[Referee] [0mThis is the turn of the White player...
-[32;1m[Game] [0mPlayer's error code: 0
-[32;1m[Game] [0mChecking move validity...
-[32;1m[Board] [0mInitializing board (size: 8)...
-[32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
-[32;1m[Board] [0mLoaded 46 move(s).
-[32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mWhite player is playing f2 to e1.
-[32;1m[Board] [0m
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[30;1mr[0m| |[7;1m [0m| || 8
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mK[0m|[30;1mp[0m|[7;1m [0m|| 7
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[30;1mQ[0m|[0;1mp[0m|[0;1mb[0m|| 3
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mr[0m|| 1
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m
-[32;1m[Referee] [0mThis is the turn of the Black player...
-5: f3h1
-6: f3h1
-7: f3h1
-8: f3h1
-Ran over time limit at depth 9
-8: f3h1
-   A  B  C  D  E  F  G  H
-  ------------------------
-8 | r  .  .  .  r  .  .  . 
-7 | p  b  p  p  .  k  p  . 
-6 | .  p  .  .  p  n  .  p 
-5 | .  .  .  .  .  .  .  . 
-4 | .  .  P  .  .  P  .  . 
-3 | .  .  .  .  .  q  P  B 
-2 | .  .  .  .  .  .  .  P 
-1 | Q  .  .  .  K  .  .  R 
-
-  ------------------------
-   A  B  C  D  E  F  G  H
-  ------------------------
-8 | r  .  .  .  r  .  .  . 
-7 | p  b  p  p  .  k  p  . 
-6 | .  p  .  .  p  n  .  p 
-5 | .  .  .  .  .  .  .  . 
-4 | .  .  P  .  .  P  .  . 
-3 | .  .  .  .  .  .  P  B 
-2 | .  .  .  .  .  .  .  P 
-1 | Q  .  .  .  K  .  .  q 
-
-  ------------------------
-Turn: black
-Move: f3h1
-Time taken: 9022 ms
-[32;1m[Game] [0mPlayer's error code: 0
-[32;1m[Game] [0mChecking move validity...
-[32;1m[Board] [0mInitializing board (size: 8)...
-[32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
-[32;1m[Board] [0mLoaded 47 move(s).
-[32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mBlack player is playing f3 to h1.
-[32;1m[Board] [0m[5;1mBlack Queen is taking White Rook.[0m
-[32;1m[Board] [0m
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[30;1mr[0m| |[7;1m [0m| || 8
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mK[0m|[30;1mp[0m|[7;1m [0m|| 7
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mb[0m|| 3
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[30;1mQ[0m|| 1
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m
-[32;1m[Referee] [0mThis is the turn of the White player...
-[32;1m[Game] [0mPlayer's error code: 0
-[32;1m[Game] [0mChecking move validity...
-[32;1m[Board] [0mInitializing board (size: 8)...
-[32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
-[32;1m[Board] [0mLoaded 48 move(s).
-[32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mWhite player is playing e1 to d2.
-[32;1m[Board] [0m
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[30;1mr[0m| |[7;1m [0m| || 8
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mK[0m|[30;1mp[0m|[7;1m [0m|| 7
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mb[0m|| 3
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mQ[0m|| 1
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m
-[32;1m[Referee] [0mThis is the turn of the Black player...
-5: h1a1
-6: h1a1
-7: h1a1
-8: h1a1
-Ran over time limit at depth 9
-8: h1a1
-   A  B  C  D  E  F  G  H
-  ------------------------
-8 | r  .  .  .  r  .  .  . 
-7 | p  b  p  p  .  k  p  . 
-6 | .  p  .  .  p  n  .  p 
-5 | .  .  .  .  .  .  .  . 
-4 | .  .  P  .  .  P  .  . 
-3 | .  .  .  .  .  .  P  B 
-2 | .  .  .  K  .  .  .  P 
-1 | Q  .  .  .  .  .  .  q 
-
-  ------------------------
-   A  B  C  D  E  F  G  H
-  ------------------------
-8 | r  .  .  .  r  .  .  . 
-7 | p  b  p  p  .  k  p  . 
-6 | .  p  .  .  p  n  .  p 
-5 | .  .  .  .  .  .  .  . 
-4 | .  .  P  .  .  P  .  . 
-3 | .  .  .  .  .  .  P  B 
-2 | .  .  .  K  .  .  .  P 
-1 | q  .  .  .  .  .  .  . 
-
-  ------------------------
-Turn: black
-Move: h1a1
-Time taken: 9032 ms
-[32;1m[Game] [0mPlayer's error code: 0
-[32;1m[Game] [0mChecking move validity...
-[32;1m[Board] [0mInitializing board (size: 8)...
-[32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
-[32;1m[Board] [0mLoaded 49 move(s).
-[32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mBlack player is playing h1 to a1.
-[32;1m[Board] [0m[5;1mBlack Queen is taking White Queen.[0m
-[32;1m[Board] [0m
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[30;1mr[0m| |[7;1m [0m| || 8
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mK[0m|[30;1mp[0m|[7;1m [0m|| 7
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mb[0m|| 3
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[30;1mQ[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 1
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m
-[32;1m[Referee] [0mThis is the turn of the White player...
-[32;1m[Game] [0mPlayer's error code: 0
-[32;1m[Game] [0mChecking move validity...
-[32;1m[Board] [0mInitializing board (size: 8)...
-[32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
-[32;1m[Board] [0mLoaded 50 move(s).
-[32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mWhite player is playing f4 to f5.
-[32;1m[Board] [0m
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[30;1mr[0m| |[7;1m [0m| || 8
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mK[0m|[30;1mp[0m|[7;1m [0m|| 7
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 5
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| || 4
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mb[0m|| 3
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[30;1mQ[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 1
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m
-[32;1m[Referee] [0mThis is the turn of the Black player...
-5: a1d4
-6: a1d4
-Ran over time limit at depth 7
-6: a1d4
-   A  B  C  D  E  F  G  H
-  ------------------------
-8 | r  .  .  .  r  .  .  . 
-7 | p  b  p  p  .  k  p  . 
-6 | .  p  .  .  p  n  .  p 
-5 | .  .  .  .  .  P  .  . 
-4 | .  .  P  .  .  .  .  . 
-3 | .  .  .  .  .  .  P  B 
-2 | .  .  .  K  .  .  .  P 
-1 | q  .  .  .  .  .  .  . 
-
-  ------------------------
-   A  B  C  D  E  F  G  H
-  ------------------------
-8 | r  .  .  .  r  .  .  . 
-7 | p  b  p  p  .  k  p  . 
-6 | .  p  .  .  p  n  .  p 
-5 | .  .  .  .  .  P  .  . 
-4 | .  .  P  q  .  .  .  . 
-3 | .  .  .  .  .  .  P  B 
-2 | .  .  .  K  .  .  .  P 
-1 | .  .  .  .  .  .  .  . 
-
-  ------------------------
-Turn: black
-Move: a1d4
-Time taken: 9088 ms
-[32;1m[Game] [0mPlayer's error code: 0
-[32;1m[Game] [0mChecking move validity...
-[32;1m[Board] [0mInitializing board (size: 8)...
-[32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
-[32;1m[Board] [0mLoaded 51 move(s).
-[32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mBlack player is playing a1 to d4.
-[32;1m[Board] [0m
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[30;1mr[0m| |[7;1m [0m| || 8
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mK[0m|[30;1mp[0m|[7;1m [0m|| 7
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 5
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m|[30;1mQ[0m|[7;1m [0m| |[7;1m [0m| || 4
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mb[0m|| 3
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 1
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m
-[32;1m[Referee] [0mThis is the turn of the White player...
-[32;1m[Game] [0mPlayer's error code: 0
-[32;1m[Game] [0mChecking move validity...
-[32;1m[Board] [0mInitializing board (size: 8)...
-[32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
-[32;1m[Board] [0mLoaded 52 move(s).
-[32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mWhite player is playing d2 to e2.
-[32;1m[Board] [0m
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[30;1mr[0m| |[7;1m [0m| || 8
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mK[0m|[30;1mp[0m|[7;1m [0m|| 7
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 5
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m|[30;1mQ[0m|[7;1m [0m| |[7;1m [0m| || 4
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mb[0m|| 3
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|| 2
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 1
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m
-[32;1m[Referee] [0mThis is the turn of the Black player...
-5: e6f5
-6: e6f5
-7: e6f5
-1000000001: e6f5
-7: e6f5
-   A  B  C  D  E  F  G  H
-  ------------------------
-8 | r  .  .  .  r  .  .  . 
-7 | p  b  p  p  .  k  p  . 
-6 | .  p  .  .  p  n  .  p 
-5 | .  .  .  .  .  P  .  . 
-4 | .  .  P  q  .  .  .  . 
-3 | .  .  .  .  .  .  P  B 
-2 | .  .  .  .  K  .  .  P 
-1 | .  .  .  .  .  .  .  . 
-
-  ------------------------
-   A  B  C  D  E  F  G  H
-  ------------------------
-8 | r  .  .  .  r  .  .  . 
-7 | p  b  p  p  .  k  p  . 
-6 | .  p  .  .  .  n  .  p 
-5 | .  .  .  .  .  p  .  . 
-4 | .  .  P  q  .  .  .  . 
-3 | .  .  .  .  .  .  P  B 
-2 | .  .  .  .  K  .  .  P 
-1 | .  .  .  .  .  .  .  . 
-
-  ------------------------
-Turn: black
-Move: e6f5
-Time taken: 2376 ms
-[32;1m[Game] [0mPlayer's error code: 0
-[32;1m[Game] [0mChecking move validity...
-[32;1m[Board] [0mInitializing board (size: 8)...
-[32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
-[32;1m[Board] [0mLoaded 53 move(s).
-[32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mBlack player is playing e6 to f5.
-[32;1m[Board] [0m[5;1mBlack Pawn is taking White Pawn.[0m
-[32;1m[Board] [0m
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[30;1mr[0m| |[7;1m [0m| || 8
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mK[0m|[30;1mp[0m|[7;1m [0m|| 7
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|| 5
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m|[30;1mQ[0m|[7;1m [0m| |[7;1m [0m| || 4
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mb[0m|| 3
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|| 2
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 1
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m
-[32;1m[Referee] [0mThis is the turn of the White player...
-[32;1m[Game] [0mPlayer's error code: 0
-[32;1m[Game] [0mChecking move validity...
-[32;1m[Board] [0mInitializing board (size: 8)...
-[32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
-[32;1m[Board] [0mLoaded 54 move(s).
-[32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mWhite player is playing e2 to f1.
-[32;1m[Board] [0m
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[30;1mr[0m| |[7;1m [0m| || 8
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mK[0m|[30;1mp[0m|[7;1m [0m|| 7
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m|[30;1mp[0m|| 6
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|| 5
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m|[30;1mQ[0m|[7;1m [0m| |[7;1m [0m| || 4
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mb[0m|| 3
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[0;1mK[0m| |[7;1m [0m|| 1
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m
-[32;1m[Referee] [0mThis is the turn of the Black player...
-5: f6e4
-1000000002: f6e4
-5: f6e4
-   A  B  C  D  E  F  G  H
-  ------------------------
-8 | r  .  .  .  r  .  .  . 
-7 | p  b  p  p  .  k  p  . 
-6 | .  p  .  .  .  n  .  p 
-5 | .  .  .  .  .  p  .  . 
-4 | .  .  P  q  .  .  .  . 
-3 | .  .  .  .  .  .  P  B 
-2 | .  .  .  .  .  .  .  P 
-1 | .  .  .  .  .  K  .  . 
-
-  ------------------------
-   A  B  C  D  E  F  G  H
-  ------------------------
-8 | r  .  .  .  r  .  .  . 
-7 | p  b  p  p  .  k  p  . 
-6 | .  p  .  .  .  .  .  p 
-5 | .  .  .  .  .  p  .  . 
-4 | .  .  P  q  n  .  .  . 
-3 | .  .  .  .  .  .  P  B 
-2 | .  .  .  .  .  .  .  P 
-1 | .  .  .  .  .  K  .  . 
-
-  ------------------------
-Turn: black
-Move: f6e4
-Time taken: 449 ms
-[32;1m[Game] [0mPlayer's error code: 0
-[32;1m[Game] [0mChecking move validity...
-[32;1m[Board] [0mInitializing board (size: 8)...
-[32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
-[32;1m[Board] [0mLoaded 55 move(s).
-[32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mBlack player is playing f6 to e4.
-[32;1m[Board] [0m
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[30;1mr[0m| |[7;1m [0m| || 8
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mK[0m|[30;1mp[0m|[7;1m [0m|| 7
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|| 6
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|| 5
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m|[30;1mQ[0m|[30;1mk[0m| |[7;1m [0m| || 4
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mb[0m|| 3
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[0;1mK[0m| |[7;1m [0m|| 1
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m
-[32;1m[Referee] [0mThis is the turn of the White player...
-[32;1m[Game] [0mPlayer's error code: 0
-[32;1m[Game] [0mChecking move validity...
-[32;1m[Board] [0mInitializing board (size: 8)...
-[32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
-[32;1m[Board] [0mLoaded 56 move(s).
-[32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mWhite player is playing f1 to e1.
-[32;1m[Board] [0m
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[30;1mr[0m| |[7;1m [0m| || 8
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mK[0m|[30;1mp[0m|[7;1m [0m|| 7
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|| 6
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|| 5
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m|[30;1mQ[0m|[30;1mk[0m| |[7;1m [0m| || 4
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mb[0m|| 3
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[7;1m [0m|| 1
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m
-[32;1m[Referee] [0mThis is the turn of the Black player...
-5: e4g3
-1000000004: e4g3
-5: e4g3
-   A  B  C  D  E  F  G  H
-  ------------------------
-8 | r  .  .  .  r  .  .  . 
-7 | p  b  p  p  .  k  p  . 
-6 | .  p  .  .  .  .  .  p 
-5 | .  .  .  .  .  p  .  . 
-4 | .  .  P  q  n  .  .  . 
-3 | .  .  .  .  .  .  P  B 
-2 | .  .  .  .  .  .  .  P 
-1 | .  .  .  .  K  .  .  . 
-
-  ------------------------
-   A  B  C  D  E  F  G  H
-  ------------------------
-8 | r  .  .  .  r  .  .  . 
-7 | p  b  p  p  .  k  p  . 
-6 | .  p  .  .  .  .  .  p 
-5 | .  .  .  .  .  p  .  . 
-4 | .  .  P  q  .  .  .  . 
-3 | .  .  .  .  .  .  n  B 
-2 | .  .  .  .  .  .  .  P 
-1 | .  .  .  .  K  .  .  . 
-
-  ------------------------
-Turn: black
-Move: e4g3
-Time taken: 12 ms
-[32;1m[Game] [0mPlayer's error code: 0
-[32;1m[Game] [0mChecking move validity...
-[32;1m[Board] [0mInitializing board (size: 8)...
-[32;1m[Board] [0mLoading history file `championship/sheriff-ai-omega-knight/history.csv`...
-[32;1m[Board] [0mLoaded 57 move(s).
-[32;1m[Board] [0mLoading move file `championship/sheriff-ai-omega-knight/move.csv`...
-[32;1m[Board] [0mBlack player is playing e4 to g3.
-[32;1m[Board] [0m[5;1mBlack Knight is taking White Pawn.[0m
-[32;1m[Board] [0m
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[30;1mr[0m| |[7;1m [0m| || 8
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mK[0m|[30;1mp[0m|[7;1m [0m|| 7
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|| 6
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|| 5
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m|[30;1mQ[0m|[7;1m [0m| |[7;1m [0m| || 4
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[0;1mb[0m|| 3
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[7;1m [0m|| 1
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[0;1mK[0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m

@@ -107,17 +107,17 @@ Black Queenside Castle: AVAILABLE
 (no checks found)
 ======================================
 --------------------------------------------------------------------------------------------------
-Chosen Move: (6,7) --> (5,7)
- / h2h3
+Chosen Move: (7,1) --> (5,2)
+ / b1c3
 
 r n b q k b n r 
 p p p p p p p p 
 * * * * * * * * 
 * * * * * * * * 
 * * * * * * * * 
-* * * * * * * P 
-P P P P P P P * 
-R N B Q K B N R 
+* * N * * * * * 
+P P P P P P P P 
+R * B Q K B N R 
 
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
@@ -125,7 +125,7 @@ R N B Q K B N R
 [32;1m[Board] [0mLoading history file `championship/chessgambit-chess-project/history.csv`...
 [32;1m[Board] [0mLoaded 0 move(s).
 [32;1m[Board] [0mLoading move file `championship/chessgambit-chess-project/move.csv`...
-[32;1m[Board] [0mWhite player is playing h2 to h3.
+[32;1m[Board] [0mWhite player is playing b1 to c3.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
@@ -139,11 +139,11 @@ R N B Q K B N R
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
@@ -154,9 +154,9 @@ R N B Q K B N R
 6 |........|
 5 |........|
 4 |........|
-3 |.......P|
-2 |PPPPPPP.|
-1 |RNBQKBNR|
+3 |..N.....|
+2 |PPPPPPPP|
+1 |R.BQKBNR|
   +--------+
    abcdefgh
 Side to move: Black
@@ -180,11 +180,11 @@ Side to move: Black
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
@@ -194,13 +194,10 @@ Currently playing: White
 
 ------------------------------Current Search Space--------------------------------------------
 Possible moves for piece: P:
- P: (5,7)->(4,7) / h3h4
  P: (6,0)->(5,0) / a2a3
  P: (6,0)->(4,0) / a2a4
  P: (6,1)->(5,1) / b2b3
  P: (6,1)->(4,1) / b2b4
- P: (6,2)->(5,2) / c2c3
- P: (6,2)->(4,2) / c2c4
  P: (6,3)->(5,3) / d2d3
  P: (6,3)->(4,3) / d2d4
  P: (6,4)->(5,4) / e2e3
@@ -209,22 +206,25 @@ Possible moves for piece: P:
  P: (6,5)->(4,5) / f2f4
  P: (6,6)->(5,6) / g2g3
  P: (6,6)->(4,6) / g2g4
+ P: (6,7)->(5,7) / h2h3
+ P: (6,7)->(4,7) / h2h4
 Possible moves for piece: R:
- R: (7,7)->(6,7) / h1h2
+ R: (7,0)->(7,1) / a1b1
 Possible moves for piece: N:
- N: (7,1)->(5,2) / b1c3
- N: (7,1)->(5,0) / b1a3
+ N: (5,2)->(7,1) / c3b1
+ N: (5,2)->(3,3) / c3d5
+ N: (5,2)->(3,1) / c3b5
+ N: (5,2)->(4,4) / c3e4
+ N: (5,2)->(4,0) / c3a4
+ N: (7,6)->(5,7) / g1h3
  N: (7,6)->(5,5) / g1f3
 
 ------------------------------Filtered Search Space--------------------------------------------
 Possible moves for piece: P:
- P: (5,7)->(4,7) / h3h4
  P: (6,0)->(5,0) / a2a3
  P: (6,0)->(4,0) / a2a4
  P: (6,1)->(5,1) / b2b3
  P: (6,1)->(4,1) / b2b4
- P: (6,2)->(5,2) / c2c3
- P: (6,2)->(4,2) / c2c4
  P: (6,3)->(5,3) / d2d3
  P: (6,3)->(4,3) / d2d4
  P: (6,4)->(5,4) / e2e3
@@ -233,11 +233,17 @@ Possible moves for piece: P:
  P: (6,5)->(4,5) / f2f4
  P: (6,6)->(5,6) / g2g3
  P: (6,6)->(4,6) / g2g4
+ P: (6,7)->(5,7) / h2h3
+ P: (6,7)->(4,7) / h2h4
 Possible moves for piece: R:
- R: (7,7)->(6,7) / h1h2
+ R: (7,0)->(7,1) / a1b1
 Possible moves for piece: N:
- N: (7,1)->(5,2) / b1c3
- N: (7,1)->(5,0) / b1a3
+ N: (5,2)->(7,1) / c3b1
+ N: (5,2)->(3,3) / c3d5
+ N: (5,2)->(3,1) / c3b5
+ N: (5,2)->(4,4) / c3e4
+ N: (5,2)->(4,0) / c3a4
+ N: (7,6)->(5,7) / g1h3
  N: (7,6)->(5,5) / g1f3
 
 --------------------------------Info on Attacks---------------------------------------------------
@@ -274,17 +280,17 @@ Black Queenside Castle: AVAILABLE
 (no checks found)
 ======================================
 --------------------------------------------------------------------------------------------------
-Chosen Move: (6,6) --> (4,6)
- / g2g4
+Chosen Move: (7,6) --> (5,5)
+ / g1f3
 
 r n b q k b n r 
 p p p p p * p p 
 * * * * * p * * 
 * * * * * * * * 
-* * * * * * P * 
-* * * * * * * P 
-P P P P P P * * 
-R N B Q K B N R 
+* * * * * * * * 
+* * N * * N * * 
+P P P P P P P P 
+R * B Q K B * R 
 
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
@@ -292,7 +298,7 @@ R N B Q K B N R
 [32;1m[Board] [0mLoading history file `championship/chessgambit-chess-project/history.csv`...
 [32;1m[Board] [0mLoaded 2 move(s).
 [32;1m[Board] [0mLoading move file `championship/chessgambit-chess-project/move.csv`...
-[32;1m[Board] [0mWhite player is playing g2 to g4.
+[32;1m[Board] [0mWhite player is playing g1 to f3.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
@@ -304,13 +310,13 @@ R N B Q K B N R
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
@@ -320,10 +326,10 @@ R N B Q K B N R
 7 |ppppp.pp|
 6 |.....p..|
 5 |........|
-4 |......P.|
-3 |.......P|
-2 |PPPPPP..|
-1 |RNBQKBNR|
+4 |........|
+3 |..N..N..|
+2 |PPPPPPPP|
+1 |R.BQKB.R|
   +--------+
    abcdefgh
 Side to move: Black
@@ -333,25 +339,25 @@ Side to move: Black
 [32;1m[Board] [0mLoading history file `championship/chessgambit-chess-project/history.csv`...
 [32;1m[Board] [0mLoaded 3 move(s).
 [32;1m[Board] [0mLoading move file `championship/chessgambit-chess-project/move.csv`...
-[32;1m[Board] [0mBlack player is playing g8 to h6.
+[32;1m[Board] [0mBlack player is playing e7 to e6.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[30;1mk[0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mk[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
@@ -361,65 +367,73 @@ Currently playing: White
 
 ------------------------------Current Search Space--------------------------------------------
 Possible moves for piece: P:
- P: (4,6)->(3,6) / g4g5
- P: (5,7)->(4,7) / h3h4
  P: (6,0)->(5,0) / a2a3
  P: (6,0)->(4,0) / a2a4
  P: (6,1)->(5,1) / b2b3
  P: (6,1)->(4,1) / b2b4
- P: (6,2)->(5,2) / c2c3
- P: (6,2)->(4,2) / c2c4
  P: (6,3)->(5,3) / d2d3
  P: (6,3)->(4,3) / d2d4
  P: (6,4)->(5,4) / e2e3
  P: (6,4)->(4,4) / e2e4
- P: (6,5)->(5,5) / f2f3
- P: (6,5)->(4,5) / f2f4
+ P: (6,6)->(5,6) / g2g3
+ P: (6,6)->(4,6) / g2g4
+ P: (6,7)->(5,7) / h2h3
+ P: (6,7)->(4,7) / h2h4
 Possible moves for piece: R:
- R: (7,7)->(6,7) / h1h2
+ R: (7,0)->(7,1) / a1b1
+ R: (7,7)->(7,6) / h1g1
 Possible moves for piece: N:
- N: (7,1)->(5,2) / b1c3
- N: (7,1)->(5,0) / b1a3
- N: (7,6)->(5,5) / g1f3
-Possible moves for piece: B:
- B: (7,5)->(6,6) / f1g2
+ N: (5,2)->(7,1) / c3b1
+ N: (5,2)->(3,3) / c3d5
+ N: (5,2)->(3,1) / c3b5
+ N: (5,2)->(4,4) / c3e4
+ N: (5,2)->(4,0) / c3a4
+ N: (5,5)->(7,6) / f3g1
+ N: (5,5)->(3,6) / f3g5
+ N: (5,5)->(3,4) / f3e5
+ N: (5,5)->(4,7) / f3h4
+ N: (5,5)->(4,3) / f3d4
 
 ------------------------------Filtered Search Space--------------------------------------------
 Possible moves for piece: P:
- P: (4,6)->(3,6) / g4g5
- P: (5,7)->(4,7) / h3h4
  P: (6,0)->(5,0) / a2a3
  P: (6,0)->(4,0) / a2a4
  P: (6,1)->(5,1) / b2b3
  P: (6,1)->(4,1) / b2b4
- P: (6,2)->(5,2) / c2c3
- P: (6,2)->(4,2) / c2c4
  P: (6,3)->(5,3) / d2d3
  P: (6,3)->(4,3) / d2d4
  P: (6,4)->(5,4) / e2e3
  P: (6,4)->(4,4) / e2e4
- P: (6,5)->(5,5) / f2f3
- P: (6,5)->(4,5) / f2f4
+ P: (6,6)->(5,6) / g2g3
+ P: (6,6)->(4,6) / g2g4
+ P: (6,7)->(5,7) / h2h3
+ P: (6,7)->(4,7) / h2h4
 Possible moves for piece: R:
- R: (7,7)->(6,7) / h1h2
+ R: (7,0)->(7,1) / a1b1
+ R: (7,7)->(7,6) / h1g1
 Possible moves for piece: N:
- N: (7,1)->(5,2) / b1c3
- N: (7,1)->(5,0) / b1a3
- N: (7,6)->(5,5) / g1f3
-Possible moves for piece: B:
- B: (7,5)->(6,6) / f1g2
+ N: (5,2)->(7,1) / c3b1
+ N: (5,2)->(3,3) / c3d5
+ N: (5,2)->(3,1) / c3b5
+ N: (5,2)->(4,4) / c3e4
+ N: (5,2)->(4,0) / c3a4
+ N: (5,5)->(7,6) / f3g1
+ N: (5,5)->(3,6) / f3g5
+ N: (5,5)->(3,4) / f3e5
+ N: (5,5)->(4,7) / f3h4
+ N: (5,5)->(4,3) / f3d4
 
 --------------------------------Info on Attacks---------------------------------------------------
 Squares attacked by Black pieces:
-(0,6) (1,5) (2,0) (2,1) (2,2) (2,3) (2,4) (2,6) (3,4) (3,5) (3,6) (4,6) 
+(1,4) (1,5) (2,0) (2,1) (2,2) (2,3) (2,6) (2,7) (3,2) (3,3) (3,4) (3,5) (3,6) (4,1) (5,0) 
 
 -------------------------------Squares controlled by the enemy------------------------------------
-* * * * * * X * 
-* * * * * X * * 
-X X X X X * X * 
-* * * * X X X * 
-* * * * * * X * 
 * * * * * * * * 
+* * * * X X * * 
+X X X X * * X X 
+* * X X X X X * 
+* X * * * * * * 
+X * * * * * * * 
 * * * * * * * * 
 * * * * * * * * 
 
@@ -443,17 +457,17 @@ Black Queenside Castle: AVAILABLE
 (no checks found)
 ======================================
 --------------------------------------------------------------------------------------------------
-Chosen Move: (7,1) --> (5,2)
- / b1c3
+Chosen Move: (6,4) --> (4,4)
+ / e2e4
 
-r n b q k b * r 
-p p p p p * p p 
-* * * * * p * n 
+r n b q k b n r 
+p p p p * * p p 
+* * * * p p * * 
 * * * * * * * * 
-* * * * * * P * 
-* * N * * * * P 
-P P P P P P * * 
-R * B Q K B N R 
+* * * * P * * * 
+* * N * * N * * 
+P P P P * P P P 
+R * B Q K B * R 
 
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
@@ -461,38 +475,38 @@ R * B Q K B N R
 [32;1m[Board] [0mLoading history file `championship/chessgambit-chess-project/history.csv`...
 [32;1m[Board] [0mLoaded 4 move(s).
 [32;1m[Board] [0mLoading move file `championship/chessgambit-chess-project/move.csv`...
-[32;1m[Board] [0mWhite player is playing b1 to c3.
+[32;1m[Board] [0mWhite player is playing e2 to e4.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[30;1mk[0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mk[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
   +--------+
-8 |rnbqkb.r|
-7 |ppppp.pp|
-6 |.....p.n|
+8 |rnbqkbnr|
+7 |pppp..pp|
+6 |....pp..|
 5 |........|
-4 |......P.|
-3 |..N....P|
-2 |PPPPPP..|
-1 |R.BQKBNR|
+4 |....P...|
+3 |..N..N..|
+2 |PPPP.PPP|
+1 |R.BQKB.R|
   +--------+
    abcdefgh
 Side to move: Black
@@ -502,25 +516,25 @@ Side to move: Black
 [32;1m[Board] [0mLoading history file `championship/chessgambit-chess-project/history.csv`...
 [32;1m[Board] [0mLoaded 5 move(s).
 [32;1m[Board] [0mLoading move file `championship/chessgambit-chess-project/move.csv`...
-[32;1m[Board] [0mBlack player is playing h8 to g8.
+[32;1m[Board] [0mBlack player is playing f8 to b4.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[30;1mr[0m| || 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m| |[30;1mk[0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mk[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
@@ -530,69 +544,294 @@ Currently playing: White
 
 ------------------------------Current Search Space--------------------------------------------
 Possible moves for piece: P:
- P: (4,6)->(3,6) / g4g5
- P: (5,7)->(4,7) / h3h4
+ P: (4,4)->(3,4) / e4e5
  P: (6,0)->(5,0) / a2a3
  P: (6,0)->(4,0) / a2a4
  P: (6,1)->(5,1) / b2b3
- P: (6,1)->(4,1) / b2b4
  P: (6,3)->(5,3) / d2d3
  P: (6,3)->(4,3) / d2d4
- P: (6,4)->(5,4) / e2e3
- P: (6,4)->(4,4) / e2e4
- P: (6,5)->(5,5) / f2f3
- P: (6,5)->(4,5) / f2f4
+ P: (6,6)->(5,6) / g2g3
+ P: (6,6)->(4,6) / g2g4
+ P: (6,7)->(5,7) / h2h3
+ P: (6,7)->(4,7) / h2h4
 Possible moves for piece: R:
  R: (7,0)->(7,1) / a1b1
- R: (7,7)->(6,7) / h1h2
+ R: (7,7)->(7,6) / h1g1
 Possible moves for piece: N:
  N: (5,2)->(7,1) / c3b1
  N: (5,2)->(3,3) / c3d5
  N: (5,2)->(3,1) / c3b5
- N: (5,2)->(4,4) / c3e4
+ N: (5,2)->(6,4) / c3e2
  N: (5,2)->(4,0) / c3a4
- N: (7,6)->(5,5) / g1f3
+ N: (5,5)->(7,6) / f3g1
+ N: (5,5)->(3,6) / f3g5
+ N: (5,5)->(3,4) / f3e5
+ N: (5,5)->(4,7) / f3h4
+ N: (5,5)->(4,3) / f3d4
 Possible moves for piece: B:
- B: (7,5)->(6,6) / f1g2
+ B: (7,5)->(6,4) / f1e2
+ B: (7,5)->(5,3) / f1d3
+ B: (7,5)->(4,2) / f1c4
+ B: (7,5)->(3,1) / f1b5
+ B: (7,5)->(2,0) / f1a6
+Possible moves for piece: Q:
+ Q: (7,3)->(6,4) / d1e2
+Possible moves for piece: K:
+ K: (7,4)->(6,4) / e1e2
 
 ------------------------------Filtered Search Space--------------------------------------------
 Possible moves for piece: P:
- P: (4,6)->(3,6) / g4g5
- P: (5,7)->(4,7) / h3h4
+ P: (4,4)->(3,4) / e4e5
  P: (6,0)->(5,0) / a2a3
  P: (6,0)->(4,0) / a2a4
  P: (6,1)->(5,1) / b2b3
- P: (6,1)->(4,1) / b2b4
  P: (6,3)->(5,3) / d2d3
  P: (6,3)->(4,3) / d2d4
- P: (6,4)->(5,4) / e2e3
- P: (6,4)->(4,4) / e2e4
- P: (6,5)->(5,5) / f2f3
- P: (6,5)->(4,5) / f2f4
+ P: (6,6)->(5,6) / g2g3
+ P: (6,6)->(4,6) / g2g4
+ P: (6,7)->(5,7) / h2h3
+ P: (6,7)->(4,7) / h2h4
 Possible moves for piece: R:
  R: (7,0)->(7,1) / a1b1
- R: (7,7)->(6,7) / h1h2
+ R: (7,7)->(7,6) / h1g1
 Possible moves for piece: N:
  N: (5,2)->(7,1) / c3b1
  N: (5,2)->(3,3) / c3d5
  N: (5,2)->(3,1) / c3b5
- N: (5,2)->(4,4) / c3e4
+ N: (5,2)->(6,4) / c3e2
  N: (5,2)->(4,0) / c3a4
- N: (7,6)->(5,5) / g1f3
+ N: (5,5)->(7,6) / f3g1
+ N: (5,5)->(3,6) / f3g5
+ N: (5,5)->(3,4) / f3e5
+ N: (5,5)->(4,7) / f3h4
+ N: (5,5)->(4,3) / f3d4
 Possible moves for piece: B:
- B: (7,5)->(6,6) / f1g2
+ B: (7,5)->(6,4) / f1e2
+ B: (7,5)->(5,3) / f1d3
+ B: (7,5)->(4,2) / f1c4
+ B: (7,5)->(3,1) / f1b5
+ B: (7,5)->(2,0) / f1a6
+Possible moves for piece: Q:
+ Q: (7,3)->(6,4) / d1e2
+Possible moves for piece: K:
+ K: (7,4)->(6,4) / e1e2
 
 --------------------------------Info on Attacks---------------------------------------------------
 Squares attacked by Black pieces:
-(0,7) (1,5) (2,0) (2,1) (2,2) (2,3) (2,4) (2,6) (3,4) (3,5) (3,6) (4,6) 
+(0,5) (1,4) (1,5) (2,0) (2,1) (2,2) (2,3) (2,6) (2,7) (3,0) (3,2) (3,3) (3,4) (3,5) (3,6) (5,0) (5,2) 
 
 -------------------------------Squares controlled by the enemy------------------------------------
-* * * * * * * X 
 * * * * * X * * 
-X X X X X * X * 
-* * * * X X X * 
-* * * * * * X * 
+* * * * X X * * 
+X X X X * * X X 
+X * X X X X X * 
 * * * * * * * * 
+X * X * * * * * 
+* * * * * * * * 
+* * * * * * * * 
+
+------------------------------Check Information---------------------------------------------------
+White King located at: (7,4)
+White King is safe, no check at this position.
+
+------------------------------Special Move Information-------------------------------------------
+No en passant allowed right now
+------------------------------Castling Rights Information-------------------------------------------
+White Kingside Castle:  AVAILABLE
+White Queenside Castle: AVAILABLE
+Black Kingside Castle:  AVAILABLE
+Black Queenside Castle: AVAILABLE
+---------------------------------------------------------------------------------------------------
+
+========== CAPTURE EXPLORATION ==========
+========================================
+
+========== CHECK EXPLORATION ==========
+(no checks found)
+======================================
+--------------------------------------------------------------------------------------------------
+Chosen Move: (5,5) --> (4,3)
+ / f3d4
+
+r n b q k * n r 
+p p p p * * p p 
+* * * * p p * * 
+* * * * * * * * 
+* b * N P * * * 
+* * N * * * * * 
+P P P P * P P P 
+R * B Q K B * R 
+
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/chessgambit-chess-project/history.csv`...
+[32;1m[Board] [0mLoaded 6 move(s).
+[32;1m[Board] [0mLoading move file `championship/chessgambit-chess-project/move.csv`...
+[32;1m[Board] [0mWhite player is playing f3 to d4.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m| |[30;1mk[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mb[0m|[7;1m [0m|[0;1mk[0m|[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+  +--------+
+8 |rnbqk.nr|
+7 |pppp..pp|
+6 |....pp..|
+5 |........|
+4 |.b.NP...|
+3 |..N.....|
+2 |PPPP.PPP|
+1 |R.BQKB.R|
+  +--------+
+   abcdefgh
+Side to move: Black
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0mLoading history file `championship/chessgambit-chess-project/history.csv`...
+[32;1m[Board] [0mLoaded 7 move(s).
+[32;1m[Board] [0mLoading move file `championship/chessgambit-chess-project/move.csv`...
+[32;1m[Board] [0mBlack player is playing e8 to f8.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mK[0m|[30;1mk[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mb[0m|[7;1m [0m|[0;1mk[0m|[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+Inputed Board
+Currently playing: White
+
+------------------------------Current Search Space--------------------------------------------
+Possible moves for piece: P:
+ P: (4,4)->(3,4) / e4e5
+ P: (6,0)->(5,0) / a2a3
+ P: (6,0)->(4,0) / a2a4
+ P: (6,1)->(5,1) / b2b3
+ P: (6,3)->(5,3) / d2d3
+ P: (6,5)->(5,5) / f2f3
+ P: (6,5)->(4,5) / f2f4
+ P: (6,6)->(5,6) / g2g3
+ P: (6,6)->(4,6) / g2g4
+ P: (6,7)->(5,7) / h2h3
+ P: (6,7)->(4,7) / h2h4
+Possible moves for piece: R:
+ R: (7,0)->(7,1) / a1b1
+ R: (7,7)->(7,6) / h1g1
+Possible moves for piece: N:
+ N: (4,3)->(6,4) / d4e2
+ N: (4,3)->(2,4) / d4e6
+ N: (4,3)->(2,2) / d4c6
+ N: (4,3)->(5,5) / d4f3
+ N: (4,3)->(3,5) / d4f5
+ N: (4,3)->(5,1) / d4b3
+ N: (4,3)->(3,1) / d4b5
+ N: (5,2)->(7,1) / c3b1
+ N: (5,2)->(3,3) / c3d5
+ N: (5,2)->(3,1) / c3b5
+ N: (5,2)->(6,4) / c3e2
+ N: (5,2)->(4,0) / c3a4
+Possible moves for piece: B:
+ B: (7,5)->(6,4) / f1e2
+ B: (7,5)->(5,3) / f1d3
+ B: (7,5)->(4,2) / f1c4
+ B: (7,5)->(3,1) / f1b5
+ B: (7,5)->(2,0) / f1a6
+Possible moves for piece: Q:
+ Q: (7,3)->(6,4) / d1e2
+ Q: (7,3)->(5,5) / d1f3
+ Q: (7,3)->(4,6) / d1g4
+ Q: (7,3)->(3,7) / d1h5
+Possible moves for piece: K:
+ K: (7,4)->(6,4) / e1e2
+
+------------------------------Filtered Search Space--------------------------------------------
+Possible moves for piece: P:
+ P: (4,4)->(3,4) / e4e5
+ P: (6,0)->(5,0) / a2a3
+ P: (6,0)->(4,0) / a2a4
+ P: (6,1)->(5,1) / b2b3
+ P: (6,3)->(5,3) / d2d3
+ P: (6,5)->(5,5) / f2f3
+ P: (6,5)->(4,5) / f2f4
+ P: (6,6)->(5,6) / g2g3
+ P: (6,6)->(4,6) / g2g4
+ P: (6,7)->(5,7) / h2h3
+ P: (6,7)->(4,7) / h2h4
+Possible moves for piece: R:
+ R: (7,0)->(7,1) / a1b1
+ R: (7,7)->(7,6) / h1g1
+Possible moves for piece: N:
+ N: (4,3)->(6,4) / d4e2
+ N: (4,3)->(2,4) / d4e6
+ N: (4,3)->(2,2) / d4c6
+ N: (4,3)->(5,5) / d4f3
+ N: (4,3)->(3,5) / d4f5
+ N: (4,3)->(5,1) / d4b3
+ N: (4,3)->(3,1) / d4b5
+ N: (5,2)->(7,1) / c3b1
+ N: (5,2)->(3,3) / c3d5
+ N: (5,2)->(3,1) / c3b5
+ N: (5,2)->(6,4) / c3e2
+ N: (5,2)->(4,0) / c3a4
+Possible moves for piece: B:
+ B: (7,5)->(6,4) / f1e2
+ B: (7,5)->(5,3) / f1d3
+ B: (7,5)->(4,2) / f1c4
+ B: (7,5)->(3,1) / f1b5
+ B: (7,5)->(2,0) / f1a6
+Possible moves for piece: Q:
+ Q: (7,3)->(6,4) / d1e2
+ Q: (7,3)->(5,5) / d1f3
+ Q: (7,3)->(4,6) / d1g4
+ Q: (7,3)->(3,7) / d1h5
+Possible moves for piece: K:
+ K: (7,4)->(6,4) / e1e2
+
+--------------------------------Info on Attacks---------------------------------------------------
+Squares attacked by Black pieces:
+(0,4) (1,4) (1,5) (2,0) (2,1) (2,2) (2,3) (2,6) (2,7) (3,0) (3,2) (3,3) (3,4) (3,5) (3,6) (5,0) (5,2) 
+
+-------------------------------Squares controlled by the enemy------------------------------------
+* * * * X * * * 
+* * * * X X * * 
+X X X X * * X X 
+X * X X X X X * 
+* * * * * * * * 
+X * X * * * * * 
 * * * * * * * * 
 * * * * * * * * 
 
@@ -606,198 +845,28 @@ No en passant allowed right now
 White Kingside Castle:  AVAILABLE
 White Queenside Castle: AVAILABLE
 Black Kingside Castle:  NOT AVAILABLE
-Black Queenside Castle: AVAILABLE
+Black Queenside Castle: NOT AVAILABLE
 ---------------------------------------------------------------------------------------------------
 
 ========== CAPTURE EXPLORATION ==========
+[0] N x p | Potential loss: NO | Score: -100
 ========================================
 
 ========== CHECK EXPLORATION ==========
-(no checks found)
+[0] Candidate: N -> (4,3) -> (2,4) x p | Checking move: N (4,3) -> (2,4)Checkmate: NO
 ======================================
 --------------------------------------------------------------------------------------------------
-Chosen Move: (7,0) --> (7,1)
- / a1b1
+Chosen Move: (7,3) --> (3,7)
+ / d1h5
 
-r n b q k b r * 
-p p p p p * p p 
-* * * * * p * n 
-* * * * * * * * 
-* * * * * * P * 
-* * N * * * * P 
-P P P P P P * * 
-* R B Q K B N R 
-
-[32;1m[Game] [0mPlayer's error code: 0
-[32;1m[Game] [0mChecking move validity...
-[32;1m[Board] [0mInitializing board (size: 8)...
-[32;1m[Board] [0mLoading history file `championship/chessgambit-chess-project/history.csv`...
-[32;1m[Board] [0mLoaded 6 move(s).
-[32;1m[Board] [0mLoading move file `championship/chessgambit-chess-project/move.csv`...
-[32;1m[Board] [0mWhite player is playing a1 to b1.
-[32;1m[Board] [0m
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[30;1mr[0m| || 8
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|[30;1mp[0m|| 7
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mk[0m|| 6
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| || 4
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[0;1mp[0m|| 3
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m| || 2
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[0;1mr[0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m
-[32;1m[Referee] [0mThis is the turn of the Black player...
-  +--------+
-8 |rnbqkbr.|
-7 |ppppp.pp|
-6 |.....p.n|
-5 |........|
-4 |......P.|
-3 |..N....P|
-2 |PPPPPP..|
-1 |.RBQKBNR|
-  +--------+
-   abcdefgh
-Side to move: Black
-[32;1m[Game] [0mPlayer's error code: 0
-[32;1m[Game] [0mChecking move validity...
-[32;1m[Board] [0mInitializing board (size: 8)...
-[32;1m[Board] [0mLoading history file `championship/chessgambit-chess-project/history.csv`...
-[32;1m[Board] [0mLoaded 7 move(s).
-[32;1m[Board] [0mLoading move file `championship/chessgambit-chess-project/move.csv`...
-[32;1m[Board] [0mBlack player is playing g8 to h8.
-[32;1m[Board] [0m
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|[30;1mp[0m|| 7
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mk[0m|| 6
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| || 4
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[0;1mp[0m|| 3
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m| || 2
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[0;1mr[0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m
-[32;1m[Referee] [0mThis is the turn of the White player...
-Inputed Board
-Currently playing: White
-
-------------------------------Current Search Space--------------------------------------------
-Possible moves for piece: P:
- P: (4,6)->(3,6) / g4g5
- P: (5,7)->(4,7) / h3h4
- P: (6,0)->(5,0) / a2a3
- P: (6,0)->(4,0) / a2a4
- P: (6,1)->(5,1) / b2b3
- P: (6,1)->(4,1) / b2b4
- P: (6,3)->(5,3) / d2d3
- P: (6,3)->(4,3) / d2d4
- P: (6,4)->(5,4) / e2e3
- P: (6,4)->(4,4) / e2e4
- P: (6,5)->(5,5) / f2f3
- P: (6,5)->(4,5) / f2f4
-Possible moves for piece: R:
- R: (7,1)->(7,0) / b1a1
- R: (7,7)->(6,7) / h1h2
-Possible moves for piece: N:
- N: (5,2)->(3,3) / c3d5
- N: (5,2)->(3,1) / c3b5
- N: (5,2)->(4,4) / c3e4
- N: (5,2)->(4,0) / c3a4
- N: (7,6)->(5,5) / g1f3
-Possible moves for piece: B:
- B: (7,5)->(6,6) / f1g2
-
-------------------------------Filtered Search Space--------------------------------------------
-Possible moves for piece: P:
- P: (4,6)->(3,6) / g4g5
- P: (5,7)->(4,7) / h3h4
- P: (6,0)->(5,0) / a2a3
- P: (6,0)->(4,0) / a2a4
- P: (6,1)->(5,1) / b2b3
- P: (6,1)->(4,1) / b2b4
- P: (6,3)->(5,3) / d2d3
- P: (6,3)->(4,3) / d2d4
- P: (6,4)->(5,4) / e2e3
- P: (6,4)->(4,4) / e2e4
- P: (6,5)->(5,5) / f2f3
- P: (6,5)->(4,5) / f2f4
-Possible moves for piece: R:
- R: (7,1)->(7,0) / b1a1
- R: (7,7)->(6,7) / h1h2
-Possible moves for piece: N:
- N: (5,2)->(3,3) / c3d5
- N: (5,2)->(3,1) / c3b5
- N: (5,2)->(4,4) / c3e4
- N: (5,2)->(4,0) / c3a4
- N: (7,6)->(5,5) / g1f3
-Possible moves for piece: B:
- B: (7,5)->(6,6) / f1g2
-
---------------------------------Info on Attacks---------------------------------------------------
-Squares attacked by Black pieces:
-(0,6) (1,5) (2,0) (2,1) (2,2) (2,3) (2,4) (2,6) (3,4) (3,5) (3,6) (4,6) 
-
--------------------------------Squares controlled by the enemy------------------------------------
-* * * * * * X * 
-* * * * * X * * 
-X X X X X * X * 
-* * * * X X X * 
-* * * * * * X * 
-* * * * * * * * 
-* * * * * * * * 
-* * * * * * * * 
-
-------------------------------Check Information---------------------------------------------------
-White King located at: (7,4)
-White King is safe, no check at this position.
-
-------------------------------Special Move Information-------------------------------------------
-No en passant allowed right now
-------------------------------Castling Rights Information-------------------------------------------
-White Kingside Castle:  AVAILABLE
-White Queenside Castle: NOT AVAILABLE
-Black Kingside Castle:  NOT AVAILABLE
-Black Queenside Castle: AVAILABLE
----------------------------------------------------------------------------------------------------
-
-========== CAPTURE EXPLORATION ==========
-========================================
-
-========== CHECK EXPLORATION ==========
-(no checks found)
-======================================
---------------------------------------------------------------------------------------------------
-Chosen Move: (6,3) --> (5,3)
- / d2d3
-
-r n b q k b * r 
-p p p p p * p p 
-* * * * * p * n 
-* * * * * * * * 
-* * * * * * P * 
-* * N P * * * P 
-P P P * P P * * 
-* R B Q K B N R 
+r n b q * k n r 
+p p p p * * p p 
+* * * * p p * * 
+* * * * * * * Q 
+* b * N P * * * 
+* * N * * * * * 
+P P P P * P P P 
+R * B * K B * R 
 
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
@@ -805,38 +874,38 @@ P P P * P P * *
 [32;1m[Board] [0mLoading history file `championship/chessgambit-chess-project/history.csv`...
 [32;1m[Board] [0mLoaded 8 move(s).
 [32;1m[Board] [0mLoading move file `championship/chessgambit-chess-project/move.csv`...
-[32;1m[Board] [0mWhite player is playing d2 to d3.
+[32;1m[Board] [0mWhite player is playing d1 to h5.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mK[0m|[30;1mk[0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mk[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mQ[0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mb[0m|[7;1m [0m|[0;1mk[0m|[0;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m|[0;1mp[0m|[7;1m [0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[0;1mr[0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
   +--------+
-8 |rnbqkb.r|
-7 |ppppp.pp|
-6 |.....p.n|
-5 |........|
-4 |......P.|
-3 |..NP...P|
-2 |PPP.PP..|
-1 |.RBQKBNR|
+8 |rnbq.knr|
+7 |pppp..pp|
+6 |....pp..|
+5 |.......Q|
+4 |.b.NP...|
+3 |..N.....|
+2 |PPPP.PPP|
+1 |R.B.KB.R|
   +--------+
    abcdefgh
 Side to move: Black
@@ -846,25 +915,25 @@ Side to move: Black
 [32;1m[Board] [0mLoading history file `championship/chessgambit-chess-project/history.csv`...
 [32;1m[Board] [0mLoaded 9 move(s).
 [32;1m[Board] [0mLoading move file `championship/chessgambit-chess-project/move.csv`...
-[32;1m[Board] [0mBlack player is playing g7 to g5.
+[32;1m[Board] [0mBlack player is playing e6 to e5.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mK[0m|[30;1mk[0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mk[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[0;1mQ[0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mb[0m|[7;1m [0m|[0;1mk[0m|[0;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m|[0;1mp[0m|[7;1m [0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[0;1mr[0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
@@ -874,79 +943,123 @@ Currently playing: White
 
 ------------------------------Current Search Space--------------------------------------------
 Possible moves for piece: P:
- P: (5,3)->(4,3) / d3d4
- P: (5,7)->(4,7) / h3h4
  P: (6,0)->(5,0) / a2a3
  P: (6,0)->(4,0) / a2a4
  P: (6,1)->(5,1) / b2b3
- P: (6,1)->(4,1) / b2b4
- P: (6,4)->(5,4) / e2e3
- P: (6,4)->(4,4) / e2e4
+ P: (6,3)->(5,3) / d2d3
  P: (6,5)->(5,5) / f2f3
  P: (6,5)->(4,5) / f2f4
+ P: (6,6)->(5,6) / g2g3
+ P: (6,6)->(4,6) / g2g4
+ P: (6,7)->(5,7) / h2h3
+ P: (6,7)->(4,7) / h2h4
 Possible moves for piece: R:
- R: (7,1)->(7,0) / b1a1
- R: (7,7)->(6,7) / h1h2
+ R: (7,0)->(7,1) / a1b1
+ R: (7,7)->(7,6) / h1g1
 Possible moves for piece: N:
+ N: (4,3)->(6,4) / d4e2
+ N: (4,3)->(2,4) / d4e6
+ N: (4,3)->(2,2) / d4c6
+ N: (4,3)->(5,5) / d4f3
+ N: (4,3)->(3,5) / d4f5
+ N: (4,3)->(5,1) / d4b3
+ N: (4,3)->(3,1) / d4b5
+ N: (5,2)->(7,3) / c3d1
+ N: (5,2)->(7,1) / c3b1
  N: (5,2)->(3,3) / c3d5
  N: (5,2)->(3,1) / c3b5
- N: (5,2)->(4,4) / c3e4
+ N: (5,2)->(6,4) / c3e2
  N: (5,2)->(4,0) / c3a4
- N: (7,6)->(5,5) / g1f3
 Possible moves for piece: B:
- B: (7,2)->(6,3) / c1d2
- B: (7,2)->(5,4) / c1e3
- B: (7,2)->(4,5) / c1f4
- B: (7,2)->(3,6) / c1g5
- B: (7,5)->(6,6) / f1g2
+ B: (7,5)->(6,4) / f1e2
+ B: (7,5)->(5,3) / f1d3
+ B: (7,5)->(4,2) / f1c4
+ B: (7,5)->(3,1) / f1b5
+ B: (7,5)->(2,0) / f1a6
 Possible moves for piece: Q:
- Q: (7,3)->(6,3) / d1d2
+ Q: (3,7)->(4,7) / h5h4
+ Q: (3,7)->(5,7) / h5h3
+ Q: (3,7)->(2,7) / h5h6
+ Q: (3,7)->(1,7) / h5h7
+ Q: (3,7)->(3,6) / h5g5
+ Q: (3,7)->(3,5) / h5f5
+ Q: (3,7)->(3,4) / h5e5
+ Q: (3,7)->(2,6) / h5g6
+ Q: (3,7)->(1,5) / h5f7
+ Q: (3,7)->(0,4) / h5e8
+ Q: (3,7)->(4,6) / h5g4
+ Q: (3,7)->(5,5) / h5f3
+ Q: (3,7)->(6,4) / h5e2
+ Q: (3,7)->(7,3) / h5d1
 Possible moves for piece: K:
- K: (7,4)->(6,3) / e1d2
+ K: (7,4)->(6,4) / e1e2
+ K: (7,4)->(7,3) / e1d1
 
 ------------------------------Filtered Search Space--------------------------------------------
 Possible moves for piece: P:
- P: (5,3)->(4,3) / d3d4
- P: (5,7)->(4,7) / h3h4
  P: (6,0)->(5,0) / a2a3
  P: (6,0)->(4,0) / a2a4
  P: (6,1)->(5,1) / b2b3
- P: (6,1)->(4,1) / b2b4
- P: (6,4)->(5,4) / e2e3
- P: (6,4)->(4,4) / e2e4
+ P: (6,3)->(5,3) / d2d3
  P: (6,5)->(5,5) / f2f3
  P: (6,5)->(4,5) / f2f4
+ P: (6,6)->(5,6) / g2g3
+ P: (6,6)->(4,6) / g2g4
+ P: (6,7)->(5,7) / h2h3
+ P: (6,7)->(4,7) / h2h4
 Possible moves for piece: R:
- R: (7,1)->(7,0) / b1a1
- R: (7,7)->(6,7) / h1h2
+ R: (7,0)->(7,1) / a1b1
+ R: (7,7)->(7,6) / h1g1
 Possible moves for piece: N:
+ N: (4,3)->(6,4) / d4e2
+ N: (4,3)->(2,4) / d4e6
+ N: (4,3)->(2,2) / d4c6
+ N: (4,3)->(5,5) / d4f3
+ N: (4,3)->(3,5) / d4f5
+ N: (4,3)->(5,1) / d4b3
+ N: (4,3)->(3,1) / d4b5
+ N: (5,2)->(7,3) / c3d1
+ N: (5,2)->(7,1) / c3b1
  N: (5,2)->(3,3) / c3d5
  N: (5,2)->(3,1) / c3b5
- N: (5,2)->(4,4) / c3e4
+ N: (5,2)->(6,4) / c3e2
  N: (5,2)->(4,0) / c3a4
- N: (7,6)->(5,5) / g1f3
 Possible moves for piece: B:
- B: (7,2)->(6,3) / c1d2
- B: (7,2)->(5,4) / c1e3
- B: (7,2)->(4,5) / c1f4
- B: (7,2)->(3,6) / c1g5
- B: (7,5)->(6,6) / f1g2
+ B: (7,5)->(6,4) / f1e2
+ B: (7,5)->(5,3) / f1d3
+ B: (7,5)->(4,2) / f1c4
+ B: (7,5)->(3,1) / f1b5
+ B: (7,5)->(2,0) / f1a6
 Possible moves for piece: Q:
- Q: (7,3)->(6,3) / d1d2
+ Q: (3,7)->(4,7) / h5h4
+ Q: (3,7)->(5,7) / h5h3
+ Q: (3,7)->(2,7) / h5h6
+ Q: (3,7)->(1,7) / h5h7
+ Q: (3,7)->(3,6) / h5g5
+ Q: (3,7)->(3,5) / h5f5
+ Q: (3,7)->(3,4) / h5e5
+ Q: (3,7)->(2,6) / h5g6
+ Q: (3,7)->(1,5) / h5f7
+ Q: (3,7)->(0,4) / h5e8
+ Q: (3,7)->(4,6) / h5g4
+ Q: (3,7)->(5,5) / h5f3
+ Q: (3,7)->(6,4) / h5e2
+ Q: (3,7)->(7,3) / h5d1
 Possible moves for piece: K:
- K: (7,4)->(6,3) / e1d2
+ K: (7,4)->(6,4) / e1e2
+ K: (7,4)->(7,3) / e1d1
 
 --------------------------------Info on Attacks---------------------------------------------------
 Squares attacked by Black pieces:
-(0,6) (1,5) (1,6) (2,0) (2,1) (2,2) (2,3) (2,4) (2,6) (3,4) (3,5) (4,5) (4,6) (4,7) 
+(0,4) (1,4) (1,5) (2,0) (2,1) (2,2) (2,3) (2,4) (2,6) (2,7) (3,0) (3,2) (3,6) (4,3) (4,5) (5,0) (5,2) 
 
 -------------------------------Squares controlled by the enemy------------------------------------
-* * * * * * X * 
-* * * * * X X * 
-X X X X X * X * 
+* * * * X * * * 
 * * * * X X * * 
-* * * * * X X X 
-* * * * * * * * 
+X X X X X * X X 
+X * X * * * X * 
+* * * X * X * * 
+X * X * * * * * 
 * * * * * * * * 
 * * * * * * * * 
 
@@ -955,33 +1068,36 @@ White King located at: (7,4)
 White King is safe, no check at this position.
 
 ------------------------------Special Move Information-------------------------------------------
-En Passant allowed for this board configuration, en passant square: (2,6)
+No en passant allowed right now
 ------------------------------Castling Rights Information-------------------------------------------
 White Kingside Castle:  AVAILABLE
-White Queenside Castle: NOT AVAILABLE
+White Queenside Castle: AVAILABLE
 Black Kingside Castle:  NOT AVAILABLE
-Black Queenside Castle: AVAILABLE
+Black Queenside Castle: NOT AVAILABLE
 ---------------------------------------------------------------------------------------------------
 
 ========== CAPTURE EXPLORATION ==========
-[0] B x p | Potential loss: NO | Score: -100
+[0] Q x p | Potential loss: NO | Score: -100
+[1] Q x p | Potential loss: NO | Score: -100
 ========================================
 
 ========== CHECK EXPLORATION ==========
-(no checks found)
+[0] Candidate: Q -> (3,7) -> (1,5) | Checking move: Q (3,7) -> (1,5)Checkmate: NO
+[1] Candidate: Q -> (3,7) -> (0,4) | Checking move: Q (3,7) -> (0,4)Checkmate: NO
+[2] Candidate: N -> (4,3) -> (2,4) | Checking move: N (4,3) -> (2,4)Checkmate: NO
 ======================================
 --------------------------------------------------------------------------------------------------
-Chosen Move: (7,2) --> (3,6)
- / c1g5
+Chosen Move: (7,5) --> (4,2)
+ / f1c4
 
-r n b q k b * r 
-p p p p p * * p 
-* * * * * p * n 
-* * * * * * B * 
-* * * * * * P * 
-* * N P * * * P 
-P P P * P P * * 
-* R * Q K B N R 
+r n b q * k n r 
+p p p p * * p p 
+* * * * * p * * 
+* * * * p * * Q 
+* b B N P * * * 
+* * N * * * * * 
+P P P P * P P P 
+R * B * K * * R 
 
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
@@ -989,39 +1105,38 @@ P P P * P P * *
 [32;1m[Board] [0mLoading history file `championship/chessgambit-chess-project/history.csv`...
 [32;1m[Board] [0mLoaded 10 move(s).
 [32;1m[Board] [0mLoading move file `championship/chessgambit-chess-project/move.csv`...
-[32;1m[Board] [0mWhite player is playing c1 to g5.
-[32;1m[Board] [0m[5;1mWhite Bishop is taking Black Pawn.[0m
+[32;1m[Board] [0mWhite player is playing f1 to c4.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mK[0m|[30;1mk[0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mk[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mb[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[0;1mQ[0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mb[0m|[0;1mb[0m|[0;1mk[0m|[0;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m|[0;1mp[0m|[7;1m [0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[0;1mr[0m| |[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
   +--------+
-8 |rnbqkb.r|
-7 |ppppp..p|
-6 |.....p.n|
-5 |......B.|
-4 |......P.|
-3 |..NP...P|
-2 |PPP.PP..|
-1 |.R.QKBNR|
+8 |rnbq.knr|
+7 |pppp..pp|
+6 |.....p..|
+5 |....p..Q|
+4 |.bBNP...|
+3 |..N.....|
+2 |PPPP.PPP|
+1 |R.B.K..R|
   +--------+
    abcdefgh
 Side to move: Black
@@ -1031,26 +1146,25 @@ Side to move: Black
 [32;1m[Board] [0mLoading history file `championship/chessgambit-chess-project/history.csv`...
 [32;1m[Board] [0mLoaded 11 move(s).
 [32;1m[Board] [0mLoading move file `championship/chessgambit-chess-project/move.csv`...
-[32;1m[Board] [0mBlack player is playing f6 to g5.
-[32;1m[Board] [0m[5;1mBlack Pawn is taking White Bishop.[0m
+[32;1m[Board] [0mBlack player is playing g8 to h6.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mK[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mk[0m|| 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[0;1mQ[0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mb[0m|[0;1mb[0m|[0;1mk[0m|[0;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m|[0;1mp[0m|[7;1m [0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[0;1mr[0m| |[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
@@ -1060,75 +1174,137 @@ Currently playing: White
 
 ------------------------------Current Search Space--------------------------------------------
 Possible moves for piece: P:
- P: (5,3)->(4,3) / d3d4
- P: (5,7)->(4,7) / h3h4
  P: (6,0)->(5,0) / a2a3
  P: (6,0)->(4,0) / a2a4
  P: (6,1)->(5,1) / b2b3
- P: (6,1)->(4,1) / b2b4
- P: (6,4)->(5,4) / e2e3
- P: (6,4)->(4,4) / e2e4
+ P: (6,3)->(5,3) / d2d3
  P: (6,5)->(5,5) / f2f3
  P: (6,5)->(4,5) / f2f4
+ P: (6,6)->(5,6) / g2g3
+ P: (6,6)->(4,6) / g2g4
+ P: (6,7)->(5,7) / h2h3
+ P: (6,7)->(4,7) / h2h4
 Possible moves for piece: R:
- R: (7,1)->(7,2) / b1c1
- R: (7,1)->(7,0) / b1a1
- R: (7,7)->(6,7) / h1h2
+ R: (7,0)->(7,1) / a1b1
+ R: (7,7)->(7,6) / h1g1
+ R: (7,7)->(7,5) / h1f1
 Possible moves for piece: N:
+ N: (4,3)->(6,4) / d4e2
+ N: (4,3)->(2,4) / d4e6
+ N: (4,3)->(2,2) / d4c6
+ N: (4,3)->(5,5) / d4f3
+ N: (4,3)->(3,5) / d4f5
+ N: (4,3)->(5,1) / d4b3
+ N: (4,3)->(3,1) / d4b5
+ N: (5,2)->(7,3) / c3d1
+ N: (5,2)->(7,1) / c3b1
  N: (5,2)->(3,3) / c3d5
  N: (5,2)->(3,1) / c3b5
- N: (5,2)->(4,4) / c3e4
+ N: (5,2)->(6,4) / c3e2
  N: (5,2)->(4,0) / c3a4
- N: (7,6)->(5,5) / g1f3
 Possible moves for piece: B:
- B: (7,5)->(6,6) / f1g2
+ B: (4,2)->(3,1) / c4b5
+ B: (4,2)->(2,0) / c4a6
+ B: (4,2)->(3,3) / c4d5
+ B: (4,2)->(2,4) / c4e6
+ B: (4,2)->(1,5) / c4f7
+ B: (4,2)->(0,6) / c4g8
+ B: (4,2)->(5,1) / c4b3
+ B: (4,2)->(5,3) / c4d3
+ B: (4,2)->(6,4) / c4e2
+ B: (4,2)->(7,5) / c4f1
 Possible moves for piece: Q:
- Q: (7,3)->(6,3) / d1d2
- Q: (7,3)->(7,2) / d1c1
+ Q: (3,7)->(4,7) / h5h4
+ Q: (3,7)->(5,7) / h5h3
+ Q: (3,7)->(2,7) / h5h6
+ Q: (3,7)->(3,6) / h5g5
+ Q: (3,7)->(3,5) / h5f5
+ Q: (3,7)->(3,4) / h5e5
+ Q: (3,7)->(2,6) / h5g6
+ Q: (3,7)->(1,5) / h5f7
+ Q: (3,7)->(0,4) / h5e8
+ Q: (3,7)->(4,6) / h5g4
+ Q: (3,7)->(5,5) / h5f3
+ Q: (3,7)->(6,4) / h5e2
+ Q: (3,7)->(7,3) / h5d1
 Possible moves for piece: K:
- K: (7,4)->(6,3) / e1d2
+ K: (7,4)->(6,4) / e1e2
+ K: (7,4)->(7,5) / e1f1
+ K: (7,4)->(7,3) / e1d1
+ K: (7,4)->(7,6) / e1g1
 
 ------------------------------Filtered Search Space--------------------------------------------
 Possible moves for piece: P:
- P: (5,3)->(4,3) / d3d4
- P: (5,7)->(4,7) / h3h4
  P: (6,0)->(5,0) / a2a3
  P: (6,0)->(4,0) / a2a4
  P: (6,1)->(5,1) / b2b3
- P: (6,1)->(4,1) / b2b4
- P: (6,4)->(5,4) / e2e3
- P: (6,4)->(4,4) / e2e4
+ P: (6,3)->(5,3) / d2d3
  P: (6,5)->(5,5) / f2f3
  P: (6,5)->(4,5) / f2f4
+ P: (6,6)->(5,6) / g2g3
+ P: (6,6)->(4,6) / g2g4
+ P: (6,7)->(5,7) / h2h3
+ P: (6,7)->(4,7) / h2h4
 Possible moves for piece: R:
- R: (7,1)->(7,2) / b1c1
- R: (7,1)->(7,0) / b1a1
- R: (7,7)->(6,7) / h1h2
+ R: (7,0)->(7,1) / a1b1
+ R: (7,7)->(7,6) / h1g1
+ R: (7,7)->(7,5) / h1f1
 Possible moves for piece: N:
+ N: (4,3)->(6,4) / d4e2
+ N: (4,3)->(2,4) / d4e6
+ N: (4,3)->(2,2) / d4c6
+ N: (4,3)->(5,5) / d4f3
+ N: (4,3)->(3,5) / d4f5
+ N: (4,3)->(5,1) / d4b3
+ N: (4,3)->(3,1) / d4b5
+ N: (5,2)->(7,3) / c3d1
+ N: (5,2)->(7,1) / c3b1
  N: (5,2)->(3,3) / c3d5
  N: (5,2)->(3,1) / c3b5
- N: (5,2)->(4,4) / c3e4
+ N: (5,2)->(6,4) / c3e2
  N: (5,2)->(4,0) / c3a4
- N: (7,6)->(5,5) / g1f3
 Possible moves for piece: B:
- B: (7,5)->(6,6) / f1g2
+ B: (4,2)->(3,1) / c4b5
+ B: (4,2)->(2,0) / c4a6
+ B: (4,2)->(3,3) / c4d5
+ B: (4,2)->(2,4) / c4e6
+ B: (4,2)->(1,5) / c4f7
+ B: (4,2)->(0,6) / c4g8
+ B: (4,2)->(5,1) / c4b3
+ B: (4,2)->(5,3) / c4d3
+ B: (4,2)->(6,4) / c4e2
+ B: (4,2)->(7,5) / c4f1
 Possible moves for piece: Q:
- Q: (7,3)->(6,3) / d1d2
- Q: (7,3)->(7,2) / d1c1
+ Q: (3,7)->(4,7) / h5h4
+ Q: (3,7)->(5,7) / h5h3
+ Q: (3,7)->(2,7) / h5h6
+ Q: (3,7)->(3,6) / h5g5
+ Q: (3,7)->(3,5) / h5f5
+ Q: (3,7)->(3,4) / h5e5
+ Q: (3,7)->(2,6) / h5g6
+ Q: (3,7)->(1,5) / h5f7
+ Q: (3,7)->(0,4) / h5e8
+ Q: (3,7)->(4,6) / h5g4
+ Q: (3,7)->(5,5) / h5f3
+ Q: (3,7)->(6,4) / h5e2
+ Q: (3,7)->(7,3) / h5d1
 Possible moves for piece: K:
- K: (7,4)->(6,3) / e1d2
+ K: (7,4)->(6,4) / e1e2
+ K: (7,4)->(7,5) / e1f1
+ K: (7,4)->(7,3) / e1d1
+ K: (7,4)->(7,6) / e1g1
 
 --------------------------------Info on Attacks---------------------------------------------------
 Squares attacked by Black pieces:
-(0,6) (1,5) (1,6) (2,0) (2,1) (2,2) (2,3) (2,4) (2,5) (2,6) (3,5) (4,5) (4,6) (4,7) 
+(0,4) (0,6) (1,4) (1,5) (2,0) (2,1) (2,2) (2,3) (2,4) (2,6) (3,0) (3,2) (3,5) (3,6) (4,3) (4,5) (4,6) (5,0) (5,2) 
 
 -------------------------------Squares controlled by the enemy------------------------------------
-* * * * * * X * 
-* * * * * X X * 
-X X X X X X X * 
-* * * * * X * * 
-* * * * * X X X 
-* * * * * * * * 
+* * * * X * X * 
+* * * * X X * * 
+X X X X X * X * 
+X * X * * X X * 
+* * * X * X X * 
+X * X * * * * * 
 * * * * * * * * 
 * * * * * * * * 
 
@@ -1140,29 +1316,33 @@ White King is safe, no check at this position.
 No en passant allowed right now
 ------------------------------Castling Rights Information-------------------------------------------
 White Kingside Castle:  AVAILABLE
-White Queenside Castle: NOT AVAILABLE
+White Queenside Castle: AVAILABLE
 Black Kingside Castle:  NOT AVAILABLE
-Black Queenside Castle: AVAILABLE
+Black Queenside Castle: NOT AVAILABLE
 ---------------------------------------------------------------------------------------------------
 
 ========== CAPTURE EXPLORATION ==========
+[0] Q x n | Potential loss: NO | Score: -320
+[1] Q x p | Potential loss: NO | Score: -100
 ========================================
 
 ========== CHECK EXPLORATION ==========
-(no checks found)
+[0] Candidate: Q -> (3,7) -> (1,5) | Checking move: Q (3,7) -> (1,5)Checkmate: NO
+[1] Candidate: Q -> (3,7) -> (0,4) | Checking move: Q (3,7) -> (0,4)Checkmate: NO
+[2] Candidate: N -> (4,3) -> (2,4) | Checking move: N (4,3) -> (2,4)Checkmate: NO
 ======================================
 --------------------------------------------------------------------------------------------------
-Chosen Move: (7,1) --> (7,2)
- / b1c1
+Chosen Move: (4,3) --> (5,5)
+ / d4f3
 
-r n b q k b * r 
-p p p p p * * p 
-* * * * * * * n 
-* * * * * * p * 
-* * * * * * P * 
-* * N P * * * P 
-P P P * P P * * 
-* * R Q K B N R 
+r n b q * k * r 
+p p p p * * p p 
+* * * * * p * n 
+* * * * p * * Q 
+* b B * P * * * 
+* * N * * N * * 
+P P P P * P P P 
+R * B * K * * R 
 
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
@@ -1170,38 +1350,38 @@ P P P * P P * *
 [32;1m[Board] [0mLoading history file `championship/chessgambit-chess-project/history.csv`...
 [32;1m[Board] [0mLoaded 12 move(s).
 [32;1m[Board] [0mLoading move file `championship/chessgambit-chess-project/move.csv`...
-[32;1m[Board] [0mWhite player is playing b1 to c1.
+[32;1m[Board] [0mWhite player is playing d4 to f3.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mK[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mk[0m|| 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[0;1mQ[0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mb[0m|[0;1mb[0m| |[0;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m|[0;1mp[0m|[7;1m [0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m|[0;1mr[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
   +--------+
-8 |rnbqkb.r|
-7 |ppppp..p|
-6 |.......n|
-5 |......p.|
-4 |......P.|
-3 |..NP...P|
-2 |PPP.PP..|
-1 |..RQKBNR|
+8 |rnbq.k.r|
+7 |pppp..pp|
+6 |.....p.n|
+5 |....p..Q|
+4 |.bB.P...|
+3 |..N..N..|
+2 |PPPP.PPP|
+1 |R.B.K..R|
   +--------+
    abcdefgh
 Side to move: Black
@@ -1211,25 +1391,25 @@ Side to move: Black
 [32;1m[Board] [0mLoading history file `championship/chessgambit-chess-project/history.csv`...
 [32;1m[Board] [0mLoaded 13 move(s).
 [32;1m[Board] [0mLoading move file `championship/chessgambit-chess-project/move.csv`...
-[32;1m[Board] [0mBlack player is playing c7 to c5.
+[32;1m[Board] [0mBlack player is playing d7 to d5.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mK[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mk[0m|| 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[0;1mQ[0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mb[0m|[0;1mb[0m| |[0;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m|[0;1mp[0m|[7;1m [0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m|[0;1mr[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
@@ -1239,75 +1419,121 @@ Currently playing: White
 
 ------------------------------Current Search Space--------------------------------------------
 Possible moves for piece: P:
- P: (5,3)->(4,3) / d3d4
- P: (5,7)->(4,7) / h3h4
+ P: (4,4)->(3,3) / e4d5
  P: (6,0)->(5,0) / a2a3
  P: (6,0)->(4,0) / a2a4
  P: (6,1)->(5,1) / b2b3
- P: (6,1)->(4,1) / b2b4
- P: (6,4)->(5,4) / e2e3
- P: (6,4)->(4,4) / e2e4
- P: (6,5)->(5,5) / f2f3
- P: (6,5)->(4,5) / f2f4
+ P: (6,3)->(5,3) / d2d3
+ P: (6,3)->(4,3) / d2d4
+ P: (6,6)->(5,6) / g2g3
+ P: (6,6)->(4,6) / g2g4
+ P: (6,7)->(5,7) / h2h3
+ P: (6,7)->(4,7) / h2h4
 Possible moves for piece: R:
- R: (7,2)->(7,1) / c1b1
- R: (7,2)->(7,0) / c1a1
- R: (7,7)->(6,7) / h1h2
+ R: (7,0)->(7,1) / a1b1
+ R: (7,7)->(7,6) / h1g1
+ R: (7,7)->(7,5) / h1f1
 Possible moves for piece: N:
+ N: (5,2)->(7,3) / c3d1
  N: (5,2)->(7,1) / c3b1
  N: (5,2)->(3,3) / c3d5
  N: (5,2)->(3,1) / c3b5
- N: (5,2)->(4,4) / c3e4
+ N: (5,2)->(6,4) / c3e2
  N: (5,2)->(4,0) / c3a4
- N: (7,6)->(5,5) / g1f3
+ N: (5,5)->(7,6) / f3g1
+ N: (5,5)->(3,6) / f3g5
+ N: (5,5)->(3,4) / f3e5
+ N: (5,5)->(4,7) / f3h4
+ N: (5,5)->(4,3) / f3d4
 Possible moves for piece: B:
- B: (7,5)->(6,6) / f1g2
+ B: (4,2)->(3,1) / c4b5
+ B: (4,2)->(2,0) / c4a6
+ B: (4,2)->(3,3) / c4d5
+ B: (4,2)->(5,1) / c4b3
+ B: (4,2)->(5,3) / c4d3
+ B: (4,2)->(6,4) / c4e2
+ B: (4,2)->(7,5) / c4f1
 Possible moves for piece: Q:
- Q: (7,3)->(6,3) / d1d2
+ Q: (3,7)->(4,7) / h5h4
+ Q: (3,7)->(5,7) / h5h3
+ Q: (3,7)->(2,7) / h5h6
+ Q: (3,7)->(3,6) / h5g5
+ Q: (3,7)->(3,5) / h5f5
+ Q: (3,7)->(3,4) / h5e5
+ Q: (3,7)->(2,6) / h5g6
+ Q: (3,7)->(1,5) / h5f7
+ Q: (3,7)->(0,4) / h5e8
+ Q: (3,7)->(4,6) / h5g4
 Possible moves for piece: K:
- K: (7,4)->(6,3) / e1d2
+ K: (7,4)->(6,4) / e1e2
+ K: (7,4)->(7,5) / e1f1
+ K: (7,4)->(7,3) / e1d1
+ K: (7,4)->(7,6) / e1g1
 
 ------------------------------Filtered Search Space--------------------------------------------
 Possible moves for piece: P:
- P: (5,3)->(4,3) / d3d4
- P: (5,7)->(4,7) / h3h4
+ P: (4,4)->(3,3) / e4d5
  P: (6,0)->(5,0) / a2a3
  P: (6,0)->(4,0) / a2a4
  P: (6,1)->(5,1) / b2b3
- P: (6,1)->(4,1) / b2b4
- P: (6,4)->(5,4) / e2e3
- P: (6,4)->(4,4) / e2e4
- P: (6,5)->(5,5) / f2f3
- P: (6,5)->(4,5) / f2f4
+ P: (6,3)->(5,3) / d2d3
+ P: (6,3)->(4,3) / d2d4
+ P: (6,6)->(5,6) / g2g3
+ P: (6,6)->(4,6) / g2g4
+ P: (6,7)->(5,7) / h2h3
+ P: (6,7)->(4,7) / h2h4
 Possible moves for piece: R:
- R: (7,2)->(7,1) / c1b1
- R: (7,2)->(7,0) / c1a1
- R: (7,7)->(6,7) / h1h2
+ R: (7,0)->(7,1) / a1b1
+ R: (7,7)->(7,6) / h1g1
+ R: (7,7)->(7,5) / h1f1
 Possible moves for piece: N:
+ N: (5,2)->(7,3) / c3d1
  N: (5,2)->(7,1) / c3b1
  N: (5,2)->(3,3) / c3d5
  N: (5,2)->(3,1) / c3b5
- N: (5,2)->(4,4) / c3e4
+ N: (5,2)->(6,4) / c3e2
  N: (5,2)->(4,0) / c3a4
- N: (7,6)->(5,5) / g1f3
+ N: (5,5)->(7,6) / f3g1
+ N: (5,5)->(3,6) / f3g5
+ N: (5,5)->(3,4) / f3e5
+ N: (5,5)->(4,7) / f3h4
+ N: (5,5)->(4,3) / f3d4
 Possible moves for piece: B:
- B: (7,5)->(6,6) / f1g2
+ B: (4,2)->(3,1) / c4b5
+ B: (4,2)->(2,0) / c4a6
+ B: (4,2)->(3,3) / c4d5
+ B: (4,2)->(5,1) / c4b3
+ B: (4,2)->(5,3) / c4d3
+ B: (4,2)->(6,4) / c4e2
+ B: (4,2)->(7,5) / c4f1
 Possible moves for piece: Q:
- Q: (7,3)->(6,3) / d1d2
+ Q: (3,7)->(4,7) / h5h4
+ Q: (3,7)->(5,7) / h5h3
+ Q: (3,7)->(2,7) / h5h6
+ Q: (3,7)->(3,6) / h5g5
+ Q: (3,7)->(3,5) / h5f5
+ Q: (3,7)->(3,4) / h5e5
+ Q: (3,7)->(2,6) / h5g6
+ Q: (3,7)->(1,5) / h5f7
+ Q: (3,7)->(0,4) / h5e8
+ Q: (3,7)->(4,6) / h5g4
 Possible moves for piece: K:
- K: (7,4)->(6,3) / e1d2
+ K: (7,4)->(6,4) / e1e2
+ K: (7,4)->(7,5) / e1f1
+ K: (7,4)->(7,3) / e1d1
+ K: (7,4)->(7,6) / e1g1
 
 --------------------------------Info on Attacks---------------------------------------------------
 Squares attacked by Black pieces:
-(0,6) (1,2) (1,5) (1,6) (2,0) (2,1) (2,2) (2,3) (2,4) (2,5) (2,6) (3,0) (3,5) (4,1) (4,3) (4,5) (4,6) (4,7) 
+(0,4) (0,6) (1,3) (1,4) (1,5) (2,0) (2,1) (2,2) (2,3) (2,4) (2,6) (3,0) (3,2) (3,5) (3,6) (4,2) (4,3) (4,4) (4,5) (4,6) (5,0) (5,2) (5,7) 
 
 -------------------------------Squares controlled by the enemy------------------------------------
-* * * * * * X * 
-* * X * * X X * 
-X X X X X X X * 
-X * * * * X * * 
-* X * X * X X X 
-* * * * * * * * 
+* * * * X * X * 
+* * * X X X * * 
+X X X X X * X * 
+X * X * * X X * 
+* * X X X X X * 
+X * X * * * * X 
 * * * * * * * * 
 * * * * * * * * 
 
@@ -1316,32 +1542,39 @@ White King located at: (7,4)
 White King is safe, no check at this position.
 
 ------------------------------Special Move Information-------------------------------------------
-En Passant allowed for this board configuration, en passant square: (2,2)
+No en passant allowed right now
 ------------------------------Castling Rights Information-------------------------------------------
 White Kingside Castle:  AVAILABLE
-White Queenside Castle: NOT AVAILABLE
+White Queenside Castle: AVAILABLE
 Black Kingside Castle:  NOT AVAILABLE
-Black Queenside Castle: AVAILABLE
+Black Queenside Castle: NOT AVAILABLE
 ---------------------------------------------------------------------------------------------------
 
 ========== CAPTURE EXPLORATION ==========
+[0] Q x n | Potential loss: NO | Score: -320
+[1] Q x p | Potential loss: NO | Score: -100
+[2] B x p | Potential loss: NO | Score: -100
+[3] P x p | Potential loss: NO | Score: -100
+[4] N x p | Potential loss: NO | Score: -100
+[5] N x p | Potential loss: NO | Score: -100
 ========================================
 
 ========== CHECK EXPLORATION ==========
-(no checks found)
+[0] Candidate: Q -> (3,7) -> (1,5) | Checking move: Q (3,7) -> (1,5)Checkmate: NO
+[1] Candidate: Q -> (3,7) -> (0,4) | Checking move: Q (3,7) -> (0,4)Checkmate: NO
 ======================================
 --------------------------------------------------------------------------------------------------
-Chosen Move: (6,5) --> (4,5)
- / f2f4
+Chosen Move: (4,2) --> (5,1)
+ / c4b3
 
-r n b q k b * r 
-p p * p p * * p 
-* * * * * * * n 
-* * p * * * p * 
-* * * * * P P * 
-* * N P * * * P 
-P P P * P * * * 
-* * R Q K B N R 
+r n b q * k * r 
+p p p * * * p p 
+* * * * * p * n 
+* * * p p * * Q 
+* b * * P * * * 
+* B N * * N * * 
+P P P P * P P P 
+R * B * K * * R 
 
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
@@ -1349,38 +1582,38 @@ P P P * P * * *
 [32;1m[Board] [0mLoading history file `championship/chessgambit-chess-project/history.csv`...
 [32;1m[Board] [0mLoaded 14 move(s).
 [32;1m[Board] [0mLoading move file `championship/chessgambit-chess-project/move.csv`...
-[32;1m[Board] [0mWhite player is playing f2 to f4.
+[32;1m[Board] [0mWhite player is playing c4 to b3.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mK[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mk[0m|| 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[0;1mQ[0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[0;1mb[0m|[0;1mk[0m|[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m| |[7;1m [0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m|[0;1mr[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
   +--------+
-8 |rnbqkb.r|
-7 |pp.pp..p|
-6 |.......n|
-5 |..p...p.|
-4 |.....PP.|
-3 |..NP...P|
-2 |PPP.P...|
-1 |..RQKBNR|
+8 |rnbq.k.r|
+7 |ppp...pp|
+6 |.....p.n|
+5 |...pp..Q|
+4 |.b..P...|
+3 |.BN..N..|
+2 |PPPP.PPP|
+1 |R.B.K..R|
   +--------+
    abcdefgh
 Side to move: Black
@@ -1390,26 +1623,25 @@ Side to move: Black
 [32;1m[Board] [0mLoading history file `championship/chessgambit-chess-project/history.csv`...
 [32;1m[Board] [0mLoaded 15 move(s).
 [32;1m[Board] [0mLoading move file `championship/chessgambit-chess-project/move.csv`...
-[32;1m[Board] [0mBlack player is playing g5 to f4.
-[32;1m[Board] [0m[5;1mBlack Pawn is taking White Pawn.[0m
+[32;1m[Board] [0mBlack player is playing c8 to g4.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[7;1m [0m|[30;1mQ[0m|[7;1m [0m|[30;1mK[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mk[0m|| 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[0;1mQ[0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[0;1mp[0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[30;1mb[0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[0;1mb[0m|[0;1mk[0m|[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m| |[7;1m [0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m|[0;1mr[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
@@ -1419,75 +1651,109 @@ Currently playing: White
 
 ------------------------------Current Search Space--------------------------------------------
 Possible moves for piece: P:
- P: (4,6)->(3,6) / g4g5
- P: (5,3)->(4,3) / d3d4
- P: (5,7)->(4,7) / h3h4
+ P: (4,4)->(3,3) / e4d5
  P: (6,0)->(5,0) / a2a3
  P: (6,0)->(4,0) / a2a4
- P: (6,1)->(5,1) / b2b3
- P: (6,1)->(4,1) / b2b4
- P: (6,4)->(5,4) / e2e3
- P: (6,4)->(4,4) / e2e4
+ P: (6,3)->(5,3) / d2d3
+ P: (6,3)->(4,3) / d2d4
+ P: (6,6)->(5,6) / g2g3
+ P: (6,7)->(5,7) / h2h3
+ P: (6,7)->(4,7) / h2h4
 Possible moves for piece: R:
- R: (7,2)->(7,1) / c1b1
- R: (7,2)->(7,0) / c1a1
- R: (7,7)->(6,7) / h1h2
+ R: (7,0)->(7,1) / a1b1
+ R: (7,7)->(7,6) / h1g1
+ R: (7,7)->(7,5) / h1f1
 Possible moves for piece: N:
+ N: (5,2)->(7,3) / c3d1
  N: (5,2)->(7,1) / c3b1
  N: (5,2)->(3,3) / c3d5
  N: (5,2)->(3,1) / c3b5
- N: (5,2)->(4,4) / c3e4
+ N: (5,2)->(6,4) / c3e2
  N: (5,2)->(4,0) / c3a4
- N: (7,6)->(5,5) / g1f3
+ N: (5,5)->(7,6) / f3g1
+ N: (5,5)->(3,6) / f3g5
+ N: (5,5)->(3,4) / f3e5
+ N: (5,5)->(4,7) / f3h4
+ N: (5,5)->(4,3) / f3d4
 Possible moves for piece: B:
- B: (7,5)->(6,6) / f1g2
+ B: (5,1)->(4,0) / b3a4
+ B: (5,1)->(4,2) / b3c4
+ B: (5,1)->(3,3) / b3d5
 Possible moves for piece: Q:
- Q: (7,3)->(6,3) / d1d2
+ Q: (3,7)->(4,7) / h5h4
+ Q: (3,7)->(5,7) / h5h3
+ Q: (3,7)->(2,7) / h5h6
+ Q: (3,7)->(3,6) / h5g5
+ Q: (3,7)->(3,5) / h5f5
+ Q: (3,7)->(3,4) / h5e5
+ Q: (3,7)->(2,6) / h5g6
+ Q: (3,7)->(1,5) / h5f7
+ Q: (3,7)->(0,4) / h5e8
+ Q: (3,7)->(4,6) / h5g4
 Possible moves for piece: K:
- K: (7,4)->(6,5) / e1f2
- K: (7,4)->(6,3) / e1d2
+ K: (7,4)->(6,4) / e1e2
+ K: (7,4)->(7,5) / e1f1
+ K: (7,4)->(7,3) / e1d1
+ K: (7,4)->(7,6) / e1g1
 
 ------------------------------Filtered Search Space--------------------------------------------
 Possible moves for piece: P:
- P: (4,6)->(3,6) / g4g5
- P: (5,3)->(4,3) / d3d4
- P: (5,7)->(4,7) / h3h4
+ P: (4,4)->(3,3) / e4d5
  P: (6,0)->(5,0) / a2a3
  P: (6,0)->(4,0) / a2a4
- P: (6,1)->(5,1) / b2b3
- P: (6,1)->(4,1) / b2b4
- P: (6,4)->(5,4) / e2e3
- P: (6,4)->(4,4) / e2e4
+ P: (6,3)->(5,3) / d2d3
+ P: (6,3)->(4,3) / d2d4
+ P: (6,6)->(5,6) / g2g3
+ P: (6,7)->(5,7) / h2h3
+ P: (6,7)->(4,7) / h2h4
 Possible moves for piece: R:
- R: (7,2)->(7,1) / c1b1
- R: (7,2)->(7,0) / c1a1
- R: (7,7)->(6,7) / h1h2
+ R: (7,0)->(7,1) / a1b1
+ R: (7,7)->(7,6) / h1g1
+ R: (7,7)->(7,5) / h1f1
 Possible moves for piece: N:
+ N: (5,2)->(7,3) / c3d1
  N: (5,2)->(7,1) / c3b1
  N: (5,2)->(3,3) / c3d5
  N: (5,2)->(3,1) / c3b5
- N: (5,2)->(4,4) / c3e4
+ N: (5,2)->(6,4) / c3e2
  N: (5,2)->(4,0) / c3a4
- N: (7,6)->(5,5) / g1f3
+ N: (5,5)->(7,6) / f3g1
+ N: (5,5)->(3,6) / f3g5
+ N: (5,5)->(3,4) / f3e5
+ N: (5,5)->(4,7) / f3h4
+ N: (5,5)->(4,3) / f3d4
 Possible moves for piece: B:
- B: (7,5)->(6,6) / f1g2
+ B: (5,1)->(4,0) / b3a4
+ B: (5,1)->(4,2) / b3c4
+ B: (5,1)->(3,3) / b3d5
 Possible moves for piece: Q:
- Q: (7,3)->(6,3) / d1d2
+ Q: (3,7)->(4,7) / h5h4
+ Q: (3,7)->(5,7) / h5h3
+ Q: (3,7)->(2,7) / h5h6
+ Q: (3,7)->(3,6) / h5g5
+ Q: (3,7)->(3,5) / h5f5
+ Q: (3,7)->(3,4) / h5e5
+ Q: (3,7)->(2,6) / h5g6
+ Q: (3,7)->(1,5) / h5f7
+ Q: (3,7)->(0,4) / h5e8
+ Q: (3,7)->(4,6) / h5g4
 Possible moves for piece: K:
- K: (7,4)->(6,5) / e1f2
- K: (7,4)->(6,3) / e1d2
+ K: (7,4)->(6,4) / e1e2
+ K: (7,4)->(7,5) / e1f1
+ K: (7,4)->(7,3) / e1d1
+ K: (7,4)->(7,6) / e1g1
 
 --------------------------------Info on Attacks---------------------------------------------------
 Squares attacked by Black pieces:
-(0,6) (1,2) (1,5) (1,6) (2,0) (2,1) (2,2) (2,3) (2,4) (2,5) (2,6) (3,0) (3,5) (4,1) (4,3) (4,6) (5,4) (5,6) 
+(0,2) (0,4) (0,6) (1,3) (1,4) (1,5) (2,0) (2,1) (2,2) (2,3) (2,4) (2,6) (3,0) (3,2) (3,5) (3,6) (3,7) (4,2) (4,3) (4,4) (4,5) (5,0) (5,2) (5,5) (5,7) 
 
 -------------------------------Squares controlled by the enemy------------------------------------
-* * * * * * X * 
-* * X * * X X * 
-X X X X X X X * 
-X * * * * X * * 
-* X * X * * X * 
-* * * * X * X * 
+* * X * X * X * 
+* * * X X X * * 
+X X X X X * X * 
+X * X * * X X X 
+* * X X X X * * 
+X * X * * X * X 
 * * * * * * * * 
 * * * * * * * * 
 
@@ -1499,29 +1765,37 @@ White King is safe, no check at this position.
 No en passant allowed right now
 ------------------------------Castling Rights Information-------------------------------------------
 White Kingside Castle:  AVAILABLE
-White Queenside Castle: NOT AVAILABLE
+White Queenside Castle: AVAILABLE
 Black Kingside Castle:  NOT AVAILABLE
-Black Queenside Castle: AVAILABLE
+Black Queenside Castle: NOT AVAILABLE
 ---------------------------------------------------------------------------------------------------
 
 ========== CAPTURE EXPLORATION ==========
+[0] Q x n | Potential loss: NO | Score: -320
+[1] Q x p | Potential loss: NO | Score: -100
+[2] Q x b | Potential loss: NO | Score: -330
+[3] P x p | Potential loss: NO | Score: -100
+[4] B x p | Potential loss: NO | Score: -100
+[5] N x p | Potential loss: NO | Score: -100
+[6] N x p | Potential loss: NO | Score: -100
 ========================================
 
 ========== CHECK EXPLORATION ==========
-(no checks found)
+[0] Candidate: Q -> (3,7) -> (1,5) | Checking move: Q (3,7) -> (1,5)Checkmate: NO
+[1] Candidate: Q -> (3,7) -> (0,4) | Checking move: Q (3,7) -> (0,4)Checkmate: NO
 ======================================
 --------------------------------------------------------------------------------------------------
-Chosen Move: (7,5) --> (6,6)
- / f1g2
+Chosen Move: (3,7) --> (4,7)
+ / h5h4
 
-r n b q k b * r 
-p p * p p * * p 
-* * * * * * * n 
-* * p * * * * * 
-* * * * * p P * 
-* * N P * * * P 
-P P P * P * B * 
-* * R Q K * N R 
+r n * q * k * r 
+p p p * * * p p 
+* * * * * p * n 
+* * * p p * * * 
+* b * * P * b Q 
+* B N * * N * * 
+P P P P * P P P 
+R * B * K * * R 
 
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
@@ -1529,38 +1803,38 @@ P P P * P * B *
 [32;1m[Board] [0mLoading history file `championship/chessgambit-chess-project/history.csv`...
 [32;1m[Board] [0mLoaded 16 move(s).
 [32;1m[Board] [0mLoading move file `championship/chessgambit-chess-project/move.csv`...
-[32;1m[Board] [0mWhite player is playing f1 to g2.
+[32;1m[Board] [0mWhite player is playing h5 to h4.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[7;1m [0m|[30;1mQ[0m|[7;1m [0m|[30;1mK[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mk[0m|| 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[0;1mp[0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[30;1mb[0m|[0;1mQ[0m|| 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[0;1mb[0m|[0;1mk[0m|[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m| |[0;1mb[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m|[0;1mr[0m|[0;1mQ[0m|[0;1mK[0m|[7;1m [0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
   +--------+
-8 |rnbqkb.r|
-7 |pp.pp..p|
-6 |.......n|
-5 |..p.....|
-4 |.....pP.|
-3 |..NP...P|
-2 |PPP.P.B.|
-1 |..RQK.NR|
+8 |rn.q.k.r|
+7 |ppp...pp|
+6 |.....p.n|
+5 |...pp...|
+4 |.b..P.bQ|
+3 |.BN..N..|
+2 |PPPP.PPP|
+1 |R.B.K..R|
   +--------+
    abcdefgh
 Side to move: Black
@@ -1570,25 +1844,26 @@ Side to move: Black
 [32;1m[Board] [0mLoading history file `championship/chessgambit-chess-project/history.csv`...
 [32;1m[Board] [0mLoaded 17 move(s).
 [32;1m[Board] [0mLoading move file `championship/chessgambit-chess-project/move.csv`...
-[32;1m[Board] [0mBlack player is playing d7 to d5.
+[32;1m[Board] [0mBlack player is playing d5 to e4.
+[32;1m[Board] [0m[5;1mBlack Pawn is taking White Pawn.[0m
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[7;1m [0m|[30;1mQ[0m|[7;1m [0m|[30;1mK[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mk[0m|| 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[0;1mp[0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mb[0m|[7;1m [0m| |[30;1mp[0m| |[30;1mb[0m|[0;1mQ[0m|| 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[0;1mb[0m|[0;1mk[0m|[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m| |[0;1mb[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m|[0;1mr[0m|[0;1mQ[0m|[0;1mK[0m|[7;1m [0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
@@ -1598,472 +1873,107 @@ Currently playing: White
 
 ------------------------------Current Search Space--------------------------------------------
 Possible moves for piece: P:
- P: (4,6)->(3,6) / g4g5
- P: (5,3)->(4,3) / d3d4
- P: (5,7)->(4,7) / h3h4
  P: (6,0)->(5,0) / a2a3
  P: (6,0)->(4,0) / a2a4
- P: (6,1)->(5,1) / b2b3
- P: (6,1)->(4,1) / b2b4
- P: (6,4)->(5,4) / e2e3
- P: (6,4)->(4,4) / e2e4
+ P: (6,3)->(5,3) / d2d3
+ P: (6,3)->(4,3) / d2d4
+ P: (6,6)->(5,6) / g2g3
+ P: (6,7)->(5,7) / h2h3
 Possible moves for piece: R:
- R: (7,2)->(7,1) / c1b1
- R: (7,2)->(7,0) / c1a1
- R: (7,7)->(6,7) / h1h2
+ R: (7,0)->(7,1) / a1b1
+ R: (7,7)->(7,6) / h1g1
+ R: (7,7)->(7,5) / h1f1
 Possible moves for piece: N:
+ N: (5,2)->(7,3) / c3d1
  N: (5,2)->(7,1) / c3b1
  N: (5,2)->(3,3) / c3d5
  N: (5,2)->(3,1) / c3b5
+ N: (5,2)->(6,4) / c3e2
  N: (5,2)->(4,4) / c3e4
  N: (5,2)->(4,0) / c3a4
- N: (7,6)->(5,5) / g1f3
+ N: (5,5)->(7,6) / f3g1
+ N: (5,5)->(3,6) / f3g5
+ N: (5,5)->(3,4) / f3e5
+ N: (5,5)->(4,3) / f3d4
 Possible moves for piece: B:
- B: (6,6)->(5,5) / g2f3
- B: (6,6)->(4,4) / g2e4
- B: (6,6)->(3,3) / g2d5
- B: (6,6)->(7,5) / g2f1
+ B: (5,1)->(4,0) / b3a4
+ B: (5,1)->(4,2) / b3c4
+ B: (5,1)->(3,3) / b3d5
+ B: (5,1)->(2,4) / b3e6
+ B: (5,1)->(1,5) / b3f7
+ B: (5,1)->(0,6) / b3g8
 Possible moves for piece: Q:
- Q: (7,3)->(6,3) / d1d2
+ Q: (4,7)->(5,7) / h4h3
+ Q: (4,7)->(3,7) / h4h5
+ Q: (4,7)->(2,7) / h4h6
+ Q: (4,7)->(4,6) / h4g4
+ Q: (4,7)->(3,6) / h4g5
+ Q: (4,7)->(2,5) / h4f6
+ Q: (4,7)->(5,6) / h4g3
 Possible moves for piece: K:
+ K: (7,4)->(6,4) / e1e2
  K: (7,4)->(7,5) / e1f1
- K: (7,4)->(6,5) / e1f2
- K: (7,4)->(6,3) / e1d2
+ K: (7,4)->(7,3) / e1d1
+ K: (7,4)->(7,6) / e1g1
 
 ------------------------------Filtered Search Space--------------------------------------------
 Possible moves for piece: P:
- P: (4,6)->(3,6) / g4g5
- P: (5,3)->(4,3) / d3d4
- P: (5,7)->(4,7) / h3h4
  P: (6,0)->(5,0) / a2a3
  P: (6,0)->(4,0) / a2a4
- P: (6,1)->(5,1) / b2b3
- P: (6,1)->(4,1) / b2b4
- P: (6,4)->(5,4) / e2e3
- P: (6,4)->(4,4) / e2e4
+ P: (6,3)->(5,3) / d2d3
+ P: (6,3)->(4,3) / d2d4
+ P: (6,6)->(5,6) / g2g3
+ P: (6,7)->(5,7) / h2h3
 Possible moves for piece: R:
- R: (7,2)->(7,1) / c1b1
- R: (7,2)->(7,0) / c1a1
- R: (7,7)->(6,7) / h1h2
+ R: (7,0)->(7,1) / a1b1
+ R: (7,7)->(7,6) / h1g1
+ R: (7,7)->(7,5) / h1f1
 Possible moves for piece: N:
+ N: (5,2)->(7,3) / c3d1
  N: (5,2)->(7,1) / c3b1
  N: (5,2)->(3,3) / c3d5
  N: (5,2)->(3,1) / c3b5
+ N: (5,2)->(6,4) / c3e2
  N: (5,2)->(4,4) / c3e4
  N: (5,2)->(4,0) / c3a4
- N: (7,6)->(5,5) / g1f3
+ N: (5,5)->(7,6) / f3g1
+ N: (5,5)->(3,6) / f3g5
+ N: (5,5)->(3,4) / f3e5
+ N: (5,5)->(4,3) / f3d4
 Possible moves for piece: B:
- B: (6,6)->(5,5) / g2f3
- B: (6,6)->(4,4) / g2e4
- B: (6,6)->(3,3) / g2d5
- B: (6,6)->(7,5) / g2f1
+ B: (5,1)->(4,0) / b3a4
+ B: (5,1)->(4,2) / b3c4
+ B: (5,1)->(3,3) / b3d5
+ B: (5,1)->(2,4) / b3e6
+ B: (5,1)->(1,5) / b3f7
+ B: (5,1)->(0,6) / b3g8
 Possible moves for piece: Q:
- Q: (7,3)->(6,3) / d1d2
+ Q: (4,7)->(5,7) / h4h3
+ Q: (4,7)->(3,7) / h4h5
+ Q: (4,7)->(2,7) / h4h6
+ Q: (4,7)->(4,6) / h4g4
+ Q: (4,7)->(3,6) / h4g5
+ Q: (4,7)->(2,5) / h4f6
+ Q: (4,7)->(5,6) / h4g3
 Possible moves for piece: K:
+ K: (7,4)->(6,4) / e1e2
  K: (7,4)->(7,5) / e1f1
- K: (7,4)->(6,5) / e1f2
- K: (7,4)->(6,3) / e1d2
+ K: (7,4)->(7,3) / e1d1
+ K: (7,4)->(7,6) / e1g1
 
 --------------------------------Info on Attacks---------------------------------------------------
 Squares attacked by Black pieces:
-(0,6) (1,2) (1,3) (1,5) (1,6) (2,0) (2,1) (2,2) (2,3) (2,4) (2,5) (2,6) (3,0) (3,5) (4,1) (4,2) (4,3) (4,4) (4,6) (5,4) (5,6) 
+(0,2) (0,4) (0,6) (1,3) (1,4) (1,5) (2,0) (2,1) (2,2) (2,3) (2,4) (2,6) (3,0) (3,2) (3,3) (3,5) (3,6) (3,7) (4,3) (4,5) (5,0) (5,2) (5,3) (5,5) (5,7) (6,3) 
 
 -------------------------------Squares controlled by the enemy------------------------------------
-* * * * * * X * 
-* * X X * X X * 
-X X X X X X X * 
-X * * * * X * * 
-* X X X X * X * 
-* * * * X * X * 
-* * * * * * * * 
-* * * * * * * * 
-
-------------------------------Check Information---------------------------------------------------
-White King located at: (7,4)
-White King is safe, no check at this position.
-
-------------------------------Special Move Information-------------------------------------------
-En Passant allowed for this board configuration, en passant square: (2,3)
-------------------------------Castling Rights Information-------------------------------------------
-White Kingside Castle:  AVAILABLE
-White Queenside Castle: NOT AVAILABLE
-Black Kingside Castle:  NOT AVAILABLE
-Black Queenside Castle: AVAILABLE
----------------------------------------------------------------------------------------------------
-
-========== CAPTURE EXPLORATION ==========
-[0] N x p | Potential loss: NO | Score: -100
-[1] B x p | Potential loss: NO | Score: -100
-========================================
-
-========== CHECK EXPLORATION ==========
-(no checks found)
-======================================
---------------------------------------------------------------------------------------------------
-Chosen Move: (5,2) --> (3,3)
- / c3d5
-
-r n b q k b * r 
-p p * * p * * p 
-* * * * * * * n 
-* * p N * * * * 
-* * * * * p P * 
-* * * P * * * P 
-P P P * P * B * 
-* * R Q K * N R 
-
-[32;1m[Game] [0mPlayer's error code: 0
-[32;1m[Game] [0mChecking move validity...
-[32;1m[Board] [0mInitializing board (size: 8)...
-[32;1m[Board] [0mLoading history file `championship/chessgambit-chess-project/history.csv`...
-[32;1m[Board] [0mLoaded 18 move(s).
-[32;1m[Board] [0mLoading move file `championship/chessgambit-chess-project/move.csv`...
-[32;1m[Board] [0mWhite player is playing c3 to d5.
-[32;1m[Board] [0m[5;1mWhite Knight is taking Black Pawn.[0m
-[32;1m[Board] [0m
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|| 7
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|| 6
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[0;1mk[0m| |[7;1m [0m| |[7;1m [0m|| 5
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[0;1mp[0m| || 4
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|| 3
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m| |[0;1mb[0m| || 2
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m|[0;1mr[0m|[0;1mQ[0m|[0;1mK[0m|[7;1m [0m|[0;1mk[0m|[0;1mr[0m|| 1
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m
-[32;1m[Referee] [0mThis is the turn of the Black player...
-  +--------+
-8 |rnbqkb.r|
-7 |pp..p..p|
-6 |.......n|
-5 |..pN....|
-4 |.....pP.|
-3 |...P...P|
-2 |PPP.P.B.|
-1 |..RQK.NR|
-  +--------+
-   abcdefgh
-Side to move: Black
-[32;1m[Game] [0mPlayer's error code: 0
-[32;1m[Game] [0mChecking move validity...
-[32;1m[Board] [0mInitializing board (size: 8)...
-[32;1m[Board] [0mLoading history file `championship/chessgambit-chess-project/history.csv`...
-[32;1m[Board] [0mLoaded 19 move(s).
-[32;1m[Board] [0mLoading move file `championship/chessgambit-chess-project/move.csv`...
-[32;1m[Board] [0mBlack player is playing f4 to f3.
-[32;1m[Board] [0m
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|| 7
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|| 6
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[0;1mk[0m| |[7;1m [0m| |[7;1m [0m|| 5
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| || 4
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[0;1mp[0m| |[30;1mp[0m| |[0;1mp[0m|| 3
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m| |[0;1mb[0m| || 2
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m|[0;1mr[0m|[0;1mQ[0m|[0;1mK[0m|[7;1m [0m|[0;1mk[0m|[0;1mr[0m|| 1
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m
-[32;1m[Referee] [0mThis is the turn of the White player...
-Inputed Board
-Currently playing: White
-
-------------------------------Current Search Space--------------------------------------------
-Possible moves for piece: P:
- P: (4,6)->(3,6) / g4g5
- P: (5,3)->(4,3) / d3d4
- P: (5,7)->(4,7) / h3h4
- P: (6,0)->(5,0) / a2a3
- P: (6,0)->(4,0) / a2a4
- P: (6,1)->(5,1) / b2b3
- P: (6,1)->(4,1) / b2b4
- P: (6,2)->(5,2) / c2c3
- P: (6,2)->(4,2) / c2c4
- P: (6,4)->(5,4) / e2e3
- P: (6,4)->(4,4) / e2e4
- P: (6,4)->(5,5) / e2f3
-Possible moves for piece: R:
- R: (7,2)->(7,1) / c1b1
- R: (7,2)->(7,0) / c1a1
- R: (7,7)->(6,7) / h1h2
-Possible moves for piece: N:
- N: (3,3)->(5,4) / d5e3
- N: (3,3)->(5,2) / d5c3
- N: (3,3)->(1,4) / d5e7
- N: (3,3)->(1,2) / d5c7
- N: (3,3)->(4,5) / d5f4
- N: (3,3)->(2,5) / d5f6
- N: (3,3)->(4,1) / d5b4
- N: (3,3)->(2,1) / d5b6
- N: (7,6)->(5,5) / g1f3
-Possible moves for piece: B:
- B: (6,6)->(5,5) / g2f3
- B: (6,6)->(7,5) / g2f1
-Possible moves for piece: Q:
- Q: (7,3)->(6,3) / d1d2
-Possible moves for piece: K:
- K: (7,4)->(7,5) / e1f1
- K: (7,4)->(6,5) / e1f2
- K: (7,4)->(6,3) / e1d2
-
-------------------------------Filtered Search Space--------------------------------------------
-Possible moves for piece: P:
- P: (4,6)->(3,6) / g4g5
- P: (5,3)->(4,3) / d3d4
- P: (5,7)->(4,7) / h3h4
- P: (6,0)->(5,0) / a2a3
- P: (6,0)->(4,0) / a2a4
- P: (6,1)->(5,1) / b2b3
- P: (6,1)->(4,1) / b2b4
- P: (6,2)->(5,2) / c2c3
- P: (6,2)->(4,2) / c2c4
- P: (6,4)->(5,4) / e2e3
- P: (6,4)->(4,4) / e2e4
- P: (6,4)->(5,5) / e2f3
-Possible moves for piece: R:
- R: (7,2)->(7,1) / c1b1
- R: (7,2)->(7,0) / c1a1
- R: (7,7)->(6,7) / h1h2
-Possible moves for piece: N:
- N: (3,3)->(5,4) / d5e3
- N: (3,3)->(5,2) / d5c3
- N: (3,3)->(1,4) / d5e7
- N: (3,3)->(1,2) / d5c7
- N: (3,3)->(4,5) / d5f4
- N: (3,3)->(2,5) / d5f6
- N: (3,3)->(4,1) / d5b4
- N: (3,3)->(2,1) / d5b6
- N: (7,6)->(5,5) / g1f3
-Possible moves for piece: B:
- B: (6,6)->(5,5) / g2f3
- B: (6,6)->(7,5) / g2f1
-Possible moves for piece: Q:
- Q: (7,3)->(6,3) / d1d2
-Possible moves for piece: K:
- K: (7,4)->(7,5) / e1f1
- K: (7,4)->(6,5) / e1f2
- K: (7,4)->(6,3) / e1d2
-
---------------------------------Info on Attacks---------------------------------------------------
-Squares attacked by Black pieces:
-(0,6) (1,2) (1,3) (1,5) (1,6) (2,0) (2,1) (2,2) (2,3) (2,4) (2,5) (2,6) (3,0) (3,3) (3,5) (4,1) (4,3) (4,6) (6,4) (6,6) 
-
--------------------------------Squares controlled by the enemy------------------------------------
-* * * * * * X * 
-* * X X * X X * 
-X X X X X X X * 
-X * * X * X * * 
-* X * X * * X * 
-* * * * * * * * 
-* * * * X * X * 
-* * * * * * * * 
-
-------------------------------Check Information---------------------------------------------------
-White King located at: (7,4)
-White King is safe, no check at this position.
-
-------------------------------Special Move Information-------------------------------------------
-No en passant allowed right now
-------------------------------Castling Rights Information-------------------------------------------
-White Kingside Castle:  AVAILABLE
-White Queenside Castle: NOT AVAILABLE
-Black Kingside Castle:  NOT AVAILABLE
-Black Queenside Castle: AVAILABLE
----------------------------------------------------------------------------------------------------
-
-========== CAPTURE EXPLORATION ==========
-[0] N x p | Potential loss: NO | Score: -100
-[1] P x p | Potential loss: NO | Score: -100
-[2] B x p | Potential loss: NO | Score: -100
-[3] N x p | Potential loss: NO | Score: -100
-========================================
-
-========== CHECK EXPLORATION ==========
-[0] Candidate: N -> (3,3) -> (1,2) | Checking move: N (3,3) -> (1,2)Checkmate: NO
-[1] Candidate: N -> (3,3) -> (2,5) | Checking move: N (3,3) -> (2,5)Checkmate: NO
-======================================
---------------------------------------------------------------------------------------------------
-Chosen Move: (3,3) --> (1,4)
- / d5e7
-
-r n b q k b * r 
-p p * * N * * p 
-* * * * * * * n 
-* * p * * * * * 
-* * * * * * P * 
-* * * P * p * P 
-P P P * P * B * 
-* * R Q K * N R 
-
-[32;1m[Game] [0mPlayer's error code: 0
-[32;1m[Game] [0mChecking move validity...
-[32;1m[Board] [0mInitializing board (size: 8)...
-[32;1m[Board] [0mLoading history file `championship/chessgambit-chess-project/history.csv`...
-[32;1m[Board] [0mLoaded 20 move(s).
-[32;1m[Board] [0mLoading move file `championship/chessgambit-chess-project/move.csv`...
-[32;1m[Board] [0mWhite player is playing d5 to e7.
-[32;1m[Board] [0m[5;1mWhite Knight is taking Black Pawn.[0m
-[32;1m[Board] [0m
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[30;1mp[0m|| 7
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|| 6
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| || 4
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[0;1mp[0m| |[30;1mp[0m| |[0;1mp[0m|| 3
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m| |[0;1mb[0m| || 2
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m|[0;1mr[0m|[0;1mQ[0m|[0;1mK[0m|[7;1m [0m|[0;1mk[0m|[0;1mr[0m|| 1
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m
-[32;1m[Referee] [0mThis is the turn of the Black player...
-  +--------+
-8 |rnbqkb.r|
-7 |pp..N..p|
-6 |.......n|
-5 |..p.....|
-4 |......P.|
-3 |...P.p.P|
-2 |PPP.P.B.|
-1 |..RQK.NR|
-  +--------+
-   abcdefgh
-Side to move: Black
-[32;1m[Game] [0mPlayer's error code: 0
-[32;1m[Game] [0mChecking move validity...
-[32;1m[Board] [0mInitializing board (size: 8)...
-[32;1m[Board] [0mLoading history file `championship/chessgambit-chess-project/history.csv`...
-[32;1m[Board] [0mLoaded 21 move(s).
-[32;1m[Board] [0mLoading move file `championship/chessgambit-chess-project/move.csv`...
-[32;1m[Board] [0mBlack player is playing f3 to g2.
-[32;1m[Board] [0m[5;1mBlack Pawn is taking White Bishop.[0m
-[32;1m[Board] [0m
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[30;1mp[0m|| 7
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|| 6
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| || 4
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|| 3
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m| |[30;1mp[0m| || 2
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m|[0;1mr[0m|[0;1mQ[0m|[0;1mK[0m|[7;1m [0m|[0;1mk[0m|[0;1mr[0m|| 1
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m
-[32;1m[Referee] [0mThis is the turn of the White player...
-Inputed Board
-Currently playing: White
-
-------------------------------Current Search Space--------------------------------------------
-Possible moves for piece: P:
- P: (4,6)->(3,6) / g4g5
- P: (5,3)->(4,3) / d3d4
- P: (5,7)->(4,7) / h3h4
- P: (6,0)->(5,0) / a2a3
- P: (6,0)->(4,0) / a2a4
- P: (6,1)->(5,1) / b2b3
- P: (6,1)->(4,1) / b2b4
- P: (6,2)->(5,2) / c2c3
- P: (6,2)->(4,2) / c2c4
- P: (6,4)->(5,4) / e2e3
- P: (6,4)->(4,4) / e2e4
-Possible moves for piece: R:
- R: (7,2)->(7,1) / c1b1
- R: (7,2)->(7,0) / c1a1
- R: (7,7)->(6,7) / h1h2
-Possible moves for piece: N:
- N: (1,4)->(3,5) / e7f5
- N: (1,4)->(3,3) / e7d5
- N: (1,4)->(2,6) / e7g6
- N: (1,4)->(0,6) / e7g8
- N: (1,4)->(2,2) / e7c6
- N: (1,4)->(0,2) / e7c8
- N: (7,6)->(5,5) / g1f3
-Possible moves for piece: Q:
- Q: (7,3)->(6,3) / d1d2
-Possible moves for piece: K:
- K: (7,4)->(7,5) / e1f1
- K: (7,4)->(6,5) / e1f2
- K: (7,4)->(6,3) / e1d2
-
-------------------------------Filtered Search Space--------------------------------------------
-Possible moves for piece: P:
- P: (4,6)->(3,6) / g4g5
- P: (5,3)->(4,3) / d3d4
- P: (5,7)->(4,7) / h3h4
- P: (6,0)->(5,0) / a2a3
- P: (6,0)->(4,0) / a2a4
- P: (6,1)->(5,1) / b2b3
- P: (6,1)->(4,1) / b2b4
- P: (6,2)->(5,2) / c2c3
- P: (6,2)->(4,2) / c2c4
- P: (6,4)->(5,4) / e2e3
- P: (6,4)->(4,4) / e2e4
-Possible moves for piece: R:
- R: (7,2)->(7,1) / c1b1
- R: (7,2)->(7,0) / c1a1
- R: (7,7)->(6,7) / h1h2
-Possible moves for piece: N:
- N: (1,4)->(3,5) / e7f5
- N: (1,4)->(3,3) / e7d5
- N: (1,4)->(2,6) / e7g6
- N: (1,4)->(0,6) / e7g8
- N: (1,4)->(2,2) / e7c6
- N: (1,4)->(0,2) / e7c8
- N: (7,6)->(5,5) / g1f3
-Possible moves for piece: Q:
- Q: (7,3)->(6,3) / d1d2
-Possible moves for piece: K:
- K: (7,4)->(6,5) / e1f2
- K: (7,4)->(6,3) / e1d2
-
---------------------------------Info on Attacks---------------------------------------------------
-Squares attacked by Black pieces:
-(0,6) (1,2) (1,3) (1,4) (1,5) (1,6) (2,0) (2,1) (2,2) (2,3) (2,4) (2,6) (3,0) (3,3) (3,5) (4,1) (4,3) (4,6) (5,3) (7,5) (7,7) 
-
--------------------------------Squares controlled by the enemy------------------------------------
-* * * * * * X * 
-* * X X X X X * 
+* * X * X * X * 
+* * * X X X * * 
 X X X X X * X * 
-X * * X * X * * 
-* X * X * * X * 
+X * X X * X X X 
+* * * X * X * * 
+X * X X * X * X 
 * * * X * * * * 
 * * * * * * * * 
-* * * * * X * X 
 
 ------------------------------Check Information---------------------------------------------------
 White King located at: (7,4)
@@ -2073,735 +1983,22 @@ White King is safe, no check at this position.
 No en passant allowed right now
 ------------------------------Castling Rights Information-------------------------------------------
 White Kingside Castle:  AVAILABLE
-White Queenside Castle: NOT AVAILABLE
+White Queenside Castle: AVAILABLE
 Black Kingside Castle:  NOT AVAILABLE
-Black Queenside Castle: AVAILABLE
+Black Queenside Castle: NOT AVAILABLE
 ---------------------------------------------------------------------------------------------------
 
 ========== CAPTURE EXPLORATION ==========
-[0] N x b | Potential loss: NO | Score: -330
+[0] Q x n | Potential loss: NO | Score: -320
+[1] Q x b | Potential loss: NO | Score: -330
+[2] Q x p | Potential loss: NO | Score: -100
+[3] N x p | Potential loss: NO | Score: -100
+[4] N x p | Potential loss: NO | Score: -100
 ========================================
 
 ========== CHECK EXPLORATION ==========
-(no checks found)
+[0] Candidate: Q -> (4,7) -> (2,5) x p | Checking move: Q (4,7) -> (2,5)Checkmate: NO
 ======================================
 --------------------------------------------------------------------------------------------------
-Chosen Move: (1,4) --> (0,2)
- / e7c8
-
-r n N q k b * r 
-p p * * * * * p 
-* * * * * * * n 
-* * p * * * * * 
-* * * * * * P * 
-* * * P * * * P 
-P P P * P * p * 
-* * R Q K * N R 
-
-[32;1m[Game] [0mPlayer's error code: 0
-[32;1m[Game] [0mChecking move validity...
-[32;1m[Board] [0mInitializing board (size: 8)...
-[32;1m[Board] [0mLoading history file `championship/chessgambit-chess-project/history.csv`...
-[32;1m[Board] [0mLoaded 22 move(s).
-[32;1m[Board] [0mLoading move file `championship/chessgambit-chess-project/move.csv`...
-[32;1m[Board] [0mWhite player is playing e7 to c8.
-[32;1m[Board] [0m[5;1mWhite Knight is taking Black Bishop.[0m
-[32;1m[Board] [0m
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[0;1mk[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m| |[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|| 7
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|| 6
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| || 4
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|| 3
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m| |[30;1mp[0m| || 2
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m|[0;1mr[0m|[0;1mQ[0m|[0;1mK[0m|[7;1m [0m|[0;1mk[0m|[0;1mr[0m|| 1
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m
-[32;1m[Referee] [0mThis is the turn of the Black player...
-  +--------+
-8 |rnNqkb.r|
-7 |pp.....p|
-6 |.......n|
-5 |..p.....|
-4 |......P.|
-3 |...P...P|
-2 |PPP.P.p.|
-1 |..RQK.NR|
-  +--------+
-   abcdefgh
-Side to move: Black
-[32;1m[Game] [0mPlayer's error code: 0
-[32;1m[Game] [0mChecking move validity...
-[32;1m[Board] [0mInitializing board (size: 8)...
-[32;1m[Board] [0mLoading history file `championship/chessgambit-chess-project/history.csv`...
-[32;1m[Board] [0mLoaded 23 move(s).
-[32;1m[Board] [0mLoading move file `championship/chessgambit-chess-project/move.csv`...
-[32;1m[Board] [0mBlack player is playing g2 to h1.
-[32;1m[Board] [0m[5;1mBlack Pawn is taking White Rook.[0m
-[32;1m[Board] [0mPromoting a Black Pawn into a Queen
-[32;1m[Board] [0m
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[0;1mk[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m| |[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|| 7
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|| 6
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| || 4
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|| 3
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m| |[7;1m [0m| || 2
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m|[0;1mr[0m|[0;1mQ[0m|[0;1mK[0m|[7;1m [0m|[0;1mk[0m|[30;1mQ[0m|| 1
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m
-[32;1m[Referee] [0mThis is the turn of the White player...
-Inputed Board
-Currently playing: White
-
-------------------------------Current Search Space--------------------------------------------
-Possible moves for piece: P:
- P: (4,6)->(3,6) / g4g5
- P: (5,3)->(4,3) / d3d4
- P: (5,7)->(4,7) / h3h4
- P: (6,0)->(5,0) / a2a3
- P: (6,0)->(4,0) / a2a4
- P: (6,1)->(5,1) / b2b3
- P: (6,1)->(4,1) / b2b4
- P: (6,2)->(5,2) / c2c3
- P: (6,2)->(4,2) / c2c4
- P: (6,4)->(5,4) / e2e3
- P: (6,4)->(4,4) / e2e4
-Possible moves for piece: R:
- R: (7,2)->(7,1) / c1b1
- R: (7,2)->(7,0) / c1a1
-Possible moves for piece: N:
- N: (0,2)->(2,3) / c8d6
- N: (0,2)->(2,1) / c8b6
- N: (0,2)->(1,4) / c8e7
- N: (0,2)->(1,0) / c8a7
- N: (7,6)->(5,5) / g1f3
-Possible moves for piece: Q:
- Q: (7,3)->(6,3) / d1d2
-Possible moves for piece: K:
- K: (7,4)->(7,5) / e1f1
- K: (7,4)->(6,5) / e1f2
- K: (7,4)->(6,3) / e1d2
-
-------------------------------Filtered Search Space--------------------------------------------
-Possible moves for piece: P:
- P: (4,6)->(3,6) / g4g5
- P: (5,3)->(4,3) / d3d4
- P: (5,7)->(4,7) / h3h4
- P: (6,0)->(5,0) / a2a3
- P: (6,0)->(4,0) / a2a4
- P: (6,1)->(5,1) / b2b3
- P: (6,1)->(4,1) / b2b4
- P: (6,2)->(5,2) / c2c3
- P: (6,2)->(4,2) / c2c4
- P: (6,4)->(5,4) / e2e3
- P: (6,4)->(4,4) / e2e4
-Possible moves for piece: R:
- R: (7,2)->(7,1) / c1b1
- R: (7,2)->(7,0) / c1a1
-Possible moves for piece: N:
- N: (0,2)->(2,3) / c8d6
- N: (0,2)->(2,1) / c8b6
- N: (0,2)->(1,4) / c8e7
- N: (0,2)->(1,0) / c8a7
-Possible moves for piece: Q:
- Q: (7,3)->(6,3) / d1d2
-Possible moves for piece: K:
- K: (7,4)->(7,5) / e1f1
- K: (7,4)->(6,5) / e1f2
- K: (7,4)->(6,3) / e1d2
-
---------------------------------Info on Attacks---------------------------------------------------
-Squares attacked by Black pieces:
-(0,2) (0,6) (1,2) (1,3) (1,4) (1,5) (1,6) (2,0) (2,1) (2,2) (2,3) (2,5) (2,6) (3,0) (3,3) (3,5) (3,6) (4,1) (4,3) (4,4) (4,6) (4,7) (5,3) (5,5) (5,7) (6,6) (6,7) (7,6) 
-
--------------------------------Squares controlled by the enemy------------------------------------
-* * X * * * X * 
-* * X X X X X * 
-X X X X * X X * 
-X * * X * X X * 
-* X * X X * X X 
-* * * X * X * X 
-* * * * * * X X 
-* * * * * * X * 
-
-------------------------------Check Information---------------------------------------------------
-White King located at: (7,4)
-White King is safe, no check at this position.
-
-------------------------------Special Move Information-------------------------------------------
-No en passant allowed right now
-------------------------------Castling Rights Information-------------------------------------------
-White Kingside Castle:  NOT AVAILABLE
-White Queenside Castle: NOT AVAILABLE
-Black Kingside Castle:  NOT AVAILABLE
-Black Queenside Castle: AVAILABLE
----------------------------------------------------------------------------------------------------
-
-========== CAPTURE EXPLORATION ==========
-[0] N x p | Potential loss: NO | Score: -100
-========================================
-
-========== CHECK EXPLORATION ==========
-[0] Candidate: N -> (0,2) -> (2,3) | Checking move: N (0,2) -> (2,3)Checkmate: NO
-======================================
---------------------------------------------------------------------------------------------------
-Chosen Move: (0,2) --> (1,0)
- / c8a7
-
-r n * q k b * r 
-N p * * * * * p 
-* * * * * * * n 
-* * p * * * * * 
-* * * * * * P * 
-* * * P * * * P 
-P P P * P * * * 
-* * R Q K * N q 
-
-[32;1m[Game] [0mPlayer's error code: 0
-[32;1m[Game] [0mChecking move validity...
-[32;1m[Board] [0mInitializing board (size: 8)...
-[32;1m[Board] [0mLoading history file `championship/chessgambit-chess-project/history.csv`...
-[32;1m[Board] [0mLoaded 24 move(s).
-[32;1m[Board] [0mLoading move file `championship/chessgambit-chess-project/move.csv`...
-[32;1m[Board] [0mWhite player is playing c8 to a7.
-[32;1m[Board] [0m[5;1mWhite Knight is taking Black Pawn.[0m
-[32;1m[Board] [0m
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[7;1m [0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[0;1mk[0m|[30;1mp[0m| |[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|| 7
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|| 6
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| || 4
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|| 3
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m| |[7;1m [0m| || 2
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m|[0;1mr[0m|[0;1mQ[0m|[0;1mK[0m|[7;1m [0m|[0;1mk[0m|[30;1mQ[0m|| 1
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m
-[32;1m[Referee] [0mThis is the turn of the Black player...
-  +--------+
-8 |rn.qkb.r|
-7 |Np.....p|
-6 |.......n|
-5 |..p.....|
-4 |......P.|
-3 |...P...P|
-2 |PPP.P...|
-1 |..RQK.Nq|
-  +--------+
-   abcdefgh
-Side to move: Black
-[32;1m[Game] [0mPlayer's error code: 0
-[32;1m[Game] [0mChecking move validity...
-[32;1m[Board] [0mInitializing board (size: 8)...
-[32;1m[Board] [0mLoading history file `championship/chessgambit-chess-project/history.csv`...
-[32;1m[Board] [0mLoaded 25 move(s).
-[32;1m[Board] [0mLoading move file `championship/chessgambit-chess-project/move.csv`...
-[32;1m[Board] [0mBlack player is playing h1 to g1.
-[32;1m[Board] [0m[5;1mBlack Queen is taking White Knight.[0m
-[32;1m[Board] [0m
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[7;1m [0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[0;1mk[0m|[30;1mp[0m| |[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|| 7
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|| 6
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| || 4
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|| 3
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m| |[7;1m [0m| || 2
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m|[0;1mr[0m|[0;1mQ[0m|[0;1mK[0m|[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 1
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m
-[32;1m[Referee] [0mThis is the turn of the White player...
-Inputed Board
-Currently playing: White
-
-------------------------------Current Search Space--------------------------------------------
-Possible moves for piece: P:
- P: (4,6)->(3,6) / g4g5
- P: (5,3)->(4,3) / d3d4
- P: (5,7)->(4,7) / h3h4
- P: (6,0)->(5,0) / a2a3
- P: (6,0)->(4,0) / a2a4
- P: (6,1)->(5,1) / b2b3
- P: (6,1)->(4,1) / b2b4
- P: (6,2)->(5,2) / c2c3
- P: (6,2)->(4,2) / c2c4
- P: (6,4)->(5,4) / e2e3
- P: (6,4)->(4,4) / e2e4
-Possible moves for piece: R:
- R: (7,2)->(7,1) / c1b1
- R: (7,2)->(7,0) / c1a1
-Possible moves for piece: N:
- N: (1,0)->(3,1) / a7b5
- N: (1,0)->(2,2) / a7c6
- N: (1,0)->(0,2) / a7c8
-Possible moves for piece: Q:
- Q: (7,3)->(6,3) / d1d2
-Possible moves for piece: K:
- K: (7,4)->(7,5) / e1f1
- K: (7,4)->(6,5) / e1f2
- K: (7,4)->(6,3) / e1d2
-
-------------------------------Filtered Search Space--------------------------------------------
-Possible moves for piece: K:
- K: (7,4)->(6,3) / e1d2
-
---------------------------------Info on Attacks---------------------------------------------------
-Squares attacked by Black pieces:
-(0,2) (0,6) (1,0) (1,2) (1,3) (1,4) (1,5) (1,6) (2,0) (2,1) (2,2) (2,3) (2,5) (2,6) (3,0) (3,3) (3,5) (3,6) (4,1) (4,3) (4,6) (4,7) (5,3) (5,4) (5,6) (6,5) (6,6) (6,7) (7,4) (7,5) (7,7) 
-
--------------------------------Squares controlled by the enemy------------------------------------
-* * X * * * X * 
-X * X X X X X * 
-X X X X * X X * 
-X * * X * X X * 
-* X * X * * X X 
-* * * X X * X * 
-* * * * * X X X 
-* * * * X X * X 
-
-------------------------------Check Information---------------------------------------------------
-White King located at: (7,4)
-White King is in check by q at (7,6)
-
-------------------------------Special Move Information-------------------------------------------
-No en passant allowed right now
-------------------------------Castling Rights Information-------------------------------------------
-White Kingside Castle:  NOT AVAILABLE
-White Queenside Castle: NOT AVAILABLE
-Black Kingside Castle:  NOT AVAILABLE
-Black Queenside Castle: AVAILABLE
----------------------------------------------------------------------------------------------------
-
-========== CAPTURE EXPLORATION ==========
-========================================
-
-========== CHECK EXPLORATION ==========
-(no checks found)
-======================================
---------------------------------------------------------------------------------------------------
-Chosen Move: (7,4) --> (6,3)
- / e1d2
-
-r n * q k b * r 
-N p * * * * * p 
-* * * * * * * n 
-* * p * * * * * 
-* * * * * * P * 
-* * * P * * * P 
-P P P K P * * * 
-* * R Q * * q * 
-
-[32;1m[Game] [0mPlayer's error code: 0
-[32;1m[Game] [0mChecking move validity...
-[32;1m[Board] [0mInitializing board (size: 8)...
-[32;1m[Board] [0mLoading history file `championship/chessgambit-chess-project/history.csv`...
-[32;1m[Board] [0mLoaded 26 move(s).
-[32;1m[Board] [0mLoading move file `championship/chessgambit-chess-project/move.csv`...
-[32;1m[Board] [0mWhite player is playing e1 to d2.
-[32;1m[Board] [0m
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[7;1m [0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[0;1mk[0m|[30;1mp[0m| |[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|| 7
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|| 6
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| || 4
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|| 3
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mK[0m|[0;1mp[0m| |[7;1m [0m| || 2
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m|[0;1mr[0m|[0;1mQ[0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 1
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m
-[32;1m[Referee] [0mThis is the turn of the Black player...
-  +--------+
-8 |rn.qkb.r|
-7 |Np.....p|
-6 |.......n|
-5 |..p.....|
-4 |......P.|
-3 |...P...P|
-2 |PPPKP...|
-1 |..RQ..q.|
-  +--------+
-   abcdefgh
-Side to move: Black
-[32;1m[Game] [0mPlayer's error code: 0
-[32;1m[Game] [0mChecking move validity...
-[32;1m[Board] [0mInitializing board (size: 8)...
-[32;1m[Board] [0mLoading history file `championship/chessgambit-chess-project/history.csv`...
-[32;1m[Board] [0mLoaded 27 move(s).
-[32;1m[Board] [0mLoading move file `championship/chessgambit-chess-project/move.csv`...
-[32;1m[Board] [0mBlack player is playing d8 to g5.
-[32;1m[Board] [0m
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[7;1m [0m| |[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[0;1mk[0m|[30;1mp[0m| |[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|| 7
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|| 6
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 5
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| || 4
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|| 3
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mK[0m|[0;1mp[0m| |[7;1m [0m| || 2
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m|[0;1mr[0m|[0;1mQ[0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 1
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m
-[32;1m[Referee] [0mThis is the turn of the White player...
-Inputed Board
-Currently playing: White
-
-------------------------------Current Search Space--------------------------------------------
-Possible moves for piece: P:
- P: (5,3)->(4,3) / d3d4
- P: (5,7)->(4,7) / h3h4
- P: (6,0)->(5,0) / a2a3
- P: (6,0)->(4,0) / a2a4
- P: (6,1)->(5,1) / b2b3
- P: (6,1)->(4,1) / b2b4
- P: (6,2)->(5,2) / c2c3
- P: (6,2)->(4,2) / c2c4
- P: (6,4)->(5,4) / e2e3
- P: (6,4)->(4,4) / e2e4
-Possible moves for piece: R:
- R: (7,2)->(7,1) / c1b1
- R: (7,2)->(7,0) / c1a1
-Possible moves for piece: N:
- N: (1,0)->(3,1) / a7b5
- N: (1,0)->(2,2) / a7c6
- N: (1,0)->(0,2) / a7c8
-Possible moves for piece: Q:
- Q: (7,3)->(7,4) / d1e1
- Q: (7,3)->(7,5) / d1f1
- Q: (7,3)->(7,6) / d1g1
-Possible moves for piece: K:
- K: (6,3)->(7,4) / d2e1
- K: (6,3)->(5,4) / d2e3
- K: (6,3)->(5,2) / d2c3
-
-------------------------------Filtered Search Space--------------------------------------------
-Possible moves for piece: P:
- P: (6,4)->(5,4) / e2e3
-Possible moves for piece: K:
- K: (6,3)->(5,2) / d2c3
-
---------------------------------Info on Attacks---------------------------------------------------
-Squares attacked by Black pieces:
-(0,3) (0,6) (1,0) (1,3) (1,4) (1,5) (1,6) (2,0) (2,2) (2,3) (2,5) (2,6) (3,3) (3,4) (3,5) (3,7) (4,1) (4,3) (4,5) (4,6) (4,7) (5,4) (5,6) (6,3) (6,5) (6,6) (6,7) (7,3) (7,4) (7,5) (7,7) 
-
--------------------------------Squares controlled by the enemy------------------------------------
-* * * X * * X * 
-X * * X X X X * 
-X * X X * X X * 
-* * * X X X * X 
-* X * X * X X X 
-* * * * X * X * 
-* * * X * X X X 
-* * * X X X * X 
-
-------------------------------Check Information---------------------------------------------------
-White King located at: (6,3)
-White King is in check by q at (3,6)
-
-------------------------------Special Move Information-------------------------------------------
-No en passant allowed right now
-------------------------------Castling Rights Information-------------------------------------------
-White Kingside Castle:  NOT AVAILABLE
-White Queenside Castle: NOT AVAILABLE
-Black Kingside Castle:  NOT AVAILABLE
-Black Queenside Castle: AVAILABLE
----------------------------------------------------------------------------------------------------
-
-========== CAPTURE EXPLORATION ==========
-========================================
-
-========== CHECK EXPLORATION ==========
-(no checks found)
-======================================
---------------------------------------------------------------------------------------------------
-Chosen Move: (6,3) --> (5,2)
- / d2c3
-
-r n * * k b * r 
-N p * * * * * p 
-* * * * * * * n 
-* * p * * * q * 
-* * * * * * P * 
-* * K P * * * P 
-P P P * P * * * 
-* * R Q * * q * 
-
-[32;1m[Game] [0mPlayer's error code: 0
-[32;1m[Game] [0mChecking move validity...
-[32;1m[Board] [0mInitializing board (size: 8)...
-[32;1m[Board] [0mLoading history file `championship/chessgambit-chess-project/history.csv`...
-[32;1m[Board] [0mLoaded 28 move(s).
-[32;1m[Board] [0mLoading move file `championship/chessgambit-chess-project/move.csv`...
-[32;1m[Board] [0mWhite player is playing d2 to c3.
-[32;1m[Board] [0m
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[7;1m [0m| |[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[0;1mk[0m|[30;1mp[0m| |[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|| 7
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|| 6
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 5
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| || 4
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mK[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|| 3
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m| |[7;1m [0m| || 2
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m|[0;1mr[0m|[0;1mQ[0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 1
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m
-[32;1m[Referee] [0mThis is the turn of the Black player...
-  +--------+
-8 |rn..kb.r|
-7 |Np.....p|
-6 |.......n|
-5 |..p...q.|
-4 |......P.|
-3 |..KP...P|
-2 |PPP.P...|
-1 |..RQ..q.|
-  +--------+
-   abcdefgh
-Side to move: Black
-[32;1m[Game] [0mPlayer's error code: 0
-[32;1m[Game] [0mChecking move validity...
-[32;1m[Board] [0mInitializing board (size: 8)...
-[32;1m[Board] [0mLoading history file `championship/chessgambit-chess-project/history.csv`...
-[32;1m[Board] [0mLoaded 29 move(s).
-[32;1m[Board] [0mLoading move file `championship/chessgambit-chess-project/move.csv`...
-[32;1m[Board] [0mBlack player is playing g1 to d4.
-[32;1m[Board] [0m
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[7;1m [0m| |[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[0;1mk[0m|[30;1mp[0m| |[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|| 7
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|| 6
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 5
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m| |[0;1mp[0m| || 4
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mK[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|| 3
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m| |[7;1m [0m| || 2
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m|[0;1mr[0m|[0;1mQ[0m| |[7;1m [0m| |[7;1m [0m|| 1
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m
-[32;1m[Referee] [0mThis is the turn of the White player...
-Inputed Board
-Currently playing: White
-
-------------------------------Current Search Space--------------------------------------------
-Possible moves for piece: P:
- P: (5,7)->(4,7) / h3h4
- P: (6,0)->(5,0) / a2a3
- P: (6,0)->(4,0) / a2a4
- P: (6,1)->(5,1) / b2b3
- P: (6,1)->(4,1) / b2b4
- P: (6,4)->(5,4) / e2e3
- P: (6,4)->(4,4) / e2e4
-Possible moves for piece: R:
- R: (7,2)->(7,1) / c1b1
- R: (7,2)->(7,0) / c1a1
-Possible moves for piece: N:
- N: (1,0)->(3,1) / a7b5
- N: (1,0)->(2,2) / a7c6
- N: (1,0)->(0,2) / a7c8
-Possible moves for piece: Q:
- Q: (7,3)->(6,3) / d1d2
- Q: (7,3)->(7,4) / d1e1
- Q: (7,3)->(7,5) / d1f1
- Q: (7,3)->(7,6) / d1g1
- Q: (7,3)->(7,7) / d1h1
-Possible moves for piece: K:
- K: (5,2)->(4,2) / c3c4
- K: (5,2)->(5,1) / c3b3
- K: (5,2)->(6,3) / c3d2
- K: (5,2)->(4,3) / c3d4
- K: (5,2)->(4,1) / c3b4
-
-------------------------------Filtered Search Space--------------------------------------------
-Possible moves for piece: K:
- K: (5,2)->(5,1) / c3b3
-
---------------------------------Info on Attacks---------------------------------------------------
-Squares attacked by Black pieces:
-(0,3) (0,6) (1,0) (1,3) (1,4) (1,5) (1,6) (2,0) (2,2) (2,3) (2,5) (2,6) (3,3) (3,4) (3,5) (3,7) (4,0) (4,1) (4,2) (4,4) (4,5) (4,6) (4,7) (5,2) (5,3) (5,4) (6,3) (6,5) (7,2) (7,6) 
-
--------------------------------Squares controlled by the enemy------------------------------------
-* * * X * * X * 
-X * * X X X X * 
-X * X X * X X * 
-* * * X X X * X 
-X X X * X X X X 
-* * X X X * * * 
-* * * X * X * * 
-* * X * * * X * 
-
-------------------------------Check Information---------------------------------------------------
-White King located at: (5,2)
-White King is in check by q at (4,3)
-
-------------------------------Special Move Information-------------------------------------------
-No en passant allowed right now
-------------------------------Castling Rights Information-------------------------------------------
-White Kingside Castle:  NOT AVAILABLE
-White Queenside Castle: NOT AVAILABLE
-Black Kingside Castle:  NOT AVAILABLE
-Black Queenside Castle: AVAILABLE
----------------------------------------------------------------------------------------------------
-
-========== CAPTURE EXPLORATION ==========
-========================================
-
-========== CHECK EXPLORATION ==========
-(no checks found)
-======================================
---------------------------------------------------------------------------------------------------
-Chosen Move: (5,2) --> (5,1)
- / c3b3
-
-r n * * k b * r 
-N p * * * * * p 
-* * * * * * * n 
-* * p * * * q * 
-* * * q * * P * 
-* K * P * * * P 
-P P P * P * * * 
-* * R Q * * * * 
-
-[32;1m[Game] [0mPlayer's error code: 0
-[32;1m[Game] [0mChecking move validity...
-[32;1m[Board] [0mInitializing board (size: 8)...
-[32;1m[Board] [0mLoading history file `championship/chessgambit-chess-project/history.csv`...
-[32;1m[Board] [0mLoaded 30 move(s).
-[32;1m[Board] [0mLoading move file `championship/chessgambit-chess-project/move.csv`...
-[32;1m[Board] [0mWhite player is playing c3 to b3.
-[32;1m[Board] [0m
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[7;1m [0m| |[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[0;1mk[0m|[30;1mp[0m| |[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|| 7
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|| 6
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 5
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m| |[0;1mp[0m| || 4
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[0;1mK[0m| |[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|| 3
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m| |[7;1m [0m| || 2
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m|[0;1mr[0m|[0;1mQ[0m| |[7;1m [0m| |[7;1m [0m|| 1
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m
-[32;1m[Referee] [0mThis is the turn of the Black player...
-  +--------+
-8 |rn..kb.r|
-7 |Np.....p|
-6 |.......n|
-5 |..p...q.|
-4 |...q..P.|
-3 |.K.P...P|
-2 |PPP.P...|
-1 |..RQ....|
-  +--------+
-   abcdefgh
-Side to move: Black
-[32;1m[Game] [0mPlayer's error code: 0
-[32;1m[Game] [0mChecking move validity...
-[32;1m[Board] [0mInitializing board (size: 8)...
-[32;1m[Board] [0mLoading history file `championship/chessgambit-chess-project/history.csv`...
-[32;1m[Board] [0mLoaded 31 move(s).
-[32;1m[Board] [0mLoading move file `championship/chessgambit-chess-project/move.csv`...
-[32;1m[Board] [0mBlack player is playing d4 to b4.
-[32;1m[Board] [0m
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[7;1m [0m| |[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[0;1mk[0m|[30;1mp[0m| |[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|| 7
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|| 6
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 5
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mQ[0m|[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| || 4
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[0;1mK[0m| |[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|| 3
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m| |[7;1m [0m| || 2
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m|[0;1mr[0m|[0;1mQ[0m| |[7;1m [0m| |[7;1m [0m|| 1
-[32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m     a b c d e f g h
-[32;1m[Board] [0m
-[32;1m[Referee] [0mThis is the turn of the White player...
+[32;1m[Game] [0mPlayer's error code: 31744
+[32;1m[Game] [0mWhite player has lost on illegal move.
