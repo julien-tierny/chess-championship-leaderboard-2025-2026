@@ -22,7 +22,7 @@
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-Choice: d2d4 | Depth: 0 | Time: 56ms
+Choice: d2d4 | Depth: 0 | Time: 42ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
@@ -65,7 +65,7 @@ Choice: d2d4 | Depth: 0 | Time: 56ms
 1| r n b q k b n r |
  +-----------------+
    a b c d e f g h
-1 10 :( 2 040 :( 3 10 4 030 5 0 6 020 7 0 8 020 6795264  +-----------------+
+1 10 :( 2 040 :( 3 10 4 030 5 0 6 020 7 0 8 020 5963776  +-----------------+
 8| R N B Q K B . R |
 7| P P P P P P P P |
 6| . . . . . N . . |
@@ -107,7 +107,7 @@ Choice: d2d4 | Depth: 0 | Time: 56ms
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-Choice: c1g5 | Depth: 0 | Time: 62ms
+Choice: c2c4 | Depth: 0 | Time: 61ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
@@ -116,7 +116,7 @@ Choice: c1g5 | Depth: 0 | Time: 62ms
 [32;1m[Board] [0mLoaded 2 move(s).
 [32;1m[Board] [0mHistory replayed, 32 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing c1 to g5.
+[32;1m[Board] [0mWhite player is playing c2 to c4.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
@@ -126,15 +126,15 @@ Choice: c1g5 | Depth: 0 | Time: 62ms
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mb[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m| |[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
@@ -143,22 +143,22 @@ Choice: c1g5 | Depth: 0 | Time: 62ms
 8| R N B Q K B . R |
 7| P P P P P P P P |
 6| . . . . . N . . |
-5| . . . . . . b . |
-4| . . . p . . . . |
+5| . . . . . . . . |
+4| . . p p . . . . |
 3| . . . . . . . . |
-2| p p p . p p p p |
-1| r n . q k b n r |
+2| p p . . p p p p |
+1| r n b q k b n r |
  +-----------------+
    a b c d e f g h
-1 45 2 5 3 35 4 05 5 10 6 015 7 5 7335936  +-----------------+
+1 70 :( 2 20 3 50 4 15 5 35 6 15 9785344  +-----------------+
 8| R N B Q K B . R |
-7| P P P . P P P P |
-6| . . . . . N . . |
-5| . . . P . . b . |
-4| . . . p . . . . |
+7| P P P P . P P P |
+6| . . . . P N . . |
+5| . . . . . . . . |
+4| . . p p . . . . |
 3| . . . . . . . . |
-2| p p p . p p p p |
-1| r n . q k b n r |
+2| p p . . p p p p |
+1| r n b q k b n r |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -169,30 +169,30 @@ Choice: c1g5 | Depth: 0 | Time: 62ms
 [32;1m[Board] [0mLoaded 3 move(s).
 [32;1m[Board] [0mHistory replayed, 32 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing d7 to d5.
+[32;1m[Board] [0mBlack player is playing e7 to e6.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[0;1mb[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m| |[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-Choice: e2e3 | Depth: 0 | Time: 57ms
+Choice: b1c3 | Depth: 0 | Time: 56ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
@@ -201,49 +201,49 @@ Choice: e2e3 | Depth: 0 | Time: 57ms
 [32;1m[Board] [0mLoaded 4 move(s).
 [32;1m[Board] [0mHistory replayed, 32 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing e2 to e3.
+[32;1m[Board] [0mWhite player is playing b1 to c3.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[0;1mb[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m| |[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
 8| R N B Q K B . R |
-7| P P P . P P P P |
-6| . . . . . N . . |
-5| . . . P . . b . |
-4| . . . p . . . . |
-3| . . . . p . . . |
-2| p p p . . p p p |
-1| r n . q k b n r |
+7| P P P P . P P P |
+6| . . . . P N . . |
+5| . . . . . . . . |
+4| . . p p . . . . |
+3| . . n . . . . . |
+2| p p . . p p p p |
+1| r . b q k b n r |
  +-----------------+
    a b c d e f g h
-1 65 :( 2 15 3 35 4 10 5 35 6 05 6135808  +-----------------+
-8| R N B Q K B . R |
-7| P P P . P P P P |
-6| . . . . . . . . |
-5| . . . P . . b . |
-4| . . . p N . . . |
-3| . . . . p . . . |
-2| p p p . . p p p |
-1| r n . q k b n r |
+1 40 2 10 3 30 4 15 5 30 10424320  +-----------------+
+8| R . B Q K B . R |
+7| P P P P . P P P |
+6| . . N . P N . . |
+5| . . . . . . . . |
+4| . . p p . . . . |
+3| . . n . . . . . |
+2| p p . . p p p p |
+1| r . b q k b n r |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -254,30 +254,30 @@ Choice: e2e3 | Depth: 0 | Time: 57ms
 [32;1m[Board] [0mLoaded 5 move(s).
 [32;1m[Board] [0mHistory replayed, 32 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing f6 to e4.
+[32;1m[Board] [0mBlack player is playing b8 to c6.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[0;1mb[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[30;1mk[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m| |[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-Choice: g5f4 | Depth: 7 | Time: 9569ms
+Choice: e2e4 | Depth: 6 | Time: 9543ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
@@ -286,49 +286,49 @@ Choice: g5f4 | Depth: 7 | Time: 9569ms
 [32;1m[Board] [0mLoaded 6 move(s).
 [32;1m[Board] [0mHistory replayed, 32 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing g5 to f4.
+[32;1m[Board] [0mWhite player is playing e2 to e4.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[30;1mk[0m|[0;1mb[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m| |[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R N B Q K B . R |
-7| P P P . P P P P |
-6| . . . . . . . . |
-5| . . . P . . . . |
-4| . . . p N b . . |
-3| . . . . p . . . |
-2| p p p . . p p p |
-1| r n . q k b n r |
+8| R . B Q K B . R |
+7| P P P P . P P P |
+6| . . N . P N . . |
+5| . . . . . . . . |
+4| . . p p p . . . |
+3| . . n . . . . . |
+2| p p . . . p p p |
+1| r . b q k b n r |
  +-----------------+
    a b c d e f g h
-1 70 2 30 3 35 4 05 5 5 6 0 10076160  +-----------------+
-8| R N B Q K B . R |
-7| P P P . P P . P |
-6| . . . . . . . . |
-5| . . . P . . P . |
-4| . . . p N b . . |
-3| . . . . p . . . |
-2| p p p . . p p p |
-1| r n . q k b n r |
+1 40 2 35 3 40 4 35 8056832  +-----------------+
+8| R . B Q K . . R |
+7| P P P P . P P P |
+6| . . N . P N . . |
+5| . . . . . . . . |
+4| . B p p p . . . |
+3| . . n . . . . . |
+2| p p . . . p p p |
+1| r . b q k b n r |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -339,30 +339,30 @@ Choice: g5f4 | Depth: 7 | Time: 9569ms
 [32;1m[Board] [0mLoaded 7 move(s).
 [32;1m[Board] [0mHistory replayed, 32 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing g7 to g5.
+[32;1m[Board] [0mBlack player is playing f8 to b4.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m| |[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[30;1mk[0m|[0;1mb[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mb[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m| |[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-Choice: f4e5 | Depth: 7 | Time: 9556ms
+Choice: d4d5 | Depth: 7 | Time: 9557ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
@@ -371,49 +371,49 @@ Choice: f4e5 | Depth: 7 | Time: 9556ms
 [32;1m[Board] [0mLoaded 8 move(s).
 [32;1m[Board] [0mHistory replayed, 32 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing f4 to e5.
+[32;1m[Board] [0mWhite player is playing d4 to d5.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m| |[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m|[0;1mb[0m|[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[30;1mk[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mb[0m|[0;1mp[0m| |[0;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m| |[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R N B Q K B . R |
-7| P P P . P P . P |
-6| . . . . . . . . |
-5| . . . P b . P . |
-4| . . . p N . . . |
-3| . . . . p . . . |
-2| p p p . . p p p |
-1| r n . q k b n r |
+8| R . B Q K . . R |
+7| P P P P . P P P |
+6| . . N . P N . . |
+5| . . . p . . . . |
+4| . B p . p . . . |
+3| . . n . . . . . |
+2| p p . . . p p p |
+1| r . b q k b n r |
  +-----------------+
    a b c d e f g h
-1 10 2 010 3 0 4 0 5 0 10883072  +-----------------+
-8| R N B Q K B . R |
-7| P P P . P . . P |
-6| . . . . . P . . |
-5| . . . P b . P . |
-4| . . . p N . . . |
-3| . . . . p . . . |
-2| p p p . . p p p |
-1| r n . q k b n r |
+1 25 2 35 3 25 4 35 5 10 6 50 9830400  +-----------------+
+8| R . B Q K . . R |
+7| P P P P . P P P |
+6| . . N . P . . . |
+5| . . . p . . . . |
+4| . B p . N . . . |
+3| . . n . . . . . |
+2| p p . . . p p p |
+1| r . b q k b n r |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -424,81 +424,83 @@ Choice: f4e5 | Depth: 7 | Time: 9556ms
 [32;1m[Board] [0mLoaded 9 move(s).
 [32;1m[Board] [0mHistory replayed, 32 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing f7 to f6.
+[32;1m[Board] [0mBlack player is playing f6 to e4.
+[32;1m[Board] [0m[5;1mBlack Knight is taking White Pawn.[0m
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m| |[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m|[0;1mb[0m|[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[30;1mk[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mb[0m|[0;1mp[0m| |[30;1mk[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m| |[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-Choice: d1h5 | Depth: 7 | Time: 9555ms
+Choice: d5c6 | Depth: 8 | Time: 9549ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 10 move(s).
-[32;1m[Board] [0mHistory replayed, 32 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 31 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing d1 to h5.
+[32;1m[Board] [0mWhite player is playing d5 to c6.
+[32;1m[Board] [0m[5;1mWhite Pawn is taking Black Knight.[0m
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m| |[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[0;1mp[0m| |[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m|[0;1mb[0m|[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[30;1mk[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mb[0m|[0;1mp[0m| |[30;1mk[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m| |[7;1m [0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R N B Q K B . R |
-7| P P P . P . . P |
-6| . . . . . P . . |
-5| . . . P b . P q |
-4| . . . p N . . . |
-3| . . . . p . . . |
-2| p p p . . p p p |
-1| r n . . k b n r |
+8| R . B Q K . . R |
+7| P P P P . P P P |
+6| . . p . P . . . |
+5| . . . . . . . . |
+4| . B p . N . . . |
+3| . . n . . . . . |
+2| p p . . . p p p |
+1| r . b q k b n r |
  +-----------------+
    a b c d e f g h
-1 0 2 10 3 0 4 5 5 0 10260480  +-----------------+
-8| R N B Q . B . R |
-7| P P P K P . . P |
-6| . . . . . P . . |
-5| . . . P b . P q |
-4| . . . p N . . . |
-3| . . . . p . . . |
-2| p p p . . p p p |
-1| r n . . k b n r |
+1 040 2 040 3 035 4 5 5 45 6 85 7544832  +-----------------+
+8| R . B Q K . . R |
+7| P P P P . P P P |
+6| . . p . P . . . |
+5| . . . . . . . . |
+4| . B p . . . . . |
+3| . . N . . . . . |
+2| p p . . . p p p |
+1| r . b q k b n r |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -507,83 +509,85 @@ Choice: d1h5 | Depth: 7 | Time: 9555ms
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 11 move(s).
-[32;1m[Board] [0mHistory replayed, 32 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 30 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing e8 to d7.
+[32;1m[Board] [0mBlack player is playing e4 to c3.
+[32;1m[Board] [0m[5;1mBlack Knight is taking White Knight.[0m
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m| |[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mK[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[0;1mp[0m| |[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m|[0;1mb[0m|[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[30;1mk[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mb[0m|[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[30;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m| |[7;1m [0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-Choice: e5g3 | Depth: 7 | Time: 9547ms
+Choice: b2c3 | Depth: 8 | Time: 9550ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 12 move(s).
-[32;1m[Board] [0mHistory replayed, 32 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 29 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing e5 to g3.
+[32;1m[Board] [0mWhite player is playing b2 to c3.
+[32;1m[Board] [0m[5;1mWhite Pawn is taking Black Knight.[0m
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m| |[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mK[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[0;1mp[0m| |[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[30;1mk[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mb[0m|[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m| |[7;1m [0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R N B Q . B . R |
-7| P P P K P . . P |
-6| . . . . . P . . |
-5| . . . P . . P q |
-4| . . . p N . . . |
-3| . . . . p . b . |
-2| p p p . . p p p |
-1| r n . . k b n r |
+8| R . B Q K . . R |
+7| P P P P . P P P |
+6| . . p . P . . . |
+5| . . . . . . . . |
+4| . B p . . . . . |
+3| . . p . . . . . |
+2| p . . . . p p p |
+1| r . b q k b n r |
  +-----------------+
    a b c d e f g h
-1 40 2 0 3 5 4 0 5 20 9953280  +-----------------+
-8| R N B Q . B . R |
-7| P P P K P . . P |
-6| . . . . . P . . |
-5| . . . P . . P q |
-4| . . . p . . . . |
-3| . . . . p . N . |
-2| p p p . . p p p |
-1| r n . . k b n r |
+1 85 2 85 3 85 4 110 5 110 6 115 7 95 8 100 5132288  +-----------------+
+8| R . B Q K . . R |
+7| P P P P . P P P |
+6| . . p . P . . . |
+5| . . . . . . . . |
+4| . . p . . . . . |
+3| . . B . . . . . |
+2| p . . . . p p p |
+1| r . b q k b n r |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -592,85 +596,84 @@ Choice: e5g3 | Depth: 7 | Time: 9547ms
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 13 move(s).
-[32;1m[Board] [0mHistory replayed, 32 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 28 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing e4 to g3.
-[32;1m[Board] [0m[5;1mBlack Knight is taking White Bishop.[0m
+[32;1m[Board] [0mBlack player is playing b4 to c3.
+[32;1m[Board] [0m[5;1mBlack Bishop is taking White Pawn.[0m
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m| |[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mK[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[0;1mp[0m| |[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|[30;1mk[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[30;1mb[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m| |[7;1m [0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-Choice: h2g3 | Depth: 7 | Time: 9542ms
+Choice: c1d2 | Depth: 9 | Time: 9546ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 14 move(s).
-[32;1m[Board] [0mHistory replayed, 31 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 27 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing h2 to g3.
-[32;1m[Board] [0m[5;1mWhite Pawn is taking Black Knight.[0m
+[32;1m[Board] [0mWhite player is playing c1 to d2.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m| |[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mK[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[0;1mp[0m| |[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[30;1mb[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m| |[7;1m [0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R N B Q . B . R |
-7| P P P K P . . P |
-6| . . . . . P . . |
-5| . . . P . . P q |
-4| . . . p . . . . |
-3| . . . . p . p . |
-2| p p p . . p p . |
-1| r n . . k b n r |
+8| R . B Q K . . R |
+7| P P P P . P P P |
+6| . . p . P . . . |
+5| . . . . . . . . |
+4| . . p . . . . . |
+3| . . B . . . . . |
+2| p . . b . p p p |
+1| r . . q k b n r |
  +-----------------+
    a b c d e f g h
-1 50 :( 2 0 3 20 4 020 5 010 6 030 7 030 9166848  +-----------------+
-8| R . B Q . B . R |
-7| P P P K P . . P |
-6| . . N . . P . . |
-5| . . . P . . P q |
-4| . . . p . . . . |
-3| . . . . p . p . |
-2| p p p . . p p . |
-1| r n . . k b n r |
+1 85 2 85 3 110 4 110 5 115 6 95 7 100 8 90 6815744  +-----------------+
+8| R . B Q K . . R |
+7| P P P P . P P P |
+6| . . p . P . . . |
+5| . . . . . . . . |
+4| . . p . . . . . |
+3| . . . . . . . . |
+2| p . . b . p p p |
+1| B . . q k b n r |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -679,83 +682,85 @@ Choice: h2g3 | Depth: 7 | Time: 9542ms
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 15 move(s).
-[32;1m[Board] [0mHistory replayed, 30 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 27 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing b8 to c6.
+[32;1m[Board] [0mBlack player is playing c3 to a1.
+[32;1m[Board] [0m[5;1mBlack Bishop is taking White Rook.[0m
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m| |[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mK[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[0;1mp[0m| |[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m| |[7;1m [0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[30;1mb[0m|[7;1m [0m| |[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-Choice: b1c3 | Depth: 7 | Time: 9558ms
+Choice: c6b7 | Depth: 7 | Time: 9553ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 16 move(s).
-[32;1m[Board] [0mHistory replayed, 30 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 26 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing b1 to c3.
+[32;1m[Board] [0mWhite player is playing c6 to b7.
+[32;1m[Board] [0m[5;1mWhite Pawn is taking Black Pawn.[0m
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m| |[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mK[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[0;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[30;1mb[0m|[7;1m [0m| |[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R . B Q . B . R |
-7| P P P K P . . P |
-6| . . N . . P . . |
-5| . . . P . . P q |
-4| . . . p . . . . |
-3| . . n . p . p . |
-2| p p p . . p p . |
-1| r . . . k b n r |
+8| R . B Q K . . R |
+7| P p P P . P P P |
+6| . . . . P . . . |
+5| . . . . . . . . |
+4| . . p . . . . . |
+3| . . . . . . . . |
+2| p . . b . p p p |
+1| B . . q k b n r |
  +-----------------+
    a b c d e f g h
-1 20 2 020 3 010 4 030 5 030 6 035 10604544  +-----------------+
-8| R . B Q . B . R |
-7| P P P K . . . P |
-6| . . N . P P . . |
-5| . . . P . . P q |
-4| . . . p . . . . |
-3| . . n . p . p . |
-2| p p p . . p p . |
-1| r . . . k b n r |
+1 110 2 110 3 140 :( 4 95 5 125 6 100 7 100 8 100 4370432  +-----------------+
+8| R . . Q K . . R |
+7| P B P P . P P P |
+6| . . . . P . . . |
+5| . . . . . . . . |
+4| . . p . . . . . |
+3| . . . . . . . . |
+2| p . . b . p p p |
+1| B . . q k b n r |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -764,83 +769,85 @@ Choice: b1c3 | Depth: 7 | Time: 9558ms
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 17 move(s).
-[32;1m[Board] [0mHistory replayed, 30 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 25 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing e7 to e6.
+[32;1m[Board] [0mBlack player is playing c8 to b7.
+[32;1m[Board] [0m[5;1mBlack Bishop is taking White Pawn.[0m
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m|[30;1mQ[0m|[30;1mK[0m| |[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mK[0m| |[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[30;1mb[0m|[7;1m [0m| |[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-Choice: f1d3 | Depth: 6 | Time: 9552ms
+Choice: d1a1 | Depth: 7 | Time: 9570ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 18 move(s).
-[32;1m[Board] [0mHistory replayed, 30 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 24 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing f1 to d3.
+[32;1m[Board] [0mWhite player is playing d1 to a1.
+[32;1m[Board] [0m[5;1mWhite Queen is taking Black Bishop.[0m
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m|[30;1mQ[0m|[30;1mK[0m| |[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mK[0m| |[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[0;1mb[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R . B Q . B . R |
-7| P P P K . . . P |
-6| . . N . P P . . |
-5| . . . P . . P q |
-4| . . . p . . . . |
-3| . . n b p . p . |
-2| p p p . . p p . |
-1| r . . . k . n r |
+8| R . . Q K . . R |
+7| P B P P . P P P |
+6| . . . . P . . . |
+5| . . . . . . . . |
+4| . . p . . . . . |
+3| . . . . . . . . |
+2| p . . b . p p p |
+1| q . . . k b n r |
  +-----------------+
    a b c d e f g h
-1 10 2 030 3 030 4 010 5 030 6 020 9977856  +-----------------+
-8| R . B Q . B . R |
-7| P P P K . . . P |
-6| . . . . P P . . |
-5| . . . P . . P q |
-4| . N . p . . . . |
-3| . . n b p . p . |
-2| p p p . . p p . |
-1| r . . . k . n r |
+1 140 :( 2 95 3 125 4 100 5 100 6 100 7 105 7229440  +-----------------+
+8| R . . Q . R K . |
+7| P B P P . P P P |
+6| . . . . P . . . |
+5| . . . . . . . . |
+4| . . p . . . . . |
+3| . . . . . . . . |
+2| p . . b . p p p |
+1| q . . . k b n r |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -849,84 +856,84 @@ Choice: f1d3 | Depth: 6 | Time: 9552ms
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 19 move(s).
-[32;1m[Board] [0mHistory replayed, 30 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 23 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing c6 to b4.
+[32;1m[Board] [0mBlack player is playing e8 to g8.
+[32;1m[Board] [0mBlack player is castling kingside...
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mK[0m| |[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mk[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[0;1mb[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-Choice: e1c1 | Depth: 7 | Time: 9559ms
+Choice: g1e2 | Depth: 6 | Time: 9570ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 20 move(s).
-[32;1m[Board] [0mHistory replayed, 30 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 23 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing e1 to c1.
-[32;1m[Board] [0mWhite player is castling queenside...
+[32;1m[Board] [0mWhite player is playing g1 to e2.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mK[0m| |[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mk[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[0;1mb[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m|[0;1mb[0m|[0;1mk[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m|[0;1mK[0m|[0;1mr[0m| |[7;1m [0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R . B Q . B . R |
-7| P P P K . . . P |
-6| . . . . P P . . |
-5| . . . P . . P q |
-4| . N . p . . . . |
-3| . . n b p . p . |
-2| p p p . . p p . |
-1| . . k r . . n r |
+8| R . . Q . R K . |
+7| P B P P . P P P |
+6| . . . . P . . . |
+5| . . . . . . . . |
+4| . . p . . . . . |
+3| . . . . . . . . |
+2| p . . b n p p p |
+1| q . . . k b . r |
  +-----------------+
    a b c d e f g h
-1 0 2 20 3 0 4 0 5 0 6 010 8724480  +-----------------+
-8| R . B Q . B . R |
-7| P P P K . . . P |
-6| . . . . P P . . |
-5| . . . P . . P q |
-4| . . . p . . . . |
-3| . . n N p . p . |
-2| p p p . . p p . |
-1| . . k r . . n r |
+1 135 2 110 3 120 4 105 5 110 6 100 7 100 8417280  +-----------------+
+8| R . . Q . R K . |
+7| P B P . . P P P |
+6| . . . P P . . . |
+5| . . . . . . . . |
+4| . . p . . . . . |
+3| . . . . . . . . |
+2| p . . b n p p p |
+1| q . . . k b . r |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -935,85 +942,83 @@ Choice: e1c1 | Depth: 7 | Time: 9559ms
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 21 move(s).
-[32;1m[Board] [0mHistory replayed, 30 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 23 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing b4 to d3.
-[32;1m[Board] [0m[5;1mBlack Knight is taking White Bishop.[0m
+[32;1m[Board] [0mBlack player is playing d7 to d6.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mK[0m| |[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[30;1mk[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m|[0;1mb[0m|[0;1mk[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m|[0;1mK[0m|[0;1mr[0m| |[7;1m [0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-Choice: d1d3 | Depth: 8 | Time: 9547ms
+Choice: e2f4 | Depth: 6 | Time: 9548ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 22 move(s).
-[32;1m[Board] [0mHistory replayed, 29 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 23 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing d1 to d3.
-[32;1m[Board] [0m[5;1mWhite Rook is taking Black Knight.[0m
+[32;1m[Board] [0mWhite player is playing e2 to f4.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mK[0m| |[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[0;1mr[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R . B Q . B . R |
-7| P P P K . . . P |
-6| . . . . P P . . |
-5| . . . P . . P q |
-4| . . . p . . . . |
-3| . . n r p . p . |
-2| p p p . . p p . |
-1| . . k . . . n r |
+8| R . . Q . R K . |
+7| P B P . . P P P |
+6| . . . P P . . . |
+5| . . . . . . . . |
+4| . . p . . n . . |
+3| . . . . . . . . |
+2| p . . b . p p p |
+1| q . . . k b . r |
  +-----------------+
    a b c d e f g h
-1 20 2 0 3 0 4 0 5 010 6 010 7 05 8241152  +-----------------+
-8| R . B Q . . . R |
-7| P P P K . . . P |
-6| . . . . P P . . |
-5| . . . P . . P q |
-4| . B . p . . . . |
-3| . . n r p . p . |
-2| p p p . . p p . |
-1| . . k . . . n r |
+1 125 2 105 3 110 4 105 5 115 6 95 7 105 7753728  +-----------------+
+8| R . . Q . R K . |
+7| P B P . . P P P |
+6| . . . P . . . . |
+5| . . . . P . . . |
+4| . . p . . n . . |
+3| . . . . . . . . |
+2| p . . b . p p p |
+1| q . . . k b . r |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -1022,83 +1027,83 @@ Choice: d1d3 | Depth: 8 | Time: 9547ms
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 23 move(s).
-[32;1m[Board] [0mHistory replayed, 28 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 23 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing f8 to b4.
+[32;1m[Board] [0mBlack player is playing e6 to e5.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mK[0m| |[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mb[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[0;1mr[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-Choice: a2a3 | Depth: 7 | Time: 9559ms
+Choice: f4d5 | Depth: 7 | Time: 9546ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 24 move(s).
-[32;1m[Board] [0mHistory replayed, 28 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 23 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing a2 to a3.
+[32;1m[Board] [0mWhite player is playing f4 to d5.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mK[0m| |[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[0;1mk[0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mb[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mk[0m|[0;1mr[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R . B Q . . . R |
-7| P P P K . . . P |
-6| . . . . P P . . |
-5| . . . P . . P q |
-4| . B . p . . . . |
-3| p . n r p . p . |
-2| . p p . . p p . |
-1| . . k . . . n r |
+8| R . . Q . R K . |
+7| P B P . . P P P |
+6| . . . P . . . . |
+5| . . . n P . . . |
+4| . . p . . . . . |
+3| . . . . . . . . |
+2| p . . b . p p p |
+1| q . . . k b . r |
  +-----------------+
    a b c d e f g h
-1 50 2 50 3 75 4 35 5 40 6 10 9494528  +-----------------+
-8| R . B Q . . . R |
-7| P P P K . . . P |
-6| . . . . P P . . |
-5| . . . P . . P q |
-4| . . . p . . . . |
-3| p . B r p . p . |
-2| . p p . . p p . |
-1| . . k . . . n r |
+1 125 2 105 3 115 4 95 5 105 6 90 7 95 7299072  +-----------------+
+8| R . . Q R . K . |
+7| P B P . . P P P |
+6| . . . P . . . . |
+5| . . . n P . . . |
+4| . . p . . . . . |
+3| . . . . . . . . |
+2| p . . b . p p p |
+1| q . . . k b . r |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -1107,85 +1112,83 @@ Choice: a2a3 | Depth: 7 | Time: 9559ms
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 25 move(s).
-[32;1m[Board] [0mHistory replayed, 28 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 23 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing b4 to c3.
-[32;1m[Board] [0m[5;1mBlack Bishop is taking White Knight.[0m
+[32;1m[Board] [0mBlack player is playing f8 to e8.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m|[30;1mQ[0m|[30;1mr[0m| |[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mK[0m| |[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[0;1mk[0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[30;1mb[0m|[0;1mr[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-Choice: d3c3 | Depth: 8 | Time: 9546ms
+Choice: f1d3 | Depth: 7 | Time: 9543ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 26 move(s).
-[32;1m[Board] [0mHistory replayed, 27 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 23 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing d3 to c3.
-[32;1m[Board] [0m[5;1mWhite Rook is taking Black Bishop.[0m
+[32;1m[Board] [0mWhite player is playing f1 to d3.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m|[30;1mQ[0m|[30;1mr[0m| |[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mK[0m| |[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[0;1mk[0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[0;1mb[0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R . B Q . . . R |
-7| P P P K . . . P |
-6| . . . . P P . . |
-5| . . . P . . P q |
-4| . . . p . . . . |
-3| p . r . p . p . |
-2| . p p . . p p . |
-1| . . k . . . n r |
+8| R . . Q R . K . |
+7| P B P . . P P P |
+6| . . . P . . . . |
+5| . . . n P . . . |
+4| . . p . . . . . |
+3| . . . b . . . . |
+2| p . . b . p p p |
+1| q . . . k . . r |
  +-----------------+
    a b c d e f g h
-1 80 :( 2 30 3 40 4 10 5 15 6 0 7 15 9998336  +-----------------+
-8| R . B . . . . R |
-7| P P P K Q . . P |
-6| . . . . P P . . |
-5| . . . P . . P q |
-4| . . . p . . . . |
-3| p . r . p . p . |
-2| . p p . . p p . |
-1| . . k . . . n r |
+1 110 2 120 3 125 4 105 5 115 6 95 7 105 6725632  +-----------------+
+8| R . . Q R . K . |
+7| P B P . . P P P |
+6| . . . P . . . . |
+5| . . . n . . . . |
+4| . . p . P . . . |
+3| . . . b . . . . |
+2| p . . b . p p p |
+1| q . . . k . . r |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -1194,83 +1197,83 @@ Choice: d3c3 | Depth: 8 | Time: 9546ms
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 27 move(s).
-[32;1m[Board] [0mHistory replayed, 26 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 23 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing d8 to e7.
+[32;1m[Board] [0mBlack player is playing e5 to e4.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m|[30;1mQ[0m|[30;1mr[0m| |[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mK[0m|[30;1mQ[0m|[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[0;1mk[0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[30;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[0;1mb[0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-Choice: g1f3 | Depth: 7 | Time: 9552ms
+Choice: d3e2 | Depth: 7 | Time: 9571ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 28 move(s).
-[32;1m[Board] [0mHistory replayed, 26 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 23 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing g1 to f3.
+[32;1m[Board] [0mWhite player is playing d3 to e2.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m|[30;1mQ[0m|[30;1mr[0m| |[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mK[0m|[30;1mQ[0m|[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[0;1mk[0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[30;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m|[0;1mp[0m|[0;1mk[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m|[0;1mb[0m|[0;1mb[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R . B . . . . R |
-7| P P P K Q . . P |
-6| . . . . P P . . |
-5| . . . P . . P q |
-4| . . . p . . . . |
-3| p . r . p n p . |
-2| . p p . . p p . |
-1| . . k . . . . r |
+8| R . . Q R . K . |
+7| P B P . . P P P |
+6| . . . P . . . . |
+5| . . . n . . . . |
+4| . . p . P . . . |
+3| . . . . . . . . |
+2| p . . b b p p p |
+1| q . . . k . . r |
  +-----------------+
    a b c d e f g h
-1 35 2 5 3 15 4 0 5 15 6 010 7 10 8372224  +-----------------+
-8| R . B . . . . R |
-7| P P P . Q . . P |
-6| . . . K P P . . |
-5| . . . P . . P q |
-4| . . . p . . . . |
-3| p . r . p n p . |
-2| . p p . . p p . |
-1| . . k . . . . r |
+1 125 2 105 3 115 4 95 5 105 6 75 7 80 6406144  +-----------------+
+8| R . . Q R . K . |
+7| P B . . . P P P |
+6| . . P P . . . . |
+5| . . . n . . . . |
+4| . . p . P . . . |
+3| . . . . . . . . |
+2| p . . b b p p p |
+1| q . . . k . . r |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -1279,83 +1282,83 @@ Choice: g1f3 | Depth: 7 | Time: 9552ms
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 29 move(s).
-[32;1m[Board] [0mHistory replayed, 26 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 23 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing d7 to d6.
+[32;1m[Board] [0mBlack player is playing c7 to c6.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m|[30;1mQ[0m|[30;1mr[0m| |[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mQ[0m|[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m|[30;1mK[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[0;1mk[0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[30;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m|[0;1mp[0m|[0;1mk[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m|[0;1mb[0m|[0;1mb[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-Choice: c1b1 | Depth: 7 | Time: 9546ms
+Choice: d5e3 | Depth: 7 | Time: 9544ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 30 move(s).
-[32;1m[Board] [0mHistory replayed, 26 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 23 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing c1 to b1.
+[32;1m[Board] [0mWhite player is playing d5 to e3.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m|[30;1mQ[0m|[30;1mr[0m| |[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mQ[0m|[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m|[30;1mK[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[30;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m|[0;1mp[0m|[0;1mk[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m|[0;1mb[0m|[0;1mb[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[0;1mK[0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R . B . . . . R |
-7| P P P . Q . . P |
-6| . . . K P P . . |
-5| . . . P . . P q |
-4| . . . p . . . . |
-3| p . r . p n p . |
-2| . p p . . p p . |
-1| . k . . . . . r |
+8| R . . Q R . K . |
+7| P B . . . P P P |
+6| . . P P . . . . |
+5| . . . . . . . . |
+4| . . p . P . . . |
+3| . . . . n . . . |
+2| p . . b b p p p |
+1| q . . . k . . r |
  +-----------------+
    a b c d e f g h
-1 45 2 40 3 50 4 30 5 50 6 35 10014720  +-----------------+
-8| R . B . . . . R |
-7| P P P . . . Q P |
-6| . . . K P P . . |
-5| . . . P . . P q |
-4| . . . p . . . . |
-3| p . r . p n p . |
-2| . p p . . p p . |
-1| . k . . . . . r |
+1 125 2 95 3 105 4 75 5 80 6 65 7 70 8 65 4820992  +-----------------+
+8| R . . Q R . K . |
+7| P B . . . P P P |
+6| . . P . . . . . |
+5| . . . P . . . . |
+4| . . p . P . . . |
+3| . . . . n . . . |
+2| p . . b b p p p |
+1| q . . . k . . r |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -1364,83 +1367,84 @@ Choice: c1b1 | Depth: 7 | Time: 9546ms
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 31 move(s).
-[32;1m[Board] [0mHistory replayed, 26 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 23 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing e7 to g7.
+[32;1m[Board] [0mBlack player is playing d6 to d5.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m|[30;1mQ[0m|[30;1mr[0m| |[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mQ[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m|[30;1mK[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mp[0m| |[30;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m|[0;1mp[0m|[0;1mk[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m|[0;1mb[0m|[0;1mb[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[0;1mK[0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-Choice: h5g4 | Depth: 6 | Time: 9552ms
+Choice: c4d5 | Depth: 7 | Time: 9544ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 32 move(s).
-[32;1m[Board] [0mHistory replayed, 26 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 23 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing h5 to g4.
+[32;1m[Board] [0mWhite player is playing c4 to d5.
+[32;1m[Board] [0m[5;1mWhite Pawn is taking Black Pawn.[0m
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m|[30;1mQ[0m|[30;1mr[0m| |[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mQ[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m|[30;1mK[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[0;1mQ[0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m|[0;1mp[0m|[0;1mk[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m|[0;1mb[0m|[0;1mb[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[0;1mK[0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R . B . . . . R |
-7| P P P . . . Q P |
-6| . . . K P P . . |
-5| . . . P . . P . |
-4| . . . p . . q . |
-3| p . r . p n p . |
-2| . p p . . p p . |
-1| . k . . . . . r |
+8| R . . Q R . K . |
+7| P B . . . P P P |
+6| . . P . . . . . |
+5| . . . p . . . . |
+4| . . . . P . . . |
+3| . . . . n . . . |
+2| p . . b b p p p |
+1| q . . . k . . r |
  +-----------------+
    a b c d e f g h
-1 40 2 25 3 35 4 45 5 60 6 50 7 55 9084928  +-----------------+
-8| R . B . . . . R |
-7| P P P . . . Q . |
-6| . . . K P P . P |
-5| . . . P . . P . |
-4| . . . p . . q . |
-3| p . r . p n p . |
-2| . p p . . p p . |
-1| . k . . . . . r |
+1 135 2 105 3 115 4 85 5 95 6 75 7 80 5861376  +-----------------+
+8| R . . Q R . K . |
+7| P B . . . P P P |
+6| . . . . . . . . |
+5| . . . P . . . . |
+4| . . . . P . . . |
+3| . . . . n . . . |
+2| p . . b b p p p |
+1| q . . . k . . r |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -1449,83 +1453,85 @@ Choice: h5g4 | Depth: 6 | Time: 9552ms
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 33 move(s).
-[32;1m[Board] [0mHistory replayed, 26 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 22 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing h7 to h6.
+[32;1m[Board] [0mBlack player is playing c6 to d5.
+[32;1m[Board] [0m[5;1mBlack Pawn is taking White Pawn.[0m
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m|[30;1mQ[0m|[30;1mr[0m| |[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m|[30;1mK[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[0;1mQ[0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m|[0;1mp[0m|[0;1mk[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m|[0;1mb[0m|[0;1mb[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[0;1mK[0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-Choice: e3e4 | Depth: 7 | Time: 9559ms
+Choice: e1g1 | Depth: 6 | Time: 9566ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 34 move(s).
-[32;1m[Board] [0mHistory replayed, 26 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 21 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing e3 to e4.
+[32;1m[Board] [0mWhite player is playing e1 to g1.
+[32;1m[Board] [0mWhite player is castling kingside...
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m|[30;1mQ[0m|[30;1mr[0m| |[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m|[30;1mK[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[0;1mQ[0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[0;1mk[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m|[0;1mb[0m|[0;1mb[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[0;1mK[0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|[0;1mK[0m|[7;1m [0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R . B . . . . R |
-7| P P P . . . Q . |
-6| . . . K P P . P |
-5| . . . P . . P . |
-4| . . . p p . q . |
-3| p . r . . n p . |
-2| . p p . . p p . |
-1| . k . . . . . r |
+8| R . . Q R . K . |
+7| P B . . . P P P |
+6| . . . . . . . . |
+5| . . . P . . . . |
+4| . . . . P . . . |
+3| . . . . n . . . |
+2| p . . b b p p p |
+1| q . . . . r k . |
  +-----------------+
    a b c d e f g h
-1 30 2 60 3 95 4 95 5 95 6 65 7 70 8908800  +-----------------+
-8| R . B . . . . R |
-7| P P P . . . Q . |
-6| . . . K . P . P |
-5| . . . P P . P . |
-4| . . . p p . q . |
-3| p . r . . n p . |
-2| . p p . . p p . |
-1| . k . . . . . r |
+1 115 2 110 3 95 4 80 5 85 6 75 7 80 6041600  +-----------------+
+8| R . . . R . K . |
+7| P B . . . P P P |
+6| . . . . . . . . |
+5| . . . P . . Q . |
+4| . . . . P . . . |
+3| . . . . n . . . |
+2| p . . b b p p p |
+1| q . . . . r k . |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -1534,83 +1540,83 @@ Choice: e3e4 | Depth: 7 | Time: 9559ms
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 35 move(s).
-[32;1m[Board] [0mHistory replayed, 26 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 21 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing e6 to e5.
+[32;1m[Board] [0mBlack player is playing d8 to g5.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[30;1mr[0m| |[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m|[30;1mK[0m|[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[0;1mQ[0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[0;1mk[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m|[0;1mb[0m|[0;1mb[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[0;1mK[0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|[0;1mK[0m|[7;1m [0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-Choice: g4h5 | Depth: 7 | Time: 9542ms
+Choice: f1b1 | Depth: 6 | Time: 9552ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 36 move(s).
-[32;1m[Board] [0mHistory replayed, 26 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 21 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing g4 to h5.
+[32;1m[Board] [0mWhite player is playing f1 to b1.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[30;1mr[0m| |[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m|[30;1mK[0m|[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[0;1mk[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m|[0;1mb[0m|[0;1mb[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[0;1mK[0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[0;1mr[0m| |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R . B . . . . R |
-7| P P P . . . Q . |
-6| . . . K . P . P |
-5| . . . P P . P q |
-4| . . . p p . . . |
-3| p . r . . n p . |
-2| . p p . . p p . |
-1| . k . . . . . r |
+8| R . . . R . K . |
+7| P B . . . P P P |
+6| . . . . . . . . |
+5| . . . P . . Q . |
+4| . . . . P . . . |
+3| . . . . n . . . |
+2| p . . b b p p p |
+1| q r . . . . k . |
  +-----------------+
    a b c d e f g h
-1 150 2 150 3 150 4 110 5 70 9465856  +-----------------+
-8| R . B . . . . R |
-7| P P P . . . Q . |
-6| . . . K . P . P |
-5| . . . P . . P q |
-4| . . . P p . . . |
-3| p . r . . n p . |
-2| . p p . . p p . |
-1| . k . . . . . r |
+1 115 2 90 3 90 4 85 5 85 6 80 7 80 6266880  +-----------------+
+8| R . . . R . K . |
+7| P . . . . P P P |
+6| . . B . . . . . |
+5| . . . P . . Q . |
+4| . . . . P . . . |
+3| . . . . n . . . |
+2| p . . b b p p p |
+1| q r . . . . k . |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -1619,85 +1625,83 @@ Choice: g4h5 | Depth: 7 | Time: 9542ms
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 37 move(s).
-[32;1m[Board] [0mHistory replayed, 26 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 21 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing e5 to d4.
-[32;1m[Board] [0m[5;1mBlack Pawn is taking White Pawn.[0m
+[32;1m[Board] [0mBlack player is playing b7 to c6.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[30;1mr[0m| |[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m|[30;1mK[0m|[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mb[0m| |[7;1m [0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[0;1mk[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m|[0;1mb[0m|[0;1mb[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[0;1mK[0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[0;1mr[0m| |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-Choice: f3d4 | Depth: 7 | Time: 9572ms
+Choice: b1c1 | Depth: 6 | Time: 9549ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 38 move(s).
-[32;1m[Board] [0mHistory replayed, 25 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 21 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing f3 to d4.
-[32;1m[Board] [0m[5;1mWhite Knight is taking Black Pawn.[0m
+[32;1m[Board] [0mWhite player is playing b1 to c1.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[30;1mr[0m| |[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m|[30;1mK[0m|[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mb[0m| |[7;1m [0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m|[0;1mb[0m|[0;1mb[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[0;1mK[0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R . B . . . . R |
-7| P P P . . . Q . |
-6| . . . K . P . P |
-5| . . . P . . P q |
-4| . . . n p . . . |
-3| p . r . . . p . |
-2| . p p . . p p . |
-1| . k . . . . . r |
+8| R . . . R . K . |
+7| P . . . . P P P |
+6| . . B . . . . . |
+5| . . . P . . Q . |
+4| . . . . P . . . |
+3| . . . . n . . . |
+2| p . . b b p p p |
+1| q . r . . . k . |
  +-----------------+
    a b c d e f g h
-1 150 2 110 3 70 4 30 5 20 6 15 10076160  +-----------------+
-8| R . B . . . . R |
-7| . P P . . . Q . |
-6| P . . K . P . P |
-5| . . . P . . P q |
-4| . . . n p . . . |
-3| p . r . . . p . |
-2| . p p . . p p . |
-1| . k . . . . . r |
+1 115 2 90 3 90 4 80 5 80 6 75 8007680  +-----------------+
+8| R . . . . . K . |
+7| P . . . . P P P |
+6| . . B . R . . . |
+5| . . . P . . Q . |
+4| . . . . P . . . |
+3| . . . . n . . . |
+2| p . . b b p p p |
+1| q . r . . . k . |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -1706,83 +1710,83 @@ Choice: f3d4 | Depth: 7 | Time: 9572ms
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 39 move(s).
-[32;1m[Board] [0mHistory replayed, 24 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 21 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing a7 to a6.
+[32;1m[Board] [0mBlack player is playing e8 to e6.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 || |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[30;1mp[0m| |[7;1m [0m|[30;1mK[0m|[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mb[0m| |[30;1mr[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m|[0;1mb[0m|[0;1mb[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[0;1mK[0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-Choice: h1d1 | Depth: 7 | Time: 9574ms
+Choice: e2g4 | Depth: 6 | Time: 9548ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 40 move(s).
-[32;1m[Board] [0mHistory replayed, 24 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 21 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing h1 to d1.
+[32;1m[Board] [0mWhite player is playing e2 to g4.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 || |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[30;1mp[0m| |[7;1m [0m|[30;1mK[0m|[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mb[0m| |[30;1mr[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[0;1mb[0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[0;1mK[0m| |[0;1mr[0m| |[7;1m [0m| |[7;1m [0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R . B . . . . R |
-7| . P P . . . Q . |
-6| P . . K . P . P |
-5| . . . P . . P q |
-4| . . . n p . . . |
-3| p . r . . . p . |
-2| . p p . . p p . |
-1| . k . r . . . . |
+8| R . . . . . K . |
+7| P . . . . P P P |
+6| . . B . R . . . |
+5| . . . P . . Q . |
+4| . . . . P . b . |
+3| . . . . n . . . |
+2| p . . b . p p p |
+1| q . r . . . k . |
  +-----------------+
    a b c d e f g h
-1 145 :( 2 30 3 20 4 15 5 5 6 035 7 075 8216576  +-----------------+
-8| R . B . . . . R |
-7| . P . . . . Q . |
-6| P . P K . P . P |
-5| . . . P . . P q |
-4| . . . n p . . . |
-3| p . r . . . p . |
-2| . p p . . p p . |
-1| . k . r . . . . |
+1 110 2 85 3 90 4 80 5 75 6 65 7 25 7528448  +-----------------+
+8| R . . . . . K . |
+7| P . . . . P P P |
+6| . . B . . R . . |
+5| . . . P . . Q . |
+4| . . . . P . b . |
+3| . . . . n . . . |
+2| p . . b . p p p |
+1| q . r . . . k . |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -1791,84 +1795,83 @@ Choice: h1d1 | Depth: 7 | Time: 9574ms
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 41 move(s).
-[32;1m[Board] [0mHistory replayed, 24 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 21 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing c7 to c6.
+[32;1m[Board] [0mBlack player is playing e6 to f6.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 || |[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[30;1mp[0m| |[30;1mp[0m|[30;1mK[0m|[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mb[0m| |[7;1m [0m|[30;1mr[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[0;1mb[0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[0;1mK[0m| |[0;1mr[0m| |[7;1m [0m| |[7;1m [0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-Choice: e4d5 | Depth: 7 | Time: 9566ms
+Choice: d2c3 | Depth: 6 | Time: 9558ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 42 move(s).
-[32;1m[Board] [0mHistory replayed, 24 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 21 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing e4 to d5.
-[32;1m[Board] [0m[5;1mWhite Pawn is taking Black Pawn.[0m
+[32;1m[Board] [0mWhite player is playing d2 to c3.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 || |[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[30;1mp[0m| |[30;1mp[0m|[30;1mK[0m|[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mb[0m| |[7;1m [0m|[30;1mr[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[0;1mb[0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[0;1mK[0m| |[0;1mr[0m| |[7;1m [0m| |[7;1m [0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R . B . . . . R |
-7| . P . . . . Q . |
-6| P . P K . P . P |
-5| . . . p . . P q |
-4| . . . n . . . . |
-3| p . r . . . p . |
-2| . p p . . p p . |
-1| . k . r . . . . |
+8| R . . . . . K . |
+7| P . . . . P P P |
+6| . . B . . R . . |
+5| . . . P . . Q . |
+4| . . . . P . b . |
+3| . . b . n . . . |
+2| p . . . . p p p |
+1| q . r . . . k . |
  +-----------------+
    a b c d e f g h
-1 30 2 20 3 30 4 010 5 050 6 090 7 0130 8523776  +-----------------+
-8| R . . . . . . R |
-7| . P . . . . Q . |
-6| P . P K B P . P |
-5| . . . p . . P q |
-4| . . . n . . . . |
-3| p . r . . . p . |
-2| . p p . . p p . |
-1| . k . r . . . . |
+1 100 2 100 3 85 4 75 5 35 6 05 8187904  +-----------------+
+8| R . . . . . K . |
+7| P . . . . P P P |
+6| . . B . . R . . |
+5| . . . P . . . . |
+4| . . . . P . Q . |
+3| . . b . n . . . |
+2| p . . . . p p p |
+1| q . r . . . k . |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -1877,84 +1880,85 @@ Choice: e4d5 | Depth: 7 | Time: 9566ms
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 43 move(s).
-[32;1m[Board] [0mHistory replayed, 23 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 21 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing c8 to e6.
+[32;1m[Board] [0mBlack player is playing g5 to g4.
+[32;1m[Board] [0m[5;1mBlack Queen is taking White Bishop.[0m
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 || |[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[30;1mp[0m| |[30;1mp[0m|[30;1mK[0m|[30;1mb[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mb[0m| |[7;1m [0m|[30;1mr[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[30;1mQ[0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[0;1mK[0m| |[0;1mr[0m| |[7;1m [0m| |[7;1m [0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-Choice: d5e6 | Depth: 7 | Time: 9571ms
+Choice: e3g4 | Depth: 8 | Time: 9548ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 44 move(s).
-[32;1m[Board] [0mHistory replayed, 23 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 20 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing d5 to e6.
-[32;1m[Board] [0m[5;1mWhite Pawn is taking Black Bishop.[0m
+[32;1m[Board] [0mWhite player is playing e3 to g4.
+[32;1m[Board] [0m[5;1mWhite Knight is taking Black Queen.[0m
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 || |[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[30;1mp[0m| |[30;1mp[0m|[30;1mK[0m|[0;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mb[0m| |[7;1m [0m|[30;1mr[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[0;1mk[0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[0;1mK[0m| |[0;1mr[0m| |[7;1m [0m| |[7;1m [0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R . . . . . . R |
-7| . P . . . . Q . |
-6| P . P K p P . P |
-5| . . . . . . P q |
-4| . . . n . . . . |
-3| p . r . . . p . |
-2| . p p . . p p . |
-1| . k . r . . . . |
+8| R . . . . . K . |
+7| P . . . . P P P |
+6| . . B . . R . . |
+5| . . . P . . . . |
+4| . . . . P . n . |
+3| . . b . . . . . |
+2| p . . . . p p p |
+1| q . r . . . k . |
  +-----------------+
    a b c d e f g h
-1 0440 2 0470 3 0460 4 0500 5 0520 6 0515 7 0555 8 0595 7675904  +-----------------+
-8| R . . . . . . R |
-7| . P K . . . Q . |
-6| P . P . p P . P |
-5| . . . . . . P q |
-4| . . . n . . . . |
-3| p . r . . . p . |
-2| . p p . . p p . |
-1| . k . r . . . . |
+1 0455 2 0475 3 0475 4 0495 5 0495 6 0520 7 0560 8 0575 7757824  +-----------------+
+8| R . . . . . K . |
+7| P . . . . P P P |
+6| . . B . . . R . |
+5| . . . P . . . . |
+4| . . . . P . n . |
+3| . . b . . . . . |
+2| p . . . . p p p |
+1| q . r . . . k . |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -1963,83 +1967,83 @@ Choice: d5e6 | Depth: 7 | Time: 9571ms
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 45 move(s).
-[32;1m[Board] [0mHistory replayed, 22 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 19 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing d6 to c7.
+[32;1m[Board] [0mBlack player is playing f6 to g6.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 || |[30;1mp[0m|[30;1mK[0m|[7;1m [0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[30;1mp[0m| |[30;1mp[0m| |[0;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mb[0m| |[7;1m [0m| |[30;1mr[0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[0;1mk[0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[0;1mK[0m| |[0;1mr[0m| |[7;1m [0m| |[7;1m [0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-Choice: d4f5 | Depth: 6 | Time: 9555ms
+Choice: g4e3 | Depth: 8 | Time: 9550ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 46 move(s).
-[32;1m[Board] [0mHistory replayed, 22 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 19 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing d4 to f5.
+[32;1m[Board] [0mWhite player is playing g4 to e3.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 || |[30;1mp[0m|[30;1mK[0m|[7;1m [0m| |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[30;1mp[0m| |[30;1mp[0m| |[0;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mb[0m| |[7;1m [0m| |[30;1mr[0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[0;1mk[0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[0;1mK[0m| |[0;1mr[0m| |[7;1m [0m| |[7;1m [0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R . . . . . . R |
-7| . P K . . . Q . |
-6| P . P . p P . P |
-5| . . . . . n P q |
-4| . . . . . . . . |
-3| p . r . . . p . |
-2| . p p . . p p . |
-1| . k . r . . . . |
+8| R . . . . . K . |
+7| P . . . . P P P |
+6| . . B . . . R . |
+5| . . . P . . . . |
+4| . . . . P . . . |
+3| . . b . n . . . |
+2| p . . . . p p p |
+1| q . r . . . k . |
  +-----------------+
    a b c d e f g h
-1 0485 2 0505 3 0520 4 0515 5 0545 6 0585 7 0625 7024640  +-----------------+
-8| R . . . . . Q R |
-7| . P K . . . . . |
-6| P . P . p P . P |
-5| . . . . . n P q |
-4| . . . . . . . . |
-3| p . r . . . p . |
-2| . p p . . p p . |
-1| . k . r . . . . |
+1 0470 2 0490 3 0495 4 0520 5 0560 6 0570 7 0580 8 0600 7442432  +-----------------+
+8| R . . . . . K . |
+7| P B . . . P P P |
+6| . . . . . . R . |
+5| . . . P . . . . |
+4| . . . . P . . . |
+3| . . b . n . . . |
+2| p . . . . p p p |
+1| q . r . . . k . |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -2048,83 +2052,83 @@ Choice: d4f5 | Depth: 6 | Time: 9555ms
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 47 move(s).
-[32;1m[Board] [0mHistory replayed, 22 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 19 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing g7 to g8.
+[32;1m[Board] [0mBlack player is playing c6 to b7.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m| |[30;1mQ[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 || |[30;1mp[0m|[30;1mK[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[30;1mp[0m| |[30;1mp[0m| |[0;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mr[0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[0;1mk[0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[0;1mK[0m| |[0;1mr[0m| |[7;1m [0m| |[7;1m [0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-Choice: d1d7 | Depth: 7 | Time: 9556ms
+Choice: c3e5 | Depth: 6 | Time: 9562ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 48 move(s).
-[32;1m[Board] [0mHistory replayed, 22 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 19 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing d1 to d7.
+[32;1m[Board] [0mWhite player is playing c3 to e5.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m| |[30;1mQ[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 || |[30;1mp[0m|[30;1mK[0m|[0;1mr[0m| |[7;1m [0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[30;1mp[0m| |[30;1mp[0m| |[0;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mr[0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[0;1mk[0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[0;1mK[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R . . . . . Q R |
-7| . P K r . . . . |
-6| P . P . p P . P |
-5| . . . . . n P q |
-4| . . . . . . . . |
-3| p . r . . . p . |
-2| . p p . . p p . |
-1| . k . . . . . . |
+8| R . . . . . K . |
+7| P B . . . P P P |
+6| . . . . . . R . |
+5| . . . P b . . . |
+4| . . . . P . . . |
+3| . . . . n . . . |
+2| p . . . . p p p |
+1| q . r . . . k . |
  +-----------------+
    a b c d e f g h
-1 0520 2 0515 3 0545 4 0585 5 0625 6 0665 7 0705 8 0745 5763072  +-----------------+
-8| R K . . . . Q R |
-7| . P . r . . . . |
-6| P . P . p P . P |
-5| . . . . . n P q |
-4| . . . . . . . . |
-3| p . r . . . p . |
-2| . p p . . p p . |
-1| . k . . . . . . |
+1 0470 2 0495 3 0495 4 0520 5 0560 6 0590 7 0590 7168000  +-----------------+
+8| . . . R . . K . |
+7| P B . . . P P P |
+6| . . . . . . R . |
+5| . . . P b . . . |
+4| . . . . P . . . |
+3| . . . . n . . . |
+2| p . . . . p p p |
+1| q . r . . . k . |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -2133,83 +2137,83 @@ Choice: d1d7 | Depth: 7 | Time: 9556ms
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 49 move(s).
-[32;1m[Board] [0mHistory replayed, 22 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 19 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing c7 to b8.
+[32;1m[Board] [0mBlack player is playing a8 to d8.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mK[0m|[7;1m [0m| |[7;1m [0m| |[30;1mQ[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 || |[30;1mp[0m| |[0;1mr[0m| |[7;1m [0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[30;1mp[0m| |[30;1mp[0m| |[0;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mr[0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[0;1mk[0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[0;1mK[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-Choice: c3e3 | Depth: 7 | Time: 9564ms
+Choice: c1c7 | Depth: 7 | Time: 9553ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 50 move(s).
-[32;1m[Board] [0mHistory replayed, 22 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 19 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing c3 to e3.
+[32;1m[Board] [0mWhite player is playing c1 to c7.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mK[0m|[7;1m [0m| |[7;1m [0m| |[30;1mQ[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 || |[30;1mp[0m| |[0;1mr[0m| |[7;1m [0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m|[0;1mr[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[30;1mp[0m| |[30;1mp[0m| |[0;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mr[0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[0;1mk[0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m| |[7;1m [0m|[0;1mr[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[0;1mK[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R K . . . . Q R |
-7| . P . r . . . . |
-6| P . P . p P . P |
-5| . . . . . n P q |
-4| . . . . . . . . |
-3| p . . . r . p . |
-2| . p p . . p p . |
-1| . k . . . . . . |
+8| . . . R . . K . |
+7| P B r . . P P P |
+6| . . . . . . R . |
+5| . . . P b . . . |
+4| . . . . P . . . |
+3| . . . . n . . . |
+2| p . . . . p p p |
+1| q . . . . . k . |
  +-----------------+
    a b c d e f g h
-1 0520 2 0540 3 0565 4 0585 5 0605 6 0645 7 0685 8 0725 5603328  +-----------------+
-8| R . . . . . Q R |
-7| K P . r . . . . |
-6| P . P . p P . P |
-5| . . . . . n P q |
-4| . . . . . . . . |
-3| p . . . r . p . |
-2| . p p . . p p . |
-1| . k . . . . . . |
+1 0575 2 0575 3 0575 4 0600 5 0590 6 0615 7 0650 6602752  +-----------------+
+8| B . . R . . K . |
+7| P . r . . P P P |
+6| . . . . . . R . |
+5| . . . P b . . . |
+4| . . . . P . . . |
+3| . . . . n . . . |
+2| p . . . . p p p |
+1| q . . . . . k . |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -2218,83 +2222,83 @@ Choice: c3e3 | Depth: 7 | Time: 9564ms
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 51 move(s).
-[32;1m[Board] [0mHistory replayed, 22 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 19 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing b8 to a7.
+[32;1m[Board] [0mBlack player is playing b7 to a8.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m| |[30;1mQ[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mb[0m| |[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mK[0m|[30;1mp[0m| |[0;1mr[0m| |[7;1m [0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[30;1mp[0m| |[30;1mp[0m| |[0;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mr[0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[0;1mk[0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m| |[7;1m [0m|[0;1mr[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[0;1mK[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-Choice: f5d6 | Depth: 6 | Time: 9557ms
+Choice: e3f5 | Depth: 7 | Time: 9549ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 52 move(s).
-[32;1m[Board] [0mHistory replayed, 22 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 19 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing f5 to d6.
+[32;1m[Board] [0mWhite player is playing e3 to f5.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m| |[30;1mQ[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mb[0m| |[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mK[0m|[30;1mp[0m| |[0;1mr[0m| |[7;1m [0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[30;1mp[0m| |[30;1mp[0m|[0;1mk[0m|[0;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mr[0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m|[0;1mb[0m|[0;1mk[0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m| |[7;1m [0m|[0;1mr[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[0;1mK[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R . . . . . Q R |
-7| K P . r . . . . |
-6| P . P n p P . P |
-5| . . . . . . P q |
-4| . . . . . . . . |
-3| p . . . r . p . |
-2| . p p . . p p . |
-1| . k . . . . . . |
+8| B . . R . . K . |
+7| P . r . . P P P |
+6| . . . . . . R . |
+5| . . . P b n . . |
+4| . . . . P . . . |
+3| . . . . . . . . |
+2| p . . . . p p p |
+1| q . . . . . k . |
  +-----------------+
    a b c d e f g h
-1 0520 2 0540 3 0580 4 0620 5 0660 6 0700 7 0740 8 0780 5926912  +-----------------+
-8| R K . . . . Q R |
-7| . P . r . . . . |
-6| P . P n p P . P |
-5| . . . . . . P q |
-4| . . . . . . . . |
-3| p . . . r . p . |
-2| . p p . . p p . |
-1| . k . . . . . . |
+1 0525 :( 2 0600 3 0600 4 0605 5 0645 6 0680 7 0715 8 0755 6012928  +-----------------+
+8| B . . R . . K . |
+7| P . r . . P P P |
+6| . . . . . . . . |
+5| . . . P b n R . |
+4| . . . . P . . . |
+3| . . . . . . . . |
+2| p . . . . p p p |
+1| q . . . . . k . |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -2303,60 +2307,230 @@ Choice: f5d6 | Depth: 6 | Time: 9557ms
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 53 move(s).
-[32;1m[Board] [0mHistory replayed, 22 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 19 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing a7 to b8.
+[32;1m[Board] [0mBlack player is playing g6 to g5.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mK[0m|[7;1m [0m| |[7;1m [0m| |[30;1mQ[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mb[0m| |[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 || |[30;1mp[0m| |[0;1mr[0m| |[7;1m [0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[30;1mp[0m| |[30;1mp[0m|[0;1mk[0m|[0;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m|[0;1mb[0m|[0;1mk[0m|[30;1mr[0m|[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m| |[7;1m [0m|[0;1mr[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[0;1mK[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-Choice: d7b7 | Depth: 7 | Time: 9569ms
+Choice: e5f6 | Depth: 7 | Time: 9562ms
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 54 move(s).
-[32;1m[Board] [0mHistory replayed, 22 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 19 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing d7 to b7.
-[32;1m[Board] [0m[5;1mWhite Rook is taking Black Pawn.[0m
+[32;1m[Board] [0mWhite player is playing e5 to f6.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mK[0m|[7;1m [0m| |[7;1m [0m| |[30;1mQ[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mb[0m| |[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[30;1mK[0m| || 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 || |[0;1mr[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[30;1mp[0m| |[30;1mp[0m|[0;1mk[0m|[0;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|| 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mb[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[0;1mk[0m|[30;1mr[0m|[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 ||[0;1mp[0m|[7;1m [0m| |[7;1m [0m|[0;1mr[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 || |[0;1mK[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+ +-----------------+
+8| B . . R . . K . |
+7| P . r . . P P P |
+6| . . . . . b . . |
+5| . . . P . n R . |
+4| . . . . P . . . |
+3| . . . . . . . . |
+2| p . . . . p p p |
+1| q . . . . . k . |
+ +-----------------+
+   a b c d e f g h
+1 0300 2 0300 3 0340 4 0380 5 0420 6 0460 7 0500 8 0540 6443008  +-----------------+
+8| . . . R . . K . |
+7| P . r . . P P P |
+6| . . B . . b . . |
+5| . . . P . n R . |
+4| . . . . P . . . |
+3| . . . . . . . . |
+2| p . . . . p p p |
+1| q . . . . . k . |
+ +-----------------+
+   a b c d e f g h
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 55 move(s).
+[32;1m[Board] [0mHistory replayed, 19 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
+[32;1m[Board] [0mBlack player is playing a8 to c6.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mb[0m| |[7;1m [0m|[0;1mb[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[0;1mk[0m|[30;1mr[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+Choice: f6g5 | Depth: 7 | Time: 9567ms
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 56 move(s).
+[32;1m[Board] [0mHistory replayed, 19 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
+[32;1m[Board] [0mWhite player is playing f6 to g5.
+[32;1m[Board] [0m[5;1mWhite Bishop is taking Black Rook.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mb[0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[0;1mk[0m|[0;1mb[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+ +-----------------+
+8| . . . R . . K . |
+7| P . r . . P P P |
+6| . . B . . . . . |
+5| . . . P . n b . |
+4| . . . . P . . . |
+3| . . . . . . . . |
+2| p . . . . p p p |
+1| q . . . . . k . |
+ +-----------------+
+   a b c d e f g h
+1 01320 2 01335 3 01335 4 01350 5 01390 6 01430 7 01470 8 01510 9 01550 10 01590 11 01630 3776512  +-----------------+
+8| . . . R . . K . |
+7| P . r . . P . P |
+6| . . B . . . P . |
+5| . . . P . n b . |
+4| . . . . P . . . |
+3| . . . . . . . . |
+2| p . . . . p p p |
+1| q . . . . . k . |
+ +-----------------+
+   a b c d e f g h
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 57 move(s).
+[32;1m[Board] [0mHistory replayed, 18 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
+[32;1m[Board] [0mBlack player is playing g7 to g6.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[30;1mp[0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mb[0m| |[7;1m [0m| |[30;1mp[0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[0;1mk[0m|[0;1mb[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mQ[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+Choice: a1g7 | Depth: 7 | Time: 9562ms
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/lmc-ai-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 58 move(s).
+[32;1m[Board] [0mHistory replayed, 18 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/lmc-ai-pawnstar/move.csv`...
+[32;1m[Board] [0mWhite player is playing a1 to g7.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m| |[30;1mp[0m|[0;1mQ[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mb[0m| |[7;1m [0m| |[30;1mp[0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[0;1mk[0m|[0;1mb[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m

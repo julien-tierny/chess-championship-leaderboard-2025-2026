@@ -1241,12 +1241,11 @@ info depth 2 nodes 650 score cp -45 pv c8b6
 info depth 3 nodes 3714 score cp -25 pv c8b6
 info depth 4 nodes 29303 score cp 0 pv c8e7
 info depth 5 nodes 219914 score cp 0 pv c7c5
-info depth 6 nodes 726336 score cp 0 pv f8g8
   a b c d e f g h
-8 . . n . . . k r 
-7 . p q . . p p p 
+8 . . n . . k . r 
+7 . p . . . p p p 
 6 . . . . . . . . 
-5 . . . . P . . . 
+5 . . q . P . . . 
 4 . . . . . . b . 
 3 . . B B . . . . 
 2 P P P . . P P P 
@@ -1259,17 +1258,17 @@ info depth 6 nodes 726336 score cp 0 pv f8g8
 [32;1m[Board] [0mLoaded 31 move(s).
 [32;1m[Board] [0mHistory replayed, 21 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
-[32;1m[Board] [0mBlack player is playing f8 to g8.
+[32;1m[Board] [0mBlack player is playing c7 to c5.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[7;1m [0m| |[30;1mk[0m| |[7;1m [0m| |[30;1mK[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[30;1mk[0m| |[7;1m [0m|[30;1mK[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 || |[30;1mp[0m|[30;1mQ[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 || |[30;1mp[0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mb[0m| || 4
 [32;1m[Board] [0m   -------------------
@@ -1296,13 +1295,13 @@ in coordinates: from (5,3) to (4,4)
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[7;1m [0m| |[30;1mk[0m| |[7;1m [0m| |[30;1mK[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[30;1mk[0m| |[7;1m [0m|[30;1mK[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 || |[30;1mp[0m|[30;1mQ[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 || |[30;1mp[0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mQ[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[0;1mb[0m| |[30;1mb[0m| || 4
 [32;1m[Board] [0m   -------------------
@@ -1315,17 +1314,17 @@ in coordinates: from (5,3) to (4,4)
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
-info depth 1 nodes 98 score cp -35 pv c8e7
-info depth 2 nodes 1019 score cp -45 pv c8b6
-info depth 3 nodes 5475 score cp -30 pv c8e7
-info depth 4 nodes 39780 score cp 0 pv c8b6
-info depth 5 nodes 188418 score cp 0 pv c8b6
+info depth 1 nodes 167 score cp -65 pv c5b5
+info depth 2 nodes 946 score cp -70 pv c5b5
+info depth 3 nodes 7437 score cp -45 pv c5e7
+info depth 4 nodes 50515 score cp 0 pv f7f5
+info depth 5 nodes 196643 score cp 0 pv c5c4
   a b c d e f g h
-8 . . . . . . k r 
-7 . p q . . p p p 
-6 . n . . . . . . 
+8 . . n . . k . r 
+7 . p . . . p p p 
+6 . . . . . . . . 
 5 . . . . P . . . 
-4 . . . . B . b . 
+4 . . q . B . b . 
 3 . . B . . . . . 
 2 P P P . . P P P 
 1 R . . . K . . R 
@@ -1337,19 +1336,19 @@ info depth 5 nodes 188418 score cp 0 pv c8b6
 [32;1m[Board] [0mLoaded 33 move(s).
 [32;1m[Board] [0mHistory replayed, 21 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
-[32;1m[Board] [0mBlack player is playing c8 to b6.
+[32;1m[Board] [0mBlack player is playing c5 to c4.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[30;1mk[0m| |[7;1m [0m|[30;1mK[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 || |[30;1mp[0m|[30;1mQ[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 || |[30;1mp[0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[0;1mb[0m| |[30;1mb[0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[30;1mQ[0m| |[0;1mb[0m| |[30;1mb[0m| || 4
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
@@ -1360,8 +1359,8 @@ info depth 5 nodes 188418 score cp 0 pv c8b6
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-move played: h2h3
-in coordinates: from (6,7) to (5,7)
+move played: f2f3
+in coordinates: from (6,5) to (5,5)
 [32;1m[Game] [0mPlayer's error code: 256
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
@@ -1370,42 +1369,43 @@ in coordinates: from (6,7) to (5,7)
 [32;1m[Board] [0mLoaded 34 move(s).
 [32;1m[Board] [0mHistory replayed, 21 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
-[32;1m[Board] [0mWhite player is playing h2 to h3.
+[32;1m[Board] [0mWhite player is playing f2 to f3.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[30;1mk[0m| |[7;1m [0m|[30;1mK[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 || |[30;1mp[0m|[30;1mQ[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 || |[30;1mp[0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[0;1mb[0m| |[30;1mb[0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[30;1mQ[0m| |[0;1mb[0m| |[30;1mb[0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
-info depth 1 nodes 487 score cp 15 pv g4e6
-info depth 2 nodes 1539 score cp 5 pv g4e6
-info depth 3 nodes 8294 score cp 25 pv g4e6
-info depth 4 nodes 54097 score cp 55 pv g4e6
-info depth 5 nodes 177154 score cp 0 pv g4c8
+info depth 1 nodes 1036 score cp -70 pv b7b6
+info depth 2 nodes 2071 score cp 0 pv c4e2
+info depth 3 nodes 15970 score cp -100 pv c4f1
+info depth 4 nodes 29787 score cp -100 pv c4e2
+info depth 5 nodes 157614 score cp -100 pv c4b5
+info depth 6 nodes 347471 score cp -100 pv c4e2
   a b c d e f g h
-8 . . b . . . k r 
-7 . p q . . p p p 
-6 . n . . . . . . 
+8 . . n . . k . r 
+7 . p . . . p p p 
+6 . . . . . . . . 
 5 . . . . P . . . 
-4 . . . . B . . . 
-3 . . B . . . . P 
-2 P P P . . P P . 
+4 . . . . B . b . 
+3 . . B . . P . . 
+2 P P P . q . P P 
 1 R . . . K . . R 
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
@@ -1415,31 +1415,31 @@ info depth 5 nodes 177154 score cp 0 pv g4c8
 [32;1m[Board] [0mLoaded 35 move(s).
 [32;1m[Board] [0mHistory replayed, 21 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
-[32;1m[Board] [0mBlack player is playing g4 to c8.
+[32;1m[Board] [0mBlack player is playing c4 to e2.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[7;1m [0m| |[30;1mb[0m| |[7;1m [0m| |[30;1mK[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[30;1mk[0m| |[7;1m [0m|[30;1mK[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 || |[30;1mp[0m|[30;1mQ[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 || |[30;1mp[0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[0;1mb[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[0;1mb[0m| |[30;1mb[0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[30;1mQ[0m| |[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-move played: e1g1
-in coordinates: from (7,4) to (7,6)
+move played: e1e2
+in coordinates: from (7,4) to (6,4)
 [32;1m[Game] [0mPlayer's error code: 256
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
@@ -1448,283 +1448,283 @@ in coordinates: from (7,4) to (7,6)
 [32;1m[Board] [0mLoaded 36 move(s).
 [32;1m[Board] [0mHistory replayed, 21 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
-[32;1m[Board] [0mWhite player is playing e1 to g1.
-[32;1m[Board] [0mWhite player is castling kingside...
+[32;1m[Board] [0mWhite player is playing e1 to e2.
+[32;1m[Board] [0m[5;1mWhite King is taking Black Queen.[0m
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[7;1m [0m| |[30;1mb[0m| |[7;1m [0m| |[30;1mK[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[30;1mk[0m| |[7;1m [0m|[30;1mK[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 || |[30;1mp[0m|[30;1mQ[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 || |[30;1mp[0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[0;1mb[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[0;1mb[0m| |[30;1mb[0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mK[0m| |[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
-info depth 1 nodes 165 score cp 5 pv c8e6
-info depth 2 nodes 6026 score cp 40 pv b6c4
-info depth 3 nodes 11611 score cp 20 pv b6c4
-info depth 4 nodes 91567 score cp 114 pv b6a4
-info depth 5 nodes 207688 score cp 100 pv b6a4
+info depth 1 nodes 248 score cp -1070 pv g4e6
+info depth 2 nodes 583 score cp -1070 pv g4e6
+info depth 3 nodes 2653 score cp -1040 pv g4e6
+info depth 4 nodes 15103 score cp -1000 pv g4d7
+info depth 5 nodes 47761 score cp -1000 pv g4e6
+info depth 6 nodes 332945 score cp -1000 pv g4e6
   a b c d e f g h
-8 . . b . . . k r 
-7 . p q . . p p p 
-6 . . . . . . . . 
+8 . . n . . k . r 
+7 . p . . . p p p 
+6 . . . . b . . . 
 5 . . . . P . . . 
-4 n . . . B . . . 
-3 . . B . . . . P 
-2 P P P . . P P . 
-1 R . . . . . K R 
+4 . . . . B . . . 
+3 . . B . . P . . 
+2 P P P . K . P P 
+1 R . . . . . . R 
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
 [32;1m[Board] [0mLoaded 37 move(s).
-[32;1m[Board] [0mHistory replayed, 21 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 20 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
-[32;1m[Board] [0mBlack player is playing b6 to a4.
+[32;1m[Board] [0mBlack player is playing g4 to e6.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[7;1m [0m| |[30;1mb[0m| |[7;1m [0m| |[30;1mK[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[30;1mk[0m| |[7;1m [0m|[30;1mK[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 || |[30;1mp[0m|[30;1mQ[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 || |[30;1mp[0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mb[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[30;1mk[0m| |[7;1m [0m| |[0;1mb[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[0;1mb[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mK[0m| |[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-move played: c3d4
-in coordinates: from (5,2) to (4,3)
+move played: e4b7
+in coordinates: from (4,4) to (1,1)
 [32;1m[Game] [0mPlayer's error code: 256
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
 [32;1m[Board] [0mLoaded 38 move(s).
-[32;1m[Board] [0mHistory replayed, 21 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 20 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
-[32;1m[Board] [0mWhite player is playing c3 to d4.
+[32;1m[Board] [0mWhite player is playing e4 to b7.
+[32;1m[Board] [0m[5;1mWhite Bishop is taking Black Pawn.[0m
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[7;1m [0m| |[30;1mb[0m| |[7;1m [0m| |[30;1mK[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[30;1mk[0m| |[7;1m [0m|[30;1mK[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 || |[30;1mp[0m|[30;1mQ[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 || |[0;1mb[0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mb[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[30;1mk[0m| |[7;1m [0m|[0;1mb[0m|[0;1mb[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mK[0m| |[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
-info depth 1 nodes 231 score cp -5 pv a4c5
-info depth 2 nodes 3947 score cp 114 pv c7c4
-info depth 3 nodes 8886 score cp 100 pv c7c4
-info depth 4 nodes 101720 score cp 114 pv c7c4
-info depth 5 nodes 211692 score cp 100 pv c7d7
-info depth 6 nodes 662361 score cp 100 pv c7c4
+info depth 1 nodes 49 score cp -1040 pv c8e7
+info depth 2 nodes 237 score cp -1000 pv e6c4
+info depth 3 nodes 2537 score cp -1035 pv c8e7
+info depth 4 nodes 21013 score cp -1000 pv e6c4
+info depth 5 nodes 124350 score cp -1000 pv c8e7
+info depth 6 nodes 563276 score cp -1000 pv f8g8
   a b c d e f g h
-8 . . b . . . k r 
-7 . p . . . p p p 
-6 . . . . . . . . 
+8 . . n . . . k r 
+7 . B . . . p p p 
+6 . . . . b . . . 
 5 . . . . P . . . 
-4 n . q B B . . . 
-3 . . . . . . . P 
-2 P P P . . P P . 
-1 R . . . . . K R 
+4 . . . . . . . . 
+3 . . B . . P . . 
+2 P P P . K . P P 
+1 R . . . . . . R 
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
 [32;1m[Board] [0mLoaded 39 move(s).
-[32;1m[Board] [0mHistory replayed, 21 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 19 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
-[32;1m[Board] [0mBlack player is playing c7 to c4.
+[32;1m[Board] [0mBlack player is playing f8 to g8.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[7;1m [0m| |[30;1mb[0m| |[7;1m [0m| |[30;1mK[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[30;1mk[0m| |[7;1m [0m| |[30;1mK[0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 || |[30;1mp[0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 || |[0;1mb[0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mb[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[30;1mk[0m| |[30;1mQ[0m|[0;1mb[0m|[0;1mb[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mK[0m| |[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-move played: f1d1
-in coordinates: from (7,5) to (7,3)
+move played: a2a4
+in coordinates: from (6,0) to (4,0)
 [32;1m[Game] [0mPlayer's error code: 256
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
 [32;1m[Board] [0mLoaded 40 move(s).
-[32;1m[Board] [0mHistory replayed, 21 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 19 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
-[32;1m[Board] [0mWhite player is playing f1 to d1.
+[32;1m[Board] [0mWhite player is playing a2 to a4.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[7;1m [0m| |[30;1mb[0m| |[7;1m [0m| |[30;1mK[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[30;1mk[0m| |[7;1m [0m| |[30;1mK[0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 || |[30;1mp[0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 || |[0;1mb[0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mb[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[30;1mk[0m| |[30;1mQ[0m|[0;1mb[0m|[0;1mb[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[0;1mK[0m| |[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[0;1mr[0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
-info depth 1 nodes 47 score cp 295 pv c4d4
-info depth 2 nodes 3294 score cp 455 pv c4d4
-info depth 3 nodes 6700 score cp 400 pv c4d4
-info depth 4 nodes 21006 score cp 570 pv c4d4
-info depth 5 nodes 58318 score cp 500 pv c4d4
-info depth 6 nodes 329276 score cp 500 pv c4d4
+info depth 1 nodes 37 score cp -994 pv c8e7
+info depth 2 nodes 178 score cp -1000 pv e6c4
+info depth 3 nodes 2057 score cp -990 pv c8e7
+info depth 4 nodes 9843 score cp -900 pv c8b6
+info depth 5 nodes 32096 score cp -900 pv e6c4
+info depth 6 nodes 469053 score cp -919 pv c8b6
   a b c d e f g h
-8 . . b . . . k r 
-7 . p . . . p p p 
-6 . . . . . . . . 
+8 . . . . . . k r 
+7 . B . . . p p p 
+6 . n . . b . . . 
 5 . . . . P . . . 
-4 n . . q B . . . 
-3 . . . . . . . P 
-2 P P P . . P P . 
-1 R . . . . . K R 
+4 . . . . . . . . 
+3 . . B . . P . . 
+2 . P P . K . P P 
+1 R . . . . . . R 
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
 [32;1m[Board] [0mLoaded 41 move(s).
-[32;1m[Board] [0mHistory replayed, 21 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 19 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
-[32;1m[Board] [0mBlack player is playing c4 to d4.
-[32;1m[Board] [0m[5;1mBlack Queen is taking White Bishop.[0m
+[32;1m[Board] [0mBlack player is playing c8 to b6.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[7;1m [0m| |[30;1mb[0m| |[7;1m [0m| |[30;1mK[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 || |[30;1mp[0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 || |[0;1mb[0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mk[0m|[7;1m [0m| |[30;1mb[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[30;1mk[0m| |[7;1m [0m|[30;1mQ[0m|[0;1mb[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[0;1mK[0m| |[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[0;1mr[0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-move played: d1d4
-in coordinates: from (7,3) to (4,3)
+move played: a4a5
+in coordinates: from (4,0) to (3,0)
 [32;1m[Game] [0mPlayer's error code: 256
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
 [32;1m[Board] [0mLoaded 42 move(s).
-[32;1m[Board] [0mHistory replayed, 20 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 19 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
-[32;1m[Board] [0mWhite player is playing d1 to d4.
-[32;1m[Board] [0m[5;1mWhite Rook is taking Black Queen.[0m
+[32;1m[Board] [0mWhite player is playing a4 to a5.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[7;1m [0m| |[30;1mb[0m| |[7;1m [0m| |[30;1mK[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 || |[30;1mp[0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 || |[0;1mb[0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mk[0m|[7;1m [0m| |[30;1mb[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 ||[0;1mp[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[30;1mk[0m| |[7;1m [0m|[0;1mr[0m|[0;1mb[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[0;1mK[0m| |[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
-info depth 1 nodes 60 score cp -450 pv a4b2
-info depth 2 nodes 423 score cp -459 pv a4b2
-info depth 3 nodes 2142 score cp -545 pv a4b2
-info depth 4 nodes 9832 score cp -445 pv a4b2
-info depth 5 nodes 46920 score cp -455 pv a4b2
-info depth 6 nodes 477994 score cp -459 pv a4b2
+info depth 1 nodes 25 score cp -975 pv b6d5
+info depth 2 nodes 244 score cp -900 pv e6c4
+info depth 3 nodes 1339 score cp -980 pv b6d5
+info depth 4 nodes 17220 score cp -900 pv e6c4
+info depth 5 nodes 61986 score cp -980 pv e6d5
+info depth 6 nodes 308530 score cp -900 pv e6c4
   a b c d e f g h
-8 . . b . . . k r 
-7 . p . . . p p p 
-6 . . . . . . . . 
-5 . . . . P . . . 
-4 . . . . B . . . 
-3 . . . . . . . P 
-2 P n P . . P P . 
-1 R . . . . . K R 
+8 . . . . . . k r 
+7 . B . . . p p p 
+6 . n . . . . . . 
+5 P . . . P . . . 
+4 . . b . . . . . 
+3 . . B . . P . . 
+2 . P P . K . P P 
+1 R . . . . . . R 
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
@@ -1733,59 +1733,1390 @@ info depth 6 nodes 477994 score cp -459 pv a4b2
 [32;1m[Board] [0mLoaded 43 move(s).
 [32;1m[Board] [0mHistory replayed, 19 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
-[32;1m[Board] [0mBlack player is playing a4 to b2.
-[32;1m[Board] [0m[5;1mBlack Knight is taking White Pawn.[0m
+[32;1m[Board] [0mBlack player is playing e6 to c4.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[7;1m [0m| |[30;1mb[0m| |[7;1m [0m| |[30;1mK[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 || |[30;1mp[0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 || |[0;1mb[0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 ||[0;1mp[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mr[0m|[0;1mb[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[30;1mb[0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[30;1mk[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[0;1mK[0m| |[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
-move played: d4d8
-in coordinates: from (4,3) to (0,3)
+move played: e2f2
+in coordinates: from (6,4) to (6,5)
 [32;1m[Game] [0mPlayer's error code: 256
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
 [32;1m[Board] [0mLoaded 44 move(s).
-[32;1m[Board] [0mHistory replayed, 18 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 19 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
-[32;1m[Board] [0mWhite player is playing d4 to d8.
+[32;1m[Board] [0mWhite player is playing e2 to f2.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[7;1m [0m| |[30;1mb[0m|[0;1mr[0m|[7;1m [0m| |[30;1mK[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 || |[30;1mp[0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 || |[0;1mb[0m| |[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m|[30;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 ||[0;1mp[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[30;1mb[0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+info depth 1 nodes 23 score cp -985 pv b6d5
+info depth 2 nodes 149 score cp -985 pv b6d5
+info depth 3 nodes 1129 score cp -990 pv b6d5
+info depth 4 nodes 9488 score cp -1000 pv c4e6
+info depth 5 nodes 23632 score cp -1000 pv c4e6
+info depth 6 nodes 304889 score cp -1100 pv b6d7
+info depth 7 nodes 486899 score cp -1100 pv b6d7
+  a b c d e f g h
+8 . . . . . . k r 
+7 . B . n . p p p 
+6 . . . . . . . . 
+5 P . . . P . . . 
+4 . . b . . . . . 
+3 . . B . . P . . 
+2 . P P . . K P P 
+1 R . . . . . . R 
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 45 move(s).
+[32;1m[Board] [0mHistory replayed, 19 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mBlack player is playing b6 to d7.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[0;1mb[0m| |[30;1mk[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 ||[0;1mp[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[30;1mb[0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+move played: a5a6
+in coordinates: from (3,0) to (2,0)
+[32;1m[Game] [0mPlayer's error code: 256
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 46 move(s).
+[32;1m[Board] [0mHistory replayed, 19 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mWhite player is playing a5 to a6.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[0;1mb[0m| |[30;1mk[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[0;1mb[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[30;1mb[0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[30;1mk[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| || 2
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+info depth 1 nodes 28 score cp -990 pv d7c5
+info depth 2 nodes 439 score cp -980 pv d7c5
+info depth 3 nodes 2818 score cp -980 pv d7c5
+info depth 4 nodes 15792 score cp -1100 pv g8f8
+info depth 5 nodes 47850 score cp -1100 pv d7c5
+info depth 6 nodes 324322 score cp -1200 pv f7f6
+  a b c d e f g h
+8 . . . . . . k r 
+7 . B . n . . p p 
+6 P . . . . p . . 
+5 . . . . P . . . 
+4 . . b . . . . . 
+3 . . B . . P . . 
+2 . P P . . K P P 
+1 R . . . . . . R 
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 47 move(s).
+[32;1m[Board] [0mHistory replayed, 19 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mBlack player is playing f7 to f6.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[0;1mb[0m| |[30;1mk[0m| |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[30;1mb[0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+move played: a1d1
+in coordinates: from (7,0) to (7,3)
+[32;1m[Game] [0mPlayer's error code: 256
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 48 move(s).
+[32;1m[Board] [0mHistory replayed, 19 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mWhite player is playing a1 to d1.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[0;1mb[0m| |[30;1mk[0m| |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[30;1mb[0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[0;1mr[0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+info depth 1 nodes 40 score cp -894 pv d7e5
+info depth 2 nodes 483 score cp -1050 pv c4e6
+info depth 3 nodes 2193 score cp -1070 pv c4b5
+info depth 4 nodes 21175 score cp -1200 pv f6f5
+info depth 5 nodes 51879 score cp -1200 pv g8f8
+info depth 6 nodes 228869 score cp -1200 pv d7f8
+info depth 7 nodes 450582 score cp -1300 pv c4e6
+  a b c d e f g h
+8 . . . . . . k r 
+7 . B . n . . p p 
+6 P . . . b p . . 
+5 . . . . P . . . 
+4 . . . . . . . . 
+3 . . B . . P . . 
+2 . P P . . K P P 
+1 . . . R . . . R 
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 49 move(s).
+[32;1m[Board] [0mHistory replayed, 19 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mBlack player is playing c4 to e6.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[0;1mb[0m| |[30;1mk[0m| |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[0;1mp[0m| |[7;1m [0m| |[30;1mb[0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[0;1mr[0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+move played: b7c6
+in coordinates: from (1,1) to (2,2)
+[32;1m[Game] [0mPlayer's error code: 256
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 50 move(s).
+[32;1m[Board] [0mHistory replayed, 19 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mWhite player is playing b7 to c6.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m| |[30;1mk[0m| |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[0;1mp[0m| |[0;1mb[0m| |[30;1mb[0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[0;1mr[0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+info depth 1 nodes 32 score cp -900 pv d7e5
+info depth 2 nodes 266 score cp -1140 pv d7f8
+info depth 3 nodes 1295 score cp -1180 pv d7f8
+info depth 4 nodes 9796 score cp -1200 pv g8f7
+info depth 5 nodes 27583 score cp -1200 pv d7e5
+info depth 6 nodes 196211 score cp -1200 pv g8f7
+  a b c d e f g h
+8 . . . . . . . r 
+7 . . . n . k p p 
+6 P . B . b p . . 
+5 . . . . P . . . 
+4 . . . . . . . . 
+3 . . B . . P . . 
+2 . P P . . K P P 
+1 . . . R . . . R 
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 51 move(s).
+[32;1m[Board] [0mHistory replayed, 19 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mBlack player is playing g8 to f7.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m| |[30;1mk[0m| |[30;1mK[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[0;1mp[0m| |[0;1mb[0m| |[30;1mb[0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[0;1mr[0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+move played: c6d7
+in coordinates: from (2,2) to (1,3)
+[32;1m[Game] [0mPlayer's error code: 256
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 52 move(s).
+[32;1m[Board] [0mHistory replayed, 19 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mWhite player is playing c6 to d7.
+[32;1m[Board] [0m[5;1mWhite Bishop is taking Black Knight.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m| |[0;1mb[0m| |[30;1mK[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[0;1mp[0m| |[7;1m [0m| |[30;1mb[0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[0;1mr[0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+info depth 1 nodes 77 score cp -1355 pv f6e5
+info depth 2 nodes 352 score cp -1355 pv f6e5
+info depth 3 nodes 884 score cp -1300 pv e6d7
+info depth 4 nodes 10254 score cp -1355 pv e6c4
+info depth 5 nodes 18699 score cp -1300 pv f6e5
+info depth 6 nodes 332022 score cp -1345 pv f7g6
+  a b c d e f g h
+8 . . . . . . . r 
+7 . . . B . . p p 
+6 P . . . b p k . 
+5 . . . . P . . . 
+4 . . . . . . . . 
+3 . . B . . P . . 
+2 . P P . . K P P 
+1 . . . R . . . R 
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 53 move(s).
+[32;1m[Board] [0mHistory replayed, 18 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mBlack player is playing f7 to g6.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m| |[0;1mb[0m| |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[0;1mp[0m| |[7;1m [0m| |[30;1mb[0m|[30;1mp[0m|[30;1mK[0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[0;1mr[0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+move played: d7e6
+in coordinates: from (1,3) to (2,4)
+[32;1m[Game] [0mPlayer's error code: 256
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 54 move(s).
+[32;1m[Board] [0mHistory replayed, 18 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mWhite player is playing d7 to e6.
+[32;1m[Board] [0m[5;1mWhite Bishop is taking Black Bishop.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[0;1mp[0m| |[7;1m [0m| |[0;1mb[0m|[30;1mp[0m|[30;1mK[0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[0;1mr[0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+info depth 1 nodes 30 score cp -1700 pv h8e8
+info depth 2 nodes 258 score cp -1700 pv h8e8
+info depth 3 nodes 882 score cp -1695 pv f6e5
+info depth 4 nodes 7737 score cp -1700 pv h8a8
+info depth 5 nodes 57481 score cp -1689 pv h8a8
+info depth 6 nodes 415174 score cp -1700 pv h8b8
+  a b c d e f g h
+8 . r . . . . . . 
+7 . . . . . . p p 
+6 P . . . B p k . 
+5 . . . . P . . . 
+4 . . . . . . . . 
+3 . . B . . P . . 
+2 . P P . . K P P 
+1 . . . R . . . R 
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 55 move(s).
+[32;1m[Board] [0mHistory replayed, 17 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mBlack player is playing h8 to b8.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[0;1mp[0m| |[7;1m [0m| |[0;1mb[0m|[30;1mp[0m|[30;1mK[0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[0;1mr[0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+move played: e5f6
+in coordinates: from (3,4) to (2,5)
+[32;1m[Game] [0mPlayer's error code: 256
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 56 move(s).
+[32;1m[Board] [0mHistory replayed, 17 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mWhite player is playing e5 to f6.
+[32;1m[Board] [0m[5;1mWhite Pawn is taking Black Pawn.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[0;1mp[0m| |[7;1m [0m| |[0;1mb[0m|[0;1mp[0m|[30;1mK[0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[0;1mr[0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+info depth 1 nodes 29 score cp -1730 pv g7f6
+info depth 2 nodes 553 score cp -1730 pv b8b6
+info depth 3 nodes 2073 score cp -1730 pv b8b6
+info depth 4 nodes 11222 score cp -1735 pv g7f6
+info depth 5 nodes 50368 score cp -1730 pv g7f6
+info depth 6 nodes 346202 score cp -2000 pv g7f6
+  a b c d e f g h
+8 . r . . . . . . 
+7 . . . . . . . p 
+6 P . . . B p k . 
+5 . . . . . . . . 
+4 . . . . . . . . 
+3 . . B . . P . . 
+2 . P P . . K P P 
+1 . . . R . . . R 
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 57 move(s).
+[32;1m[Board] [0mHistory replayed, 16 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mBlack player is playing g7 to f6.
+[32;1m[Board] [0m[5;1mBlack Pawn is taking White Pawn.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[0;1mp[0m| |[7;1m [0m| |[0;1mb[0m|[30;1mp[0m|[30;1mK[0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[0;1mr[0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+move played: a6a7
+in coordinates: from (2,0) to (1,0)
+[32;1m[Game] [0mPlayer's error code: 256
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 58 move(s).
+[32;1m[Board] [0mHistory replayed, 15 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mWhite player is playing a6 to a7.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[0;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[0;1mb[0m|[30;1mp[0m|[30;1mK[0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[0;1mr[0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+info depth 1 nodes 38 score cp -1720 pv b8b7
+info depth 2 nodes 414 score cp -1730 pv b8e8
+info depth 3 nodes 1889 score cp -1720 pv b8e8
+info depth 4 nodes 9173 score cp -1735 pv b8a8
+info depth 5 nodes 78346 score cp -1735 pv b8a8
+info depth 6 nodes 314658 score cp -2100 pv b8a8
+  a b c d e f g h
+8 r . . . . . . . 
+7 P . . . . . . p 
+6 . . . . B p k . 
+5 . . . . . . . . 
+4 . . . . . . . . 
+3 . . B . . P . . 
+2 . P P . . K P P 
+1 . . . R . . . R 
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 59 move(s).
+[32;1m[Board] [0mHistory replayed, 15 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mBlack player is playing b8 to a8.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[0;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[0;1mb[0m|[30;1mp[0m|[30;1mK[0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[0;1mr[0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+move played: d1d7
+in coordinates: from (7,3) to (1,3)
+[32;1m[Game] [0mPlayer's error code: 256
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 60 move(s).
+[32;1m[Board] [0mHistory replayed, 15 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mWhite player is playing d1 to d7.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[0;1mp[0m|[7;1m [0m| |[0;1mr[0m| |[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[0;1mb[0m|[30;1mp[0m|[30;1mK[0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+info depth 1 nodes 32 score cp -1730 pv a8c8
+info depth 2 nodes 586 score cp -1739 pv a8c8
+info depth 3 nodes 1925 score cp -1730 pv a8f8
+info depth 4 nodes 24255 score cp -2000 pv a8f8
+info depth 5 nodes 50749 score cp -2000 pv a8e8
+  a b c d e f g h
+8 . . . . r . . . 
+7 P . . R . . . p 
+6 . . . . B p k . 
+5 . . . . . . . . 
+4 . . . . . . . . 
+3 . . B . . P . . 
+2 . P P . . K P P 
+1 . . . . . . . R 
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 61 move(s).
+[32;1m[Board] [0mHistory replayed, 15 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mBlack player is playing a8 to e8.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[30;1mr[0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[0;1mp[0m|[7;1m [0m| |[0;1mr[0m| |[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[0;1mb[0m|[30;1mp[0m|[30;1mK[0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+move played: e6f7
+in coordinates: from (2,4) to (1,5)
+[32;1m[Game] [0mPlayer's error code: 256
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 62 move(s).
+[32;1m[Board] [0mHistory replayed, 15 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mWhite player is playing e6 to f7.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[30;1mr[0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[0;1mp[0m|[7;1m [0m| |[0;1mr[0m| |[0;1mb[0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[30;1mK[0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+info depth 1 nodes 10 score cp -2200 pv g6h6
+info depth 2 nodes 183 score cp -2205 pv g6h6
+info depth 3 nodes 320 score cp -2200 pv g6g7
+info depth 4 nodes 12595 score cp -2900 pv g6f5
+info depth 5 nodes 16072 score cp -2900 pv g6g7
+info depth 6 nodes 532186 score cp -19990100 pv g6h6
+  a b c d e f g h
+8 . . . . r . . . 
+7 P . . R . B . p 
+6 . . . . . p . k 
+5 . . . . . . . . 
+4 . . . . . . . . 
+3 . . B . . P . . 
+2 . P P . . K P P 
+1 . . . . . . . R 
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 63 move(s).
+[32;1m[Board] [0mHistory replayed, 15 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mBlack player is playing g6 to h6.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[30;1mr[0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[0;1mp[0m|[7;1m [0m| |[0;1mr[0m| |[0;1mb[0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mK[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+move played: f7e8
+in coordinates: from (1,5) to (0,4)
+[32;1m[Game] [0mPlayer's error code: 256
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 64 move(s).
+[32;1m[Board] [0mHistory replayed, 15 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mWhite player is playing f7 to e8.
+[32;1m[Board] [0m[5;1mWhite Bishop is taking Black Rook.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[0;1mb[0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[0;1mp[0m|[7;1m [0m| |[0;1mr[0m| |[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mK[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+info depth 1 nodes 4 score cp -2210 pv f6f5
+info depth 2 nodes 73 score cp -2985 pv f6f5
+info depth 3 nodes 222 score cp -2995 pv f6f5
+info depth 4 nodes 8973 score cp -19990100 pv h6g5
+  a b c d e f g h
+8 . . . . B . . . 
+7 P . . R . . . p 
+6 . . . . . p . . 
+5 . . . . . . k . 
+4 . . . . . . . . 
+3 . . B . . P . . 
+2 . P P . . K P P 
+1 . . . . . . . R 
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 65 move(s).
+[32;1m[Board] [0mHistory replayed, 14 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mBlack player is playing h6 to g5.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[0;1mb[0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[0;1mp[0m|[7;1m [0m| |[0;1mr[0m| |[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mK[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+move played: d7h7
+in coordinates: from (1,3) to (1,7)
+[32;1m[Game] [0mPlayer's error code: 256
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 66 move(s).
+[32;1m[Board] [0mHistory replayed, 14 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mWhite player is playing d7 to h7.
+[32;1m[Board] [0m[5;1mWhite Rook is taking Black Pawn.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[0;1mb[0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[0;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mK[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+info depth 1 nodes 6 score cp -2355 pv g5f5
+info depth 2 nodes 178 score cp -3120 pv g5f4
+info depth 3 nodes 293 score cp -3130 pv f6f5
+info depth 4 nodes 10601 score cp -3245 pv g5f5
+info depth 5 nodes 25044 score cp -19990100 pv g5f5
+  a b c d e f g h
+8 . . . . B . . . 
+7 P . . . . . . R 
+6 . . . . . p . . 
+5 . . . . . k . . 
+4 . . . . . . . . 
+3 . . B . . P . . 
+2 . P P . . K P P 
+1 . . . . . . . R 
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 67 move(s).
+[32;1m[Board] [0mHistory replayed, 13 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mBlack player is playing g5 to f5.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[0;1mb[0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[0;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+move played: h7h6
+in coordinates: from (1,7) to (2,7)
+[32;1m[Game] [0mPlayer's error code: 256
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 68 move(s).
+[32;1m[Board] [0mHistory replayed, 13 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mWhite player is playing h7 to h6.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[0;1mb[0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[0;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[0;1mr[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[30;1mK[0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+info depth 1 nodes 9 score cp -2470 pv f5f4
+info depth 2 nodes 141 score cp -2750 pv f5g5
+info depth 3 nodes 416 score cp -2750 pv f5g5
+info depth 4 nodes 5799 score cp -3279 pv f5e6
+info depth 5 nodes 15075 score cp -3270 pv f5e6
+info depth 6 nodes 198154 score cp -19990200 pv f5e6
+  a b c d e f g h
+8 . . . . B . . . 
+7 P . . . . . . . 
+6 . . . . k p . R 
+5 . . . . . . . . 
+4 . . . . . . . . 
+3 . . B . . P . . 
+2 . P P . . K P P 
+1 . . . . . . . R 
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 69 move(s).
+[32;1m[Board] [0mHistory replayed, 13 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mBlack player is playing f5 to e6.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[0;1mb[0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[0;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mK[0m|[30;1mp[0m|[7;1m [0m|[0;1mr[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+move played: a7a8q
+in coordinates: from (1,0) to (0,0)
+[32;1m[Game] [0mPlayer's error code: 256
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 70 move(s).
+[32;1m[Board] [0mHistory replayed, 13 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mWhite player is playing a7 to a8.
+[32;1m[Board] [0mPromoting a White Pawn into a Queen
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[0;1mQ[0m| |[7;1m [0m| |[0;1mb[0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[30;1mK[0m|[30;1mp[0m|[7;1m [0m|[0;1mr[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+info depth 1 nodes 8 score cp -3254 pv e6f5
+info depth 2 nodes 197 score cp -3279 pv e6e7
+info depth 3 nodes 340 score cp -3200 pv e6e7
+info depth 4 nodes 12023 score cp -19990200 pv e6e7
+  a b c d e f g h
+8 Q . . . B . . . 
+7 . . . . k . . . 
+6 . . . . . p . R 
+5 . . . . . . . . 
+4 . . . . . . . . 
+3 . . B . . P . . 
+2 . P P . . K P P 
+1 . . . . . . . R 
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 71 move(s).
+[32;1m[Board] [0mHistory replayed, 13 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mBlack player is playing e6 to e7.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[0;1mQ[0m| |[7;1m [0m| |[0;1mb[0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m| |[7;1m [0m|[30;1mK[0m|[7;1m [0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[0;1mr[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+move played: a8b7
+in coordinates: from (0,0) to (1,1)
+[32;1m[Game] [0mPlayer's error code: 256
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 72 move(s).
+[32;1m[Board] [0mHistory replayed, 13 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mWhite player is playing a8 to b7.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[0;1mb[0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[0;1mQ[0m| |[7;1m [0m|[30;1mK[0m|[7;1m [0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[0;1mr[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+info depth 1 nodes 7 score cp -2965 pv e7e8
+info depth 2 nodes 338 score cp -3290 pv e7d6
+info depth 3 nodes 682 score cp -3295 pv e7d6
+info depth 4 nodes 21105 score cp -19990200 pv e7d6
+  a b c d e f g h
+8 . . . . B . . . 
+7 . Q . . . . . . 
+6 . . . k . p . R 
+5 . . . . . . . . 
+4 . . . . . . . . 
+3 . . B . . P . . 
+2 . P P . . K P P 
+1 . . . . . . . R 
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 73 move(s).
+[32;1m[Board] [0mHistory replayed, 13 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mBlack player is playing e7 to d6.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[0;1mb[0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[0;1mQ[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m|[30;1mK[0m|[7;1m [0m|[30;1mp[0m|[7;1m [0m|[0;1mr[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+move played: e8f7
+in coordinates: from (0,4) to (1,5)
+[32;1m[Game] [0mPlayer's error code: 256
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 74 move(s).
+[32;1m[Board] [0mHistory replayed, 13 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mWhite player is playing e8 to f7.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[0;1mQ[0m| |[7;1m [0m| |[0;1mb[0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m|[30;1mK[0m|[7;1m [0m|[30;1mp[0m|[7;1m [0m|[0;1mr[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+  a b c d e f g h
+8 . . . . . . . . 
+7 . Q . . . B . . 
+6 . . . . . p . R 
+5 . . k . . . . . 
+4 . . . . . . . . 
+3 . . B . . P . . 
+2 . P P . . K P P 
+1 . . . . . . . R 
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 75 move(s).
+[32;1m[Board] [0mHistory replayed, 13 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mBlack player is playing d6 to c5.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[0;1mQ[0m| |[7;1m [0m| |[0;1mb[0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[0;1mr[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mK[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+move played: b7a6
+in coordinates: from (1,1) to (2,0)
+[32;1m[Game] [0mPlayer's error code: 256
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 76 move(s).
+[32;1m[Board] [0mHistory replayed, 13 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mWhite player is playing b7 to a6.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m| |[7;1m [0m| |[0;1mb[0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[0;1mQ[0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[0;1mr[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mK[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+  a b c d e f g h
+8 . . . . . . . . 
+7 . . . . . B . . 
+6 Q . . . . . . R 
+5 . . k . . p . . 
+4 . . . . . . . . 
+3 . . B . . P . . 
+2 . P P . . K P P 
+1 . . . . . . . R 
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 77 move(s).
+[32;1m[Board] [0mHistory replayed, 13 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mBlack player is playing f6 to f5.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m| |[7;1m [0m| |[0;1mb[0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[0;1mQ[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mr[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mK[0m|[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+move played: a6c4
+in coordinates: from (2,0) to (4,2)
+[32;1m[Game] [0mPlayer's error code: 256
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess-engine3-matex/history.csv`...
+[32;1m[Board] [0mLoaded 78 move(s).
+[32;1m[Board] [0mHistory replayed, 13 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess-engine3-matex/move.csv`...
+[32;1m[Board] [0mWhite player is playing a6 to c4.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m| |[7;1m [0m| |[0;1mb[0m| |[7;1m [0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mr[0m|| 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mK[0m|[7;1m [0m| |[30;1mp[0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mQ[0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mp[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m

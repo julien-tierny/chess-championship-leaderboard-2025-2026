@@ -50,13 +50,13 @@ depth: 1 score: 123 time: 0 nodes: 40 hashfull: 0
 depth: 2 score: 87 time: 0 nodes: 371 hashfull: 0
 depth: 3 score: 122 time: 0 nodes: 915 hashfull: 0
 depth: 4 score: 89 time: 1 nodes: 2514 hashfull: 0
-depth: 5 score: 122 time: 5 nodes: 7337 hashfull: 0
-depth: 6 score: 90 time: 20 nodes: 29433 hashfull: 1
-depth: 7 score: 113 time: 62 nodes: 92803 hashfull: 3
-depth: 8 score: 100 time: 264 nodes: 368404 hashfull: 14
-depth: 9 score: 113 time: 585 nodes: 985070 hashfull: 38
-depth: 10 score: 99 time: 1694 nodes: 2727067 hashfull: 88
-depth: 11 score: 99 time: 2586 nodes: 6562473 hashfull: 185
+depth: 5 score: 122 time: 3 nodes: 7337 hashfull: 0
+depth: 6 score: 90 time: 13 nodes: 29433 hashfull: 1
+depth: 7 score: 113 time: 41 nodes: 92803 hashfull: 3
+depth: 8 score: 100 time: 176 nodes: 368404 hashfull: 14
+depth: 9 score: 113 time: 390 nodes: 985070 hashfull: 38
+depth: 10 score: 99 time: 1137 nodes: 2727067 hashfull: 88
+depth: 11 score: 99 time: 2451 nodes: 6562473 hashfull: 185
 [DEBUG] [Parser] Wrote to ouput file championship/logic-and-proofs-chessgambit/move.csv move : g1f3
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
@@ -244,15 +244,15 @@ Enpassant: c6	Castling: WK WQ BK BQ
 starting search...
 depth: 1 score: 174 time: 0 nodes: 50 hashfull: 0
 depth: 2 score: 158 time: 0 nodes: 463 hashfull: 0
-depth: 3 score: 166 time: 0 nodes: 1601 hashfull: 0
-depth: 4 score: 144 time: 2 nodes: 5171 hashfull: 0
-depth: 5 score: 164 time: 6 nodes: 13602 hashfull: 0
-depth: 6 score: 159 time: 45 nodes: 77779 hashfull: 2
-depth: 7 score: 159 time: 190 nodes: 338844 hashfull: 9
-depth: 8 score: 161 time: 275 nodes: 729424 hashfull: 21
-depth: 9 score: 166 time: 752 nodes: 1869540 hashfull: 53
-depth: 10 score: 166 time: 1169 nodes: 3137168 hashfull: 84
-depth: 11 score: 138 time: 4871 nodes: 9812487 hashfull: 226
+depth: 3 score: 166 time: 4 nodes: 1601 hashfull: 0
+depth: 4 score: 144 time: 5 nodes: 5171 hashfull: 0
+depth: 5 score: 164 time: 12 nodes: 13602 hashfull: 0
+depth: 6 score: 159 time: 93 nodes: 77779 hashfull: 2
+depth: 7 score: 159 time: 237 nodes: 338844 hashfull: 9
+depth: 8 score: 161 time: 332 nodes: 729424 hashfull: 21
+depth: 9 score: 166 time: 761 nodes: 1869540 hashfull: 53
+depth: 10 score: 166 time: 874 nodes: 3137168 hashfull: 84
+depth: 11 score: 138 time: 4424 nodes: 9812487 hashfull: 226
 [DEBUG] [Parser] Wrote to ouput file championship/logic-and-proofs-chessgambit/move.csv move : e2e4
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
@@ -376,12 +376,12 @@ Black Queenside Castle: AVAILABLE
 (no checks found)
 ======================================
 --------------------------------------------------------------------------------------------------
-Chosen Move: (1,5) --> (2,5)
- / f7f6
+Chosen Move: (0,6) --> (2,5)
+ / g8f6
 
-r n b q k b n r 
-p p * p p * p p 
-* * * * * p * * 
+r n b q k b * r 
+p p * p p p p p 
+* * * * * n * * 
 * * p * * * * * 
 * * * * P * * * 
 * * * * * N * * 
@@ -397,15 +397,15 @@ Code timed out used determine move
 [32;1m[Board] [0mLoaded 3 move(s).
 [32;1m[Board] [0mHistory replayed, 32 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/logic-and-proofs-chessgambit/move.csv`...
-[32;1m[Board] [0mBlack player is playing f7 to f6.
+[32;1m[Board] [0mBlack player is playing g8 to f6.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[30;1mk[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
@@ -426,11 +426,11 @@ Code timed out used determine move
 how i see the board before writing next move: Turn: White
 Enpassant: xx	Castling: WK WQ BK BQ 
    ---- ---- ---- ---- ---- ---- ---- ----
-8 | r  | n  | b  | q  | k  | b  | n  | r  |
+8 | r  | n  | b  | q  | k  | b  |    | r  |
    ---- ---- ---- ---- ---- ---- ---- ----
-7 | p  | p  |    | p  | p  |    | p  | p  |
+7 | p  | p  |    | p  | p  | p  | p  | p  |
    ---- ---- ---- ---- ---- ---- ---- ----
-6 |    |    |    |    |    | p  |    |    |
+6 |    |    |    |    |    | n  |    |    |
    ---- ---- ---- ---- ---- ---- ---- ----
 5 |    |    | p  |    |    |    |    |    |
    ---- ---- ---- ---- ---- ---- ---- ----
@@ -444,17 +444,18 @@ Enpassant: xx	Castling: WK WQ BK BQ
    ---- ---- ---- ---- ---- ---- ---- ----
     a    b    c    d    e    f    g    h
 starting search...
-depth: 1 score: 190 time: 3 nodes: 62 hashfull: 0
-depth: 2 score: 187 time: 0 nodes: 499 hashfull: 0
-depth: 3 score: 195 time: 1 nodes: 2061 hashfull: 0
-depth: 4 score: 193 time: 3 nodes: 5961 hashfull: 0
-depth: 5 score: 193 time: 12 nodes: 22622 hashfull: 0
-depth: 6 score: 180 time: 26 nodes: 61078 hashfull: 2
-depth: 7 score: 180 time: 52 nodes: 135670 hashfull: 4
-depth: 8 score: 184 time: 231 nodes: 434360 hashfull: 12
-depth: 9 score: 176 time: 569 nodes: 1326175 hashfull: 45
-depth: 10 score: 169 time: 2494 nodes: 5028067 hashfull: 134
-[DEBUG] [Parser] Wrote to ouput file championship/logic-and-proofs-chessgambit/move.csv move : f1c4
+depth: 1 score: 173 time: 0 nodes: 93 hashfull: 0
+depth: 2 score: 162 time: 0 nodes: 547 hashfull: 0
+depth: 3 score: 162 time: 0 nodes: 1638 hashfull: 0
+depth: 4 score: 162 time: 2 nodes: 5054 hashfull: 0
+depth: 5 score: 170 time: 27 nodes: 40358 hashfull: 0
+depth: 6 score: 168 time: 25 nodes: 77396 hashfull: 2
+depth: 7 score: 177 time: 84 nodes: 194397 hashfull: 5
+depth: 8 score: 176 time: 288 nodes: 596159 hashfull: 15
+depth: 9 score: 163 time: 763 nodes: 1713216 hashfull: 46
+depth: 10 score: 156 time: 1554 nodes: 3974049 hashfull: 97
+depth: 11 score: 160 time: 4161 nodes: 10152834 hashfull: 221
+[DEBUG] [Parser] Wrote to ouput file championship/logic-and-proofs-chessgambit/move.csv move : e4e5
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
@@ -463,25 +464,25 @@ depth: 10 score: 169 time: 2494 nodes: 5028067 hashfull: 134
 [32;1m[Board] [0mLoaded 4 move(s).
 [32;1m[Board] [0mHistory replayed, 32 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/logic-and-proofs-chessgambit/move.csv`...
-[32;1m[Board] [0mWhite player is playing f1 to c4.
+[32;1m[Board] [0mWhite player is playing e4 to e5.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[30;1mk[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m| |[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
@@ -498,22 +499,25 @@ Possible moves for piece: p:
  p: (1,3)->(2,3) / d7d6
  p: (1,3)->(3,3) / d7d5
  p: (1,4)->(2,4) / e7e6
- p: (1,4)->(3,4) / e7e5
  p: (1,6)->(2,6) / g7g6
  p: (1,6)->(3,6) / g7g5
  p: (1,7)->(2,7) / h7h6
  p: (1,7)->(3,7) / h7h5
- p: (2,5)->(3,5) / f6f5
+ p: (3,2)->(4,2) / c5c4
+Possible moves for piece: r:
+ r: (0,7)->(0,6) / h8g8
 Possible moves for piece: n:
  n: (0,1)->(2,2) / b8c6
  n: (0,1)->(2,0) / b8a6
- n: (0,6)->(2,7) / g8h6
+ n: (2,5)->(4,6) / f6g4
+ n: (2,5)->(4,4) / f6e4
+ n: (2,5)->(0,6) / f6g8
+ n: (2,5)->(3,7) / f6h5
+ n: (2,5)->(3,3) / f6d5
 Possible moves for piece: q:
  q: (0,3)->(1,2) / d8c7
  q: (0,3)->(2,1) / d8b6
  q: (0,3)->(3,0) / d8a5
-Possible moves for piece: k:
- k: (0,4)->(1,5) / e8f7
 
 ------------------------------Filtered Search Space--------------------------------------------
 Possible moves for piece: p:
@@ -524,16 +528,21 @@ Possible moves for piece: p:
  p: (1,3)->(2,3) / d7d6
  p: (1,3)->(3,3) / d7d5
  p: (1,4)->(2,4) / e7e6
- p: (1,4)->(3,4) / e7e5
  p: (1,6)->(2,6) / g7g6
  p: (1,6)->(3,6) / g7g5
  p: (1,7)->(2,7) / h7h6
  p: (1,7)->(3,7) / h7h5
- p: (2,5)->(3,5) / f6f5
+ p: (3,2)->(4,2) / c5c4
+Possible moves for piece: r:
+ r: (0,7)->(0,6) / h8g8
 Possible moves for piece: n:
  n: (0,1)->(2,2) / b8c6
  n: (0,1)->(2,0) / b8a6
- n: (0,6)->(2,7) / g8h6
+ n: (2,5)->(4,6) / f6g4
+ n: (2,5)->(4,4) / f6e4
+ n: (2,5)->(0,6) / f6g8
+ n: (2,5)->(3,7) / f6h5
+ n: (2,5)->(3,3) / f6d5
 Possible moves for piece: q:
  q: (0,3)->(1,2) / d8c7
  q: (0,3)->(2,1) / d8b6
@@ -541,17 +550,17 @@ Possible moves for piece: q:
 
 --------------------------------Info on Attacks---------------------------------------------------
 Squares attacked by White pieces:
-(0,6) (1,5) (2,0) (2,4) (3,1) (3,3) (3,4) (3,5) (3,6) (4,3) (4,7) (5,0) (5,1) (5,2) (5,3) (5,4) (5,6) (5,7) (6,4) (7,5) (7,6) 
+(2,0) (2,3) (2,5) (3,1) (3,6) (4,2) (4,3) (4,7) (5,0) (5,1) (5,2) (5,3) (5,4) (5,6) (5,7) (6,4) (7,6) 
 
 -------------------------------Squares controlled by the enemy------------------------------------
-* * * * * * X * 
-* * * * * X * * 
-X * * * X * * * 
-* X * X X X X * 
-* * * X * * * X 
+* * * * * * * * 
+* * * * * * * * 
+X * * X * X * * 
+* X * * * * X * 
+* * X X * * * X 
 X X X X X * X X 
 * * * * X * * * 
-* * * * * X X * 
+* * * * * * X * 
 
 ------------------------------Check Information---------------------------------------------------
 Black King located at: (0,4)
@@ -576,14 +585,14 @@ Black Queenside Castle: AVAILABLE
 Chosen Move: (1,1) --> (3,1)
  / b7b5
 
-r n b q k b n r 
-p * * p p * p p 
-* * * * * p * * 
-* p p * * * * * 
-* * B * P * * * 
+r n b q k b * r 
+p * * p p p p p 
+* * * * * n * * 
+* p p * P * * * 
+* * * * * * * * 
 * * * * * N * * 
 P P P P * P P P 
-R N B Q K * * R 
+R N B Q K B * R 
 
 Code timed out used determine move
 [32;1m[Game] [0mPlayer's error code: 0
@@ -598,21 +607,21 @@ Code timed out used determine move
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[30;1mk[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[30;1mp[0m|[30;1mp[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mb[0m| |[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
@@ -623,36 +632,36 @@ Code timed out used determine move
 how i see the board before writing next move: Turn: White
 Enpassant: b6	Castling: WK WQ BK BQ 
    ---- ---- ---- ---- ---- ---- ---- ----
-8 | r  | n  | b  | q  | k  | b  | n  | r  |
+8 | r  | n  | b  | q  | k  | b  |    | r  |
    ---- ---- ---- ---- ---- ---- ---- ----
-7 | p  |    |    | p  | p  |    | p  | p  |
+7 | p  |    |    | p  | p  | p  | p  | p  |
    ---- ---- ---- ---- ---- ---- ---- ----
-6 |    |    |    |    |    | p  |    |    |
+6 |    |    |    |    |    | n  |    |    |
    ---- ---- ---- ---- ---- ---- ---- ----
-5 |    | p  | p  |    |    |    |    |    |
+5 |    | p  | p  |    | P  |    |    |    |
    ---- ---- ---- ---- ---- ---- ---- ----
-4 |    |    | B  |    | P  |    |    |    |
+4 |    |    |    |    |    |    |    |    |
    ---- ---- ---- ---- ---- ---- ---- ----
 3 |    |    |    |    |    | N  |    |    |
    ---- ---- ---- ---- ---- ---- ---- ----
 2 | P  | P  | P  | P  |    | P  | P  | P  |
    ---- ---- ---- ---- ---- ---- ---- ----
-1 | R  | N  | B  | Q  | K  |    |    | R  |
+1 | R  | N  | B  | Q  | K  | B  |    | R  |
    ---- ---- ---- ---- ---- ---- ---- ----
     a    b    c    d    e    f    g    h
 starting search...
-depth: 1 score: 294 time: 0 nodes: 72 hashfull: 0
-depth: 2 score: 249 time: 0 nodes: 302 hashfull: 0
-depth: 3 score: 282 time: 0 nodes: 1645 hashfull: 0
-depth: 4 score: 262 time: 6 nodes: 5854 hashfull: 0
-depth: 5 score: 262 time: 4 nodes: 12350 hashfull: 0
-depth: 6 score: 264 time: 30 nodes: 57307 hashfull: 2
-depth: 7 score: 265 time: 61 nodes: 141005 hashfull: 4
-depth: 8 score: 251 time: 163 nodes: 323021 hashfull: 9
-depth: 9 score: 257 time: 519 nodes: 1097087 hashfull: 40
-depth: 10 score: 246 time: 1375 nodes: 2945700 hashfull: 77
-depth: 11 score: 234 time: 4488 nodes: 9425690 hashfull: 214
-[DEBUG] [Parser] Wrote to ouput file championship/logic-and-proofs-chessgambit/move.csv move : c4b5
+depth: 1 score: 497 time: 0 nodes: 62 hashfull: 0
+depth: 2 score: 497 time: 0 nodes: 164 hashfull: 0
+depth: 3 score: 497 time: 1 nodes: 1508 hashfull: 0
+depth: 4 score: 455 time: 4 nodes: 7258 hashfull: 0
+depth: 5 score: 455 time: 4 nodes: 13093 hashfull: 0
+depth: 6 score: 425 time: 40 nodes: 66739 hashfull: 1
+depth: 7 score: 432 time: 63 nodes: 152546 hashfull: 3
+depth: 8 score: 417 time: 173 nodes: 386983 hashfull: 9
+depth: 9 score: 422 time: 693 nodes: 1289141 hashfull: 35
+depth: 10 score: 407 time: 1476 nodes: 3427298 hashfull: 84
+depth: 11 score: 411 time: 3130 nodes: 8069148 hashfull: 182
+[DEBUG] [Parser] Wrote to ouput file championship/logic-and-proofs-chessgambit/move.csv move : e5f6
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
@@ -661,20 +670,229 @@ depth: 11 score: 234 time: 4488 nodes: 9425690 hashfull: 214
 [32;1m[Board] [0mLoaded 6 move(s).
 [32;1m[Board] [0mHistory replayed, 32 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/logic-and-proofs-chessgambit/move.csv`...
-[32;1m[Board] [0mWhite player is playing c4 to b5.
+[32;1m[Board] [0mWhite player is playing e5 to f6.
+[32;1m[Board] [0m[5;1mWhite Pawn is taking Black Knight.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+Inputed Board
+Currently playing: Black
+
+------------------------------Current Search Space--------------------------------------------
+Possible moves for piece: p:
+ p: (1,0)->(2,0) / a7a6
+ p: (1,0)->(3,0) / a7a5
+ p: (1,3)->(2,3) / d7d6
+ p: (1,3)->(3,3) / d7d5
+ p: (1,4)->(2,4) / e7e6
+ p: (1,4)->(3,4) / e7e5
+ p: (1,4)->(2,5) / e7f6
+ p: (1,6)->(2,6) / g7g6
+ p: (1,6)->(3,6) / g7g5
+ p: (1,6)->(2,5) / g7f6
+ p: (1,7)->(2,7) / h7h6
+ p: (1,7)->(3,7) / h7h5
+ p: (3,1)->(4,1) / b5b4
+ p: (3,2)->(4,2) / c5c4
+Possible moves for piece: r:
+ r: (0,7)->(0,6) / h8g8
+Possible moves for piece: n:
+ n: (0,1)->(2,2) / b8c6
+ n: (0,1)->(2,0) / b8a6
+Possible moves for piece: b:
+ b: (0,2)->(1,1) / c8b7
+ b: (0,2)->(2,0) / c8a6
+Possible moves for piece: q:
+ q: (0,3)->(1,2) / d8c7
+ q: (0,3)->(2,1) / d8b6
+ q: (0,3)->(3,0) / d8a5
+
+------------------------------Filtered Search Space--------------------------------------------
+Possible moves for piece: p:
+ p: (1,0)->(2,0) / a7a6
+ p: (1,0)->(3,0) / a7a5
+ p: (1,3)->(2,3) / d7d6
+ p: (1,3)->(3,3) / d7d5
+ p: (1,4)->(2,4) / e7e6
+ p: (1,4)->(3,4) / e7e5
+ p: (1,4)->(2,5) / e7f6
+ p: (1,6)->(2,6) / g7g6
+ p: (1,6)->(3,6) / g7g5
+ p: (1,6)->(2,5) / g7f6
+ p: (1,7)->(2,7) / h7h6
+ p: (1,7)->(3,7) / h7h5
+ p: (3,1)->(4,1) / b5b4
+ p: (3,2)->(4,2) / c5c4
+Possible moves for piece: r:
+ r: (0,7)->(0,6) / h8g8
+Possible moves for piece: n:
+ n: (0,1)->(2,2) / b8c6
+ n: (0,1)->(2,0) / b8a6
+Possible moves for piece: b:
+ b: (0,2)->(1,1) / c8b7
+ b: (0,2)->(2,0) / c8a6
+Possible moves for piece: q:
+ q: (0,3)->(1,2) / d8c7
+ q: (0,3)->(2,1) / d8b6
+ q: (0,3)->(3,0) / d8a5
+
+--------------------------------Info on Attacks---------------------------------------------------
+Squares attacked by White pieces:
+(1,4) (1,6) (3,1) (3,4) (3,6) (4,2) (4,3) (4,7) (5,0) (5,1) (5,2) (5,3) (5,4) (5,6) (5,7) (6,4) (7,6) 
+
+-------------------------------Squares controlled by the enemy------------------------------------
+* * * * * * * * 
+* * * * X * X * 
+* * * * * * * * 
+* X * * X * X * 
+* * X X * * * X 
+X X X X X * X X 
+* * * * X * * * 
+* * * * * * X * 
+
+------------------------------Check Information---------------------------------------------------
+Black King located at: (0,4)
+Black King is safe, no check at this position.
+
+------------------------------Special Move Information-------------------------------------------
+No en passant allowed right now
+------------------------------Castling Rights Information-------------------------------------------
+White Kingside Castle:  AVAILABLE
+White Queenside Castle: AVAILABLE
+Black Kingside Castle:  AVAILABLE
+Black Queenside Castle: AVAILABLE
+---------------------------------------------------------------------------------------------------
+
+========== CAPTURE EXPLORATION ==========
+[0] p x P | Potential loss: NO | Score: 100
+[1] p x P | Potential loss: NO | Score: 100
+========================================
+
+========== CHECK EXPLORATION ==========
+(no checks found)
+======================================
+--------------------------------------------------------------------------------------------------
+Chosen Move: (1,4) --> (2,5)
+ / e7f6
+
+r n b q k b * r 
+p * * p * p p p 
+* * * * * p * * 
+* p p * * * * * 
+* * * * * * * * 
+* * * * * N * * 
+P P P P * P P P 
+R N B Q K B * R 
+
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/logic-and-proofs-chessgambit/history.csv`...
+[32;1m[Board] [0mLoaded 7 move(s).
+[32;1m[Board] [0mHistory replayed, 31 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/logic-and-proofs-chessgambit/move.csv`...
+[32;1m[Board] [0mBlack player is playing e7 to f6.
+[32;1m[Board] [0m[5;1mBlack Pawn is taking White Pawn.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m| |[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[DEBUG] Input history filename: championship/logic-and-proofs-chessgambit/history.csv
+[DEBUG] Output move file: championship/logic-and-proofs-chessgambit/move.csv
+[Parser][ply=] 8
+how i see the board before writing next move: Turn: White
+Enpassant: xx	Castling: WK WQ BK BQ 
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 | r  | n  | b  | q  | k  | b  |    | r  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  |    |    | p  |    | p  | p  | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    |    |    |    |    | p  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    | p  | p  |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 |    |    |    |    |    | N  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 | P  | P  | P  | P  |    | P  | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 | R  | N  | B  | Q  | K  | B  |    | R  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: 497 time: 0 nodes: 52 hashfull: 0
+depth: 2 score: 469 time: 0 nodes: 228 hashfull: 0
+depth: 3 score: 468 time: 1 nodes: 1897 hashfull: 0
+depth: 4 score: 452 time: 2 nodes: 5223 hashfull: 0
+depth: 5 score: 445 time: 4 nodes: 11636 hashfull: 0
+depth: 6 score: 440 time: 30 nodes: 56106 hashfull: 1
+depth: 7 score: 440 time: 56 nodes: 135165 hashfull: 3
+depth: 8 score: 404 time: 288 nodes: 558194 hashfull: 17
+depth: 9 score: 417 time: 433 nodes: 1223035 hashfull: 39
+depth: 10 score: 417 time: 1127 nodes: 2843023 hashfull: 77
+depth: 11 score: 418 time: 3265 nodes: 7153612 hashfull: 174
+[DEBUG] [Parser] Wrote to ouput file championship/logic-and-proofs-chessgambit/move.csv move : f1b5
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/logic-and-proofs-chessgambit/history.csv`...
+[32;1m[Board] [0mLoaded 8 move(s).
+[32;1m[Board] [0mHistory replayed, 30 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/logic-and-proofs-chessgambit/move.csv`...
+[32;1m[Board] [0mWhite player is playing f1 to b5.
 [32;1m[Board] [0m[5;1mWhite Bishop is taking Black Pawn.[0m
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[30;1mk[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m| |[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 5 || |[0;1mb[0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
@@ -694,63 +912,67 @@ Possible moves for piece: p:
  p: (1,0)->(3,0) / a7a5
  p: (1,3)->(2,3) / d7d6
  p: (1,3)->(3,3) / d7d5
- p: (1,4)->(2,4) / e7e6
- p: (1,4)->(3,4) / e7e5
  p: (1,6)->(2,6) / g7g6
  p: (1,6)->(3,6) / g7g5
  p: (1,7)->(2,7) / h7h6
  p: (1,7)->(3,7) / h7h5
  p: (2,5)->(3,5) / f6f5
  p: (3,2)->(4,2) / c5c4
+Possible moves for piece: r:
+ r: (0,7)->(0,6) / h8g8
 Possible moves for piece: n:
  n: (0,1)->(2,2) / b8c6
  n: (0,1)->(2,0) / b8a6
- n: (0,6)->(2,7) / g8h6
 Possible moves for piece: b:
  b: (0,2)->(1,1) / c8b7
  b: (0,2)->(2,0) / c8a6
+ b: (0,5)->(1,4) / f8e7
+ b: (0,5)->(2,3) / f8d6
 Possible moves for piece: q:
  q: (0,3)->(1,2) / d8c7
  q: (0,3)->(2,1) / d8b6
  q: (0,3)->(3,0) / d8a5
+ q: (0,3)->(1,4) / d8e7
 Possible moves for piece: k:
- k: (0,4)->(1,5) / e8f7
+ k: (0,4)->(1,4) / e8e7
 
 ------------------------------Filtered Search Space--------------------------------------------
 Possible moves for piece: p:
  p: (1,0)->(2,0) / a7a6
  p: (1,0)->(3,0) / a7a5
- p: (1,4)->(2,4) / e7e6
- p: (1,4)->(3,4) / e7e5
  p: (1,6)->(2,6) / g7g6
  p: (1,6)->(3,6) / g7g5
  p: (1,7)->(2,7) / h7h6
  p: (1,7)->(3,7) / h7h5
  p: (2,5)->(3,5) / f6f5
  p: (3,2)->(4,2) / c5c4
+Possible moves for piece: r:
+ r: (0,7)->(0,6) / h8g8
 Possible moves for piece: n:
  n: (0,1)->(2,2) / b8c6
  n: (0,1)->(2,0) / b8a6
- n: (0,6)->(2,7) / g8h6
 Possible moves for piece: b:
  b: (0,2)->(1,1) / c8b7
  b: (0,2)->(2,0) / c8a6
+ b: (0,5)->(1,4) / f8e7
+ b: (0,5)->(2,3) / f8d6
 Possible moves for piece: q:
  q: (0,3)->(1,2) / d8c7
  q: (0,3)->(2,1) / d8b6
  q: (0,3)->(3,0) / d8a5
+ q: (0,3)->(1,4) / d8e7
 Possible moves for piece: k:
- k: (0,4)->(1,5) / e8f7
+ k: (0,4)->(1,4) / e8e7
 
 --------------------------------Info on Attacks---------------------------------------------------
 Squares attacked by White pieces:
-(1,3) (2,0) (2,2) (3,3) (3,4) (3,5) (3,6) (4,0) (4,2) (4,3) (4,7) (5,0) (5,1) (5,2) (5,3) (5,4) (5,6) (5,7) (6,4) (7,5) (7,6) 
+(1,3) (2,0) (2,2) (3,4) (3,6) (4,0) (4,2) (4,3) (4,7) (5,0) (5,1) (5,2) (5,3) (5,4) (5,6) (5,7) (6,4) (7,5) (7,6) 
 
 -------------------------------Squares controlled by the enemy------------------------------------
 * * * * * * * * 
 * * * X * * * * 
 X * X * * * * * 
-* * * X X X X * 
+* * * * X * X * 
 X * X X * * * X 
 X X X X X * X X 
 * * * * X * * * 
@@ -773,43 +995,42 @@ Black Queenside Castle: AVAILABLE
 ========================================
 
 ========== CHECK EXPLORATION ==========
-(no checks found)
+[0] Candidate: q -> (0,3) -> (1,4) | Checking move: q (0,3) -> (1,4)Checkmate: NO
 ======================================
 --------------------------------------------------------------------------------------------------
-Chosen Move: (1,6) --> (3,6)
- / g7g5
+Chosen Move: (0,3) --> (1,4)
+ / d8e7
 
-r n b q k b n r 
-p * * p p * * p 
+r n b * k b * r 
+p * * p q p p p 
 * * * * * p * * 
-* B p * * * p * 
-* * * * P * * * 
+* B p * * * * * 
+* * * * * * * * 
 * * * * * N * * 
 P P P P * P P P 
 R N B Q K * * R 
 
-Code timed out used determine move
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/logic-and-proofs-chessgambit/history.csv`...
-[32;1m[Board] [0mLoaded 7 move(s).
-[32;1m[Board] [0mHistory replayed, 31 piece(s) on board.
+[32;1m[Board] [0mLoaded 9 move(s).
+[32;1m[Board] [0mHistory replayed, 29 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/logic-and-proofs-chessgambit/move.csv`...
-[32;1m[Board] [0mBlack player is playing g7 to g5.
+[32;1m[Board] [0mBlack player is playing d8 to e7.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[30;1mk[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m| |[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[0;1mb[0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[0;1mb[0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
@@ -822,19 +1043,19 @@ Code timed out used determine move
 [32;1m[Referee] [0mThis is the turn of the White player...
 [DEBUG] Input history filename: championship/logic-and-proofs-chessgambit/history.csv
 [DEBUG] Output move file: championship/logic-and-proofs-chessgambit/move.csv
-[Parser][ply=] 8
+[Parser][ply=] 10
 how i see the board before writing next move: Turn: White
-Enpassant: g6	Castling: WK WQ BK BQ 
+Enpassant: xx	Castling: WK WQ BK BQ 
    ---- ---- ---- ---- ---- ---- ---- ----
-8 | r  | n  | b  | q  | k  | b  | n  | r  |
+8 | r  | n  | b  |    | k  | b  |    | r  |
    ---- ---- ---- ---- ---- ---- ---- ----
-7 | p  |    |    | p  | p  |    |    | p  |
+7 | p  |    |    | p  | q  | p  | p  | p  |
    ---- ---- ---- ---- ---- ---- ---- ----
 6 |    |    |    |    |    | p  |    |    |
    ---- ---- ---- ---- ---- ---- ---- ----
-5 |    | B  | p  |    |    |    | p  |    |
+5 |    | B  | p  |    |    |    |    |    |
    ---- ---- ---- ---- ---- ---- ---- ----
-4 |    |    |    |    | P  |    |    |    |
+4 |    |    |    |    |    |    |    |    |
    ---- ---- ---- ---- ---- ---- ---- ----
 3 |    |    |    |    |    | N  |    |    |
    ---- ---- ---- ---- ---- ---- ---- ----
@@ -844,44 +1065,44 @@ Enpassant: g6	Castling: WK WQ BK BQ
    ---- ---- ---- ---- ---- ---- ---- ----
     a    b    c    d    e    f    g    h
 starting search...
-depth: 1 score: 344 time: 3 nodes: 90 hashfull: 0
-depth: 2 score: 313 time: 1 nodes: 1076 hashfull: 0
-depth: 3 score: 304 time: 6 nodes: 3936 hashfull: 0
-depth: 4 score: 278 time: 22 nodes: 24953 hashfull: 0
-depth: 5 score: 288 time: 15 nodes: 40222 hashfull: 0
-depth: 6 score: 352 time: 97 nodes: 140012 hashfull: 3
-depth: 7 score: 335 time: 138 nodes: 273291 hashfull: 6
-depth: 8 score: 337 time: 217 nodes: 495712 hashfull: 12
-depth: 9 score: 338 time: 1057 nodes: 1654503 hashfull: 56
-depth: 10 score: 410 time: 2835 nodes: 4539539 hashfull: 113
-depth: 11 score: 425 time: 4170 nodes: 9274884 hashfull: 208
-[DEBUG] [Parser] Wrote to ouput file championship/logic-and-proofs-chessgambit/move.csv move : f3g5
+depth: 1 score: 483 time: 0 nodes: 60 hashfull: 0
+depth: 2 score: 462 time: 0 nodes: 215 hashfull: 0
+depth: 3 score: 472 time: 0 nodes: 692 hashfull: 0
+depth: 4 score: 461 time: 1 nodes: 2149 hashfull: 0
+depth: 5 score: 461 time: 3 nodes: 6135 hashfull: 0
+depth: 6 score: 449 time: 18 nodes: 31781 hashfull: 0
+depth: 7 score: 448 time: 25 nodes: 67752 hashfull: 2
+depth: 8 score: 448 time: 73 nodes: 171091 hashfull: 5
+depth: 9 score: 448 time: 141 nodes: 384744 hashfull: 12
+depth: 10 score: 442 time: 1015 nodes: 1522576 hashfull: 45
+depth: 11 score: 454 time: 1313 nodes: 3373064 hashfull: 91
+depth: 12 score: 437 time: 3868 nodes: 8837479 hashfull: 214
+[DEBUG] [Parser] Wrote to ouput file championship/logic-and-proofs-chessgambit/move.csv move : b5e2
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/logic-and-proofs-chessgambit/history.csv`...
-[32;1m[Board] [0mLoaded 8 move(s).
-[32;1m[Board] [0mHistory replayed, 31 piece(s) on board.
+[32;1m[Board] [0mLoaded 10 move(s).
+[32;1m[Board] [0mHistory replayed, 29 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/logic-and-proofs-chessgambit/move.csv`...
-[32;1m[Board] [0mWhite player is playing f3 to g5.
-[32;1m[Board] [0m[5;1mWhite Knight is taking Black Pawn.[0m
+[32;1m[Board] [0mWhite player is playing b5 to e2.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[30;1mk[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m| |[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[0;1mb[0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mb[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
@@ -897,66 +1118,74 @@ Possible moves for piece: p:
  p: (1,0)->(3,0) / a7a5
  p: (1,3)->(2,3) / d7d6
  p: (1,3)->(3,3) / d7d5
- p: (1,4)->(2,4) / e7e6
- p: (1,4)->(3,4) / e7e5
+ p: (1,6)->(2,6) / g7g6
+ p: (1,6)->(3,6) / g7g5
  p: (1,7)->(2,7) / h7h6
  p: (1,7)->(3,7) / h7h5
  p: (2,5)->(3,5) / f6f5
- p: (2,5)->(3,6) / f6g5
  p: (3,2)->(4,2) / c5c4
+Possible moves for piece: r:
+ r: (0,7)->(0,6) / h8g8
 Possible moves for piece: n:
  n: (0,1)->(2,2) / b8c6
  n: (0,1)->(2,0) / b8a6
- n: (0,6)->(2,7) / g8h6
 Possible moves for piece: b:
  b: (0,2)->(1,1) / c8b7
  b: (0,2)->(2,0) / c8a6
- b: (0,5)->(1,6) / f8g7
- b: (0,5)->(2,7) / f8h6
 Possible moves for piece: q:
- q: (0,3)->(1,2) / d8c7
- q: (0,3)->(2,1) / d8b6
- q: (0,3)->(3,0) / d8a5
+ q: (1,4)->(2,4) / e7e6
+ q: (1,4)->(3,4) / e7e5
+ q: (1,4)->(4,4) / e7e4
+ q: (1,4)->(5,4) / e7e3
+ q: (1,4)->(6,4) / e7e2
+ q: (1,4)->(0,3) / e7d8
+ q: (1,4)->(2,3) / e7d6
 Possible moves for piece: k:
- k: (0,4)->(1,5) / e8f7
+ k: (0,4)->(0,3) / e8d8
 
 ------------------------------Filtered Search Space--------------------------------------------
 Possible moves for piece: p:
  p: (1,0)->(2,0) / a7a6
  p: (1,0)->(3,0) / a7a5
- p: (1,4)->(2,4) / e7e6
- p: (1,4)->(3,4) / e7e5
+ p: (1,3)->(2,3) / d7d6
+ p: (1,3)->(3,3) / d7d5
+ p: (1,6)->(2,6) / g7g6
+ p: (1,6)->(3,6) / g7g5
  p: (1,7)->(2,7) / h7h6
  p: (1,7)->(3,7) / h7h5
  p: (2,5)->(3,5) / f6f5
- p: (2,5)->(3,6) / f6g5
  p: (3,2)->(4,2) / c5c4
+Possible moves for piece: r:
+ r: (0,7)->(0,6) / h8g8
 Possible moves for piece: n:
  n: (0,1)->(2,2) / b8c6
  n: (0,1)->(2,0) / b8a6
- n: (0,6)->(2,7) / g8h6
 Possible moves for piece: b:
  b: (0,2)->(1,1) / c8b7
  b: (0,2)->(2,0) / c8a6
- b: (0,5)->(1,6) / f8g7
- b: (0,5)->(2,7) / f8h6
 Possible moves for piece: q:
- q: (0,3)->(1,2) / d8c7
- q: (0,3)->(2,1) / d8b6
- q: (0,3)->(3,0) / d8a5
+ q: (1,4)->(2,4) / e7e6
+ q: (1,4)->(3,4) / e7e5
+ q: (1,4)->(4,4) / e7e4
+ q: (1,4)->(5,4) / e7e3
+ q: (1,4)->(6,4) / e7e2
+ q: (1,4)->(0,3) / e7d8
+ q: (1,4)->(2,3) / e7d6
+Possible moves for piece: k:
+ k: (0,4)->(0,3) / e8d8
 
 --------------------------------Info on Attacks---------------------------------------------------
 Squares attacked by White pieces:
-(1,3) (1,5) (1,7) (2,0) (2,2) (2,4) (3,3) (3,5) (3,7) (4,0) (4,2) (4,6) (5,0) (5,1) (5,2) (5,3) (5,4) (5,5) (5,6) (5,7) (6,4) (7,5) (7,6) 
+(2,0) (3,1) (3,4) (3,6) (4,2) (4,3) (4,7) (5,0) (5,1) (5,2) (5,3) (5,4) (5,6) (5,7) (7,5) (7,6) 
 
 -------------------------------Squares controlled by the enemy------------------------------------
 * * * * * * * * 
-* * * X * X * X 
-X * X * X * * * 
-* * * X * X * X 
-X * X * * * X * 
-X X X X X X X X 
-* * * * X * * * 
+* * * * * * * * 
+X * * * * * * * 
+* X * * X * X * 
+* * X X * * * X 
+X X X X X * X X 
+* * * * * * * * 
 * * * * * X X * 
 
 ------------------------------Check Information---------------------------------------------------
@@ -973,52 +1202,50 @@ Black Queenside Castle: AVAILABLE
 ---------------------------------------------------------------------------------------------------
 
 ========== CAPTURE EXPLORATION ==========
-[0] p x N | Potential loss: NO | Score: 320
+[0] q x B | Potential loss: NO | Score: 330
 ========================================
 
 ========== CHECK EXPLORATION ==========
-(no checks found)
+[0] Candidate: q -> (1,4) -> (6,4) x B | Checking move: q (1,4) -> (6,4)Checkmate: NO
 ======================================
 --------------------------------------------------------------------------------------------------
-Chosen Move: (2,5) --> (3,6)
- / f6g5
+Chosen Move: (0,2) --> (1,1)
+ / c8b7
 
-r n b q k b n r 
-p * * p p * * p 
+r n * * k b * r 
+p b * p q p p p 
+* * * * * p * * 
+* * p * * * * * 
 * * * * * * * * 
-* B p * * * p * 
-* * * * P * * * 
-* * * * * * * * 
-P P P P * P P P 
+* * * * * N * * 
+P P P P B P P P 
 R N B Q K * * R 
 
-Code timed out used determine move
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/logic-and-proofs-chessgambit/history.csv`...
-[32;1m[Board] [0mLoaded 9 move(s).
-[32;1m[Board] [0mHistory replayed, 30 piece(s) on board.
+[32;1m[Board] [0mLoaded 11 move(s).
+[32;1m[Board] [0mHistory replayed, 29 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/logic-and-proofs-chessgambit/move.csv`...
-[32;1m[Board] [0mBlack player is playing f6 to g5.
-[32;1m[Board] [0m[5;1mBlack Pawn is taking White Knight.[0m
+[32;1m[Board] [0mBlack player is playing c8 to b7.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[30;1mk[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[7;1m [0m| |[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m| |[30;1mp[0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[0;1mb[0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mb[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[7;1m [0m| |[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
@@ -1027,59 +1254,2225 @@ Code timed out used determine move
 [32;1m[Referee] [0mThis is the turn of the White player...
 [DEBUG] Input history filename: championship/logic-and-proofs-chessgambit/history.csv
 [DEBUG] Output move file: championship/logic-and-proofs-chessgambit/move.csv
-[Parser][ply=] 10
+[Parser][ply=] 12
 how i see the board before writing next move: Turn: White
 Enpassant: xx	Castling: WK WQ BK BQ 
    ---- ---- ---- ---- ---- ---- ---- ----
-8 | r  | n  | b  | q  | k  | b  | n  | r  |
+8 | r  | n  |    |    | k  | b  |    | r  |
    ---- ---- ---- ---- ---- ---- ---- ----
-7 | p  |    |    | p  | p  |    |    | p  |
+7 | p  | b  |    | p  | q  | p  | p  | p  |
    ---- ---- ---- ---- ---- ---- ---- ----
-6 |    |    |    |    |    |    |    |    |
+6 |    |    |    |    |    | p  |    |    |
    ---- ---- ---- ---- ---- ---- ---- ----
-5 |    | B  | p  |    |    |    | p  |    |
+5 |    |    | p  |    |    |    |    |    |
    ---- ---- ---- ---- ---- ---- ---- ----
-4 |    |    |    |    | P  |    |    |    |
+4 |    |    |    |    |    |    |    |    |
    ---- ---- ---- ---- ---- ---- ---- ----
-3 |    |    |    |    |    |    |    |    |
+3 |    |    |    |    |    | N  |    |    |
    ---- ---- ---- ---- ---- ---- ---- ----
-2 | P  | P  | P  | P  |    | P  | P  | P  |
+2 | P  | P  | P  | P  | B  | P  | P  | P  |
    ---- ---- ---- ---- ---- ---- ---- ----
 1 | R  | N  | B  | Q  | K  |    |    | R  |
    ---- ---- ---- ---- ---- ---- ---- ----
     a    b    c    d    e    f    g    h
 starting search...
-depth: 1 score: 62 time: 0 nodes: 90 hashfull: 0
-depth: 2 score: 39 time: 0 nodes: 600 hashfull: 0
-depth: 3 score: 99999 time: 0 nodes: 1348 hashfull: 0
-[DEBUG] [Parser] Wrote to ouput file championship/logic-and-proofs-chessgambit/move.csv move : d1h5
+depth: 1 score: 487 time: 0 nodes: 66 hashfull: 0
+depth: 2 score: 437 time: 1 nodes: 2055 hashfull: 0
+depth: 3 score: 462 time: 0 nodes: 3029 hashfull: 0
+depth: 4 score: 444 time: 8 nodes: 13719 hashfull: 0
+depth: 5 score: 443 time: 17 nodes: 36044 hashfull: 0
+depth: 6 score: 443 time: 28 nodes: 76457 hashfull: 2
+depth: 7 score: 439 time: 89 nodes: 199872 hashfull: 5
+depth: 8 score: 454 time: 230 nodes: 524513 hashfull: 13
+depth: 9 score: 445 time: 698 nodes: 1564105 hashfull: 43
+depth: 10 score: 447 time: 1296 nodes: 3450011 hashfull: 90
+depth: 11 score: 430 time: 5123 nodes: 10845934 hashfull: 225
+[DEBUG] [Parser] Wrote to ouput file championship/logic-and-proofs-chessgambit/move.csv move : b1c3
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/logic-and-proofs-chessgambit/history.csv`...
-[32;1m[Board] [0mLoaded 10 move(s).
+[32;1m[Board] [0mLoaded 12 move(s).
 [32;1m[Board] [0mHistory replayed, 29 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/logic-and-proofs-chessgambit/move.csv`...
-[32;1m[Board] [0mWhite player is playing d1 to h5.
+[32;1m[Board] [0mWhite player is playing b1 to c3.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[30;1mk[0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[7;1m [0m| |[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m| |[30;1mp[0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[0;1mb[0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[0;1mQ[0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mb[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+Inputed Board
+Currently playing: Black
+
+------------------------------Current Search Space--------------------------------------------
+Possible moves for piece: p:
+ p: (1,0)->(2,0) / a7a6
+ p: (1,0)->(3,0) / a7a5
+ p: (1,3)->(2,3) / d7d6
+ p: (1,3)->(3,3) / d7d5
+ p: (1,6)->(2,6) / g7g6
+ p: (1,6)->(3,6) / g7g5
+ p: (1,7)->(2,7) / h7h6
+ p: (1,7)->(3,7) / h7h5
+ p: (2,5)->(3,5) / f6f5
+ p: (3,2)->(4,2) / c5c4
+Possible moves for piece: r:
+ r: (0,7)->(0,6) / h8g8
+Possible moves for piece: n:
+ n: (0,1)->(2,2) / b8c6
+ n: (0,1)->(2,0) / b8a6
+Possible moves for piece: b:
+ b: (1,1)->(0,2) / b7c8
+ b: (1,1)->(2,0) / b7a6
+ b: (1,1)->(2,2) / b7c6
+ b: (1,1)->(3,3) / b7d5
+ b: (1,1)->(4,4) / b7e4
+ b: (1,1)->(5,5) / b7f3
+Possible moves for piece: q:
+ q: (1,4)->(2,4) / e7e6
+ q: (1,4)->(3,4) / e7e5
+ q: (1,4)->(4,4) / e7e4
+ q: (1,4)->(5,4) / e7e3
+ q: (1,4)->(6,4) / e7e2
+ q: (1,4)->(0,3) / e7d8
+ q: (1,4)->(2,3) / e7d6
+Possible moves for piece: k:
+ k: (0,4)->(0,3) / e8d8
+
+------------------------------Filtered Search Space--------------------------------------------
+Possible moves for piece: p:
+ p: (1,0)->(2,0) / a7a6
+ p: (1,0)->(3,0) / a7a5
+ p: (1,3)->(2,3) / d7d6
+ p: (1,3)->(3,3) / d7d5
+ p: (1,6)->(2,6) / g7g6
+ p: (1,6)->(3,6) / g7g5
+ p: (1,7)->(2,7) / h7h6
+ p: (1,7)->(3,7) / h7h5
+ p: (2,5)->(3,5) / f6f5
+ p: (3,2)->(4,2) / c5c4
+Possible moves for piece: r:
+ r: (0,7)->(0,6) / h8g8
+Possible moves for piece: n:
+ n: (0,1)->(2,2) / b8c6
+ n: (0,1)->(2,0) / b8a6
+Possible moves for piece: b:
+ b: (1,1)->(0,2) / b7c8
+ b: (1,1)->(2,0) / b7a6
+ b: (1,1)->(2,2) / b7c6
+ b: (1,1)->(3,3) / b7d5
+ b: (1,1)->(4,4) / b7e4
+ b: (1,1)->(5,5) / b7f3
+Possible moves for piece: q:
+ q: (1,4)->(2,4) / e7e6
+ q: (1,4)->(3,4) / e7e5
+ q: (1,4)->(4,4) / e7e4
+ q: (1,4)->(5,4) / e7e3
+ q: (1,4)->(6,4) / e7e2
+ q: (1,4)->(0,3) / e7d8
+ q: (1,4)->(2,3) / e7d6
+Possible moves for piece: k:
+ k: (0,4)->(0,3) / e8d8
+
+--------------------------------Info on Attacks---------------------------------------------------
+Squares attacked by White pieces:
+(2,0) (3,1) (3,3) (3,4) (3,6) (4,0) (4,2) (4,3) (4,4) (4,7) (5,0) (5,1) (5,3) (5,4) (5,6) (5,7) (7,1) (7,5) (7,6) 
+
+-------------------------------Squares controlled by the enemy------------------------------------
+* * * * * * * * 
+* * * * * * * * 
+X * * * * * * * 
+* X * X X * X * 
+X * X X X * * X 
+X X * X X * X X 
+* * * * * * * * 
+* X * * * X X * 
+
+------------------------------Check Information---------------------------------------------------
+Black King located at: (0,4)
+Black King is safe, no check at this position.
+
+------------------------------Special Move Information-------------------------------------------
+No en passant allowed right now
+------------------------------Castling Rights Information-------------------------------------------
+White Kingside Castle:  AVAILABLE
+White Queenside Castle: AVAILABLE
+Black Kingside Castle:  AVAILABLE
+Black Queenside Castle: AVAILABLE
+---------------------------------------------------------------------------------------------------
+
+========== CAPTURE EXPLORATION ==========
+[0] b x N | Potential loss: NO | Score: 320
+[1] q x B | Potential loss: NO | Score: 330
+========================================
+
+========== CHECK EXPLORATION ==========
+[0] Candidate: q -> (1,4) -> (6,4) x B | Checking move: q (1,4) -> (6,4)Checkmate: NO
+======================================
+--------------------------------------------------------------------------------------------------
+Chosen Move: (1,6) --> (3,6)
+ / g7g5
+
+r n * * k b * r 
+p b * p q p * p 
+* * * * * p * * 
+* * p * * * p * 
+* * * * * * * * 
+* * N * * N * * 
+P P P P B P P P 
+R * B Q K * * R 
+
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/logic-and-proofs-chessgambit/history.csv`...
+[32;1m[Board] [0mLoaded 13 move(s).
+[32;1m[Board] [0mHistory replayed, 29 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/logic-and-proofs-chessgambit/move.csv`...
+[32;1m[Board] [0mBlack player is playing g7 to g5.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[7;1m [0m| |[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m| |[30;1mp[0m|[30;1mQ[0m|[30;1mp[0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mb[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[DEBUG] Input history filename: championship/logic-and-proofs-chessgambit/history.csv
+[DEBUG] Output move file: championship/logic-and-proofs-chessgambit/move.csv
+[Parser][ply=] 14
+how i see the board before writing next move: Turn: White
+Enpassant: g6	Castling: WK WQ BK BQ 
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 | r  | n  |    |    | k  | b  |    | r  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  | b  |    | p  | q  | p  |    | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    |    |    |    |    | p  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    | p  |    |    |    | p  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 |    |    | N  |    |    | N  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 | P  | P  | P  | P  | B  | P  | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 | R  |    | B  | Q  | K  |    |    | R  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: 522 time: 0 nodes: 126 hashfull: 0
+depth: 2 score: 471 time: 6 nodes: 7533 hashfull: 0
+depth: 3 score: 488 time: 5 nodes: 13870 hashfull: 0
+depth: 4 score: 447 time: 24 nodes: 44772 hashfull: 0
+depth: 5 score: 447 time: 13 nodes: 62580 hashfull: 0
+depth: 6 score: 450 time: 45 nodes: 129011 hashfull: 2
+depth: 7 score: 447 time: 83 nodes: 250206 hashfull: 4
+depth: 8 score: 432 time: 240 nodes: 610122 hashfull: 11
+depth: 9 score: 441 time: 464 nodes: 1364308 hashfull: 33
+depth: 10 score: 477 time: 3280 nodes: 6334258 hashfull: 125
+depth: 11 score: 477 time: 3280 nodes: 11343195 hashfull: 220
+[DEBUG] [Parser] Wrote to ouput file championship/logic-and-proofs-chessgambit/move.csv move : e1g1
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/logic-and-proofs-chessgambit/history.csv`...
+[32;1m[Board] [0mLoaded 14 move(s).
+[32;1m[Board] [0mHistory replayed, 29 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/logic-and-proofs-chessgambit/move.csv`...
+[32;1m[Board] [0mWhite player is playing e1 to g1.
+[32;1m[Board] [0mWhite player is castling kingside...
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[7;1m [0m| |[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m| |[30;1mp[0m|[30;1mQ[0m|[30;1mp[0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mb[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m| |[0;1mr[0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+Inputed Board
+Currently playing: Black
+
+------------------------------Current Search Space--------------------------------------------
+Possible moves for piece: p:
+ p: (1,0)->(2,0) / a7a6
+ p: (1,0)->(3,0) / a7a5
+ p: (1,3)->(2,3) / d7d6
+ p: (1,3)->(3,3) / d7d5
+ p: (1,7)->(2,7) / h7h6
+ p: (1,7)->(3,7) / h7h5
+ p: (2,5)->(3,5) / f6f5
+ p: (3,2)->(4,2) / c5c4
+ p: (3,6)->(4,6) / g5g4
+Possible moves for piece: r:
+ r: (0,7)->(0,6) / h8g8
+Possible moves for piece: n:
+ n: (0,1)->(2,2) / b8c6
+ n: (0,1)->(2,0) / b8a6
+Possible moves for piece: b:
+ b: (0,5)->(1,6) / f8g7
+ b: (0,5)->(2,7) / f8h6
+ b: (1,1)->(0,2) / b7c8
+ b: (1,1)->(2,0) / b7a6
+ b: (1,1)->(2,2) / b7c6
+ b: (1,1)->(3,3) / b7d5
+ b: (1,1)->(4,4) / b7e4
+ b: (1,1)->(5,5) / b7f3
+Possible moves for piece: q:
+ q: (1,4)->(2,4) / e7e6
+ q: (1,4)->(3,4) / e7e5
+ q: (1,4)->(4,4) / e7e4
+ q: (1,4)->(5,4) / e7e3
+ q: (1,4)->(6,4) / e7e2
+ q: (1,4)->(0,3) / e7d8
+ q: (1,4)->(2,3) / e7d6
+Possible moves for piece: k:
+ k: (0,4)->(0,3) / e8d8
+
+------------------------------Filtered Search Space--------------------------------------------
+Possible moves for piece: p:
+ p: (1,0)->(2,0) / a7a6
+ p: (1,0)->(3,0) / a7a5
+ p: (1,3)->(2,3) / d7d6
+ p: (1,3)->(3,3) / d7d5
+ p: (1,7)->(2,7) / h7h6
+ p: (1,7)->(3,7) / h7h5
+ p: (2,5)->(3,5) / f6f5
+ p: (3,2)->(4,2) / c5c4
+ p: (3,6)->(4,6) / g5g4
+Possible moves for piece: r:
+ r: (0,7)->(0,6) / h8g8
+Possible moves for piece: n:
+ n: (0,1)->(2,2) / b8c6
+ n: (0,1)->(2,0) / b8a6
+Possible moves for piece: b:
+ b: (0,5)->(1,6) / f8g7
+ b: (0,5)->(2,7) / f8h6
+ b: (1,1)->(0,2) / b7c8
+ b: (1,1)->(2,0) / b7a6
+ b: (1,1)->(2,2) / b7c6
+ b: (1,1)->(3,3) / b7d5
+ b: (1,1)->(4,4) / b7e4
+ b: (1,1)->(5,5) / b7f3
+Possible moves for piece: q:
+ q: (1,4)->(2,4) / e7e6
+ q: (1,4)->(3,4) / e7e5
+ q: (1,4)->(4,4) / e7e4
+ q: (1,4)->(5,4) / e7e3
+ q: (1,4)->(6,4) / e7e2
+ q: (1,4)->(0,3) / e7d8
+ q: (1,4)->(2,3) / e7d6
+Possible moves for piece: k:
+ k: (0,4)->(0,3) / e8d8
+
+--------------------------------Info on Attacks---------------------------------------------------
+Squares attacked by White pieces:
+(2,0) (3,1) (3,3) (3,4) (3,6) (4,0) (4,2) (4,3) (4,4) (4,7) (5,0) (5,1) (5,3) (5,4) (5,6) (5,7) (7,1) (7,4) (7,7) 
+
+-------------------------------Squares controlled by the enemy------------------------------------
+* * * * * * * * 
+* * * * * * * * 
+X * * * * * * * 
+* X * X X * X * 
+X * X X X * * X 
+X X * X X * X X 
+* * * * * * * * 
+* X * * X * * X 
+
+------------------------------Check Information---------------------------------------------------
+Black King located at: (0,4)
+Black King is safe, no check at this position.
+
+------------------------------Special Move Information-------------------------------------------
+No en passant allowed right now
+------------------------------Castling Rights Information-------------------------------------------
+White Kingside Castle:  NOT AVAILABLE
+White Queenside Castle: NOT AVAILABLE
+Black Kingside Castle:  AVAILABLE
+Black Queenside Castle: AVAILABLE
+---------------------------------------------------------------------------------------------------
+
+========== CAPTURE EXPLORATION ==========
+[0] b x N | Potential loss: NO | Score: 320
+[1] q x B | Potential loss: NO | Score: 330
+========================================
+
+========== CHECK EXPLORATION ==========
+(no checks found)
+======================================
+--------------------------------------------------------------------------------------------------
+Chosen Move: (1,4) --> (6,4)
+ / e7e2
+
+r n * * k b * r 
+p b * p * p * p 
+* * * * * p * * 
+* * p * * * p * 
+* * * * * * * * 
+* * N * * N * * 
+P P P P q P P P 
+R * B Q * R K * 
+
+Code timed out used determine move
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/logic-and-proofs-chessgambit/history.csv`...
+[32;1m[Board] [0mLoaded 15 move(s).
+[32;1m[Board] [0mHistory replayed, 29 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/logic-and-proofs-chessgambit/move.csv`...
+[32;1m[Board] [0mBlack player is playing e7 to e2.
+[32;1m[Board] [0m[5;1mBlack Queen is taking White Bishop.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[7;1m [0m| |[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m| |[30;1mp[0m| |[30;1mp[0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[30;1mQ[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m| |[0;1mr[0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[DEBUG] Input history filename: championship/logic-and-proofs-chessgambit/history.csv
+[DEBUG] Output move file: championship/logic-and-proofs-chessgambit/move.csv
+[Parser][ply=] 16
+how i see the board before writing next move: Turn: White
+Enpassant: xx	Castling: xxBK BQ 
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 | r  | n  |    |    | k  | b  |    | r  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  | b  |    | p  |    | p  |    | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    |    |    |    |    | p  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    | p  |    |    |    | p  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 |    |    | N  |    |    | N  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 | P  | P  | P  | P  | q  | P  | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 | R  |    | B  | Q  |    | R  | K  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: 1130 time: 0 nodes: 58 hashfull: 0
+depth: 2 score: 1088 time: 0 nodes: 185 hashfull: 0
+depth: 3 score: 1109 time: 0 nodes: 1665 hashfull: 0
+depth: 4 score: 1088 time: 3 nodes: 6826 hashfull: 0
+depth: 5 score: 1082 time: 5 nodes: 14165 hashfull: 0
+depth: 6 score: 1071 time: 21 nodes: 47816 hashfull: 1
+depth: 7 score: 1083 time: 44 nodes: 119147 hashfull: 3
+depth: 8 score: 1083 time: 172 nodes: 366369 hashfull: 8
+depth: 9 score: 1086 time: 232 nodes: 726004 hashfull: 17
+depth: 10 score: 1164 time: 632 nodes: 1699724 hashfull: 43
+depth: 11 score: 1151 time: 1908 nodes: 4667562 hashfull: 133
+depth: 12 score: 1156 time: 3238 nodes: 9424759 hashfull: 225
+[DEBUG] [Parser] Wrote to ouput file championship/logic-and-proofs-chessgambit/move.csv move : d1e2
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/logic-and-proofs-chessgambit/history.csv`...
+[32;1m[Board] [0mLoaded 16 move(s).
+[32;1m[Board] [0mHistory replayed, 28 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/logic-and-proofs-chessgambit/move.csv`...
+[32;1m[Board] [0mWhite player is playing d1 to e2.
+[32;1m[Board] [0m[5;1mWhite Queen is taking Black Queen.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[7;1m [0m| |[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m| |[30;1mp[0m| |[30;1mp[0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mQ[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mr[0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+Inputed Board
+Currently playing: Black
+
+------------------------------Current Search Space--------------------------------------------
+Possible moves for piece: p:
+ p: (1,0)->(2,0) / a7a6
+ p: (1,0)->(3,0) / a7a5
+ p: (1,3)->(2,3) / d7d6
+ p: (1,3)->(3,3) / d7d5
+ p: (1,7)->(2,7) / h7h6
+ p: (1,7)->(3,7) / h7h5
+ p: (2,5)->(3,5) / f6f5
+ p: (3,2)->(4,2) / c5c4
+ p: (3,6)->(4,6) / g5g4
+Possible moves for piece: r:
+ r: (0,7)->(0,6) / h8g8
+Possible moves for piece: n:
+ n: (0,1)->(2,2) / b8c6
+ n: (0,1)->(2,0) / b8a6
+Possible moves for piece: b:
+ b: (0,5)->(1,4) / f8e7
+ b: (0,5)->(2,3) / f8d6
+ b: (0,5)->(1,6) / f8g7
+ b: (0,5)->(2,7) / f8h6
+ b: (1,1)->(0,2) / b7c8
+ b: (1,1)->(2,0) / b7a6
+ b: (1,1)->(2,2) / b7c6
+ b: (1,1)->(3,3) / b7d5
+ b: (1,1)->(4,4) / b7e4
+ b: (1,1)->(5,5) / b7f3
+Possible moves for piece: k:
+ k: (0,4)->(1,4) / e8e7
+ k: (0,4)->(0,3) / e8d8
+
+------------------------------Filtered Search Space--------------------------------------------
+Possible moves for piece: b:
+ b: (0,5)->(1,4) / f8e7
+ b: (1,1)->(4,4) / b7e4
+Possible moves for piece: k:
+ k: (0,4)->(0,3) / e8d8
+
+--------------------------------Info on Attacks---------------------------------------------------
+Squares attacked by White pieces:
+(0,4) (1,4) (2,0) (2,4) (3,1) (3,3) (3,4) (3,6) (4,0) (4,2) (4,3) (4,4) (4,7) (5,0) (5,1) (5,3) (5,4) (5,6) (5,7) (7,1) (7,3) (7,4) (7,7) 
+
+-------------------------------Squares controlled by the enemy------------------------------------
+* * * * X * * * 
+* * * * X * * * 
+X * * * X * * * 
+* X * X X * X * 
+X * X X X * * X 
+X X * X X * X X 
+* * * * * * * * 
+* X * X X * * X 
+
+------------------------------Check Information---------------------------------------------------
+Black King located at: (0,4)
+Black King is in check by Q at (6,4)
+
+------------------------------Special Move Information-------------------------------------------
+No en passant allowed right now
+------------------------------Castling Rights Information-------------------------------------------
+White Kingside Castle:  NOT AVAILABLE
+White Queenside Castle: NOT AVAILABLE
+Black Kingside Castle:  AVAILABLE
+Black Queenside Castle: AVAILABLE
+---------------------------------------------------------------------------------------------------
+
+========== CAPTURE EXPLORATION ==========
+========================================
+
+========== CHECK EXPLORATION ==========
+(no checks found)
+======================================
+--------------------------------------------------------------------------------------------------
+Chosen Move: (0,4) --> (0,3)
+ / e8d8
+
+r n * k * b * r 
+p b * p * p * p 
+* * * * * p * * 
+* * p * * * p * 
+* * * * * * * * 
+* * N * * N * * 
+P P P P Q P P P 
+R * B * * R K * 
+
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/logic-and-proofs-chessgambit/history.csv`...
+[32;1m[Board] [0mLoaded 17 move(s).
+[32;1m[Board] [0mHistory replayed, 27 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/logic-and-proofs-chessgambit/move.csv`...
+[32;1m[Board] [0mBlack player is playing e8 to d8.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[7;1m [0m|[30;1mK[0m|[7;1m [0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m| |[30;1mp[0m| |[30;1mp[0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mQ[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mr[0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[DEBUG] Input history filename: championship/logic-and-proofs-chessgambit/history.csv
+[DEBUG] Output move file: championship/logic-and-proofs-chessgambit/move.csv
+[Parser][ply=] 18
+how i see the board before writing next move: Turn: White
+Enpassant: xx	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 | r  | n  |    | k  |    | b  |    | r  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  | b  |    | p  |    | p  |    | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    |    |    |    |    | p  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    | p  |    |    |    | p  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 |    |    | N  |    |    | N  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 | P  | P  | P  | P  | Q  | P  | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 | R  |    | B  |    |    | R  | K  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: 1109 time: 0 nodes: 282 hashfull: 0
+depth: 2 score: 1088 time: 3 nodes: 2916 hashfull: 0
+depth: 3 score: 1082 time: 3 nodes: 5895 hashfull: 0
+depth: 4 score: 1071 time: 11 nodes: 16849 hashfull: 0
+depth: 5 score: 1081 time: 30 nodes: 46253 hashfull: 0
+depth: 6 score: 1083 time: 70 nodes: 118870 hashfull: 3
+depth: 7 score: 1150 time: 341 nodes: 453628 hashfull: 11
+depth: 8 score: 1148 time: 323 nodes: 788313 hashfull: 20
+depth: 9 score: 1176 time: 937 nodes: 2071342 hashfull: 70
+depth: 10 score: 1179 time: 2059 nodes: 4894064 hashfull: 129
+depth: 11 score: 1184 time: 4684 nodes: 11905749 hashfull: 268
+[DEBUG] [Parser] Wrote to ouput file championship/logic-and-proofs-chessgambit/move.csv move : f1e1
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/logic-and-proofs-chessgambit/history.csv`...
+[32;1m[Board] [0mLoaded 18 move(s).
+[32;1m[Board] [0mHistory replayed, 27 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/logic-and-proofs-chessgambit/move.csv`...
+[32;1m[Board] [0mWhite player is playing f1 to e1.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[7;1m [0m|[30;1mK[0m|[7;1m [0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mb[0m| |[30;1mp[0m| |[30;1mp[0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[0;1mk[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mQ[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+Inputed Board
+Currently playing: Black
+
+------------------------------Current Search Space--------------------------------------------
+Possible moves for piece: p:
+ p: (1,0)->(2,0) / a7a6
+ p: (1,0)->(3,0) / a7a5
+ p: (1,3)->(2,3) / d7d6
+ p: (1,3)->(3,3) / d7d5
+ p: (1,7)->(2,7) / h7h6
+ p: (1,7)->(3,7) / h7h5
+ p: (2,5)->(3,5) / f6f5
+ p: (3,2)->(4,2) / c5c4
+ p: (3,6)->(4,6) / g5g4
+Possible moves for piece: r:
+ r: (0,7)->(0,6) / h8g8
+Possible moves for piece: n:
+ n: (0,1)->(2,2) / b8c6
+ n: (0,1)->(2,0) / b8a6
+Possible moves for piece: b:
+ b: (0,5)->(1,4) / f8e7
+ b: (0,5)->(2,3) / f8d6
+ b: (0,5)->(1,6) / f8g7
+ b: (0,5)->(2,7) / f8h6
+ b: (1,1)->(0,2) / b7c8
+ b: (1,1)->(2,0) / b7a6
+ b: (1,1)->(2,2) / b7c6
+ b: (1,1)->(3,3) / b7d5
+ b: (1,1)->(4,4) / b7e4
+ b: (1,1)->(5,5) / b7f3
+Possible moves for piece: k:
+ k: (0,3)->(0,4) / d8e8
+ k: (0,3)->(0,2) / d8c8
+ k: (0,3)->(1,4) / d8e7
+ k: (0,3)->(1,2) / d8c7
+
+------------------------------Filtered Search Space--------------------------------------------
+Possible moves for piece: p:
+ p: (1,0)->(2,0) / a7a6
+ p: (1,0)->(3,0) / a7a5
+ p: (1,3)->(2,3) / d7d6
+ p: (1,3)->(3,3) / d7d5
+ p: (1,7)->(2,7) / h7h6
+ p: (1,7)->(3,7) / h7h5
+ p: (2,5)->(3,5) / f6f5
+ p: (3,2)->(4,2) / c5c4
+ p: (3,6)->(4,6) / g5g4
+Possible moves for piece: r:
+ r: (0,7)->(0,6) / h8g8
+Possible moves for piece: n:
+ n: (0,1)->(2,2) / b8c6
+ n: (0,1)->(2,0) / b8a6
+Possible moves for piece: b:
+ b: (0,5)->(1,4) / f8e7
+ b: (0,5)->(2,3) / f8d6
+ b: (0,5)->(1,6) / f8g7
+ b: (0,5)->(2,7) / f8h6
+ b: (1,1)->(0,2) / b7c8
+ b: (1,1)->(2,0) / b7a6
+ b: (1,1)->(2,2) / b7c6
+ b: (1,1)->(3,3) / b7d5
+ b: (1,1)->(4,4) / b7e4
+ b: (1,1)->(5,5) / b7f3
+Possible moves for piece: k:
+ k: (0,3)->(0,2) / d8c8
+ k: (0,3)->(1,2) / d8c7
+
+--------------------------------Info on Attacks---------------------------------------------------
+Squares attacked by White pieces:
+(0,4) (1,4) (2,0) (2,4) (3,1) (3,3) (3,4) (3,6) (4,0) (4,2) (4,3) (4,4) (4,7) (5,0) (5,1) (5,3) (5,4) (5,6) (5,7) (7,1) (7,3) (7,5) (7,7) 
+
+-------------------------------Squares controlled by the enemy------------------------------------
+* * * * X * * * 
+* * * * X * * * 
+X * * * X * * * 
+* X * X X * X * 
+X * X X X * * X 
+X X * X X * X X 
+* * * * * * * * 
+* X * X * X * X 
+
+------------------------------Check Information---------------------------------------------------
+Black King located at: (0,3)
+Black King is safe, no check at this position.
+
+------------------------------Special Move Information-------------------------------------------
+No en passant allowed right now
+------------------------------Castling Rights Information-------------------------------------------
+White Kingside Castle:  NOT AVAILABLE
+White Queenside Castle: NOT AVAILABLE
+Black Kingside Castle:  NOT AVAILABLE
+Black Queenside Castle: NOT AVAILABLE
+---------------------------------------------------------------------------------------------------
+
+========== CAPTURE EXPLORATION ==========
+[0] b x N | Potential loss: NO | Score: 320
+========================================
+
+========== CHECK EXPLORATION ==========
+(no checks found)
+======================================
+--------------------------------------------------------------------------------------------------
+Chosen Move: (1,1) --> (5,5)
+ / b7f3
+
+r n * k * b * r 
+p * * p * p * p 
+* * * * * p * * 
+* * p * * * p * 
+* * * * * * * * 
+* * N * * b * * 
+P P P P Q P P P 
+R * B * R * K * 
+
+Code timed out used determine move
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/logic-and-proofs-chessgambit/history.csv`...
+[32;1m[Board] [0mLoaded 19 move(s).
+[32;1m[Board] [0mHistory replayed, 27 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/logic-and-proofs-chessgambit/move.csv`...
+[32;1m[Board] [0mBlack player is playing b7 to f3.
+[32;1m[Board] [0m[5;1mBlack Bishop is taking White Knight.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[7;1m [0m|[30;1mK[0m|[7;1m [0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m| |[30;1mp[0m| |[30;1mp[0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[30;1mb[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mQ[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[DEBUG] Input history filename: championship/logic-and-proofs-chessgambit/history.csv
+[DEBUG] Output move file: championship/logic-and-proofs-chessgambit/move.csv
+[Parser][ply=] 20
+how i see the board before writing next move: Turn: White
+Enpassant: xx	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 | r  | n  |    | k  |    | b  |    | r  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  |    |    | p  |    | p  |    | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    |    |    |    |    | p  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    | p  |    |    |    | p  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 |    |    | N  |    |    | b  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 | P  | P  | P  | P  | Q  | P  | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 | R  |    | B  |    | R  |    | K  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: 1123 time: 0 nodes: 70 hashfull: 0
+depth: 2 score: 1207 time: 0 nodes: 402 hashfull: 0
+depth: 3 score: 1207 time: 0 nodes: 1792 hashfull: 0
+depth: 4 score: 1322 time: 4 nodes: 7419 hashfull: 0
+depth: 5 score: 1560 time: 8 nodes: 18524 hashfull: 0
+depth: 6 score: 1551 time: 25 nodes: 57353 hashfull: 2
+depth: 7 score: 1611 time: 110 nodes: 199090 hashfull: 5
+depth: 8 score: 1611 time: 108 nodes: 352858 hashfull: 9
+depth: 9 score: 1627 time: 613 nodes: 1283040 hashfull: 48
+depth: 10 score: 1631 time: 1584 nodes: 3303580 hashfull: 89
+depth: 11 score: 1632 time: 2985 nodes: 7594115 hashfull: 198
+[DEBUG] [Parser] Wrote to ouput file championship/logic-and-proofs-chessgambit/move.csv move : e2f3
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/logic-and-proofs-chessgambit/history.csv`...
+[32;1m[Board] [0mLoaded 20 move(s).
+[32;1m[Board] [0mHistory replayed, 26 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/logic-and-proofs-chessgambit/move.csv`...
+[32;1m[Board] [0mWhite player is playing e2 to f3.
+[32;1m[Board] [0m[5;1mWhite Queen is taking Black Bishop.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[7;1m [0m|[30;1mK[0m|[7;1m [0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m| |[30;1mp[0m| |[30;1mp[0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[0;1mQ[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+Inputed Board
+Currently playing: Black
+
+------------------------------Current Search Space--------------------------------------------
+Possible moves for piece: p:
+ p: (1,0)->(2,0) / a7a6
+ p: (1,0)->(3,0) / a7a5
+ p: (1,3)->(2,3) / d7d6
+ p: (1,3)->(3,3) / d7d5
+ p: (1,7)->(2,7) / h7h6
+ p: (1,7)->(3,7) / h7h5
+ p: (2,5)->(3,5) / f6f5
+ p: (3,2)->(4,2) / c5c4
+ p: (3,6)->(4,6) / g5g4
+Possible moves for piece: r:
+ r: (0,7)->(0,6) / h8g8
+Possible moves for piece: n:
+ n: (0,1)->(2,2) / b8c6
+ n: (0,1)->(2,0) / b8a6
+Possible moves for piece: b:
+ b: (0,5)->(1,4) / f8e7
+ b: (0,5)->(2,3) / f8d6
+ b: (0,5)->(1,6) / f8g7
+ b: (0,5)->(2,7) / f8h6
+Possible moves for piece: k:
+ k: (0,3)->(0,4) / d8e8
+ k: (0,3)->(0,2) / d8c8
+ k: (0,3)->(1,4) / d8e7
+ k: (0,3)->(1,2) / d8c7
+
+------------------------------Filtered Search Space--------------------------------------------
+Possible moves for piece: p:
+ p: (1,0)->(2,0) / a7a6
+ p: (1,0)->(3,0) / a7a5
+ p: (1,3)->(2,3) / d7d6
+ p: (1,3)->(3,3) / d7d5
+ p: (1,7)->(2,7) / h7h6
+ p: (1,7)->(3,7) / h7h5
+ p: (2,5)->(3,5) / f6f5
+ p: (3,2)->(4,2) / c5c4
+ p: (3,6)->(4,6) / g5g4
+Possible moves for piece: r:
+ r: (0,7)->(0,6) / h8g8
+Possible moves for piece: n:
+ n: (0,1)->(2,2) / b8c6
+ n: (0,1)->(2,0) / b8a6
+Possible moves for piece: b:
+ b: (0,5)->(1,4) / f8e7
+ b: (0,5)->(2,3) / f8d6
+ b: (0,5)->(1,6) / f8g7
+ b: (0,5)->(2,7) / f8h6
+Possible moves for piece: k:
+ k: (0,3)->(0,2) / d8c8
+ k: (0,3)->(1,2) / d8c7
+
+--------------------------------Info on Attacks---------------------------------------------------
+Squares attacked by White pieces:
+(0,0) (0,4) (1,1) (1,4) (2,2) (2,4) (2,5) (3,1) (3,3) (3,4) (3,5) (3,7) (4,0) (4,4) (4,5) (4,6) (5,0) (5,1) (5,3) (5,4) (5,6) (5,7) (6,4) (7,1) (7,3) (7,5) (7,7) 
+
+-------------------------------Squares controlled by the enemy------------------------------------
+X * * * X * * * 
+* X * * X * * * 
+* * X * X X * * 
+* X * X X X * X 
+X * * * X X X * 
+X X * X X * X X 
+* * * * X * * * 
+* X * X * X * X 
+
+------------------------------Check Information---------------------------------------------------
+Black King located at: (0,3)
+Black King is safe, no check at this position.
+
+------------------------------Special Move Information-------------------------------------------
+No en passant allowed right now
+------------------------------Castling Rights Information-------------------------------------------
+White Kingside Castle:  NOT AVAILABLE
+White Queenside Castle: NOT AVAILABLE
+Black Kingside Castle:  NOT AVAILABLE
+Black Queenside Castle: NOT AVAILABLE
+---------------------------------------------------------------------------------------------------
+
+========== CAPTURE EXPLORATION ==========
+========================================
+
+========== CHECK EXPLORATION ==========
+(no checks found)
+======================================
+--------------------------------------------------------------------------------------------------
+Chosen Move: (0,3) --> (1,2)
+ / d8c7
+
+r n * * * b * r 
+p * k p * p * p 
+* * * * * p * * 
+* * p * * * p * 
+* * * * * * * * 
+* * N * * Q * * 
+P P P P * P P P 
+R * B * R * K * 
+
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/logic-and-proofs-chessgambit/history.csv`...
+[32;1m[Board] [0mLoaded 21 move(s).
+[32;1m[Board] [0mHistory replayed, 25 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/logic-and-proofs-chessgambit/move.csv`...
+[32;1m[Board] [0mBlack player is playing d8 to c7.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[7;1m [0m| |[7;1m [0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m|[30;1mK[0m|[30;1mp[0m| |[30;1mp[0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[0;1mQ[0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[DEBUG] Input history filename: championship/logic-and-proofs-chessgambit/history.csv
+[DEBUG] Output move file: championship/logic-and-proofs-chessgambit/move.csv
+[Parser][ply=] 22
+how i see the board before writing next move: Turn: White
+Enpassant: xx	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 | r  | n  |    |    |    | b  |    | r  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  |    | k  | p  |    | p  |    | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    |    |    |    |    | p  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    | p  |    |    |    | p  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 |    |    | N  |    |    | Q  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 | P  | P  | P  | P  |    | P  | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 | R  |    | B  |    | R  |    | K  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: 1535 time: 0 nodes: 90 hashfull: 0
+depth: 2 score: 1494 time: 0 nodes: 302 hashfull: 0
+depth: 3 score: 1560 time: 1 nodes: 2212 hashfull: 0
+depth: 4 score: 1551 time: 5 nodes: 8264 hashfull: 0
+depth: 5 score: 1611 time: 19 nodes: 31740 hashfull: 0
+depth: 6 score: 1611 time: 30 nodes: 71856 hashfull: 2
+depth: 7 score: 1627 time: 127 nodes: 222486 hashfull: 6
+depth: 8 score: 1676 time: 411 nodes: 576096 hashfull: 16
+depth: 9 score: 1695 time: 1142 nodes: 2200641 hashfull: 90
+depth: 10 score: 1697 time: 3314 nodes: 6407223 hashfull: 158
+[DEBUG] [Parser] Wrote to ouput file championship/logic-and-proofs-chessgambit/move.csv move : f3a8
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/logic-and-proofs-chessgambit/history.csv`...
+[32;1m[Board] [0mLoaded 22 move(s).
+[32;1m[Board] [0mHistory replayed, 25 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/logic-and-proofs-chessgambit/move.csv`...
+[32;1m[Board] [0mWhite player is playing f3 to a8.
+[32;1m[Board] [0m[5;1mWhite Queen is taking Black Rook.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[0;1mQ[0m|[30;1mk[0m|[7;1m [0m| |[7;1m [0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m|[30;1mK[0m|[30;1mp[0m| |[30;1mp[0m| |[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+Inputed Board
+Currently playing: Black
+
+------------------------------Current Search Space--------------------------------------------
+Possible moves for piece: p:
+ p: (1,0)->(2,0) / a7a6
+ p: (1,0)->(3,0) / a7a5
+ p: (1,3)->(2,3) / d7d6
+ p: (1,3)->(3,3) / d7d5
+ p: (1,7)->(2,7) / h7h6
+ p: (1,7)->(3,7) / h7h5
+ p: (2,5)->(3,5) / f6f5
+ p: (3,2)->(4,2) / c5c4
+ p: (3,6)->(4,6) / g5g4
+Possible moves for piece: r:
+ r: (0,7)->(0,6) / h8g8
+Possible moves for piece: n:
+ n: (0,1)->(2,2) / b8c6
+ n: (0,1)->(2,0) / b8a6
+Possible moves for piece: b:
+ b: (0,5)->(1,4) / f8e7
+ b: (0,5)->(2,3) / f8d6
+ b: (0,5)->(1,6) / f8g7
+ b: (0,5)->(2,7) / f8h6
+Possible moves for piece: k:
+ k: (1,2)->(2,2) / c7c6
+ k: (1,2)->(0,2) / c7c8
+ k: (1,2)->(1,1) / c7b7
+ k: (1,2)->(2,3) / c7d6
+ k: (1,2)->(2,1) / c7b6
+ k: (1,2)->(0,3) / c7d8
+
+------------------------------Filtered Search Space--------------------------------------------
+Possible moves for piece: p:
+ p: (1,0)->(2,0) / a7a6
+ p: (1,0)->(3,0) / a7a5
+ p: (1,3)->(2,3) / d7d6
+ p: (1,3)->(3,3) / d7d5
+ p: (1,7)->(2,7) / h7h6
+ p: (1,7)->(3,7) / h7h5
+ p: (2,5)->(3,5) / f6f5
+ p: (3,2)->(4,2) / c5c4
+ p: (3,6)->(4,6) / g5g4
+Possible moves for piece: r:
+ r: (0,7)->(0,6) / h8g8
+Possible moves for piece: n:
+ n: (0,1)->(2,2) / b8c6
+ n: (0,1)->(2,0) / b8a6
+Possible moves for piece: b:
+ b: (0,5)->(1,4) / f8e7
+ b: (0,5)->(2,3) / f8d6
+ b: (0,5)->(1,6) / f8g7
+ b: (0,5)->(2,7) / f8h6
+Possible moves for piece: k:
+ k: (1,2)->(0,2) / c7c8
+ k: (1,2)->(2,3) / c7d6
+ k: (1,2)->(2,1) / c7b6
+ k: (1,2)->(0,3) / c7d8
+
+--------------------------------Info on Attacks---------------------------------------------------
+Squares attacked by White pieces:
+(0,1) (0,4) (1,0) (1,1) (1,4) (2,2) (2,4) (3,1) (3,3) (3,4) (4,0) (4,4) (5,0) (5,1) (5,3) (5,4) (5,5) (5,6) (5,7) (6,4) (7,1) (7,3) (7,5) (7,7) 
+
+-------------------------------Squares controlled by the enemy------------------------------------
+* X * * X * * * 
+X X * * X * * * 
+* * X * X * * * 
+* X * X X * * * 
+X * * * X * * * 
+X X * X X X X X 
+* * * * X * * * 
+* X * X * X * X 
+
+------------------------------Check Information---------------------------------------------------
+Black King located at: (1,2)
+Black King is safe, no check at this position.
+
+------------------------------Special Move Information-------------------------------------------
+No en passant allowed right now
+------------------------------Castling Rights Information-------------------------------------------
+White Kingside Castle:  NOT AVAILABLE
+White Queenside Castle: NOT AVAILABLE
+Black Kingside Castle:  NOT AVAILABLE
+Black Queenside Castle: NOT AVAILABLE
+---------------------------------------------------------------------------------------------------
+
+========== CAPTURE EXPLORATION ==========
+========================================
+
+========== CHECK EXPLORATION ==========
+(no checks found)
+======================================
+--------------------------------------------------------------------------------------------------
+Chosen Move: (0,5) --> (1,6)
+ / f8g7
+
+Q n * * * * * r 
+p * k p * p b p 
+* * * * * p * * 
+* * p * * * p * 
+* * * * * * * * 
+* * N * * * * * 
+P P P P * P P P 
+R * B * R * K * 
+
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/logic-and-proofs-chessgambit/history.csv`...
+[32;1m[Board] [0mLoaded 23 move(s).
+[32;1m[Board] [0mHistory replayed, 24 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/logic-and-proofs-chessgambit/move.csv`...
+[32;1m[Board] [0mBlack player is playing f8 to g7.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[0;1mQ[0m|[30;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[7;1m [0m|[30;1mK[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[DEBUG] Input history filename: championship/logic-and-proofs-chessgambit/history.csv
+[DEBUG] Output move file: championship/logic-and-proofs-chessgambit/move.csv
+[Parser][ply=] 24
+how i see the board before writing next move: Turn: White
+Enpassant: xx	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 | Q  | n  |    |    |    |    |    | r  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | p  |    | k  | p  |    | p  | b  | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    |    |    |    |    | p  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    | p  |    |    |    | p  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 |    |    | N  |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 | P  | P  | P  | P  |    | P  | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 | R  |    | B  |    | R  |    | K  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: 1586 time: 0 nodes: 80 hashfull: 0
+depth: 2 score: 1589 time: 0 nodes: 228 hashfull: 0
+depth: 3 score: 1611 time: 1 nodes: 1936 hashfull: 0
+depth: 4 score: 1611 time: 3 nodes: 6408 hashfull: 0
+depth: 5 score: 1627 time: 5 nodes: 14249 hashfull: 0
+depth: 6 score: 1676 time: 32 nodes: 63857 hashfull: 2
+depth: 7 score: 1695 time: 95 nodes: 191623 hashfull: 5
+depth: 8 score: 1697 time: 163 nodes: 423658 hashfull: 11
+depth: 9 score: 1734 time: 822 nodes: 1720103 hashfull: 67
+depth: 10 score: 1743 time: 2298 nodes: 4617464 hashfull: 116
+depth: 11 score: 1779 time: 5647 nodes: 11792631 hashfull: 253
+[DEBUG] [Parser] Wrote to ouput file championship/logic-and-proofs-chessgambit/move.csv move : a8a7
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/logic-and-proofs-chessgambit/history.csv`...
+[32;1m[Board] [0mLoaded 24 move(s).
+[32;1m[Board] [0mHistory replayed, 24 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/logic-and-proofs-chessgambit/move.csv`...
+[32;1m[Board] [0mWhite player is playing a8 to a7.
+[32;1m[Board] [0m[5;1mWhite Queen is taking Black Pawn.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[0;1mQ[0m|[7;1m [0m|[30;1mK[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+Inputed Board
+Currently playing: Black
+
+------------------------------Current Search Space--------------------------------------------
+Possible moves for piece: p:
+ p: (1,3)->(2,3) / d7d6
+ p: (1,3)->(3,3) / d7d5
+ p: (1,7)->(2,7) / h7h6
+ p: (1,7)->(3,7) / h7h5
+ p: (2,5)->(3,5) / f6f5
+ p: (3,2)->(4,2) / c5c4
+ p: (3,6)->(4,6) / g5g4
+Possible moves for piece: r:
+ r: (0,7)->(0,6) / h8g8
+ r: (0,7)->(0,5) / h8f8
+ r: (0,7)->(0,4) / h8e8
+ r: (0,7)->(0,3) / h8d8
+ r: (0,7)->(0,2) / h8c8
+Possible moves for piece: n:
+ n: (0,1)->(2,2) / b8c6
+ n: (0,1)->(2,0) / b8a6
+Possible moves for piece: b:
+ b: (1,6)->(0,5) / g7f8
+ b: (1,6)->(2,7) / g7h6
+Possible moves for piece: k:
+ k: (1,2)->(2,2) / c7c6
+ k: (1,2)->(0,2) / c7c8
+ k: (1,2)->(1,1) / c7b7
+ k: (1,2)->(2,3) / c7d6
+ k: (1,2)->(2,1) / c7b6
+ k: (1,2)->(0,3) / c7d8
+
+------------------------------Filtered Search Space--------------------------------------------
+Possible moves for piece: k:
+ k: (1,2)->(2,2) / c7c6
+ k: (1,2)->(0,2) / c7c8
+ k: (1,2)->(2,3) / c7d6
+ k: (1,2)->(0,3) / c7d8
+
+--------------------------------Info on Attacks---------------------------------------------------
+Squares attacked by White pieces:
+(0,0) (0,1) (0,4) (1,1) (1,2) (1,4) (2,0) (2,1) (2,4) (3,0) (3,1) (3,2) (3,3) (3,4) (4,0) (4,4) (5,0) (5,1) (5,3) (5,4) (5,5) (5,6) (5,7) (6,4) (7,1) (7,3) (7,5) (7,7) 
+
+-------------------------------Squares controlled by the enemy------------------------------------
+X X * * X * * * 
+* X X * X * * * 
+X X * * X * * * 
+X X X X X * * * 
+X * * * X * * * 
+X X * X X X X X 
+* * * * X * * * 
+* X * X * X * X 
+
+------------------------------Check Information---------------------------------------------------
+Black King located at: (1,2)
+Black King is in check by Q at (1,0)
+
+------------------------------Special Move Information-------------------------------------------
+No en passant allowed right now
+------------------------------Castling Rights Information-------------------------------------------
+White Kingside Castle:  NOT AVAILABLE
+White Queenside Castle: NOT AVAILABLE
+Black Kingside Castle:  NOT AVAILABLE
+Black Queenside Castle: NOT AVAILABLE
+---------------------------------------------------------------------------------------------------
+
+========== CAPTURE EXPLORATION ==========
+========================================
+
+========== CHECK EXPLORATION ==========
+(no checks found)
+======================================
+--------------------------------------------------------------------------------------------------
+Chosen Move: (1,2) --> (2,2)
+ / c7c6
+
+* n * * * * * r 
+Q * * p * p b p 
+* * k * * p * * 
+* * p * * * p * 
+* * * * * * * * 
+* * N * * * * * 
+P P P P * P P P 
+R * B * R * K * 
+
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/logic-and-proofs-chessgambit/history.csv`...
+[32;1m[Board] [0mLoaded 25 move(s).
+[32;1m[Board] [0mHistory replayed, 23 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/logic-and-proofs-chessgambit/move.csv`...
+[32;1m[Board] [0mBlack player is playing c7 to c6.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[0;1mQ[0m|[7;1m [0m| |[30;1mp[0m| |[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mK[0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[DEBUG] Input history filename: championship/logic-and-proofs-chessgambit/history.csv
+[DEBUG] Output move file: championship/logic-and-proofs-chessgambit/move.csv
+[Parser][ply=] 26
+how i see the board before writing next move: Turn: White
+Enpassant: xx	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 |    | n  |    |    |    |    |    | r  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | Q  |    |    | p  |    | p  | b  | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    |    | k  |    |    | p  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    | p  |    |    |    | p  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 |    |    | N  |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 | P  | P  | P  | P  |    | P  | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 | R  |    | B  |    | R  |    | K  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: 1627 time: 0 nodes: 95 hashfull: 0
+depth: 2 score: 1611 time: 0 nodes: 401 hashfull: 0
+depth: 3 score: 1627 time: 1 nodes: 2735 hashfull: 0
+depth: 4 score: 1676 time: 7 nodes: 12040 hashfull: 0
+depth: 5 score: 1695 time: 16 nodes: 30382 hashfull: 0
+depth: 6 score: 1697 time: 50 nodes: 100976 hashfull: 3
+depth: 7 score: 1734 time: 142 nodes: 282785 hashfull: 7
+depth: 8 score: 1762 time: 246 nodes: 613337 hashfull: 16
+depth: 9 score: 1797 time: 1146 nodes: 2344291 hashfull: 93
+depth: 10 score: 1825 time: 3149 nodes: 6619036 hashfull: 164
+[DEBUG] [Parser] Wrote to ouput file championship/logic-and-proofs-chessgambit/move.csv move : c3e4
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/logic-and-proofs-chessgambit/history.csv`...
+[32;1m[Board] [0mLoaded 26 move(s).
+[32;1m[Board] [0mHistory replayed, 23 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/logic-and-proofs-chessgambit/move.csv`...
+[32;1m[Board] [0mWhite player is playing c3 to e4.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[0;1mQ[0m|[7;1m [0m| |[30;1mp[0m| |[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mK[0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[0;1mk[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+Inputed Board
+Currently playing: Black
+
+------------------------------Current Search Space--------------------------------------------
+Possible moves for piece: p:
+ p: (1,3)->(2,3) / d7d6
+ p: (1,3)->(3,3) / d7d5
+ p: (1,7)->(2,7) / h7h6
+ p: (1,7)->(3,7) / h7h5
+ p: (2,5)->(3,5) / f6f5
+ p: (3,2)->(4,2) / c5c4
+ p: (3,6)->(4,6) / g5g4
+Possible moves for piece: r:
+ r: (0,7)->(0,6) / h8g8
+ r: (0,7)->(0,5) / h8f8
+ r: (0,7)->(0,4) / h8e8
+ r: (0,7)->(0,3) / h8d8
+ r: (0,7)->(0,2) / h8c8
+Possible moves for piece: n:
+ n: (0,1)->(2,0) / b8a6
+Possible moves for piece: b:
+ b: (1,6)->(0,5) / g7f8
+ b: (1,6)->(2,7) / g7h6
+Possible moves for piece: k:
+ k: (2,2)->(1,2) / c6c7
+ k: (2,2)->(2,3) / c6d6
+ k: (2,2)->(2,1) / c6b6
+ k: (2,2)->(3,3) / c6d5
+ k: (2,2)->(3,1) / c6b5
+ k: (2,2)->(1,1) / c6b7
+
+------------------------------Filtered Search Space--------------------------------------------
+Possible moves for piece: p:
+ p: (1,3)->(2,3) / d7d6
+ p: (1,3)->(3,3) / d7d5
+ p: (1,7)->(2,7) / h7h6
+ p: (1,7)->(3,7) / h7h5
+ p: (2,5)->(3,5) / f6f5
+ p: (3,2)->(4,2) / c5c4
+ p: (3,6)->(4,6) / g5g4
+Possible moves for piece: r:
+ r: (0,7)->(0,6) / h8g8
+ r: (0,7)->(0,5) / h8f8
+ r: (0,7)->(0,4) / h8e8
+ r: (0,7)->(0,3) / h8d8
+ r: (0,7)->(0,2) / h8c8
+Possible moves for piece: n:
+ n: (0,1)->(2,0) / b8a6
+Possible moves for piece: b:
+ b: (1,6)->(0,5) / g7f8
+ b: (1,6)->(2,7) / g7h6
+Possible moves for piece: k:
+ k: (2,2)->(3,3) / c6d5
+ k: (2,2)->(3,1) / c6b5
+
+--------------------------------Info on Attacks---------------------------------------------------
+Squares attacked by White pieces:
+(0,0) (0,1) (1,1) (1,2) (1,3) (2,0) (2,1) (2,3) (2,5) (3,0) (3,2) (3,6) (4,0) (5,0) (5,1) (5,2) (5,3) (5,4) (5,5) (5,6) (5,7) (6,4) (7,1) (7,3) (7,5) (7,7) 
+
+-------------------------------Squares controlled by the enemy------------------------------------
+X X * * * * * * 
+* X X X * * * * 
+X X * X * X * * 
+X * X * * * X * 
+X * * * * * * * 
+X X X X X X X X 
+* * * * X * * * 
+* X * X * X * X 
+
+------------------------------Check Information---------------------------------------------------
+Black King located at: (2,2)
+Black King is safe, no check at this position.
+
+------------------------------Special Move Information-------------------------------------------
+No en passant allowed right now
+------------------------------Castling Rights Information-------------------------------------------
+White Kingside Castle:  NOT AVAILABLE
+White Queenside Castle: NOT AVAILABLE
+Black Kingside Castle:  NOT AVAILABLE
+Black Queenside Castle: NOT AVAILABLE
+---------------------------------------------------------------------------------------------------
+
+========== CAPTURE EXPLORATION ==========
+========================================
+
+========== CHECK EXPLORATION ==========
+(no checks found)
+======================================
+--------------------------------------------------------------------------------------------------
+Chosen Move: (0,7) --> (0,2)
+ / h8c8
+
+* n r * * * * * 
+Q * * p * p b p 
+* * k * * p * * 
+* * p * * * p * 
+* * * * N * * * 
+* * * * * * * * 
+P P P P * P P P 
+R * B * R * K * 
+
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/logic-and-proofs-chessgambit/history.csv`...
+[32;1m[Board] [0mLoaded 27 move(s).
+[32;1m[Board] [0mHistory replayed, 23 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/logic-and-proofs-chessgambit/move.csv`...
+[32;1m[Board] [0mBlack player is playing h8 to c8.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mk[0m|[30;1mr[0m| |[7;1m [0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[0;1mQ[0m|[7;1m [0m| |[30;1mp[0m| |[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mK[0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[0;1mk[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[DEBUG] Input history filename: championship/logic-and-proofs-chessgambit/history.csv
+[DEBUG] Output move file: championship/logic-and-proofs-chessgambit/move.csv
+[Parser][ply=] 28
+how i see the board before writing next move: Turn: White
+Enpassant: xx	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 |    | n  | r  |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | Q  |    |    | p  |    | p  | b  | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    |    | k  |    |    | p  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    | p  |    |    |    | p  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    |    |    | N  |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 |    |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 | P  | P  | P  | P  |    | P  | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 | R  |    | B  |    | R  |    | K  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: 1701 time: 0 nodes: 126 hashfull: 0
+depth: 2 score: 1687 time: 0 nodes: 284 hashfull: 0
+depth: 3 score: 1713 time: 1 nodes: 2666 hashfull: 0
+depth: 4 score: 1723 time: 3 nodes: 7511 hashfull: 0
+depth: 5 score: 2218 time: 6 nodes: 15981 hashfull: 0
+depth: 6 score: 2267 time: 31 nodes: 65335 hashfull: 2
+depth: 7 score: 2267 time: 86 nodes: 176370 hashfull: 4
+depth: 8 score: 2257 time: 149 nodes: 391116 hashfull: 10
+depth: 9 score: 2528 time: 786 nodes: 1613780 hashfull: 60
+depth: 10 score: 99999 time: 16 nodes: 1638046 hashfull: 61
+[DEBUG] [Parser] Wrote to ouput file championship/logic-and-proofs-chessgambit/move.csv move : a7c5
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/logic-and-proofs-chessgambit/history.csv`...
+[32;1m[Board] [0mLoaded 28 move(s).
+[32;1m[Board] [0mHistory replayed, 23 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/logic-and-proofs-chessgambit/move.csv`...
+[32;1m[Board] [0mWhite player is playing a7 to c5.
+[32;1m[Board] [0m[5;1mWhite Queen is taking Black Pawn.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mk[0m|[30;1mr[0m| |[7;1m [0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m| |[30;1mp[0m| |[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mK[0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m|[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[0;1mk[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+Inputed Board
+Currently playing: Black
+
+------------------------------Current Search Space--------------------------------------------
+Possible moves for piece: p:
+ p: (1,3)->(2,3) / d7d6
+ p: (1,3)->(3,3) / d7d5
+ p: (1,7)->(2,7) / h7h6
+ p: (1,7)->(3,7) / h7h5
+ p: (2,5)->(3,5) / f6f5
+ p: (3,6)->(4,6) / g5g4
+Possible moves for piece: r:
+ r: (0,2)->(1,2) / c8c7
+ r: (0,2)->(0,3) / c8d8
+ r: (0,2)->(0,4) / c8e8
+ r: (0,2)->(0,5) / c8f8
+ r: (0,2)->(0,6) / c8g8
+ r: (0,2)->(0,7) / c8h8
+Possible moves for piece: n:
+ n: (0,1)->(2,0) / b8a6
+Possible moves for piece: b:
+ b: (1,6)->(0,5) / g7f8
+ b: (1,6)->(0,7) / g7h8
+ b: (1,6)->(2,7) / g7h6
+Possible moves for piece: k:
+ k: (2,2)->(3,2) / c6c5
+ k: (2,2)->(1,2) / c6c7
+ k: (2,2)->(2,3) / c6d6
+ k: (2,2)->(2,1) / c6b6
+ k: (2,2)->(3,3) / c6d5
+ k: (2,2)->(3,1) / c6b5
+ k: (2,2)->(1,1) / c6b7
+
+------------------------------Filtered Search Space--------------------------------------------
+Possible moves for piece: k:
+ k: (2,2)->(1,1) / c6b7
+
+--------------------------------Info on Attacks---------------------------------------------------
+Squares attacked by White pieces:
+(0,5) (1,0) (1,4) (2,1) (2,2) (2,3) (2,5) (3,0) (3,1) (3,3) (3,4) (3,5) (3,6) (4,1) (4,2) (4,3) (5,0) (5,1) (5,2) (5,3) (5,4) (5,5) (5,6) (5,7) (6,4) (7,1) (7,3) (7,5) (7,7) 
+
+-------------------------------Squares controlled by the enemy------------------------------------
+* * * * * X * * 
+X * * * X * * * 
+* X X X * X * * 
+X X * X X X X * 
+* X X X * * * * 
+X X X X X X X X 
+* * * * X * * * 
+* X * X * X * X 
+
+------------------------------Check Information---------------------------------------------------
+Black King located at: (2,2)
+Black King is in check by Q at (3,2)
+
+------------------------------Special Move Information-------------------------------------------
+No en passant allowed right now
+------------------------------Castling Rights Information-------------------------------------------
+White Kingside Castle:  NOT AVAILABLE
+White Queenside Castle: NOT AVAILABLE
+Black Kingside Castle:  NOT AVAILABLE
+Black Queenside Castle: NOT AVAILABLE
+---------------------------------------------------------------------------------------------------
+
+========== CAPTURE EXPLORATION ==========
+========================================
+
+========== CHECK EXPLORATION ==========
+(no checks found)
+======================================
+--------------------------------------------------------------------------------------------------
+Chosen Move: (2,2) --> (1,1)
+ / c6b7
+
+* n r * * * * * 
+* k * p * p b p 
+* * * * * p * * 
+* * Q * * * p * 
+* * * * N * * * 
+* * * * * * * * 
+P P P P * P P P 
+R * B * R * K * 
+
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/logic-and-proofs-chessgambit/history.csv`...
+[32;1m[Board] [0mLoaded 29 move(s).
+[32;1m[Board] [0mHistory replayed, 22 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/logic-and-proofs-chessgambit/move.csv`...
+[32;1m[Board] [0mBlack player is playing c6 to b7.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mk[0m|[30;1mr[0m| |[7;1m [0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[30;1mK[0m| |[30;1mp[0m| |[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m|[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[0;1mk[0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[DEBUG] Input history filename: championship/logic-and-proofs-chessgambit/history.csv
+[DEBUG] Output move file: championship/logic-and-proofs-chessgambit/move.csv
+[Parser][ply=] 30
+how i see the board before writing next move: Turn: White
+Enpassant: xx	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 |    | n  | r  |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 |    | k  |    | p  |    | p  | b  | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    |    |    |    |    | p  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    | Q  |    |    |    | p  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    |    |    | N  |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 |    |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 | P  | P  | P  | P  |    | P  | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 | R  |    | B  |    | R  |    | K  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: 1713 time: 3 nodes: 467 hashfull: 0
+depth: 2 score: 1723 time: 0 nodes: 1284 hashfull: 0
+depth: 3 score: 2218 time: 6 nodes: 4912 hashfull: 0
+depth: 4 score: 2267 time: 6 nodes: 9073 hashfull: 0
+depth: 5 score: 2267 time: 8 nodes: 16034 hashfull: 0
+depth: 6 score: 2257 time: 66 nodes: 67500 hashfull: 2
+depth: 7 score: 2528 time: 118 nodes: 190039 hashfull: 5
+depth: 8 score: 99999 time: 16 nodes: 214275 hashfull: 6
+[DEBUG] [Parser] Wrote to ouput file championship/logic-and-proofs-chessgambit/move.csv move : e4d6
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/logic-and-proofs-chessgambit/history.csv`...
+[32;1m[Board] [0mLoaded 30 move(s).
+[32;1m[Board] [0mHistory replayed, 22 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/logic-and-proofs-chessgambit/move.csv`...
+[32;1m[Board] [0mWhite player is playing e4 to d6.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mk[0m|[30;1mr[0m| |[7;1m [0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[30;1mK[0m| |[30;1mp[0m| |[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m|[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+Inputed Board
+Currently playing: Black
+
+------------------------------Current Search Space--------------------------------------------
+Possible moves for piece: p:
+ p: (1,7)->(2,7) / h7h6
+ p: (1,7)->(3,7) / h7h5
+ p: (2,5)->(3,5) / f6f5
+ p: (3,6)->(4,6) / g5g4
+Possible moves for piece: r:
+ r: (0,2)->(1,2) / c8c7
+ r: (0,2)->(2,2) / c8c6
+ r: (0,2)->(3,2) / c8c5
+ r: (0,2)->(0,3) / c8d8
+ r: (0,2)->(0,4) / c8e8
+ r: (0,2)->(0,5) / c8f8
+ r: (0,2)->(0,6) / c8g8
+ r: (0,2)->(0,7) / c8h8
+Possible moves for piece: n:
+ n: (0,1)->(2,2) / b8c6
+ n: (0,1)->(2,0) / b8a6
+Possible moves for piece: b:
+ b: (1,6)->(0,5) / g7f8
+ b: (1,6)->(0,7) / g7h8
+ b: (1,6)->(2,7) / g7h6
+Possible moves for piece: k:
+ k: (1,1)->(2,1) / b7b6
+ k: (1,1)->(1,2) / b7c7
+ k: (1,1)->(1,0) / b7a7
+ k: (1,1)->(2,2) / b7c6
+ k: (1,1)->(2,0) / b7a6
+ k: (1,1)->(0,0) / b7a8
+
+------------------------------Filtered Search Space--------------------------------------------
+Possible moves for piece: k:
+ k: (1,1)->(2,0) / b7a6
+ k: (1,1)->(0,0) / b7a8
+
+--------------------------------Info on Attacks---------------------------------------------------
+Squares attacked by White pieces:
+(0,2) (0,4) (1,0) (1,1) (1,2) (1,4) (1,5) (2,1) (2,2) (2,4) (3,0) (3,1) (3,3) (3,4) (3,5) (3,6) (4,1) (4,2) (4,3) (4,4) (5,0) (5,1) (5,2) (5,3) (5,4) (5,5) (5,6) (5,7) (6,4) (7,1) (7,3) (7,5) (7,7) 
+
+-------------------------------Squares controlled by the enemy------------------------------------
+* * X * X * * * 
+X X X * X X * * 
+* X X * X * * * 
+X X * X X X X * 
+* X X X X * * * 
+X X X X X X X X 
+* * * * X * * * 
+* X * X * X * X 
+
+------------------------------Check Information---------------------------------------------------
+Black King located at: (1,1)
+Black King is in check by N at (2,3)
+
+------------------------------Special Move Information-------------------------------------------
+No en passant allowed right now
+------------------------------Castling Rights Information-------------------------------------------
+White Kingside Castle:  NOT AVAILABLE
+White Queenside Castle: NOT AVAILABLE
+Black Kingside Castle:  NOT AVAILABLE
+Black Queenside Castle: NOT AVAILABLE
+---------------------------------------------------------------------------------------------------
+
+========== CAPTURE EXPLORATION ==========
+========================================
+
+========== CHECK EXPLORATION ==========
+(no checks found)
+======================================
+--------------------------------------------------------------------------------------------------
+Chosen Move: (1,1) --> (2,0)
+ / b7a6
+
+* n r * * * * * 
+* * * p * p b p 
+k * * N * p * * 
+* * Q * * * p * 
+* * * * * * * * 
+* * * * * * * * 
+P P P P * P P P 
+R * B * R * K * 
+
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/logic-and-proofs-chessgambit/history.csv`...
+[32;1m[Board] [0mLoaded 31 move(s).
+[32;1m[Board] [0mHistory replayed, 22 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/logic-and-proofs-chessgambit/move.csv`...
+[32;1m[Board] [0mBlack player is playing b7 to a6.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mk[0m|[30;1mr[0m| |[7;1m [0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m| |[30;1mp[0m| |[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mK[0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m|[0;1mQ[0m|[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[DEBUG] Input history filename: championship/logic-and-proofs-chessgambit/history.csv
+[DEBUG] Output move file: championship/logic-and-proofs-chessgambit/move.csv
+[Parser][ply=] 32
+how i see the board before writing next move: Turn: White
+Enpassant: xx	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 |    | n  | r  |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 |    |    |    | p  |    | p  | b  | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 | k  |    |    | N  |    | p  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    |    | Q  |    |    |    | p  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 |    |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 | P  | P  | P  | P  |    | P  | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 | R  |    | B  |    | R  |    | K  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: 2222 time: 0 nodes: 102 hashfull: 0
+depth: 2 score: 2272 time: 0 nodes: 347 hashfull: 0
+depth: 3 score: 2272 time: 0 nodes: 1893 hashfull: 0
+depth: 4 score: 2257 time: 10 nodes: 7058 hashfull: 0
+depth: 5 score: 2528 time: 14 nodes: 17262 hashfull: 0
+depth: 6 score: 99999 time: 24 nodes: 41365 hashfull: 1
+[DEBUG] [Parser] Wrote to ouput file championship/logic-and-proofs-chessgambit/move.csv move : c5b5
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/logic-and-proofs-chessgambit/history.csv`...
+[32;1m[Board] [0mLoaded 32 move(s).
+[32;1m[Board] [0mHistory replayed, 22 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/logic-and-proofs-chessgambit/move.csv`...
+[32;1m[Board] [0mWhite player is playing c5 to b5.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mk[0m|[30;1mr[0m| |[7;1m [0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m| |[30;1mp[0m| |[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mK[0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[0;1mQ[0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+Inputed Board
+Currently playing: Black
+
+------------------------------Current Search Space--------------------------------------------
+Possible moves for piece: p:
+ p: (1,7)->(2,7) / h7h6
+ p: (1,7)->(3,7) / h7h5
+ p: (2,5)->(3,5) / f6f5
+ p: (3,6)->(4,6) / g5g4
+Possible moves for piece: r:
+ r: (0,2)->(1,2) / c8c7
+ r: (0,2)->(2,2) / c8c6
+ r: (0,2)->(3,2) / c8c5
+ r: (0,2)->(4,2) / c8c4
+ r: (0,2)->(5,2) / c8c3
+ r: (0,2)->(6,2) / c8c2
+ r: (0,2)->(0,3) / c8d8
+ r: (0,2)->(0,4) / c8e8
+ r: (0,2)->(0,5) / c8f8
+ r: (0,2)->(0,6) / c8g8
+ r: (0,2)->(0,7) / c8h8
+Possible moves for piece: n:
+ n: (0,1)->(2,2) / b8c6
+Possible moves for piece: b:
+ b: (1,6)->(0,5) / g7f8
+ b: (1,6)->(0,7) / g7h8
+ b: (1,6)->(2,7) / g7h6
+Possible moves for piece: k:
+ k: (2,0)->(3,0) / a6a5
+ k: (2,0)->(1,0) / a6a7
+ k: (2,0)->(2,1) / a6b6
+ k: (2,0)->(3,1) / a6b5
+ k: (2,0)->(1,1) / a6b7
+
+------------------------------Filtered Search Space--------------------------------------------
+Possible moves for piece: k:
+ k: (2,0)->(1,0) / a6a7
+
+--------------------------------Info on Attacks---------------------------------------------------
+Squares attacked by White pieces:
+(0,1) (0,2) (0,4) (1,1) (1,3) (1,4) (1,5) (2,0) (2,1) (2,2) (2,4) (3,0) (3,2) (3,3) (3,4) (3,5) (3,6) (4,0) (4,1) (4,2) (4,4) (5,0) (5,1) (5,2) (5,3) (5,4) (5,5) (5,6) (5,7) (6,4) (7,1) (7,3) (7,5) (7,7) 
+
+-------------------------------Squares controlled by the enemy------------------------------------
+* X X * X * * * 
+* X * X X X * * 
+X X X * X * * * 
+X * X X X X X * 
+X X X * X * * * 
+X X X X X X X X 
+* * * * X * * * 
+* X * X * X * X 
+
+------------------------------Check Information---------------------------------------------------
+Black King located at: (2,0)
+Black King is in check by Q at (3,1)
+
+------------------------------Special Move Information-------------------------------------------
+No en passant allowed right now
+------------------------------Castling Rights Information-------------------------------------------
+White Kingside Castle:  NOT AVAILABLE
+White Queenside Castle: NOT AVAILABLE
+Black Kingside Castle:  NOT AVAILABLE
+Black Queenside Castle: NOT AVAILABLE
+---------------------------------------------------------------------------------------------------
+
+========== CAPTURE EXPLORATION ==========
+========================================
+
+========== CHECK EXPLORATION ==========
+(no checks found)
+======================================
+--------------------------------------------------------------------------------------------------
+Chosen Move: (2,0) --> (1,0)
+ / a6a7
+
+* n r * * * * * 
+k * * p * p b p 
+* * * N * p * * 
+* Q * * * * p * 
+* * * * * * * * 
+* * * * * * * * 
+P P P P * P P P 
+R * B * R * K * 
+
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/logic-and-proofs-chessgambit/history.csv`...
+[32;1m[Board] [0mLoaded 33 move(s).
+[32;1m[Board] [0mHistory replayed, 22 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/logic-and-proofs-chessgambit/move.csv`...
+[32;1m[Board] [0mBlack player is playing a6 to a7.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mk[0m|[30;1mr[0m| |[7;1m [0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mK[0m|[7;1m [0m| |[30;1mp[0m| |[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[0;1mQ[0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
+[DEBUG] Input history filename: championship/logic-and-proofs-chessgambit/history.csv
+[DEBUG] Output move file: championship/logic-and-proofs-chessgambit/move.csv
+[Parser][ply=] 34
+how i see the board before writing next move: Turn: White
+Enpassant: xx	Castling: xxxx
+   ---- ---- ---- ---- ---- ---- ---- ----
+8 |    | n  | r  |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+7 | k  |    |    | p  |    | p  | b  | p  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+6 |    |    |    | N  |    | p  |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+5 |    | Q  |    |    |    |    | p  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+4 |    |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+3 |    |    |    |    |    |    |    |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+2 | P  | P  | P  | P  |    | P  | P  | P  |
+   ---- ---- ---- ---- ---- ---- ---- ----
+1 | R  |    | B  |    | R  |    | K  |    |
+   ---- ---- ---- ---- ---- ---- ---- ----
+    a    b    c    d    e    f    g    h
+starting search...
+depth: 1 score: 2120 time: 0 nodes: 104 hashfull: 0
+depth: 2 score: 2130 time: 0 nodes: 236 hashfull: 0
+depth: 3 score: 99999 time: 0 nodes: 1243 hashfull: 0
+[DEBUG] [Parser] Wrote to ouput file championship/logic-and-proofs-chessgambit/move.csv move : b5b7
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/logic-and-proofs-chessgambit/history.csv`...
+[32;1m[Board] [0mLoaded 34 move(s).
+[32;1m[Board] [0mHistory replayed, 22 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/logic-and-proofs-chessgambit/move.csv`...
+[32;1m[Board] [0mWhite player is playing b5 to b7.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mk[0m|[30;1mr[0m| |[7;1m [0m| |[7;1m [0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 ||[30;1mK[0m|[0;1mQ[0m| |[30;1mp[0m| |[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m|[30;1mp[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mr[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m

@@ -34,13 +34,12 @@
 | RNBQKBNR | 1
 |  white   |
 +-abcdefgh-+
-new one at 2 number of nodes 60 no of distinct states visited 60 no of quiescent nodes 0 time left 9.99113
-new one at 3 number of nodes 80 no of distinct states visited 80 no of quiescent nodes 554 time left 9.96551
-new one at 4 number of nodes 1785 no of distinct states visited 1577 no of quiescent nodes 84 time left 9.66115
-new one at 5 number of nodes 2278 no of distinct states visited 3174 no of quiescent nodes 17403 time left 8.8119
-new one at 6 number of nodes 43889 no of distinct states visited 30928 no of quiescent nodes 3356 time left 1.73016
-new one at 7 number of nodes 1749 no of distinct states visited 31334 no of quiescent nodes 15730 time left 0.999693
-ok it did depth 6 and now we're doing move d2d4 with evaluation -85 number of nodes examined is 43889
+new one at 2 number of nodes 60 no of distinct states visited 60 no of quiescent nodes 0 time left 9.99072
+new one at 3 number of nodes 80 no of distinct states visited 80 no of quiescent nodes 554 time left 9.96414
+new one at 4 number of nodes 1785 no of distinct states visited 1577 no of quiescent nodes 84 time left 9.65739
+new one at 5 number of nodes 2278 no of distinct states visited 3174 no of quiescent nodes 17403 time left 8.8027
+new one at 6 number of nodes 42193 no of distinct states visited 30347 no of quiescent nodes 3339 time left 0.999812
+ok it did depth 5 and now we're doing move e2e4 with evaluation 100 number of nodes examined is 2278
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
@@ -49,7 +48,7 @@ ok it did depth 6 and now we're doing move d2d4 with evaluation -85 number of no
 [32;1m[Board] [0mLoaded 0 move(s).
 [32;1m[Board] [0mHistory replayed, 32 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing d2 to d4.
+[32;1m[Board] [0mWhite player is playing e2 to e4.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
@@ -61,11 +60,11 @@ ok it did depth 6 and now we're doing move d2d4 with evaluation -85 number of no
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
@@ -77,20 +76,20 @@ ok it did depth 6 and now we're doing move d2d4 with evaluation -85 number of no
 7| P P P P P P P P |
 6| . . . . . . . . |
 5| . . . . . . . . |
-4| . . . p . . . . |
+4| . . . . p . . . |
 3| . . . . . . . . |
-2| p p p . p p p p |
+2| p p p p . p p p |
 1| r n b q k b n r |
  +-----------------+
    a b c d e f g h
-1 10 :( 2 040 :( 3 10 4 030 5 0 6 020 7 0 8 020 4874240  +-----------------+
-8| R N B Q K B . R |
+1 10 :( 2 040 3 0 4 035 5 0 6 035 7 0 5292032  +-----------------+
+8| R . B Q K B N R |
 7| P P P P P P P P |
-6| . . . . . N . . |
+6| . . N . . . . . |
 5| . . . . . . . . |
-4| . . . p . . . . |
+4| . . . . p . . . |
 3| . . . . . . . . |
-2| p p p . p p p p |
+2| p p p p . p p p |
 1| r n b q k b n r |
  +-----------------+
    a b c d e f g h
@@ -102,23 +101,23 @@ ok it did depth 6 and now we're doing move d2d4 with evaluation -85 number of no
 [32;1m[Board] [0mLoaded 1 move(s).
 [32;1m[Board] [0mHistory replayed, 32 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing g8 to f6.
+[32;1m[Board] [0mBlack player is playing b8 to c6.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[30;1mk[0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[7;1m [0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
@@ -127,22 +126,22 @@ ok it did depth 6 and now we're doing move d2d4 with evaluation -85 number of no
 [32;1m[Referee] [0mThis is the turn of the White player...
 +-abcdefgh-+
 |  black   |
-| rnbqkb r | 8
+| r bqkbnr | 8
 | pppppppp | 7
-|      n   | 6
+|   n      | 6
 |          | 5
-|    P     | 4
+|     P    | 4
 |          | 3
-| PPP PPPP | 2
+| PPPP PPP | 2
 | RNBQKBNR | 1
 |  white   |
 +-abcdefgh-+
-new one at 2 number of nodes 78 no of distinct states visited 78 no of quiescent nodes 2 time left 9.98674
-new one at 3 number of nodes 80 no of distinct states visited 87 no of quiescent nodes 931 time left 9.95593
-new one at 4 number of nodes 2784 no of distinct states visited 2335 no of quiescent nodes 174 time left 9.41785
-new one at 5 number of nodes 3377 no of distinct states visited 3887 no of quiescent nodes 39414 time left 7.88799
-new one at 6 number of nodes 41283 no of distinct states visited 33599 no of quiescent nodes 7146 time left 0.999914
-ok it did depth 5 and now we're doing move e1d2 with evaluation 0 number of nodes examined is 3377
+new one at 2 number of nodes 81 no of distinct states visited 81 no of quiescent nodes 1 time left 9.98014
+new one at 3 number of nodes 83 no of distinct states visited 92 no of quiescent nodes 1000 time left 9.95001
+new one at 4 number of nodes 3181 no of distinct states visited 2531 no of quiescent nodes 289 time left 9.38048
+new one at 5 number of nodes 4228 no of distinct states visited 4404 no of quiescent nodes 49553 time left 7.48531
+new one at 6 number of nodes 36683 no of distinct states visited 30968 no of quiescent nodes 7066 time left 0.999808
+ok it did depth 5 and now we're doing move d2d4 with evaluation 90 number of nodes examined is 4228
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
@@ -151,49 +150,49 @@ ok it did depth 5 and now we're doing move e1d2 with evaluation 0 number of node
 [32;1m[Board] [0mLoaded 2 move(s).
 [32;1m[Board] [0mHistory replayed, 32 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing e1 to d2.
+[32;1m[Board] [0mWhite player is playing d2 to d4.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[30;1mk[0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[7;1m [0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m| |[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R N B Q K B . R |
+8| R . B Q K B N R |
 7| P P P P P P P P |
-6| . . . . . N . . |
+6| . . N . . . . . |
 5| . . . . . . . . |
-4| . . . p . . . . |
+4| . . . p p . . . |
 3| . . . . . . . . |
-2| p p p k p p p p |
-1| r n b q . b n r |
+2| p p p . . p p p |
+1| r n b q k b n r |
  +-----------------+
    a b c d e f g h
-1 60 2 70 3 50 4 50 5 45 6 30 7 50 5042176  +-----------------+
-8| R N B Q K B . R |
+1 20 2 5 3 20 4 020 5 20 6 020 7 020 5128192  +-----------------+
+8| R . B Q K B N R |
 7| P P P P . P P P |
-6| . . . . . N . . |
-5| . . . . P . . . |
-4| . . . p . . . . |
+6| . . N . P . . . |
+5| . . . . . . . . |
+4| . . . p p . . . |
 3| . . . . . . . . |
-2| p p p k p p p p |
-1| r n b q . b n r |
+2| p p p . . p p p |
+1| r n b q k b n r |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -204,47 +203,47 @@ ok it did depth 5 and now we're doing move e1d2 with evaluation 0 number of node
 [32;1m[Board] [0mLoaded 3 move(s).
 [32;1m[Board] [0mHistory replayed, 32 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing e7 to e5.
+[32;1m[Board] [0mBlack player is playing e7 to e6.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[30;1mk[0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m| |[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
 +-abcdefgh-+
 |  black   |
-| rnbqkb r | 8
+| r bqkbnr | 8
 | pppp ppp | 7
-|      n   | 6
-|     p    | 5
-|    P     | 4
+|   n p    | 6
+|          | 5
+|    PP    | 4
 |          | 3
-| PPPKPPPP | 2
-| RNBQ BNR | 1
+| PPP  PPP | 2
+| RNBQKBNR | 1
 |  white   |
 +-abcdefgh-+
-new one at 2 number of nodes 77 no of distinct states visited 77 no of quiescent nodes 0 time left 9.98591
-new one at 3 number of nodes 78 no of distinct states visited 102 no of quiescent nodes 645 time left 9.95672
-new one at 4 number of nodes 1976 no of distinct states visited 1870 no of quiescent nodes 235 time left 9.59721
-new one at 5 number of nodes 2505 no of distinct states visited 3208 no of quiescent nodes 21804 time left 8.56509
-new one at 6 number of nodes 48160 no of distinct states visited 40185 no of quiescent nodes 6488 time left 0.99991
-ok it did depth 5 and now we're doing move d4e5 with evaluation 475 number of nodes examined is 2505
+new one at 2 number of nodes 139 no of distinct states visited 139 no of quiescent nodes 7 time left 9.97407
+new one at 3 number of nodes 146 no of distinct states visited 146 no of quiescent nodes 1962 time left 9.901
+new one at 4 number of nodes 5619 no of distinct states visited 4362 no of quiescent nodes 628 time left 8.88874
+new one at 5 number of nodes 7698 no of distinct states visited 7678 no of quiescent nodes 95092 time left 4.92961
+new one at 6 number of nodes 27023 no of distinct states visited 26947 no of quiescent nodes 2310 time left 0.999899
+ok it did depth 5 and now we're doing move d4d5 with evaluation 305 number of nodes examined is 7698
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
@@ -253,50 +252,49 @@ ok it did depth 5 and now we're doing move d4e5 with evaluation 475 number of no
 [32;1m[Board] [0mLoaded 4 move(s).
 [32;1m[Board] [0mHistory replayed, 32 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing d4 to e5.
-[32;1m[Board] [0m[5;1mWhite Pawn is taking Black Pawn.[0m
+[32;1m[Board] [0mWhite player is playing d4 to d5.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[30;1mk[0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[30;1mp[0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m| |[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R N B Q K B . R |
+8| R . B Q K B N R |
 7| P P P P . P P P |
-6| . . . . . N . . |
-5| . . . . p . . . |
-4| . . . . . . . . |
+6| . . N . P . . . |
+5| . . . p . . . . |
+4| . . . . p . . . |
 3| . . . . . . . . |
-2| p p p k p p p p |
-1| r n b q . b n r |
+2| p p p . . p p p |
+1| r n b q k b n r |
  +-----------------+
    a b c d e f g h
-1 065 2 025 3 025 4 0 5 40 6 15 7 25 4202496  +-----------------+
-8| R N B Q K B . R |
+1 0 2 0 3 15 4 025 5 0 6 025 5464064  +-----------------+
+8| R . B Q K B N R |
 7| P P P P . P P P |
-6| . . . . . . . . |
-5| . . . . p . . . |
-4| . . . . . . N . |
+6| . . N . . . . . |
+5| . . . P . . . . |
+4| . . . . p . . . |
 3| . . . . . . . . |
-2| p p p k p p p p |
-1| r n b q . b n r |
+2| p p p . . p p p |
+1| r n b q k b n r |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -305,49 +303,50 @@ ok it did depth 5 and now we're doing move d4e5 with evaluation 475 number of no
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 5 move(s).
-[32;1m[Board] [0mHistory replayed, 31 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 32 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing f6 to g4.
+[32;1m[Board] [0mBlack player is playing e6 to d5.
+[32;1m[Board] [0m[5;1mBlack Pawn is taking White Pawn.[0m
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[30;1mk[0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[7;1m [0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mk[0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m| |[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
 +-abcdefgh-+
 |  black   |
-| rnbqkb r | 8
+| r bqkbnr | 8
 | pppp ppp | 7
-|          | 6
-|     P    | 5
-|       n  | 4
+|   n      | 6
+|    p     | 5
+|     P    | 4
 |          | 3
-| PPPKPPPP | 2
-| RNBQ BNR | 1
+| PPP  PPP | 2
+| RNBQKBNR | 1
 |  white   |
 +-abcdefgh-+
-new one at 2 number of nodes 125 no of distinct states visited 125 no of quiescent nodes 22 time left 9.97934
-new one at 3 number of nodes 161 no of distinct states visited 215 no of quiescent nodes 1914 time left 9.88213
-new one at 4 number of nodes 4379 no of distinct states visited 4059 no of quiescent nodes 1060 time left 9.16003
-new one at 5 number of nodes 5498 no of distinct states visited 6093 no of quiescent nodes 36058 time left 6.85601
-new one at 6 number of nodes 37373 no of distinct states visited 32013 no of quiescent nodes 4039 time left 0.99983
-ok it did depth 5 and now we're doing move g1h3 with evaluation 395 number of nodes examined is 5498
+new one at 2 number of nodes 110 no of distinct states visited 110 no of quiescent nodes 3 time left 9.97748
+new one at 3 number of nodes 113 no of distinct states visited 151 no of quiescent nodes 1347 time left 9.9312
+new one at 4 number of nodes 3597 no of distinct states visited 3374 no of quiescent nodes 1223 time left 9.13467
+new one at 5 number of nodes 5547 no of distinct states visited 6483 no of quiescent nodes 82856 time left 6.63595
+new one at 6 number of nodes 34990 no of distinct states visited 31142 no of quiescent nodes 5144 time left 0.999908
+ok it did depth 5 and now we're doing move e4d5 with evaluation 110 number of nodes examined is 5547
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
@@ -356,49 +355,50 @@ ok it did depth 5 and now we're doing move g1h3 with evaluation 395 number of no
 [32;1m[Board] [0mLoaded 6 move(s).
 [32;1m[Board] [0mHistory replayed, 31 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing g1 to h3.
+[32;1m[Board] [0mWhite player is playing e4 to d5.
+[32;1m[Board] [0m[5;1mWhite Pawn is taking Black Pawn.[0m
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[30;1mk[0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[7;1m [0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mk[0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mk[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m| |[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R N B Q K B . R |
+8| R . B Q K B N R |
 7| P P P P . P P P |
-6| . . . . . . . . |
-5| . . . . p . . . |
-4| . . . . . . N . |
-3| . . . . . . . n |
-2| p p p k p p p p |
-1| r n b q . b . r |
+6| . . N . . . . . |
+5| . . . p . . . . |
+4| . . . . . . . . |
+3| . . . . . . . . |
+2| p p p . . p p p |
+1| r n b q k b n r |
  +-----------------+
    a b c d e f g h
-1 50 2 10 3 50 4 25 5 25 6 25 4722688  +-----------------+
-8| R N B Q K B . R |
+1 15 2 025 3 0 4 025 5 015 6 025 7 035 4366336  +-----------------+
+8| R . B Q K B N R |
 7| P P P P . P P P |
 6| . . . . . . . . |
-5| . . . . N . . . |
+5| . . . p N . . . |
 4| . . . . . . . . |
-3| . . . . . . . n |
-2| p p p k p p p p |
-1| r n b q . b . r |
+3| . . . . . . . . |
+2| p p p . . p p p |
+1| r n b q k b n r |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -407,50 +407,49 @@ ok it did depth 5 and now we're doing move g1h3 with evaluation 395 number of no
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 7 move(s).
-[32;1m[Board] [0mHistory replayed, 31 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 30 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing g4 to e5.
-[32;1m[Board] [0m[5;1mBlack Knight is taking White Pawn.[0m
+[32;1m[Board] [0mBlack player is playing c6 to e5.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[30;1mk[0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[0;1mp[0m|[30;1mk[0m|[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[0;1mk[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m| |[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
 +-abcdefgh-+
 |  black   |
-| rnbqkb r | 8
+| r bqkbnr | 8
 | pppp ppp | 7
 |          | 6
-|     n    | 5
+|    Pn    | 5
 |          | 4
-|        N | 3
-| PPPKPPPP | 2
-| RNBQ B R | 1
+|          | 3
+| PPP  PPP | 2
+| RNBQKBNR | 1
 |  white   |
 +-abcdefgh-+
-new one at 2 number of nodes 77 no of distinct states visited 77 no of quiescent nodes 0 time left 9.9866
-new one at 3 number of nodes 109 no of distinct states visited 117 no of quiescent nodes 614 time left 9.95034
-new one at 4 number of nodes 2880 no of distinct states visited 2414 no of quiescent nodes 102 time left 9.50326
-new one at 5 number of nodes 4305 no of distinct states visited 3666 no of quiescent nodes 31826 time left 7.66978
-new one at 6 number of nodes 56631 no of distinct states visited 40597 no of quiescent nodes 6678 time left 0.999895
-ok it did depth 5 and now we're doing move b1c3 with evaluation 45 number of nodes examined is 4305
+new one at 2 number of nodes 108 no of distinct states visited 108 no of quiescent nodes 4 time left 9.9788
+new one at 3 number of nodes 165 no of distinct states visited 169 no of quiescent nodes 2104 time left 9.90396
+new one at 4 number of nodes 5417 no of distinct states visited 4476 no of quiescent nodes 415 time left 8.90719
+new one at 5 number of nodes 9373 no of distinct states visited 8945 no of quiescent nodes 111786 time left 4.60708
+new one at 6 number of nodes 25430 no of distinct states visited 26724 no of quiescent nodes 4171 time left 0.999834
+ok it did depth 5 and now we're doing move f2f4 with evaluation 310 number of nodes examined is 9373
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
@@ -459,49 +458,49 @@ ok it did depth 5 and now we're doing move b1c3 with evaluation 45 number of nod
 [32;1m[Board] [0mLoaded 8 move(s).
 [32;1m[Board] [0mHistory replayed, 30 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing b1 to c3.
+[32;1m[Board] [0mWhite player is playing f2 to f4.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[30;1mk[0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[0;1mp[0m|[30;1mk[0m|[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[0;1mk[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m| |[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R N B Q K B . R |
+8| R . B Q K B N R |
 7| P P P P . P P P |
 6| . . . . . . . . |
-5| . . . . N . . . |
-4| . . . . . . . . |
-3| . . n . . . . n |
-2| p p p k p p p p |
-1| r . b q . b . r |
+5| . . . p N . . . |
+4| . . . . . p . . |
+3| . . . . . . . . |
+2| p p p . . . p p |
+1| r n b q k b n r |
  +-----------------+
    a b c d e f g h
-1 50 2 45 3 25 4 35 5 40 6 45 7 50 4935680  +-----------------+
-8| R N B Q K B . R |
-7| P P P . . P P P |
-6| . . . . . . . . |
-5| . . . P N . . . |
-4| . . . . . . . . |
-3| . . n . . . . n |
-2| p p p k p p p p |
-1| r . b q . b . r |
+1 25 2 10 3 0 4 010 5 030 6 025 3960832  +-----------------+
+8| R . B Q K B N R |
+7| P P P P . P P P |
+6| . . . . . . N . |
+5| . . . p . . . . |
+4| . . . . . p . . |
+3| . . . . . . . . |
+2| p p p . . . p p |
+1| r n b q k b n r |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -512,47 +511,47 @@ ok it did depth 5 and now we're doing move b1c3 with evaluation 45 number of nod
 [32;1m[Board] [0mLoaded 9 move(s).
 [32;1m[Board] [0mHistory replayed, 30 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing d7 to d5.
+[32;1m[Board] [0mBlack player is playing e5 to g6.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[30;1mk[0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mk[0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[0;1mk[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mK[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m| |[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[0;1mQ[0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
 +-abcdefgh-+
 |  black   |
-| rnbqkb r | 8
-| ppp  ppp | 7
-|          | 6
-|    pn    | 5
-|          | 4
-|   N    N | 3
-| PPPKPPPP | 2
-| R BQ B R | 1
+| r bqkbnr | 8
+| pppp ppp | 7
+|       n  | 6
+|    P     | 5
+|      P   | 4
+|          | 3
+| PPP   PP | 2
+| RNBQKBNR | 1
 |  white   |
 +-abcdefgh-+
-new one at 2 number of nodes 166 no of distinct states visited 166 no of quiescent nodes 10 time left 9.97409
-new one at 3 number of nodes 187 no of distinct states visited 206 no of quiescent nodes 1273 time left 9.89316
-new one at 4 number of nodes 6835 no of distinct states visited 5575 no of quiescent nodes 1175 time left 8.8608
-new one at 5 number of nodes 12213 no of distinct states visited 12025 no of quiescent nodes 98794 time left 2.33738
-new one at 6 number of nodes 8876 no of distinct states visited 18995 no of quiescent nodes 2274 time left 0.999707
-ok it did depth 5 and now we're doing move d2e3 with evaluation 300 number of nodes examined is 12213
+new one at 2 number of nodes 125 no of distinct states visited 125 no of quiescent nodes 3 time left 9.97939
+new one at 3 number of nodes 153 no of distinct states visited 153 no of quiescent nodes 1926 time left 9.90392
+new one at 4 number of nodes 5923 no of distinct states visited 4887 no of quiescent nodes 894 time left 8.94642
+new one at 5 number of nodes 6848 no of distinct states visited 7406 no of quiescent nodes 88707 time left 5.72087
+new one at 6 number of nodes 33570 no of distinct states visited 28392 no of quiescent nodes 3391 time left 0.999909
+ok it did depth 5 and now we're doing move d1e2 with evaluation 130 number of nodes examined is 6848
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
@@ -561,49 +560,49 @@ ok it did depth 5 and now we're doing move d2e3 with evaluation 300 number of no
 [32;1m[Board] [0mLoaded 10 move(s).
 [32;1m[Board] [0mHistory replayed, 30 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing d2 to e3.
+[32;1m[Board] [0mWhite player is playing d1 to e2.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[30;1mk[0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[30;1mk[0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mk[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mQ[0m| |[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m| |[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[7;1m [0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R N B Q K B . R |
-7| P P P . . P P P |
-6| . . . . . . . . |
-5| . . . P N . . . |
-4| . . . . . . . . |
-3| . . n . k . . n |
-2| p p p . p p p p |
-1| r . b q . b . r |
+8| R . B Q K B N R |
+7| P P P P . P P P |
+6| . . . . . . N . |
+5| . . . p . . . . |
+4| . . . . . p . . |
+3| . . . . . . . . |
+2| p p p . q . p p |
+1| r n b . k b n r |
  +-----------------+
    a b c d e f g h
-1 90 2 90 3 95 4 135 5 155 6 195 4956160  +-----------------+
-8| R N . Q K B . R |
-7| P P P . . P P P |
+1 0 2 5 3 030 4 010 5 035 6 020 4968448  +-----------------+
+8| R . B Q K B N R |
+7| P P P P N P P P |
 6| . . . . . . . . |
-5| . . . P N . . . |
-4| . . . . . . . . |
-3| . . n . k . . B |
-2| p p p . p p p p |
-1| r . b q . b . r |
+5| . . . p . . . . |
+4| . . . . . p . . |
+3| . . . . . . . . |
+2| p p p . q . p p |
+1| r n b . k b n r |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -614,100 +613,98 @@ ok it did depth 5 and now we're doing move d2e3 with evaluation 300 number of no
 [32;1m[Board] [0mLoaded 11 move(s).
 [32;1m[Board] [0mHistory replayed, 30 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing c8 to h3.
-[32;1m[Board] [0m[5;1mBlack Bishop is taking White Knight.[0m
+[32;1m[Board] [0mBlack player is playing g6 to e7.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[7;1m [0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[30;1mk[0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mk[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[30;1mb[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mQ[0m| |[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m| |[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[7;1m [0m|[0;1mK[0m|[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
 +-abcdefgh-+
 |  black   |
-| rn qkb r | 8
-| ppp  ppp | 7
+| r bqkbnr | 8
+| ppppnppp | 7
 |          | 6
-|    pn    | 5
-|          | 4
-|   N K  b | 3
-| PPP PPPP | 2
-| R BQ B R | 1
+|    P     | 5
+|      P   | 4
+|          | 3
+| PPP Q PP | 2
+| RNB KBNR | 1
 |  white   |
 +-abcdefgh-+
-new one at 2 number of nodes 67 no of distinct states visited 67 no of quiescent nodes 84 time left 9.98309
-new one at 3 number of nodes 90 no of distinct states visited 91 no of quiescent nodes 808 time left 9.94824
-new one at 4 number of nodes 2695 no of distinct states visited 2307 no of quiescent nodes 1424 time left 9.39186
-new one at 5 number of nodes 4481 no of distinct states visited 4198 no of quiescent nodes 34496 time left 7.58569
-new one at 6 number of nodes 46161 no of distinct states visited 41340 no of quiescent nodes 3997 time left 0.999908
-ok it did depth 5 and now we're doing move g2h3 with evaluation -515 number of nodes examined is 4481
+new one at 2 number of nodes 89 no of distinct states visited 89 no of quiescent nodes 4 time left 9.98538
+new one at 3 number of nodes 94 no of distinct states visited 94 no of quiescent nodes 1565 time left 9.94386
+new one at 4 number of nodes 3375 no of distinct states visited 2930 no of quiescent nodes 1141 time left 9.28971
+new one at 5 number of nodes 4088 no of distinct states visited 4058 no of quiescent nodes 76675 time left 7.10468
+new one at 6 number of nodes 36871 no of distinct states visited 31403 no of quiescent nodes 8412 time left 0.999903
+ok it did depth 5 and now we're doing move e1d2 with evaluation 300 number of nodes examined is 4088
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 12 move(s).
-[32;1m[Board] [0mHistory replayed, 29 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 30 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing g2 to h3.
-[32;1m[Board] [0m[5;1mWhite Pawn is taking Black Bishop.[0m
+[32;1m[Board] [0mWhite player is playing e1 to d2.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[7;1m [0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[30;1mk[0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mk[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mK[0m|[0;1mQ[0m| |[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m| |[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[7;1m [0m| |[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R N . Q K B . R |
-7| P P P . . P P P |
+8| R . B Q K B N R |
+7| P P P P N P P P |
 6| . . . . . . . . |
-5| . . . P N . . . |
-4| . . . . . . . . |
-3| . . n . k . . p |
-2| p p p . p p . p |
-1| r . b q . b . r |
+5| . . . p . . . . |
+4| . . . . . p . . |
+3| . . . . . . . . |
+2| p p p k q . p p |
+1| r n b . . b n r |
  +-----------------+
    a b c d e f g h
-1 65 :( 2 135 3 155 :( 4 615 5 620 6 625 2371584  +-----------------+
-8| R N . . K B . R |
-7| P P P . . P P P |
-6| . . . . . . . . |
-5| . . . P N . Q . |
-4| . . . . . . . . |
-3| . . n . k . . p |
-2| p p p . p p . p |
-1| r . b q . b . r |
+1 55 :( 2 5 3 25 4 015 5 05 6 020 7 0 4861952  +-----------------+
+8| R . B Q K B . R |
+7| P P P P N P P P |
+6| . . . . . N . . |
+5| . . . p . . . . |
+4| . . . . . p . . |
+3| . . . . . . . . |
+2| p p p k q . p p |
+1| r n b . . b n r |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -716,100 +713,100 @@ ok it did depth 5 and now we're doing move g2h3 with evaluation -515 number of n
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 13 move(s).
-[32;1m[Board] [0mHistory replayed, 28 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 30 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing d8 to g5.
+[32;1m[Board] [0mBlack player is playing g8 to f6.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[7;1m [0m| |[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mk[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m|[0;1mp[0m|[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mK[0m|[0;1mQ[0m| |[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m| |[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[0;1mk[0m|[0;1mb[0m|[7;1m [0m| |[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
 +-abcdefgh-+
 |  black   |
-| rn  kb r | 8
-| ppp  ppp | 7
-|          | 6
-|    pn q  | 5
-|          | 4
-|   N K  P | 3
-| PPP PP P | 2
-| R BQ B R | 1
+| r bqkb r | 8
+| ppppnppp | 7
+|      n   | 6
+|    P     | 5
+|      P   | 4
+|          | 3
+| PPPKQ PP | 2
+| RNB  BNR | 1
 |  white   |
 +-abcdefgh-+
-new one at 2 number of nodes 49 no of distinct states visited 49 no of quiescent nodes 6 time left 9.9937
-new one at 3 number of nodes 63 no of distinct states visited 63 no of quiescent nodes 363 time left 9.96949
-new one at 4 number of nodes 2567 no of distinct states visited 2370 no of quiescent nodes 258 time left 9.61863
-new one at 5 number of nodes 3667 no of distinct states visited 3654 no of quiescent nodes 10639 time left 8.43765
-new one at 6 number of nodes 59249 no of distinct states visited 45303 no of quiescent nodes 3315 time left 0.999935
-ok it did depth 5 and now we're doing move f2f4 with evaluation -1000 number of nodes examined is 3667
+new one at 2 number of nodes 108 no of distinct states visited 108 no of quiescent nodes 8 time left 9.98287
+new one at 3 number of nodes 132 no of distinct states visited 134 no of quiescent nodes 3196 time left 9.85641
+new one at 4 number of nodes 3513 no of distinct states visited 3133 no of quiescent nodes 2869 time left 9.14505
+new one at 5 number of nodes 4785 no of distinct states visited 5126 no of quiescent nodes 71019 time left 6.85898
+new one at 6 number of nodes 38083 no of distinct states visited 33590 no of quiescent nodes 8343 time left 0.999799
+ok it did depth 5 and now we're doing move b1c3 with evaluation 280 number of nodes examined is 4785
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 14 move(s).
-[32;1m[Board] [0mHistory replayed, 28 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 30 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing f2 to f4.
+[32;1m[Board] [0mWhite player is playing b1 to c3.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[7;1m [0m| |[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mk[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mK[0m|[0;1mQ[0m| |[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m| |[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R N . . K B . R |
-7| P P P . . P P P |
-6| . . . . . . . . |
-5| . . . P N . Q . |
+8| R . B Q K B . R |
+7| P P P P N P P P |
+6| . . . . . N . . |
+5| . . . p . . . . |
 4| . . . . . p . . |
-3| . . n . k . . p |
-2| p p p . p . . p |
-1| r . b q . b . r |
+3| . . n . . . . . |
+2| p p p k q . p p |
+1| r . b . . b n r |
  +-----------------+
    a b c d e f g h
-1 155 2 155 :( 3 615 4 620 5 625 6 660 7 700 8 740 2936832  +-----------------+
-8| R N . . K . . R |
-7| P P P . . P P P |
-6| . . . . . . . . |
-5| . . B P N . Q . |
+1 25 :( 2 020 3 05 4 020 5 0 6 010 7 05 5570560  +-----------------+
+8| R . B Q K B . R |
+7| . P P P N P P P |
+6| P . . . . N . . |
+5| . . . p . . . . |
 4| . . . . . p . . |
-3| . . n . k . . p |
-2| p p p . p . . p |
-1| r . b q . b . r |
+3| . . n . . . . . |
+2| p p p k q . p p |
+1| r . b . . b n r |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -818,100 +815,99 @@ ok it did depth 5 and now we're doing move f2f4 with evaluation -1000 number of 
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 15 move(s).
-[32;1m[Board] [0mHistory replayed, 28 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 30 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing f8 to c5.
+[32;1m[Board] [0mBlack player is playing a7 to a6.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[7;1m [0m| |[30;1mK[0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 || |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mk[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mb[0m|[30;1mp[0m|[30;1mk[0m|[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mK[0m|[0;1mQ[0m| |[0;1mp[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m| |[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
 +-abcdefgh-+
 |  black   |
-| rn  k  r | 8
-| ppp  ppp | 7
-|          | 6
-|   bpn q  | 5
+| r bqkb r | 8
+|  pppnppp | 7
+| p    n   | 6
+|    P     | 5
 |      P   | 4
-|   N K  P | 3
-| PPP P  P | 2
-| R BQ B R | 1
+|   N      | 3
+| PPPKQ PP | 2
+| R B  BNR | 1
 |  white   |
 +-abcdefgh-+
-new one at 2 number of nodes 53 no of distinct states visited 53 no of quiescent nodes 9 time left 9.99378
-new one at 3 number of nodes 56 no of distinct states visited 56 no of quiescent nodes 304 time left 9.97401
-new one at 4 number of nodes 2306 no of distinct states visited 1970 no of quiescent nodes 98 time left 9.72549
-new one at 5 number of nodes 4356 no of distinct states visited 3694 no of quiescent nodes 12918 time left 8.40993
-new one at 6 number of nodes 78379 no of distinct states visited 56481 no of quiescent nodes 4614 time left 0.999888
-ok it did depth 5 and now we're doing move d1d4 with evaluation -5185 number of nodes examined is 4356
+new one at 2 number of nodes 109 no of distinct states visited 109 no of quiescent nodes 26 time left 9.98169
+new one at 3 number of nodes 126 no of distinct states visited 128 no of quiescent nodes 4845 time left 9.83542
+new one at 4 number of nodes 4881 no of distinct states visited 4261 no of quiescent nodes 8592 time left 8.71361
+new one at 5 number of nodes 7559 no of distinct states visited 7992 no of quiescent nodes 213315 time left 0.999682
+ok it did depth 4 and now we're doing move g2g3 with evaluation 340 number of nodes examined is 4881
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 16 move(s).
-[32;1m[Board] [0mHistory replayed, 28 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 30 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing d1 to d4.
+[32;1m[Board] [0mWhite player is playing g2 to g3.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[7;1m [0m| |[30;1mK[0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 || |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mk[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mb[0m|[30;1mp[0m|[30;1mk[0m|[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mQ[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mK[0m|[0;1mQ[0m| |[7;1m [0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R N . . K . . R |
-7| P P P . . P P P |
-6| . . . . . . . . |
-5| . . B P N . Q . |
-4| . . . q . p . . |
-3| . . n . k . . p |
-2| p p p . p . . p |
-1| r . b . . b . r |
+8| R . B Q K B . R |
+7| . P P P N P P P |
+6| P . . . . N . . |
+5| . . . p . . . . |
+4| . . . . . p . . |
+3| . . n . . . p . |
+2| p p p k q . . p |
+1| r . b . . b n r |
  +-----------------+
    a b c d e f g h
-1 645 2 615 3 620 4 625 5 660 6 700 7 740 4005888  +-----------------+
-8| R N . . K . . R |
-7| P P P . . P P P |
-6| . . . . . . . . |
-5| . . . P N . Q . |
-4| . . . B . p . . |
-3| . . n . k . . p |
-2| p p p . p . . p |
-1| r . b . . b . r |
+1 40 :( 2 05 3 10 4 10 5 30 6 20 7 25 4554752  +-----------------+
+8| R . B Q K B . R |
+7| . . P P N P P P |
+6| P . . . . N . . |
+5| . P . p . . . . |
+4| . . . . . p . . |
+3| . . n . . . p . |
+2| p p p k q . . p |
+1| r . b . . b n r |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -920,103 +916,100 @@ ok it did depth 5 and now we're doing move d1d4 with evaluation -5185 number of 
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 17 move(s).
-[32;1m[Board] [0mHistory replayed, 28 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 30 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing c5 to d4.
-[32;1m[Board] [0m[5;1mBlack Bishop is taking White Queen.[0m
+[32;1m[Board] [0mBlack player is playing b7 to b5.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[7;1m [0m| |[30;1mK[0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|[30;1mk[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[30;1mp[0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[30;1mb[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mK[0m|[0;1mQ[0m| |[7;1m [0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mb[0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
 +-abcdefgh-+
 |  black   |
-| rn  k  r | 8
-| ppp  ppp | 7
-|          | 6
-|    pn q  | 5
-|    b P   | 4
-|   N K  P | 3
-| PPP P  P | 2
-| R B  B R | 1
+| r bqkb r | 8
+|   ppnppp | 7
+| p    n   | 6
+|  p P     | 5
+|      P   | 4
+|   N   P  | 3
+| PPPKQ  P | 2
+| R B  BNR | 1
 |  white   |
 +-abcdefgh-+
-new one at 2 number of nodes 44 no of distinct states visited 44 no of quiescent nodes 3 time left 9.9949
-new one at 3 number of nodes 46 no of distinct states visited 47 no of quiescent nodes 207 time left 9.9806
-new one at 4 number of nodes 1590 no of distinct states visited 1428 no of quiescent nodes 109 time left 9.79804
-new one at 5 number of nodes 1739 no of distinct states visited 1647 no of quiescent nodes 5172 time left 9.30559
-new one at 6 number of nodes 50253 no of distinct states visited 35467 no of quiescent nodes 2800 time left 3.60483
-new one at 7 number of nodes 10132 no of distinct states visited 37551 no of quiescent nodes 29691 time left 0.999862
-ok it did depth 6 and now we're doing move e3d4 with evaluation -5725 number of nodes examined is 50253
+new one at 2 number of nodes 126 no of distinct states visited 126 no of quiescent nodes 42 time left 9.97897
+new one at 3 number of nodes 171 no of distinct states visited 177 no of quiescent nodes 7478 time left 9.73735
+new one at 4 number of nodes 4432 no of distinct states visited 3808 no of quiescent nodes 9523 time left 8.70094
+new one at 5 number of nodes 7170 no of distinct states visited 7525 no of quiescent nodes 198557 time left 2.55311
+new one at 6 number of nodes 8511 no of distinct states visited 14812 no of quiescent nodes 6758 time left 0.999941
+ok it did depth 5 and now we're doing move f1g2 with evaluation 305 number of nodes examined is 7170
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 18 move(s).
-[32;1m[Board] [0mHistory replayed, 27 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 30 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing e3 to d4.
-[32;1m[Board] [0m[5;1mWhite King is taking Black Bishop.[0m
+[32;1m[Board] [0mWhite player is playing f1 to g2.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m|[30;1mk[0m|[7;1m [0m| |[30;1mK[0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|[30;1mk[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[30;1mp[0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mK[0m|[0;1mQ[0m| |[0;1mb[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R N . . K . . R |
-7| P P P . . P P P |
-6| . . . . . . . . |
-5| . . . P N . Q . |
-4| . . . k . p . . |
-3| . . n . . . . p |
-2| p p p . p . . p |
-1| r . b . . b . r |
+8| R . B Q K B . R |
+7| . . P P N P P P |
+6| P . . . . N . . |
+5| . P . p . . . . |
+4| . . . . . p . . |
+3| . . n . . . p . |
+2| p p p k q . b p |
+1| r . b . . . n r |
  +-----------------+
    a b c d e f g h
-1 615 2 620 3 625 4 660 5 700 6 740 3239936  +-----------------+
-8| R . . . K . . R |
-7| P P P . . P P P |
-6| . . N . . . . . |
-5| . . . P N . Q . |
-4| . . . k . p . . |
-3| . . n . . . . p |
-2| p p p . p . . p |
-1| r . b . . b . r |
+1 15 2 40 3 60 4 20 5 30 6 20 5726208  +-----------------+
+8| R . B Q K B . R |
+7| . . P P N P P P |
+6| P . . . . N . . |
+5| . . . p . . . . |
+4| . P . . . p . . |
+3| . . n . . . p . |
+2| p p p k q . b p |
+1| r . b . . . n r |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -1025,101 +1018,100 @@ ok it did depth 6 and now we're doing move e3d4 with evaluation -5725 number of 
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 19 move(s).
-[32;1m[Board] [0mHistory replayed, 26 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 30 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing b8 to c6.
+[32;1m[Board] [0mBlack player is playing b5 to b4.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[30;1mK[0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|[30;1mk[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m|[30;1mk[0m|[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mK[0m|[0;1mQ[0m| |[0;1mb[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
 +-abcdefgh-+
 |  black   |
-| r   k  r | 8
-| ppp  ppp | 7
-|   n      | 6
-|    pn q  | 5
-|    K P   | 4
-|   N    P | 3
-| PPP P  P | 2
-| R B  B R | 1
+| r bqkb r | 8
+|   ppnppp | 7
+| p    n   | 6
+|    P     | 5
+|  p   P   | 4
+|   N   P  | 3
+| PPPKQ BP | 2
+| R B   NR | 1
 |  white   |
 +-abcdefgh-+
-new one at 2 number of nodes 50 no of distinct states visited 50 no of quiescent nodes 2 time left 9.99386
-new one at 3 number of nodes 98 no of distinct states visited 98 no of quiescent nodes 416 time left 9.96458
-new one at 4 number of nodes 3813 no of distinct states visited 3356 no of quiescent nodes 267 time left 9.52357
-new one at 5 number of nodes 3645 no of distinct states visited 4738 no of quiescent nodes 12980 time left 8.45967
-new one at 6 number of nodes 78162 no of distinct states visited 62296 no of quiescent nodes 4250 time left 0.999895
-ok it did depth 5 and now we're doing move d4d5 with evaluation -5150 number of nodes examined is 3645
+new one at 2 number of nodes 101 no of distinct states visited 101 no of quiescent nodes 154 time left 9.97804
+new one at 3 number of nodes 163 no of distinct states visited 164 no of quiescent nodes 1874 time left 9.88114
+new one at 4 number of nodes 2946 no of distinct states visited 2589 no of quiescent nodes 2095 time left 9.33082
+new one at 5 number of nodes 5828 no of distinct states visited 5646 no of quiescent nodes 62234 time left 5.92765
+new one at 6 number of nodes 31190 no of distinct states visited 28463 no of quiescent nodes 12118 time left 0.9999
+ok it did depth 5 and now we're doing move d5d6 with evaluation 330 number of nodes examined is 5828
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 20 move(s).
-[32;1m[Board] [0mHistory replayed, 26 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 30 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing d4 to d5.
-[32;1m[Board] [0m[5;1mWhite King is taking Black Pawn.[0m
+[32;1m[Board] [0mWhite player is playing d5 to d6.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[30;1mr[0m| |[7;1m [0m| |[30;1mK[0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|[30;1mk[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[0;1mK[0m|[30;1mk[0m|[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mK[0m|[0;1mQ[0m| |[0;1mb[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| R . . . K . . R |
-7| P P P . . P P P |
-6| . . N . . . . . |
-5| . . . k N . Q . |
-4| . . . . . p . . |
-3| . . n . . . . p |
-2| p p p . p . . p |
-1| r . b . . b . r |
+8| R . B Q K B . R |
+7| . . P P N P P P |
+6| P . . p . N . . |
+5| . . . . . . . . |
+4| . P . . . p . . |
+3| . . n . . . p . |
+2| p p p k q . b p |
+1| r . b . . . n r |
  +-----------------+
    a b c d e f g h
-1 590 2 590 :( 3 2147483493 4 2147483493 5 2147483493 6 2147483493 2543616  +-----------------+
-8| . . K R . . . R |
-7| P P P . . P P P |
-6| . . N . . . . . |
-5| . . . k N . Q . |
+1 240 2 200 :( 3 55 4 55 5 15 6 45 7 25 4198400  +-----------------+
+8| R . B Q K B . R |
+7| . . P P N P P P |
+6| P . . p . N . . |
+5| . . . . . . . . |
 4| . . . . . p . . |
-3| . . n . . . . p |
-2| p p p . p . . p |
-1| r . b . . b . r |
+3| . . P . . . p . |
+2| p p p k q . b p |
+1| r . b . . . n r |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -1128,101 +1120,103 @@ ok it did depth 5 and now we're doing move d4d5 with evaluation -5150 number of 
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 21 move(s).
-[32;1m[Board] [0mHistory replayed, 25 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 30 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing e8 to c8.
-[32;1m[Board] [0mBlack player is castling queenside...
+[32;1m[Board] [0mBlack player is playing b4 to c3.
+[32;1m[Board] [0m[5;1mBlack Pawn is taking White Knight.[0m
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[7;1m [0m| |[30;1mK[0m|[30;1mr[0m|[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|[30;1mk[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m| |[0;1mK[0m|[30;1mk[0m|[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mK[0m|[0;1mQ[0m| |[0;1mb[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
 +-abcdefgh-+
 |  black   |
-|   kr   r | 8
-| ppp  ppp | 7
-|   n      | 6
-|    Kn q  | 5
+| r bqkb r | 8
+|   ppnppp | 7
+| p  P n   | 6
+|          | 5
 |      P   | 4
-|   N    P | 3
-| PPP P  P | 2
-| R B  B R | 1
+|   p   P  | 3
+| PPPKQ BP | 2
+| R B   NR | 1
 |  white   |
 +-abcdefgh-+
-new one at 2 number of nodes 50 no of distinct states visited 50 no of quiescent nodes 1 time left 9.99441
-new one at 3 number of nodes 97 no of distinct states visited 97 no of quiescent nodes 426 time left 9.9666
-new one at 4 number of nodes 4317 no of distinct states visited 3721 no of quiescent nodes 187 time left 9.50293
-new one at 5 number of nodes 4126 no of distinct states visited 4355 no of quiescent nodes 14564 time left 8.39353
-new one at 6 number of nodes 92316 no of distinct states visited 65440 no of quiescent nodes 6016 time left 0.999908
-ok it did depth 5 and now we're doing move d5c5 with evaluation -999996 number of nodes examined is 4126
+new one at 2 number of nodes 28 no of distinct states visited 28 no of quiescent nodes 4 time left 9.99535
+new one at 3 number of nodes 29 no of distinct states visited 29 no of quiescent nodes 370 time left 9.98149
+new one at 4 number of nodes 855 no of distinct states visited 819 no of quiescent nodes 228 time left 9.83124
+new one at 5 number of nodes 923 no of distinct states visited 895 no of quiescent nodes 12023 time left 9.40689
+new one at 6 number of nodes 31483 no of distinct states visited 24679 no of quiescent nodes 24189 time left 2.81049
+new one at 7 number of nodes 4927 no of distinct states visited 26145 no of quiescent nodes 56796 time left 0.99977
+ok it did depth 6 and now we're doing move d2c3 with evaluation 130 number of nodes examined is 31483
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 22 move(s).
-[32;1m[Board] [0mHistory replayed, 25 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 29 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing d5 to c5.
+[32;1m[Board] [0mWhite player is playing d2 to c3.
+[32;1m[Board] [0m[5;1mWhite King is taking Black Pawn.[0m
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[7;1m [0m| |[30;1mK[0m|[30;1mr[0m|[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[30;1mr[0m| |[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|[30;1mk[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m|[0;1mK[0m|[7;1m [0m|[30;1mk[0m|[7;1m [0m|[30;1mQ[0m|[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mQ[0m| |[0;1mb[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| . . K R . . . R |
-7| P P P . . P P P |
-6| . . N . . . . . |
-5| . . k . N . Q . |
+8| R . B Q K B . R |
+7| . . P P N P P P |
+6| P . . p . N . . |
+5| . . . . . . . . |
 4| . . . . . p . . |
-3| . . n . . . . p |
-2| p p p . p . . p |
-1| r . b . . b . r |
+3| . . k . . . p . |
+2| p p p . q . b p |
+1| r . b . . . n r |
  +-----------------+
    a b c d e f g h
-1 590 :( 2 2147483495 3 2147483495 4 2147483495 5 2147483495 6 2147483495 1835008  +-----------------+
-8| . . K R . . . R |
-7| P P P . Q P P P |
-6| . . N . . . . . |
-5| . . k . N . . . |
+1 55 2 55 3 55 4 15 5 45 6 25 7 55 4173824  +-----------------+
+8| . R B Q K B . R |
+7| . . P P N P P P |
+6| P . . p . N . . |
+5| . . . . . . . . |
 4| . . . . . p . . |
-3| . . n . . . . p |
-2| p p p . p . . p |
-1| r . b . . b . r |
+3| . . k . . . p . |
+2| p p p . q . b p |
+1| r . b . . . n r |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -1231,101 +1225,101 @@ ok it did depth 5 and now we're doing move d5c5 with evaluation -999996 number o
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 23 move(s).
-[32;1m[Board] [0mHistory replayed, 25 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 28 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing g5 to e7.
+[32;1m[Board] [0mBlack player is playing a8 to b8.
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[7;1m [0m| |[30;1mK[0m|[30;1mr[0m|[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|[30;1mk[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[7;1m [0m|[0;1mK[0m|[7;1m [0m|[30;1mk[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mQ[0m| |[0;1mb[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the White player...
 +-abcdefgh-+
 |  black   |
-|   kr   r | 8
-| ppp qppp | 7
-|   n      | 6
-|   K n    | 5
+|  rbqkb r | 8
+|   ppnppp | 7
+| p  P n   | 6
+|          | 5
 |      P   | 4
-|   N    P | 3
-| PPP P  P | 2
-| R B  B R | 1
+|   K   P  | 3
+| PPP Q BP | 2
+| R B   NR | 1
 |  white   |
 +-abcdefgh-+
-new one at 2 number of nodes 47 no of distinct states visited 47 no of quiescent nodes 0 time left 9.99507
-new one at 3 number of nodes 47 no of distinct states visited 47 no of quiescent nodes 159 time left 9.98232
-new one at 4 number of nodes 2303 no of distinct states visited 2097 no of quiescent nodes 105 time left 9.73036
-new one at 5 number of nodes 2331 no of distinct states visited 2188 no of quiescent nodes 7644 time left 9.09785
-new one at 6 number of nodes 87640 no of distinct states visited 63520 no of quiescent nodes 5428 time left 1.87836
-new one at 7 number of nodes 4760 no of distinct states visited 64397 no of quiescent nodes 22408 time left 0.99992
-ok it did depth 6 and now we're doing move c5b5 with evaluation -999998 number of nodes examined is 87640
+new one at 2 number of nodes 67 no of distinct states visited 67 no of quiescent nodes 243 time left 9.979
+new one at 3 number of nodes 118 no of distinct states visited 118 no of quiescent nodes 2066 time left 9.92798
+new one at 4 number of nodes 3816 no of distinct states visited 2851 no of quiescent nodes 2288 time left 9.15697
+new one at 5 number of nodes 4712 no of distinct states visited 4057 no of quiescent nodes 77185 time left 7.22259
+new one at 6 number of nodes 35238 no of distinct states visited 30769 no of quiescent nodes 24492 time left 0.999887
+ok it did depth 5 and now we're doing move d6e7 with evaluation 180 number of nodes examined is 4712
 [32;1m[Game] [0mPlayer's error code: 0
 [32;1m[Game] [0mChecking move validity...
 [32;1m[Board] [0mInitializing board (size: 8)...
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 24 move(s).
-[32;1m[Board] [0mHistory replayed, 25 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 28 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
-[32;1m[Board] [0mWhite player is playing c5 to b5.
+[32;1m[Board] [0mWhite player is playing d6 to e7.
+[32;1m[Board] [0m[5;1mWhite Pawn is taking Black Knight.[0m
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[7;1m [0m| |[30;1mK[0m|[30;1mr[0m|[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m|[30;1mb[0m|[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|[0;1mp[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[0;1mK[0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mQ[0m| |[0;1mb[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[0;1mr[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
 [32;1m[Referee] [0mThis is the turn of the Black player...
  +-----------------+
-8| . . K R . . . R |
-7| P P P . Q P P P |
-6| . . N . . . . . |
-5| . k . . N . . . |
+8| . R B Q K B . R |
+7| . . P P p P P P |
+6| P . . . . N . . |
+5| . . . . . . . . |
 4| . . . . . p . . |
-3| . . n . . . . p |
-2| p p p . p . . p |
-1| r . b . . b . r |
+3| . . k . . . p . |
+2| p p p . q . b p |
+1| r . b . . . n r |
  +-----------------+
    a b c d e f g h
-1 2147483497 2 2147483497 3 2147483497 4 2147483497 5 2147483497 6 2147483497 7 2147483497 3276800  +-----------------+
-8| . . K R . . . R |
-7| P P P . . P P P |
-6| . . N . . . . . |
-5| . k . . N . . . |
-4| . Q . . . p . . |
-3| . . n . . . . p |
-2| p p p . p . . p |
-1| r . b . . b . r |
+1 55 :( 2 10 3 45 4 25 5 55 6 45 7 50 4780032  +-----------------+
+8| . R B Q K . . R |
+7| . . P P B P P P |
+6| P . . . . N . . |
+5| . . . . . . . . |
+4| . . . . . p . . |
+3| . . k . . . p . |
+2| p p p . q . b p |
+1| r . b . . . n r |
  +-----------------+
    a b c d e f g h
 [32;1m[Game] [0mPlayer's error code: 0
@@ -1334,27 +1328,1667 @@ ok it did depth 6 and now we're doing move c5b5 with evaluation -999998 number o
 [32;1m[Board] [0m32 piece(s) on board.
 [32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
 [32;1m[Board] [0mLoaded 25 move(s).
-[32;1m[Board] [0mHistory replayed, 25 piece(s) on board.
+[32;1m[Board] [0mHistory replayed, 27 piece(s) on board.
 [32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
-[32;1m[Board] [0mBlack player is playing e7 to b4.
+[32;1m[Board] [0mBlack player is playing f8 to e7.
+[32;1m[Board] [0m[5;1mBlack Bishop is taking White Pawn.[0m
 [32;1m[Board] [0m
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 8 ||[7;1m [0m| |[30;1mK[0m|[30;1mr[0m|[7;1m [0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m| |[7;1m [0m|[30;1mr[0m|| 8
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 7 ||[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 6 ||[7;1m [0m| |[30;1mk[0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 5 || |[0;1mK[0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mQ[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m| |[0;1mp[0m|| 3
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mp[0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mQ[0m| |[0;1mb[0m|[0;1mp[0m|| 2
 [32;1m[Board] [0m   -------------------
-[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[0;1mb[0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
++-abcdefgh-+
+|  black   |
+|  rbqk  r | 8
+|   ppbppp | 7
+| p    n   | 6
+|          | 5
+|      P   | 4
+|   K   P  | 3
+| PPP Q BP | 2
+| R B   NR | 1
+|  white   |
++-abcdefgh-+
+new one at 2 number of nodes 112 no of distinct states visited 112 no of quiescent nodes 7 time left 9.979
+new one at 3 number of nodes 121 no of distinct states visited 121 no of quiescent nodes 2132 time left 9.91823
+new one at 4 number of nodes 7161 no of distinct states visited 5838 no of quiescent nodes 2075 time left 8.54206
+new one at 5 number of nodes 7138 no of distinct states visited 8055 no of quiescent nodes 98316 time left 5.13344
+new one at 6 number of nodes 23549 no of distinct states visited 27323 no of quiescent nodes 5245 time left 0.999891
+ok it did depth 5 and now we're doing move g1f3 with evaluation 105 number of nodes examined is 7138
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 26 move(s).
+[32;1m[Board] [0mHistory replayed, 26 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
+[32;1m[Board] [0mWhite player is playing g1 to f3.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[30;1mb[0m|[30;1mQ[0m|[30;1mK[0m| |[7;1m [0m|[30;1mr[0m|| 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mk[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mQ[0m| |[0;1mb[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+ +-----------------+
+8| . R B Q K . . R |
+7| . . P P B P P P |
+6| P . . . . N . . |
+5| . . . . . . . . |
+4| . . . . . p . . |
+3| . . k . . n p . |
+2| p p p . q . b p |
+1| r . b . . . . r |
+ +-----------------+
+   a b c d e f g h
+1 45 2 25 3 55 4 45 5 50 6 55 7540736  +-----------------+
+8| . R B Q . R K . |
+7| . . P P B P P P |
+6| P . . . . N . . |
+5| . . . . . . . . |
+4| . . . . . p . . |
+3| . . k . . n p . |
+2| p p p . q . b p |
+1| r . b . . . . r |
+ +-----------------+
+   a b c d e f g h
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 27 move(s).
+[32;1m[Board] [0mHistory replayed, 26 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
+[32;1m[Board] [0mBlack player is playing e8 to g8.
+[32;1m[Board] [0mBlack player is castling kingside...
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mk[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[0;1mQ[0m| |[0;1mb[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
++-abcdefgh-+
+|  black   |
+|  rbq rk  | 8
+|   ppbppp | 7
+| p    n   | 6
+|          | 5
+|      P   | 4
+|   K  NP  | 3
+| PPP Q BP | 2
+| R B    R | 1
+|  white   |
++-abcdefgh-+
+new one at 2 number of nodes 134 no of distinct states visited 134 no of quiescent nodes 7 time left 9.97581
+new one at 3 number of nodes 152 no of distinct states visited 152 no of quiescent nodes 2435 time left 9.89879
+new one at 4 number of nodes 9211 no of distinct states visited 7342 no of quiescent nodes 1391 time left 8.27829
+new one at 5 number of nodes 13073 no of distinct states visited 14777 no of quiescent nodes 173380 time left 0.99987
+ok it did depth 4 and now we're doing move e2d1 with evaluation 20 number of nodes examined is 9211
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 28 move(s).
+[32;1m[Board] [0mHistory replayed, 26 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
+[32;1m[Board] [0mWhite player is playing e2 to d1.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|[30;1mk[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mk[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mb[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+ +-----------------+
+8| . R B Q . R K . |
+7| . . P P B P P P |
+6| P . . . . N . . |
+5| . . . . . . . . |
+4| . . . . . p . . |
+3| . . k . . n p . |
+2| p p p . . . b p |
+1| r . b q . . . r |
+ +-----------------+
+   a b c d e f g h
+1 80 2 85 :( 3 235 4 245 5 245 6 285 7 265 8 305 4108288  +-----------------+
+8| . R B Q . R K . |
+7| . . P P B P P P |
+6| P . . . . . . . |
+5| . . . . . . . . |
+4| . . . . N p . . |
+3| . . k . . n p . |
+2| p p p . . . b p |
+1| r . b q . . . r |
+ +-----------------+
+   a b c d e f g h
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 29 move(s).
+[32;1m[Board] [0mHistory replayed, 26 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
+[32;1m[Board] [0mBlack player is playing f6 to e4.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[30;1mk[0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[0;1mk[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mb[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
++-abcdefgh-+
+|  black   |
+|  rbq rk  | 8
+|   ppbppp | 7
+| p        | 6
+|          | 5
+|     nP   | 4
+|   K  NP  | 3
+| PPP   BP | 2
+| R BQ   R | 1
+|  white   |
++-abcdefgh-+
+new one at 2 number of nodes 41 no of distinct states visited 41 no of quiescent nodes 7 time left 9.99392
+new one at 3 number of nodes 79 no of distinct states visited 80 no of quiescent nodes 792 time left 9.94915
+new one at 4 number of nodes 3232 no of distinct states visited 2962 no of quiescent nodes 610 time left 9.46308
+new one at 5 number of nodes 5660 no of distinct states visited 5621 no of quiescent nodes 50097 time left 6.54246
+new one at 6 number of nodes 39587 no of distinct states visited 34473 no of quiescent nodes 7504 time left 0.999935
+ok it did depth 5 and now we're doing move c3d4 with evaluation -790 number of nodes examined is 5660
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 30 move(s).
+[32;1m[Board] [0mHistory replayed, 26 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
+[32;1m[Board] [0mWhite player is playing c3 to d4.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[30;1mk[0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[0;1mk[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mb[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+ +-----------------+
+8| . R B Q . R K . |
+7| . . P P B P P P |
+6| P . . . . . . . |
+5| . . . . . . . . |
+4| . . . k N p . . |
+3| . . . . . n p . |
+2| p p p . . . b p |
+1| r . b q . . . r |
+ +-----------------+
+   a b c d e f g h
+1 110 2 150 3 190 :( 4 245 5 285 6 265 7 305 3518464  +-----------------+
+8| . R B Q . R K . |
+7| . . P P B P P P |
+6| P . . . . . . . |
+5| . . . . . . . . |
+4| . . . k . p . . |
+3| . . . . . n p . |
+2| p p p . . N b p |
+1| r . b q . . . r |
+ +-----------------+
+   a b c d e f g h
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 31 move(s).
+[32;1m[Board] [0mHistory replayed, 26 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
+[32;1m[Board] [0mBlack player is playing e4 to f2.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[0;1mk[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[30;1mk[0m|[0;1mb[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[0;1mQ[0m| |[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
++-abcdefgh-+
+|  black   |
+|  rbq rk  | 8
+|   ppbppp | 7
+| p        | 6
+|          | 5
+|    K P   | 4
+|      NP  | 3
+| PPP  nBP | 2
+| R BQ   R | 1
+|  white   |
++-abcdefgh-+
+new one at 2 number of nodes 167 no of distinct states visited 167 no of quiescent nodes 114 time left 9.96887
+new one at 3 number of nodes 208 no of distinct states visited 208 no of quiescent nodes 2590 time left 9.85836
+new one at 4 number of nodes 7130 no of distinct states visited 5811 no of quiescent nodes 1627 time left 8.6529
+new one at 5 number of nodes 8247 no of distinct states visited 7650 no of quiescent nodes 82823 time left 4.81496
+new one at 6 number of nodes 27759 no of distinct states visited 27884 no of quiescent nodes 3694 time left 0.999887
+ok it did depth 5 and now we're doing move d1e1 with evaluation -1470 number of nodes examined is 8247
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 32 move(s).
+[32;1m[Board] [0mHistory replayed, 26 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
+[32;1m[Board] [0mWhite player is playing d1 to e1.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|[30;1mb[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[0;1mk[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[30;1mk[0m|[0;1mb[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mQ[0m|[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+ +-----------------+
+8| . R B Q . R K . |
+7| . . P P B P P P |
+6| P . . . . . . . |
+5| . . . . . . . . |
+4| . . . k . p . . |
+3| . . . . . n p . |
+2| p p p . . N b p |
+1| r . b . q . . r |
+ +-----------------+
+   a b c d e f g h
+1 245 2 245 3 285 4 265 5 305 6 335 3878912  +-----------------+
+8| . R B Q . R K . |
+7| . . P P . P P P |
+6| P . . . . B . . |
+5| . . . . . . . . |
+4| . . . k . p . . |
+3| . . . . . n p . |
+2| p p p . . N b p |
+1| r . b . q . . r |
+ +-----------------+
+   a b c d e f g h
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 33 move(s).
+[32;1m[Board] [0mHistory replayed, 26 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
+[32;1m[Board] [0mBlack player is playing e7 to f6.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|[30;1mb[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[0;1mk[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[30;1mk[0m|[0;1mb[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mQ[0m|[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
++-abcdefgh-+
+|  black   |
+|  rbq rk  | 8
+|   pp ppp | 7
+| p    b   | 6
+|          | 5
+|    K P   | 4
+|      NP  | 3
+| PPP  nBP | 2
+| R B Q  R | 1
+|  white   |
++-abcdefgh-+
+new one at 2 number of nodes 35 no of distinct states visited 35 no of quiescent nodes 42 time left 9.99276
+new one at 3 number of nodes 43 no of distinct states visited 43 no of quiescent nodes 554 time left 9.9693
+new one at 4 number of nodes 1432 no of distinct states visited 1302 no of quiescent nodes 536 time left 9.72445
+new one at 5 number of nodes 3756 no of distinct states visited 3991 no of quiescent nodes 28454 time left 8.5493
+new one at 6 number of nodes 61943 no of distinct states visited 50104 no of quiescent nodes 23818 time left 0.99987
+ok it did depth 5 and now we're doing move d4e3 with evaluation -1780 number of nodes examined is 3756
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 34 move(s).
+[32;1m[Board] [0mHistory replayed, 26 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
+[32;1m[Board] [0mWhite player is playing d4 to e3.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|[30;1mb[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[0;1mk[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m|[30;1mk[0m|[0;1mb[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mQ[0m|[7;1m [0m| |[0;1mr[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+ +-----------------+
+8| . R B Q . R K . |
+7| . . P P . P P P |
+6| P . . . . B . . |
+5| . . . . . . . . |
+4| . . . . . p . . |
+3| . . . . k n p . |
+2| p p p . . N b p |
+1| r . b . q . . r |
+ +-----------------+
+   a b c d e f g h
+1 335 2 335 3 335 4 335 5 335 6 320 2670592  +-----------------+
+8| . R B Q . R K . |
+7| . . P P . P P P |
+6| P . . . . B . . |
+5| . . . . . . . . |
+4| . . . . . p . . |
+3| . . . . k n p . |
+2| p p p . . . b p |
+1| r . b . q . . N |
+ +-----------------+
+   a b c d e f g h
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 35 move(s).
+[32;1m[Board] [0mHistory replayed, 26 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
+[32;1m[Board] [0mBlack player is playing f2 to h1.
+[32;1m[Board] [0m[5;1mBlack Knight is taking White Rook.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|[30;1mb[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[0;1mk[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mb[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m|[0;1mQ[0m|[7;1m [0m| |[30;1mk[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
++-abcdefgh-+
+|  black   |
+|  rbq rk  | 8
+|   pp ppp | 7
+| p    b   | 6
+|          | 5
+|      P   | 4
+|     KNP  | 3
+| PPP   BP | 2
+| R B Q  n | 1
+|  white   |
++-abcdefgh-+
+new one at 2 number of nodes 93 no of distinct states visited 93 no of quiescent nodes 40 time left 9.98203
+new one at 3 number of nodes 101 no of distinct states visited 131 no of quiescent nodes 1490 time left 9.94287
+new one at 4 number of nodes 3187 no of distinct states visited 2698 no of quiescent nodes 1537 time left 9.27273
+new one at 5 number of nodes 1715 no of distinct states visited 3450 no of quiescent nodes 18171 time left 8.48779
+new one at 6 number of nodes 43956 no of distinct states visited 33604 no of quiescent nodes 15328 time left 0.99978
+ok it did depth 5 and now we're doing move e1h1 with evaluation -1770 number of nodes examined is 1715
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 36 move(s).
+[32;1m[Board] [0mHistory replayed, 25 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
+[32;1m[Board] [0mWhite player is playing e1 to h1.
+[32;1m[Board] [0m[5;1mWhite Queen is taking Black Knight.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[30;1mb[0m|[30;1mQ[0m|[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[30;1mp[0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|[30;1mb[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[0;1mk[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mb[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[0;1mQ[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+ +-----------------+
+8| . R B Q . R K . |
+7| . . P P . P P P |
+6| P . . . . B . . |
+5| . . . . . . . . |
+4| . . . . . p . . |
+3| . . . . k n p . |
+2| p p p . . . b p |
+1| r . b . . . . q |
+ +-----------------+
+   a b c d e f g h
+1 335 2 335 3 335 4 320 5 335 6 320 7 360 8 400 3538944  +-----------------+
+8| . R B . . R K . |
+7| . . P P Q P P P |
+6| P . . . . B . . |
+5| . . . . . . . . |
+4| . . . . . p . . |
+3| . . . . k n p . |
+2| p p p . . . b p |
+1| r . b . . . . q |
+ +-----------------+
+   a b c d e f g h
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 37 move(s).
+[32;1m[Board] [0mHistory replayed, 24 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
+[32;1m[Board] [0mBlack player is playing d8 to e7.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[30;1mb[0m| |[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|[30;1mb[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[0;1mk[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mb[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[0;1mQ[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
++-abcdefgh-+
+|  black   |
+|  rb  rk  | 8
+|   ppqppp | 7
+| p    b   | 6
+|          | 5
+|      P   | 4
+|     KNP  | 3
+| PPP   BP | 2
+| R B    Q | 1
+|  white   |
++-abcdefgh-+
+new one at 2 number of nodes 34 no of distinct states visited 34 no of quiescent nodes 23 time left 9.99441
+new one at 3 number of nodes 89 no of distinct states visited 89 no of quiescent nodes 1173 time left 9.94306
+new one at 4 number of nodes 3459 no of distinct states visited 3064 no of quiescent nodes 943 time left 9.46296
+new one at 5 number of nodes 4206 no of distinct states visited 4337 no of quiescent nodes 44729 time left 7.56703
+new one at 6 number of nodes 64127 no of distinct states visited 52262 no of quiescent nodes 15922 time left 0.999925
+ok it did depth 5 and now we're doing move e3d3 with evaluation -1710 number of nodes examined is 4206
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 38 move(s).
+[32;1m[Board] [0mHistory replayed, 24 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
+[32;1m[Board] [0mWhite player is playing e3 to d3.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[30;1mb[0m| |[7;1m [0m|[30;1mr[0m|[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|[30;1mb[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[0;1mK[0m| |[0;1mk[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mb[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[0;1mQ[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+ +-----------------+
+8| . R B . . R K . |
+7| . . P P Q P P P |
+6| P . . . . B . . |
+5| . . . . . . . . |
+4| . . . . . p . . |
+3| . . . k . n p . |
+2| p p p . . . b p |
+1| r . b . . . . q |
+ +-----------------+
+   a b c d e f g h
+1 340 2 340 3 340 4 325 5 365 6 405 2863104  +-----------------+
+8| . R B . R . K . |
+7| . . P P Q P P P |
+6| P . . . . B . . |
+5| . . . . . . . . |
+4| . . . . . p . . |
+3| . . . k . n p . |
+2| p p p . . . b p |
+1| r . b . . . . q |
+ +-----------------+
+   a b c d e f g h
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 39 move(s).
+[32;1m[Board] [0mHistory replayed, 24 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
+[32;1m[Board] [0mBlack player is playing f8 to e8.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[30;1mb[0m| |[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|[30;1mb[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[0;1mK[0m| |[0;1mk[0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mb[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[0;1mQ[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
++-abcdefgh-+
+|  black   |
+|  rb r k  | 8
+|   ppqppp | 7
+| p    b   | 6
+|          | 5
+|      P   | 4
+|    K NP  | 3
+| PPP   BP | 2
+| R B    Q | 1
+|  white   |
++-abcdefgh-+
+new one at 2 number of nodes 125 no of distinct states visited 125 no of quiescent nodes 26 time left 9.97874
+new one at 3 number of nodes 167 no of distinct states visited 186 no of quiescent nodes 2618 time left 9.88469
+new one at 4 number of nodes 11970 no of distinct states visited 10086 no of quiescent nodes 4380 time left 8.62368
+new one at 5 number of nodes 12577 no of distinct states visited 14834 no of quiescent nodes 150963 time left 3.79759
+new one at 6 number of nodes 29751 no of distinct states visited 39614 no of quiescent nodes 6770 time left 0.999925
+ok it did depth 5 and now we're doing move f3e5 with evaluation -2260 number of nodes examined is 12577
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 40 move(s).
+[32;1m[Board] [0mHistory replayed, 24 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
+[32;1m[Board] [0mWhite player is playing f3 to e5.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[30;1mb[0m| |[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[30;1mp[0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[7;1m [0m| |[7;1m [0m|[30;1mb[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mb[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[0;1mQ[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+ +-----------------+
+8| . R B . R . K . |
+7| . . P P Q P P P |
+6| P . . . . B . . |
+5| . . . . n . . . |
+4| . . . . . p . . |
+3| . . . k . . p . |
+2| p p p . . . b p |
+1| r . b . . . . q |
+ +-----------------+
+   a b c d e f g h
+1 340 2 340 :( 3 435 4 435 5 435 6 435 3825664  +-----------------+
+8| . R B . R . K . |
+7| . . P . Q P P P |
+6| P . . P . B . . |
+5| . . . . n . . . |
+4| . . . . . p . . |
+3| . . . k . . p . |
+2| p p p . . . b p |
+1| r . b . . . . q |
+ +-----------------+
+   a b c d e f g h
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 41 move(s).
+[32;1m[Board] [0mHistory replayed, 24 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
+[32;1m[Board] [0mBlack player is playing d7 to d6.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[30;1mb[0m| |[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mb[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[0;1mb[0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[0;1mQ[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
++-abcdefgh-+
+|  black   |
+|  rb r k  | 8
+|   p qppp | 7
+| p  p b   | 6
+|     N    | 5
+|      P   | 4
+|    K  P  | 3
+| PPP   BP | 2
+| R B    Q | 1
+|  white   |
++-abcdefgh-+
+new one at 2 number of nodes 172 no of distinct states visited 172 no of quiescent nodes 216 time left 9.96645
+new one at 3 number of nodes 222 no of distinct states visited 222 no of quiescent nodes 3333 time left 9.845
+new one at 4 number of nodes 7121 no of distinct states visited 6089 no of quiescent nodes 5701 time left 8.54339
+new one at 5 number of nodes 10309 no of distinct states visited 10660 no of quiescent nodes 109910 time left 3.77748
+new one at 6 number of nodes 24797 no of distinct states visited 30261 no of quiescent nodes 4398 time left 0.999837
+ok it did depth 5 and now we're doing move g2c6 with evaluation -2260 number of nodes examined is 10309
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 42 move(s).
+[32;1m[Board] [0mHistory replayed, 24 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
+[32;1m[Board] [0mWhite player is playing g2 to c6.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[30;1mb[0m| |[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[0;1mb[0m|[30;1mp[0m|[7;1m [0m|[30;1mb[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[7;1m [0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[0;1mQ[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+ +-----------------+
+8| . R B . R . K . |
+7| . . P . Q P P P |
+6| P . b P . B . . |
+5| . . . . n . . . |
+4| . . . . . p . . |
+3| . . . k . . p . |
+2| p p p . . . . p |
+1| r . b . . . . q |
+ +-----------------+
+   a b c d e f g h
+1 435 2 435 3 435 4 435 5 455 6 495 7 535 3555328  +-----------------+
+8| . R . . R . K . |
+7| . . P . Q P P P |
+6| P . b P . B . . |
+5| . . . . n B . . |
+4| . . . . . p . . |
+3| . . . k . . p . |
+2| p p p . . . . p |
+1| r . b . . . . q |
+ +-----------------+
+   a b c d e f g h
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 43 move(s).
+[32;1m[Board] [0mHistory replayed, 24 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
+[32;1m[Board] [0mBlack player is playing c8 to f5.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[0;1mb[0m|[30;1mp[0m|[7;1m [0m|[30;1mb[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[30;1mb[0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[0;1mQ[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
++-abcdefgh-+
+|  black   |
+|  r  r k  | 8
+|   p qppp | 7
+| p Bp b   | 6
+|     Nb   | 5
+|      P   | 4
+|    K  P  | 3
+| PPP    P | 2
+| R B    Q | 1
+|  white   |
++-abcdefgh-+
+new one at 2 number of nodes 76 no of distinct states visited 76 no of quiescent nodes 192 time left 9.98483
+new one at 3 number of nodes 93 no of distinct states visited 93 no of quiescent nodes 1707 time left 9.92679
+new one at 4 number of nodes 3528 no of distinct states visited 3092 no of quiescent nodes 2678 time left 9.36444
+new one at 5 number of nodes 4232 no of distinct states visited 4303 no of quiescent nodes 42866 time left 7.3803
+new one at 6 number of nodes 46155 no of distinct states visited 35695 no of quiescent nodes 10099 time left 0.999885
+ok it did depth 5 and now we're doing move d3c4 with evaluation -2270 number of nodes examined is 4232
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 44 move(s).
+[32;1m[Board] [0mHistory replayed, 24 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
+[32;1m[Board] [0mWhite player is playing d3 to c4.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[0;1mb[0m|[30;1mp[0m|[7;1m [0m|[30;1mb[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[7;1m [0m|[0;1mk[0m|[30;1mb[0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[0;1mQ[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+ +-----------------+
+8| . R . . R . K . |
+7| . . P . Q P P P |
+6| P . b P . B . . |
+5| . . . . n B . . |
+4| . . k . . p . . |
+3| . . . . . . p . |
+2| p p p . . . . p |
+1| r . b . . . . q |
+ +-----------------+
+   a b c d e f g h
+1 465 2 465 3 480 4 520 :( 5 670 6 710 7 750 8 790 9 830 10 870 4030464  +-----------------+
+8| . R . . R . K . |
+7| . . P . Q P P P |
+6| P . b . . B . . |
+5| . . . P n B . . |
+4| . . k . . p . . |
+3| . . . . . . p . |
+2| p p p . . . . p |
+1| r . b . . . . q |
+ +-----------------+
+   a b c d e f g h
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 45 move(s).
+[32;1m[Board] [0mHistory replayed, 24 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
+[32;1m[Board] [0mBlack player is playing d6 to d5.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[0;1mb[0m| |[7;1m [0m|[30;1mb[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m|[0;1mk[0m|[30;1mb[0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[0;1mK[0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[0;1mQ[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
++-abcdefgh-+
+|  black   |
+|  r  r k  | 8
+|   p qppp | 7
+| p B  b   | 6
+|    pNb   | 5
+|   K  P   | 4
+|       P  | 3
+| PPP    P | 2
+| R B    Q | 1
+|  white   |
++-abcdefgh-+
+new one at 2 number of nodes 46 no of distinct states visited 46 no of quiescent nodes 93 time left 9.99488
+new one at 3 number of nodes 71 no of distinct states visited 74 no of quiescent nodes 1345 time left 9.96998
+new one at 4 number of nodes 4364 no of distinct states visited 4052 no of quiescent nodes 1982 time left 9.58612
+new one at 5 number of nodes 5520 no of distinct states visited 6303 no of quiescent nodes 58656 time left 8.0025
+new one at 6 number of nodes 68411 no of distinct states visited 59213 no of quiescent nodes 12726 time left 0.999878
+ok it did depth 5 and now we're doing move c4d4 with evaluation -1740 number of nodes examined is 5520
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 46 move(s).
+[32;1m[Board] [0mHistory replayed, 24 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
+[32;1m[Board] [0mWhite player is playing c4 to d4.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[0;1mb[0m| |[7;1m [0m|[30;1mb[0m|[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m|[0;1mk[0m|[30;1mb[0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[0;1mQ[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+ +-----------------+
+8| . R . . R . K . |
+7| . . P . Q P P P |
+6| P . b . . B . . |
+5| . . . P n B . . |
+4| . . . k . p . . |
+3| . . . . . . p . |
+2| p p p . . . . p |
+1| r . b . . . . q |
+ +-----------------+
+   a b c d e f g h
+1 420 2 420 :( 3 615 :( 4 670 5 710 6 750 7 790 8 830 9 870 3129344  +-----------------+
+8| . R . . R . K . |
+7| . . P . Q P P P |
+6| P . b . . . . . |
+5| . . . P B B . . |
+4| . . . k . p . . |
+3| . . . . . . p . |
+2| p p p . . . . p |
+1| r . b . . . . q |
+ +-----------------+
+   a b c d e f g h
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 47 move(s).
+[32;1m[Board] [0mHistory replayed, 24 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
+[32;1m[Board] [0mBlack player is playing f6 to e5.
+[32;1m[Board] [0m[5;1mBlack Bishop is taking White Knight.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[0;1mb[0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m|[30;1mb[0m|[30;1mb[0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m|[0;1mp[0m|[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[0;1mQ[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
++-abcdefgh-+
+|  black   |
+|  r  r k  | 8
+|   p qppp | 7
+| p B      | 6
+|    pbb   | 5
+|    K P   | 4
+|       P  | 3
+| PPP    P | 2
+| R B    Q | 1
+|  white   |
++-abcdefgh-+
+new one at 2 number of nodes 42 no of distinct states visited 42 no of quiescent nodes 15 time left 9.99368
+new one at 3 number of nodes 47 no of distinct states visited 47 no of quiescent nodes 288 time left 9.98202
+new one at 4 number of nodes 2330 no of distinct states visited 2086 no of quiescent nodes 521 time left 9.80469
+new one at 5 number of nodes 2490 no of distinct states visited 2417 no of quiescent nodes 13915 time left 9.31767
+new one at 6 number of nodes 73108 no of distinct states visited 54150 no of quiescent nodes 9136 time left 2.34218
+new one at 7 number of nodes 5548 no of distinct states visited 54830 no of quiescent nodes 31868 time left 0.999819
+ok it did depth 6 and now we're doing move f4e5 with evaluation -4975 number of nodes examined is 73108
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 48 move(s).
+[32;1m[Board] [0mHistory replayed, 23 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
+[32;1m[Board] [0mWhite player is playing f4 to e5.
+[32;1m[Board] [0m[5;1mWhite Pawn is taking Black Bishop.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m|[30;1mQ[0m|[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[0;1mb[0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m|[0;1mp[0m|[30;1mb[0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[0;1mQ[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+ +-----------------+
+8| . R . . R . K . |
+7| . . P . Q P P P |
+6| P . b . . . . . |
+5| . . . P p B . . |
+4| . . . k . . . . |
+3| . . . . . . p . |
+2| p p p . . . . p |
+1| r . b . . . . q |
+ +-----------------+
+   a b c d e f g h
+1 420 :( 2 575 :( 3 630 4 670 :( 5 2147483489 6 2147483489 1511424  +-----------------+
+8| . R . . R . K . |
+7| . . P . . P P P |
+6| P . b . . . . . |
+5| . . . P Q B . . |
+4| . . . k . . . . |
+3| . . . . . . p . |
+2| p p p . . . . p |
+1| r . b . . . . q |
+ +-----------------+
+   a b c d e f g h
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 49 move(s).
+[32;1m[Board] [0mHistory replayed, 22 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
+[32;1m[Board] [0mBlack player is playing e7 to e5.
+[32;1m[Board] [0m[5;1mBlack Queen is taking White Pawn.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[0;1mb[0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m|[30;1mQ[0m|[30;1mb[0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[0;1mQ[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
++-abcdefgh-+
+|  black   |
+|  r  r k  | 8
+|   p  ppp | 7
+| p B      | 6
+|    pqb   | 5
+|    K     | 4
+|       P  | 3
+| PPP    P | 2
+| R B    Q | 1
+|  white   |
++-abcdefgh-+
+new one at 2 number of nodes 43 no of distinct states visited 43 no of quiescent nodes 58 time left 9.99386
+new one at 3 number of nodes 47 no of distinct states visited 47 no of quiescent nodes 635 time left 9.97449
+new one at 4 number of nodes 2430 no of distinct states visited 2206 no of quiescent nodes 606 time left 9.64576
+new one at 5 number of nodes 2669 no of distinct states visited 2693 no of quiescent nodes 20173 time left 8.70713
+new one at 6 number of nodes 85149 no of distinct states visited 66074 no of quiescent nodes 19794 time left 0.999845
+ok it did depth 5 and now we're doing move d4c5 with evaluation -5020 number of nodes examined is 2669
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 50 move(s).
+[32;1m[Board] [0mHistory replayed, 21 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
+[32;1m[Board] [0mWhite player is playing d4 to c5.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[0;1mb[0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m|[0;1mK[0m|[30;1mp[0m|[30;1mQ[0m|[30;1mb[0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[0;1mQ[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+ +-----------------+
+8| . R . . R . K . |
+7| . . P . . P P P |
+6| P . b . . . . . |
+5| . . k P Q B . . |
+4| . . . . . . . . |
+3| . . . . . . p . |
+2| p p p . . . . p |
+1| r . b . . . . q |
+ +-----------------+
+   a b c d e f g h
+1 575 :( 2 620 :( 3 2147483492 4 2147483491 5 2147483491 6 2147483491 2322432  +-----------------+
+8| . R . . R . K . |
+7| . . P . . P P P |
+6| P . b Q . . . . |
+5| . . k P . B . . |
+4| . . . . . . . . |
+3| . . . . . . p . |
+2| p p p . . . . p |
+1| r . b . . . . q |
+ +-----------------+
+   a b c d e f g h
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 51 move(s).
+[32;1m[Board] [0mHistory replayed, 21 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
+[32;1m[Board] [0mBlack player is playing e5 to d6.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[0;1mb[0m|[30;1mQ[0m|[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m|[0;1mK[0m|[30;1mp[0m| |[30;1mb[0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[0;1mQ[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
++-abcdefgh-+
+|  black   |
+|  r  r k  | 8
+|   p  ppp | 7
+| p Bq     | 6
+|   Kp b   | 5
+|          | 4
+|       P  | 3
+| PPP    P | 2
+| R B    Q | 1
+|  white   |
++-abcdefgh-+
+new one at 2 number of nodes 49 no of distinct states visited 48 no of quiescent nodes 16 time left 9.99392
+new one at 3 number of nodes 53 no of distinct states visited 52 no of quiescent nodes 521 time left 9.97231
+new one at 4 number of nodes 2746 no of distinct states visited 2527 no of quiescent nodes 522 time left 9.69073
+new one at 5 number of nodes 2887 no of distinct states visited 3834 no of quiescent nodes 17653 time left 9.09029
+new one at 6 number of nodes 108340 no of distinct states visited 88832 no of quiescent nodes 12886 time left 0.999879
+ok it did depth 5 and now we're doing move c5d4 with evaluation -6260 number of nodes examined is 2887
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 52 move(s).
+[32;1m[Board] [0mHistory replayed, 21 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
+[32;1m[Board] [0mWhite player is playing c5 to d4.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[0;1mb[0m|[30;1mQ[0m|[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[30;1mb[0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m| |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[0;1mQ[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+ +-----------------+
+8| . R . . R . K . |
+7| . . P . . P P P |
+6| P . b Q . . . . |
+5| . . . P . B . . |
+4| . . . k . . . . |
+3| . . . . . . p . |
+2| p p p . . . . p |
+1| r . b . . . . q |
+ +-----------------+
+   a b c d e f g h
+1 620 :( 2 2147483494 3 2147483493 4 2147483493 5 2147483493 6 2147483493 1732608  +-----------------+
+8| . . . . R . K . |
+7| . . P . . P P P |
+6| P . b Q . . . . |
+5| . . . P . B . . |
+4| . R . k . . . . |
+3| . . . . . . p . |
+2| p p p . . . . p |
+1| r . b . . . . q |
+ +-----------------+
+   a b c d e f g h
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 53 move(s).
+[32;1m[Board] [0mHistory replayed, 21 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
+[32;1m[Board] [0mBlack player is playing b8 to b4.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[0;1mb[0m|[30;1mQ[0m|[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[30;1mb[0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mr[0m|[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[0;1mQ[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
++-abcdefgh-+
+|  black   |
+|     r k  | 8
+|   p  ppp | 7
+| p Bq     | 6
+|    p b   | 5
+|  r K     | 4
+|       P  | 3
+| PPP    P | 2
+| R B    Q | 1
+|  white   |
++-abcdefgh-+
+new one at 2 number of nodes 56 no of distinct states visited 56 no of quiescent nodes 25 time left 9.99273
+new one at 3 number of nodes 63 no of distinct states visited 64 no of quiescent nodes 534 time left 9.9693
+new one at 4 number of nodes 3658 no of distinct states visited 3409 no of quiescent nodes 606 time left 9.51906
+new one at 5 number of nodes 4097 no of distinct states visited 3905 no of quiescent nodes 22592 time left 8.19156
+new one at 6 number of nodes 61354 no of distinct states visited 53202 no of quiescent nodes 7765 time left 0.999931
+ok it did depth 5 and now we're doing move d4c3 with evaluation -999996 number of nodes examined is 4097
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 54 move(s).
+[32;1m[Board] [0mHistory replayed, 21 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
+[32;1m[Board] [0mWhite player is playing d4 to c3.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[0;1mb[0m|[30;1mQ[0m|[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[30;1mb[0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[0;1mQ[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+ +-----------------+
+8| . . . . R . K . |
+7| . . P . . P P P |
+6| P . b Q . . . . |
+5| . . . P . B . . |
+4| . R . . . . . . |
+3| . . k . . . p . |
+2| p p p . . . . p |
+1| r . b . . . . q |
+ +-----------------+
+   a b c d e f g h
+1 2147483496 2 2147483495 3 2147483495 4 2147483495 5 2147483495 6 2147483495 1867776  +-----------------+
+8| . . . . R . K . |
+7| . . P . . P P P |
+6| P . b . . . . . |
+5| . . Q P . B . . |
+4| . R . . . . . . |
+3| . . k . . . p . |
+2| p p p . . . . p |
+1| r . b . . . . q |
+ +-----------------+
+   a b c d e f g h
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 55 move(s).
+[32;1m[Board] [0mHistory replayed, 21 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
+[32;1m[Board] [0mBlack player is playing d6 to c5.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[0;1mb[0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mQ[0m|[30;1mp[0m| |[30;1mb[0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m|[0;1mK[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[0;1mQ[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the White player...
++-abcdefgh-+
+|  black   |
+|     r k  | 8
+|   p  ppp | 7
+| p B      | 6
+|   qp b   | 5
+|  r       | 4
+|   K   P  | 3
+| PPP    P | 2
+| R B    Q | 1
+|  white   |
++-abcdefgh-+
+new one at 2 number of nodes 56 no of distinct states visited 56 no of quiescent nodes 6 time left 9.99396
+new one at 3 number of nodes 60 no of distinct states visited 60 no of quiescent nodes 312 time left 9.97732
+new one at 4 number of nodes 2722 no of distinct states visited 2254 no of quiescent nodes 236 time left 9.68972
+new one at 5 number of nodes 2978 no of distinct states visited 2478 no of quiescent nodes 12870 time left 8.87519
+new one at 6 number of nodes 93022 no of distinct states visited 71813 no of quiescent nodes 9336 time left 0.999887
+ok it did depth 5 and now we're doing move c3d2 with evaluation -999998 number of nodes examined is 2978
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 56 move(s).
+[32;1m[Board] [0mHistory replayed, 21 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
+[32;1m[Board] [0mWhite player is playing c3 to d2.
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[0;1mb[0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m|[30;1mQ[0m|[30;1mp[0m| |[30;1mb[0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[0;1mp[0m|[0;1mK[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[0;1mQ[0m|| 1
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m
+[32;1m[Referee] [0mThis is the turn of the Black player...
+ +-----------------+
+8| . . . . R . K . |
+7| . . P . . P P P |
+6| P . b . . . . . |
+5| . . Q P . B . . |
+4| . R . . . . . . |
+3| . . . . . . p . |
+2| p p p k . . . p |
+1| r . b . . . . q |
+ +-----------------+
+   a b c d e f g h
+1 2147483497 2 2147483497 3 2147483497 4 2147483497 5 2147483497 6 2147483497 1851392  +-----------------+
+8| . . . . R . K . |
+7| . . P . . P P P |
+6| P . b . . . . . |
+5| . . . P . B . . |
+4| . R . . . . . . |
+3| . . . . . . p . |
+2| p p Q k . . . p |
+1| r . b . . . . q |
+ +-----------------+
+   a b c d e f g h
+[32;1m[Game] [0mPlayer's error code: 0
+[32;1m[Game] [0mChecking move validity...
+[32;1m[Board] [0mInitializing board (size: 8)...
+[32;1m[Board] [0m32 piece(s) on board.
+[32;1m[Board] [0mLoading history file `championship/chess_project_pelm-pawnstar/history.csv`...
+[32;1m[Board] [0mLoaded 57 move(s).
+[32;1m[Board] [0mHistory replayed, 21 piece(s) on board.
+[32;1m[Board] [0mLoading move file `championship/chess_project_pelm-pawnstar/move.csv`...
+[32;1m[Board] [0mBlack player is playing c5 to c2.
+[32;1m[Board] [0m[5;1mBlack Queen is taking White Pawn.[0m
+[32;1m[Board] [0m
+[32;1m[Board] [0m     a b c d e f g h
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 8 ||[7;1m [0m| |[7;1m [0m| |[30;1mr[0m| |[30;1mK[0m| || 8
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 7 || |[7;1m [0m|[30;1mp[0m|[7;1m [0m| |[30;1mp[0m|[30;1mp[0m|[30;1mp[0m|| 7
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 6 ||[30;1mp[0m| |[0;1mb[0m| |[7;1m [0m| |[7;1m [0m| || 6
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 5 || |[7;1m [0m| |[30;1mp[0m| |[30;1mb[0m| |[7;1m [0m|| 5
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 4 ||[7;1m [0m|[30;1mr[0m|[7;1m [0m| |[7;1m [0m| |[7;1m [0m| || 4
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 3 || |[7;1m [0m| |[7;1m [0m| |[7;1m [0m|[0;1mp[0m|[7;1m [0m|| 3
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 2 ||[0;1mp[0m|[0;1mp[0m|[30;1mQ[0m|[0;1mK[0m|[7;1m [0m| |[7;1m [0m|[0;1mp[0m|| 2
+[32;1m[Board] [0m   -------------------
+[32;1m[Board] [0m 1 ||[0;1mr[0m|[7;1m [0m|[0;1mb[0m|[7;1m [0m| |[7;1m [0m| |[0;1mQ[0m|| 1
 [32;1m[Board] [0m   -------------------
 [32;1m[Board] [0m     a b c d e f g h
 [32;1m[Board] [0m
